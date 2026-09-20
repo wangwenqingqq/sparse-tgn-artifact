@@ -1,0 +1,261 @@
+{
+  "cases": [
+    {
+      "case": {
+        "bs": 200,
+        "k": 20,
+        "layers": 1,
+        "label": "wiki_bs200_k20_l1"
+      },
+      "arms": {
+        "source_a": {
+          "touched_nodes": 126,
+          "duplicate_nodes": 68,
+          "wrong_payload_rows": 59,
+          "wrong_timestamp_rows": 35,
+          "payload_not_any_input_row": 45,
+          "payload_timestamp_not_any_input_pair": 56,
+          "max_payload_abs": 43.3504753112793,
+          "max_timestamp_abs": 1481.0,
+          "all_pass": false
+        },
+        "source_b": {
+          "touched_nodes": 126,
+          "duplicate_nodes": 68,
+          "wrong_payload_rows": 58,
+          "wrong_timestamp_rows": 49,
+          "payload_not_any_input_row": 47,
+          "payload_timestamp_not_any_input_pair": 57,
+          "max_payload_abs": 43.3504753112793,
+          "max_timestamp_abs": 3228.0,
+          "all_pass": false
+        }
+      }
+    },
+    {
+      "case": {
+        "bs": 200,
+        "k": 20,
+        "layers": 2,
+        "label": "wiki_bs200_k20_l2"
+      },
+      "arms": {
+        "source_a": {
+          "touched_nodes": 126,
+          "duplicate_nodes": 68,
+          "wrong_payload_rows": 59,
+          "wrong_timestamp_rows": 38,
+          "payload_not_any_input_row": 48,
+          "payload_timestamp_not_any_input_pair": 60,
+          "max_payload_abs": 43.3504753112793,
+          "max_timestamp_abs": 3228.0,
+          "all_pass": false
+        },
+        "source_b": {
+          "touched_nodes": 126,
+          "duplicate_nodes": 68,
+          "wrong_payload_rows": 58,
+          "wrong_timestamp_rows": 28,
+          "payload_not_any_input_row": 48,
+          "payload_timestamp_not_any_input_pair": 58,
+          "max_payload_abs": 43.3504753112793,
+          "max_timestamp_abs": 624.0,
+          "all_pass": false
+        }
+      }
+    },
+    {
+      "case": {
+        "bs": 200,
+        "k": 50,
+        "layers": 1,
+        "label": "wiki_bs200_k50_l1"
+      },
+      "arms": {
+        "source_a": {
+          "touched_nodes": 126,
+          "duplicate_nodes": 68,
+          "wrong_payload_rows": 57,
+          "wrong_timestamp_rows": 35,
+          "payload_not_any_input_row": 44,
+          "payload_timestamp_not_any_input_pair": 56,
+          "max_payload_abs": 43.3504753112793,
+          "max_timestamp_abs": 1481.0,
+          "all_pass": false
+        },
+        "source_b": {
+          "touched_nodes": 126,
+          "duplicate_nodes": 68,
+          "wrong_payload_rows": 58,
+          "wrong_timestamp_rows": 46,
+          "payload_not_any_input_row": 48,
+          "payload_timestamp_not_any_input_pair": 57,
+          "max_payload_abs": 43.3504753112793,
+          "max_timestamp_abs": 3228.0,
+          "all_pass": false
+        }
+      }
+    },
+    {
+      "case": {
+        "bs": 200,
+        "k": 50,
+        "layers": 2,
+        "label": "wiki_bs200_k50_l2"
+      },
+      "arms": {
+        "source_a": {
+          "touched_nodes": 126,
+          "duplicate_nodes": 68,
+          "wrong_payload_rows": 58,
+          "wrong_timestamp_rows": 37,
+          "payload_not_any_input_row": 45,
+          "payload_timestamp_not_any_input_pair": 56,
+          "max_payload_abs": 43.3504753112793,
+          "max_timestamp_abs": 1481.0,
+          "all_pass": false
+        },
+        "source_b": {
+          "touched_nodes": 126,
+          "duplicate_nodes": 68,
+          "wrong_payload_rows": 58,
+          "wrong_timestamp_rows": 47,
+          "payload_not_any_input_row": 44,
+          "payload_timestamp_not_any_input_pair": 54,
+          "max_payload_abs": 43.3504753112793,
+          "max_timestamp_abs": 2957.0,
+          "all_pass": false
+        }
+      }
+    },
+    {
+      "case": {
+        "bs": 2000,
+        "k": 20,
+        "layers": 1,
+        "label": "wiki_bs2000_k20_l1"
+      },
+      "arms": {
+        "source_a": {
+          "touched_nodes": 769,
+          "duplicate_nodes": 483,
+          "wrong_payload_rows": 356,
+          "wrong_timestamp_rows": 354,
+          "payload_not_any_input_row": 310,
+          "payload_timestamp_not_any_input_pair": 387,
+          "max_payload_abs": 59.21846008300781,
+          "max_timestamp_abs": 34762.0,
+          "all_pass": false
+        },
+        "source_b": {
+          "touched_nodes": 769,
+          "duplicate_nodes": 483,
+          "wrong_payload_rows": 354,
+          "wrong_timestamp_rows": 359,
+          "payload_not_any_input_row": 307,
+          "payload_timestamp_not_any_input_pair": 393,
+          "max_payload_abs": 59.21846008300781,
+          "max_timestamp_abs": 34491.0,
+          "all_pass": false
+        }
+      }
+    },
+    {
+      "case": {
+        "bs": 2000,
+        "k": 20,
+        "layers": 2,
+        "label": "wiki_bs2000_k20_l2"
+      },
+      "arms": {
+        "source_a": {
+          "touched_nodes": 769,
+          "duplicate_nodes": 483,
+          "wrong_payload_rows": 361,
+          "wrong_timestamp_rows": 356,
+          "payload_not_any_input_row": 318,
+          "payload_timestamp_not_any_input_pair": 390,
+          "max_payload_abs": 72.4424819946289,
+          "max_timestamp_abs": 37730.0,
+          "all_pass": false
+        },
+        "source_b": {
+          "touched_nodes": 769,
+          "duplicate_nodes": 483,
+          "wrong_payload_rows": 355,
+          "wrong_timestamp_rows": 363,
+          "payload_not_any_input_row": 304,
+          "payload_timestamp_not_any_input_pair": 392,
+          "max_payload_abs": 83.73148345947266,
+          "max_timestamp_abs": 34762.0,
+          "all_pass": false
+        }
+      }
+    },
+    {
+      "case": {
+        "bs": 2000,
+        "k": 50,
+        "layers": 1,
+        "label": "wiki_bs2000_k50_l1"
+      },
+      "arms": {
+        "source_a": {
+          "touched_nodes": 769,
+          "duplicate_nodes": 483,
+          "wrong_payload_rows": 357,
+          "wrong_timestamp_rows": 358,
+          "payload_not_any_input_row": 318,
+          "payload_timestamp_not_any_input_pair": 394,
+          "max_payload_abs": 83.73148345947266,
+          "max_timestamp_abs": 34491.0,
+          "all_pass": false
+        },
+        "source_b": {
+          "touched_nodes": 769,
+          "duplicate_nodes": 483,
+          "wrong_payload_rows": 365,
+          "wrong_timestamp_rows": 365,
+          "payload_not_any_input_row": 315,
+          "payload_timestamp_not_any_input_pair": 398,
+          "max_payload_abs": 83.73148345947266,
+          "max_timestamp_abs": 34762.0,
+          "all_pass": false
+        }
+      }
+    },
+    {
+      "case": {
+        "bs": 2000,
+        "k": 50,
+        "layers": 2,
+        "label": "wiki_bs2000_k50_l2"
+      },
+      "arms": {
+        "source_a": {
+          "touched_nodes": 769,
+          "duplicate_nodes": 483,
+          "wrong_payload_rows": 353,
+          "wrong_timestamp_rows": 359,
+          "payload_not_any_input_row": 305,
+          "payload_timestamp_not_any_input_pair": 389,
+          "max_payload_abs": 83.73148345947266,
+          "max_timestamp_abs": 34762.0,
+          "all_pass": false
+        },
+        "source_b": {
+          "touched_nodes": 769,
+          "duplicate_nodes": 483,
+          "wrong_payload_rows": 353,
+          "wrong_timestamp_rows": 363,
+          "payload_not_any_input_row": 303,
+          "payload_timestamp_not_any_input_pair": 385,
+          "max_payload_abs": 83.73148345947266,
+          "max_timestamp_abs": 34762.0,
+          "all_pass": false
+        }
+      }
+    }
+  ],
+  "cuda_initialized": false
+}

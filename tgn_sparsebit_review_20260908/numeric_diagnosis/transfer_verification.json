@@ -1,0 +1,210 @@
+{
+  "checks": [
+    {
+      "remote": "output/audit.json",
+      "local": "evidence/audit.json",
+      "sha256": "793a118ef9b543dde2012f9be35121f0153c9edb3872d15f6534b82b5e9dd95a",
+      "match": true
+    },
+    {
+      "remote": "output/audit.stderr",
+      "local": "evidence/audit.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "match": true
+    },
+    {
+      "remote": "output/audit.stdout",
+      "local": "evidence/audit.stdout",
+      "sha256": "8b32ad05726494aeacf12349e2dc854396c20ebe0f1204a2f2943e6ad6f74b60",
+      "match": true
+    },
+    {
+      "remote": "output/audit_v1.json",
+      "local": "evidence/audit_v1.json",
+      "sha256": "c29cf823645cdf19a43c8de3a19db4f0e71e469636ca2c77ee9fb76f01f477a2",
+      "match": true
+    },
+    {
+      "remote": "output/qualify_v1/after.txt",
+      "local": "evidence/qualify_v1/after.txt",
+      "sha256": "69e1fc87bcaf63f699db50832717086efec8530f550f03ab391253f8b746f6bb",
+      "match": true
+    },
+    {
+      "remote": "output/qualify_v1/before.txt",
+      "local": "evidence/qualify_v1/before.txt",
+      "sha256": "9b75b0204faf3fec3376d5fb8c1326096ccfc1564108900c2120270ed5055f6b",
+      "match": true
+    },
+    {
+      "remote": "output/qualify_v1/run.json",
+      "local": "evidence/qualify_v1/run.json",
+      "sha256": "a7407538abb458d7a7e93a081d43282e3cb750d18c3c3b90de0673d8ca6fd9f5",
+      "match": true
+    },
+    {
+      "remote": "output/qualify_v1/stderr.log",
+      "local": "evidence/qualify_v1/stderr.log",
+      "sha256": "2c8f4e647cf29ee562625ab54e6d9d584f17443b272af01e4b14e2aafc054421",
+      "match": true
+    },
+    {
+      "remote": "output/qualify_v1/stdout.jsonl",
+      "local": "evidence/qualify_v1/stdout.jsonl",
+      "sha256": "96ce541e105d7df58614d090205ae881add819a858ec8e850a4b4d4f983a354a",
+      "match": true
+    },
+    {
+      "remote": "output/timing_v1/after.txt",
+      "local": "evidence/timing_v1/after.txt",
+      "sha256": "bec0a7ecfd7661adf00a0b3c629600917f61e81962eb9d2da63f7bef0edafb3f",
+      "match": true
+    },
+    {
+      "remote": "output/timing_v1/audit.json",
+      "local": "evidence/timing_v1/audit.json",
+      "sha256": "2b92af83c9777c382774f6418e3904f049a32befd94cb3b413961d50454f4cc1",
+      "match": true
+    },
+    {
+      "remote": "output/timing_v1/audit.stderr",
+      "local": "evidence/timing_v1/audit.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "match": true
+    },
+    {
+      "remote": "output/timing_v1/audit.stdout",
+      "local": "evidence/timing_v1/audit.stdout",
+      "sha256": "4f3b2d0ce37f6d24f28a10332c9b2a32301c1d1eda97884c16d4f17f875dfd53",
+      "match": true
+    },
+    {
+      "remote": "output/timing_v1/audit_v1.json",
+      "local": "evidence/timing_v1/audit_v1.json",
+      "sha256": "2b92af83c9777c382774f6418e3904f049a32befd94cb3b413961d50454f4cc1",
+      "match": true
+    },
+    {
+      "remote": "output/timing_v1/before.txt",
+      "local": "evidence/timing_v1/before.txt",
+      "sha256": "15753c8b3760b211c0c3aafd26815ed1ee55be532b15ff6b250130e19d47bce7",
+      "match": true
+    },
+    {
+      "remote": "output/timing_v1/run.json",
+      "local": "evidence/timing_v1/run.json",
+      "sha256": "8ece451fe43ec443d99598507bc557e89fd372ca2a824dafca59e9d1ec70b72e",
+      "match": true
+    },
+    {
+      "remote": "output/timing_v1/stderr.log",
+      "local": "evidence/timing_v1/stderr.log",
+      "sha256": "2c8f4e647cf29ee562625ab54e6d9d584f17443b272af01e4b14e2aafc054421",
+      "match": true
+    },
+    {
+      "remote": "output/timing_v1/stdout.jsonl",
+      "local": "evidence/timing_v1/stdout.jsonl",
+      "sha256": "1ac6f65651332fba6c58b64f96c02ef7f9de94eff66f4e01146c6b0eeac5fdb6",
+      "match": true
+    },
+    {
+      "remote": "output/witnesses_v1/after.txt",
+      "local": "evidence/witnesses_v1/after.txt",
+      "sha256": "9a7b1ac0f6b5b2c0ffcff5531cab9aee23279e26bccfa770e408ebe201367010",
+      "match": true
+    },
+    {
+      "remote": "output/witnesses_v1/before.txt",
+      "local": "evidence/witnesses_v1/before.txt",
+      "sha256": "d565dc746078b8c1e5c22281ae16c7c2adf43a2d027c63aec6262bdb90303e07",
+      "match": true
+    },
+    {
+      "remote": "output/witnesses_v1/run.json",
+      "local": "evidence/witnesses_v1/run.json",
+      "sha256": "0d2eb8e68f464fce68a0d8a5b61649ead76020684d126ac19fd008692434931e",
+      "match": true
+    },
+    {
+      "remote": "output/witnesses_v1/stderr.log",
+      "local": "evidence/witnesses_v1/stderr.log",
+      "sha256": "8ceb2719751ef7e47d85f6584f544694e616f7e2a9c03db9daa2f92f52028328",
+      "match": true
+    },
+    {
+      "remote": "output/witnesses_v1/stdout.jsonl",
+      "local": "evidence/witnesses_v1/stdout.jsonl",
+      "sha256": "7cc2721e5af0297eb0766f5867f3b046e57e811e2dc00615c56a69588678c07a",
+      "match": true
+    },
+    {
+      "remote": "prior_manifest.json",
+      "local": "prior_manifest.json",
+      "sha256": "7451725f74f1fa52543444f371e452d4de56d2d380b626f4940ac813cae96bfc",
+      "match": true
+    },
+    {
+      "remote": "src/AMENDMENT_01.md",
+      "local": "AMENDMENT_01.md",
+      "sha256": "0c5de02ecf9b827354b4c07ae6b44b95045f9ca0e2371c9054049b549903f0ab",
+      "match": true
+    },
+    {
+      "remote": "src/CONTRACT.md",
+      "local": "CONTRACT.md",
+      "sha256": "46a198de46c3d157656b2e28c444289a66e202277d011cb910a63c64e8182762",
+      "match": true
+    },
+    {
+      "remote": "src/audit.py",
+      "local": "src/audit.py",
+      "sha256": "2f98e8b1f3ffa3c5e4f45ef02254738369f376fde805d7cfdafc38858913bc99",
+      "match": true
+    },
+    {
+      "remote": "src/audit_timing.py",
+      "local": "src/audit_timing.py",
+      "sha256": "40300d00b3d37a835f36ff3c418284fcdf31732131d09fadd74002dc258f0222",
+      "match": true
+    },
+    {
+      "remote": "src/audit_v1.py",
+      "local": "src/audit_v1.py",
+      "sha256": "0d8edd2bc13325ed4b20099994c023864198f92d2c841a224d823f97430a263e",
+      "match": true
+    },
+    {
+      "remote": "src/close_remote.py",
+      "local": "src/close_remote.py",
+      "sha256": "184d5d7abb3e1e80e5a0da4cf3024566e3a54035bfb35b3fb1a771251ed61ccc",
+      "match": true
+    },
+    {
+      "remote": "src/diagnose.py",
+      "local": "src/diagnose.py",
+      "sha256": "e2c9db69d4857b6f8c1041d585be1278f63e80b46df2e14359fdff90594549f7",
+      "match": true
+    },
+    {
+      "remote": "src/supervise.py",
+      "local": "src/supervise.py",
+      "sha256": "741bc8d8b9dc530c970209890b24d0e4e08636ce6edd1fdabd0c4e676253e13d",
+      "match": true
+    },
+    {
+      "remote": "src/timing.py",
+      "local": "src/timing.py",
+      "sha256": "c0e46cd2435d1ced6acc2810318305d963f43a96037a98c5a4d998c012115fcd",
+      "match": true
+    },
+    {
+      "remote": "src/timing_supervise.py",
+      "local": "src/timing_supervise.py",
+      "sha256": "eebfc76574d7fadcb8dce96cf750be46c53d2766509d0ad045f51f2c0d77f188",
+      "match": true
+    }
+  ],
+  "missing": [],
+  "all_match": true
+}

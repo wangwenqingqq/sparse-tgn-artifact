@@ -1,0 +1,30 @@
+{"kind": "start", "args": {"stage": "timing", "out": "/home/data/wangxuran/tncn_flow_replay_20260909/artifacts/main", "dataset": "both", "epochs": "5", "steps": "1500", "rounds": "7"}, "torch": "2.11.0+cu130", "cuda": "13.0", "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition", "sha256": "f5bbda65783319ab37be6c6cd7e35cb8542c4a2c9bb262d7a3c62445cdf293d4"}
+{"kind": "timing_round", "dataset": "wikipedia", "chunk": 128, "round": 0}
+{"kind": "timing_round", "dataset": "wikipedia", "chunk": 128, "round": 1}
+{"kind": "timing_round", "dataset": "wikipedia", "chunk": 128, "round": 2}
+{"kind": "timing_round", "dataset": "wikipedia", "chunk": 128, "round": 3}
+{"kind": "timing_round", "dataset": "wikipedia", "chunk": 128, "round": 4}
+{"kind": "timing_round", "dataset": "wikipedia", "chunk": 128, "round": 5}
+{"kind": "timing_round", "dataset": "wikipedia", "chunk": 128, "round": 6}
+{"kind": "timing_round", "dataset": "wikipedia", "chunk": 512, "round": 0}
+{"kind": "timing_round", "dataset": "wikipedia", "chunk": 512, "round": 1}
+{"kind": "timing_round", "dataset": "wikipedia", "chunk": 512, "round": 2}
+{"kind": "timing_round", "dataset": "wikipedia", "chunk": 512, "round": 3}
+{"kind": "timing_round", "dataset": "wikipedia", "chunk": 512, "round": 4}
+{"kind": "timing_round", "dataset": "wikipedia", "chunk": 512, "round": 5}
+{"kind": "timing_round", "dataset": "wikipedia", "chunk": 512, "round": 6}
+{"kind": "timing_round", "dataset": "college", "chunk": 128, "round": 0}
+{"kind": "timing_round", "dataset": "college", "chunk": 128, "round": 1}
+{"kind": "timing_round", "dataset": "college", "chunk": 128, "round": 2}
+{"kind": "timing_round", "dataset": "college", "chunk": 128, "round": 3}
+{"kind": "timing_round", "dataset": "college", "chunk": 128, "round": 4}
+{"kind": "timing_round", "dataset": "college", "chunk": 128, "round": 5}
+{"kind": "timing_round", "dataset": "college", "chunk": 128, "round": 6}
+{"kind": "timing_round", "dataset": "college", "chunk": 512, "round": 0}
+{"kind": "timing_round", "dataset": "college", "chunk": 512, "round": 1}
+{"kind": "timing_round", "dataset": "college", "chunk": 512, "round": 2}
+{"kind": "timing_round", "dataset": "college", "chunk": 512, "round": 3}
+{"kind": "timing_round", "dataset": "college", "chunk": 512, "round": 4}
+{"kind": "timing_round", "dataset": "college", "chunk": 512, "round": 5}
+{"kind": "timing_round", "dataset": "college", "chunk": 512, "round": 6}
+{"kind": "complete", "stage": "timing"}

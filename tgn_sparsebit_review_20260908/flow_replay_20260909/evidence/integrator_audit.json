@@ -1,0 +1,59 @@
+{
+  "pass_all": true,
+  "cases": [
+    {
+      "coefficient": 0.0,
+      "steps": 1,
+      "evaluations": 1,
+      "max_error": 0.0
+    },
+    {
+      "coefficient": 0.0,
+      "steps": 2,
+      "evaluations": 2,
+      "max_error": 0.0
+    },
+    {
+      "coefficient": 0.0,
+      "steps": 4,
+      "evaluations": 4,
+      "max_error": 0.0
+    },
+    {
+      "coefficient": 0.5,
+      "steps": 1,
+      "evaluations": 1,
+      "max_error": 0.0
+    },
+    {
+      "coefficient": 0.5,
+      "steps": 2,
+      "evaluations": 2,
+      "max_error": 0.0
+    },
+    {
+      "coefficient": 0.5,
+      "steps": 4,
+      "evaluations": 4,
+      "max_error": 0.0
+    },
+    {
+      "coefficient": -0.5,
+      "steps": 1,
+      "evaluations": 1,
+      "max_error": 0.0
+    },
+    {
+      "coefficient": -0.5,
+      "steps": 2,
+      "evaluations": 2,
+      "max_error": 0.0
+    },
+    {
+      "coefficient": -0.5,
+      "steps": 4,
+      "evaluations": 4,
+      "max_error": 0.0
+    }
+  ]
+}

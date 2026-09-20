@@ -1,0 +1,11 @@
+0, GPU-9bd364a9-9d88-0b78-ef55-caac6f73d6b1, NVIDIA RTX PRO 6000 Blackwell Server Edition, 39792, 97
+1, GPU-daa88abc-ce4a-aa1c-c896-ae528bf9bce3, NVIDIA RTX PRO 6000 Blackwell Server Edition, 17, 0
+2, GPU-16f27f5a-dfcd-48e0-bb39-bebbe4009245, NVIDIA RTX PRO 6000 Blackwell Server Edition, 17, 0
+3, GPU-a149f5af-55ab-ce33-8d3d-371a7ae61dd2, NVIDIA RTX PRO 6000 Blackwell Server Edition, 17, 0
+4, GPU-863c06a5-9f33-0265-b098-013fa840d5db, NVIDIA RTX PRO 6000 Blackwell Server Edition, 17, 0
+5, GPU-a1e0baba-3982-4538-6540-2b013a1adf49, NVIDIA RTX PRO 6000 Blackwell Server Edition, 17, 0
+6, GPU-865ae1f0-780e-d04c-5ec3-4deccea65f82, NVIDIA RTX PRO 6000 Blackwell Server Edition, 17, 0
+7, GPU-e5a0e7f5-9917-c2a1-ee8e-7282cbba2603, NVIDIA RTX PRO 6000 Blackwell Server Edition, 17, 0
+
+PROCESSES
+GPU-9bd364a9-9d88-0b78-ef55-caac6f73d6b1, 2943173, .venv/bin/python, 39770

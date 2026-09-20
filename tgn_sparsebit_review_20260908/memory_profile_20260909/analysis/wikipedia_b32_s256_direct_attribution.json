@@ -1,0 +1,7572 @@
+{
+  "case_variant": "wikipedia_b32_s256_direct",
+  "macros": {
+    "batch_and_zero_grad": {
+      "cpu_us": 191.363,
+      "gpu_activity_union_us": 0,
+      "gpu_activity_gap_us": 191.363
+    },
+    "negative_and_neighbor_sampling": {
+      "cpu_us": 2781.547,
+      "gpu_activity_union_us": 212.45000000000095,
+      "gpu_activity_gap_us": 2569.096999999999
+    },
+    "memory_read": {
+      "cpu_us": 3464.5789999999997,
+      "gpu_activity_union_us": 417.2810000000045,
+      "gpu_activity_gap_us": 3047.297999999995
+    },
+    "gnn_embedding": {
+      "cpu_us": 2334.017999999999,
+      "gpu_activity_union_us": 155.67899999999463,
+      "gpu_activity_gap_us": 2178.3390000000036
+    },
+    "query_mapping": {
+      "cpu_us": 155.10400000000118,
+      "gpu_activity_union_us": 8.797999999998865,
+      "gpu_activity_gap_us": 146.3060000000023
+    },
+    "source_decoder": {
+      "cpu_us": 4614.42,
+      "gpu_activity_union_us": 198.14500000000226,
+      "gpu_activity_gap_us": 4416.274999999998
+    },
+    "loss": {
+      "cpu_us": 299.5420000000013,
+      "gpu_activity_union_us": 16.57600000000275,
+      "gpu_activity_gap_us": 282.96599999999853
+    },
+    "memory_update": {
+      "cpu_us": 5959.261999999999,
+      "gpu_activity_union_us": 422.0260000000071,
+      "gpu_activity_gap_us": 5537.235999999992
+    },
+    "neighbor_insert": {
+      "cpu_us": 1503.3220000000001,
+      "gpu_activity_union_us": 160.8640000000014,
+      "gpu_activity_gap_us": 1342.4579999999987
+    },
+    "backward": {
+      "cpu_us": 13372.538,
+      "gpu_activity_union_us": 493.15699999996286,
+      "gpu_activity_gap_us": 12879.381000000041
+    },
+    "optimizer": {
+      "cpu_us": 1074.5480000000025,
+      "gpu_activity_union_us": 96.38499999999476,
+      "gpu_activity_gap_us": 978.1630000000077
+    },
+    "detach_and_loss_read": {
+      "cpu_us": 132.9429999999993,
+      "gpu_activity_union_us": 0.41700000000128057,
+      "gpu_activity_gap_us": 132.52599999999802
+    }
+  },
+  "roi_us": 36061.642578125,
+  "gpu_activity_union_us": 2181.777999999971,
+  "gpu_activity_sum_us": 2181.7779999999902,
+  "gpu_activities": 1030,
+  "cuda_kernels": 978,
+  "activities_by_owner": {
+    "negative_and_neighbor_sampling": {
+      "kernel_count": 96,
+      "kernel_us": 208.61,
+      "memcpy_count": 9,
+      "memcpy_us": 3.8399999999999994,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "memory_read/memory.assoc": {
+      "kernel_count": 13,
+      "kernel_us": 20.898000000000003,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "memory_read/memory.source_messages/message.lookup": {
+      "kernel_count": 0,
+      "kernel_us": 0.0,
+      "memcpy_count": 1,
+      "memcpy_us": 0.608,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "memory_read/memory.source_messages/message.concat": {
+      "kernel_count": 14,
+      "kernel_us": 166.75400000000005,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "memory_read/memory.source_messages/message.time": {
+      "kernel_count": 6,
+      "kernel_us": 11.872,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "memory_read/memory.source_messages/message.compose": {
+      "kernel_count": 3,
+      "kernel_us": 3.52,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "memory_read/memory.destination_messages/message.lookup": {
+      "kernel_count": 0,
+      "kernel_us": 0.0,
+      "memcpy_count": 1,
+      "memcpy_us": 0.608,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "memory_read/memory.destination_messages/message.concat": {
+      "kernel_count": 11,
+      "kernel_us": 121.66399999999999,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "memory_read/memory.destination_messages/message.time": {
+      "kernel_count": 6,
+      "kernel_us": 10.556000000000001,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "memory_read/memory.destination_messages/message.compose": {
+      "kernel_count": 3,
+      "kernel_us": 3.5839999999999996,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "memory_read/memory.aggregate_inputs": {
+      "kernel_count": 3,
+      "kernel_us": 3.4560000000000004,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "memory_read/memory.last_aggregate": {
+      "kernel_count": 29,
+      "kernel_us": 43.552,
+      "memcpy_count": 2,
+      "memcpy_us": 0.832,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "memory_read/memory.gru": {
+      "kernel_count": 5,
+      "kernel_us": 19.904,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "memory_read/memory.last_time": {
+      "kernel_count": 4,
+      "kernel_us": 9.473,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "gnn_embedding": {
+      "kernel_count": 61,
+      "kernel_us": 155.6789999999999,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "query_mapping": {
+      "kernel_count": 7,
+      "kernel_us": 8.798,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "source_decoder": {
+      "kernel_count": 20,
+      "kernel_us": 34.208000000000006,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "source_decoder/graph_build": {
+      "kernel_count": 1,
+      "kernel_us": 0.896,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "unlinked": {
+      "kernel_count": 8,
+      "kernel_us": 27.585,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "source_decoder/integer_producer": {
+      "kernel_count": 10,
+      "kernel_us": 10.620999999999999,
+      "memcpy_count": 2,
+      "memcpy_us": 0.832,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "source_decoder/csr_conversion": {
+      "kernel_count": 15,
+      "kernel_us": 17.186000000000003,
+      "memcpy_count": 2,
+      "memcpy_us": 0.992,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "source_decoder/seven_spmm": {
+      "kernel_count": 64,
+      "kernel_us": 94.68899999999998,
+      "memcpy_count": 12,
+      "memcpy_us": 11.136000000000003,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "loss": {
+      "kernel_count": 15,
+      "kernel_us": 16.576,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "memory_update": {
+      "kernel_count": 4,
+      "kernel_us": 19.232,
+      "memcpy_count": 1,
+      "memcpy_us": 0.416,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "memory_update/state.recompute/memory.assoc": {
+      "kernel_count": 13,
+      "kernel_us": 20.094,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "memory_update/state.recompute/memory.source_messages/message.lookup": {
+      "kernel_count": 0,
+      "kernel_us": 0.0,
+      "memcpy_count": 1,
+      "memcpy_us": 0.416,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "memory_update/state.recompute/memory.source_messages/message.concat": {
+      "kernel_count": 4,
+      "kernel_us": 25.057,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "memory_update/state.recompute/memory.source_messages/message.time": {
+      "kernel_count": 6,
+      "kernel_us": 9.472,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "memory_update/state.recompute/memory.source_messages/message.compose": {
+      "kernel_count": 3,
+      "kernel_us": 3.552,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "memory_update/state.recompute/memory.destination_messages/message.lookup": {
+      "kernel_count": 0,
+      "kernel_us": 0.0,
+      "memcpy_count": 1,
+      "memcpy_us": 0.415,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "memory_update/state.recompute/memory.destination_messages/message.concat": {
+      "kernel_count": 4,
+      "kernel_us": 25.217000000000002,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "memory_update/state.recompute/memory.destination_messages/message.time": {
+      "kernel_count": 6,
+      "kernel_us": 9.088000000000001,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "memory_update/state.recompute/memory.destination_messages/message.compose": {
+      "kernel_count": 3,
+      "kernel_us": 3.5520000000000005,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "memory_update/state.recompute/memory.aggregate_inputs": {
+      "kernel_count": 3,
+      "kernel_us": 3.3280000000000003,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "memory_update/state.recompute/memory.last_aggregate": {
+      "kernel_count": 29,
+      "kernel_us": 39.16600000000002,
+      "memcpy_count": 2,
+      "memcpy_us": 0.833,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "memory_update/state.recompute/memory.gru": {
+      "kernel_count": 5,
+      "kernel_us": 17.216,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "memory_update/state.recompute/memory.last_time": {
+      "kernel_count": 4,
+      "kernel_us": 6.08,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "memory_update/state.write": {
+      "kernel_count": 24,
+      "kernel_us": 38.46500000000001,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "memory_update/store.sort": {
+      "kernel_count": 4,
+      "kernel_us": 9.216,
+      "memcpy_count": 6,
+      "memcpy_us": 5.442,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "memory_update/store.counts": {
+      "kernel_count": 4,
+      "kernel_us": 4.638999999999999,
+      "memcpy_count": 2,
+      "memcpy_us": 0.832,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "memory_update/store.per_node_gathers": {
+      "kernel_count": 128,
+      "kernel_us": 178.69799999999998,
+      "memcpy_count": 4,
+      "memcpy_us": 1.6,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "neighbor_insert": {
+      "kernel_count": 85,
+      "kernel_us": 157.72799999999998,
+      "memcpy_count": 4,
+      "memcpy_us": 3.136,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "backward": {
+      "kernel_count": 1,
+      "kernel_us": 0.864,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "optimizer": {
+      "kernel_count": 7,
+      "kernel_us": 96.38499999999999,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "detach_and_loss_read": {
+      "kernel_count": 0,
+      "kernel_us": 0.0,
+      "memcpy_count": 1,
+      "memcpy_us": 0.417,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "backward/loss": {
+      "kernel_count": 8,
+      "kernel_us": 8.734,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "backward/source_decoder": {
+      "kernel_count": 56,
+      "kernel_us": 99.55400000000003,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "backward/source_decoder/seven_spmm": {
+      "kernel_count": 49,
+      "kernel_us": 63.873999999999995,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "backward/gnn_embedding": {
+      "kernel_count": 100,
+      "kernel_us": 244.86699999999993,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "backward/memory_read/memory.gru": {
+      "kernel_count": 9,
+      "kernel_us": 29.888000000000005,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "backward/memory_read/memory.last_aggregate": {
+      "kernel_count": 11,
+      "kernel_us": 16.735,
+      "memcpy_count": 1,
+      "memcpy_us": 0.417,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "backward/memory_read/memory.destination_messages/message.time": {
+      "kernel_count": 7,
+      "kernel_us": 14.016000000000002,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "backward/memory_read/memory.source_messages/message.time": {
+      "kernel_count": 7,
+      "kernel_us": 14.208000000000002,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    }
+  },
+  "backward_engines": {
+    "loss": {
+      "engine_count": 3,
+      "engine_cpu_us": 4584.933000000001
+    },
+    "source_decoder": {
+      "engine_count": 20,
+      "engine_cpu_us": 1937.8080000000082
+    },
+    "source_decoder/seven_spmm": {
+      "engine_count": 16,
+      "engine_cpu_us": 1494.523999999994
+    },
+    "leaf_or_unsequenced": {
+      "engine_count": 19,
+      "engine_cpu_us": 143.18700000000172
+    },
+    "gnn_embedding": {
+      "engine_count": 38,
+      "engine_cpu_us": 2769.225999999995
+    },
+    "memory_read/memory.gru": {
+      "engine_count": 5,
+      "engine_cpu_us": 455.4719999999943
+    },
+    "memory_read/memory.last_aggregate": {
+      "engine_count": 2,
+      "engine_cpu_us": 310.36999999999534
+    },
+    "memory_read/memory.aggregate_inputs": {
+      "engine_count": 1,
+      "engine_cpu_us": 18.76100000000588
+    },
+    "memory_read/memory.destination_messages/message.compose": {
+      "engine_count": 1,
+      "engine_cpu_us": 22.29099999999744
+    },
+    "memory_read/memory.destination_messages/message.time": {
+      "engine_count": 3,
+      "engine_cpu_us": 214.2589999999982
+    },
+    "memory_read/memory.source_messages/message.compose": {
+      "engine_count": 1,
+      "engine_cpu_us": 22.89299999999639
+    },
+    "memory_read/memory.source_messages/message.time": {
+      "engine_count": 3,
+      "engine_cpu_us": 198.85000000000582
+    }
+  },
+  "backward_ambiguities": [],
+  "flow_resolved_ambiguities": [
+    {
+      "backward": "autograd::engine::evaluate_function: torch::autograd::CppNode<SPMMSum>",
+      "key": [
+        1,
+        4296
+      ],
+      "scopes": [
+        "source_decoder/csr_conversion",
+        "source_decoder/integer_producer",
+        "source_decoder/seven_spmm"
+      ],
+      "forward_ops": [
+        "aten::alias",
+        "aten::contiguous",
+        "aten::clone",
+        "aten::cumsum",
+        "aten::cat",
+        "aten::select",
+        "aten::item",
+        "aten::_local_scalar_dense",
+        "aten::slice",
+        "aten::stack",
+        "aten::to",
+        "aten::_to_copy",
+        "aten::resolve_conj",
+        "aten::resolve_neg",
+        "aten::slice",
+        "aten::slice",
+        "aten::sub",
+        "aten::cumsum",
+        "aten::sub",
+        "aten::slice",
+        "aten::sub",
+        "aten::slice",
+        "aten::reshape",
+        "aten::view",
+        "aten::select",
+        "aten::unsqueeze",
+        "aten::add",
+        "aten::select",
+        "aten::unsqueeze",
+        "aten::cat",
+        "aten::to",
+        "aten::_to_copy",
+        "aten::slice",
+        "aten::slice",
+        "aten::select",
+        "aten::slice",
+        "aten::slice",
+        "aten::select",
+        "aten::slice",
+        "aten::slice",
+        "aten::select",
+        "aten::slice",
+        "aten::slice",
+        "aten::select",
+        "aten::slice",
+        "aten::slice",
+        "aten::select",
+        "aten::slice",
+        "aten::slice",
+        "aten::select",
+        "aten::slice",
+        "aten::slice",
+        "aten::select",
+        "aten::to",
+        "torch_sparse::ptr2ind",
+        "aten::mul",
+        "aten::add",
+        "aten::sort",
+        "aten::index",
+        "torch_sparse::ind2ptr",
+        "aten::zero_",
+        "torch_sparse::spmm_sum"
+      ],
+      "resolved_by": "chrome_fwdbwd_flow",
+      "owner": "source_decoder/seven_spmm"
+    },
+    {
+      "backward": "autograd::engine::evaluate_function: torch::autograd::CppNode<SPMMSum>",
+      "key": [
+        1,
+        4277
+      ],
+      "scopes": [
+        "source_decoder/csr_conversion",
+        "source_decoder/graph_build",
+        "source_decoder/integer_producer",
+        "source_decoder/seven_spmm"
+      ],
+      "forward_ops": [
+        "aten::zero_",
+        "aten::alias",
+        "aten::contiguous",
+        "aten::clone",
+        "aten::cumsum",
+        "aten::cat",
+        "aten::select",
+        "aten::item",
+        "aten::_local_scalar_dense",
+        "aten::slice",
+        "aten::stack",
+        "aten::to",
+        "aten::_to_copy",
+        "aten::resolve_conj",
+        "aten::resolve_neg",
+        "aten::slice",
+        "aten::slice",
+        "aten::sub",
+        "aten::cumsum",
+        "aten::sub",
+        "aten::slice",
+        "aten::sub",
+        "aten::slice",
+        "aten::reshape",
+        "aten::view",
+        "aten::select",
+        "aten::unsqueeze",
+        "aten::add",
+        "aten::select",
+        "aten::unsqueeze",
+        "aten::cat",
+        "aten::to",
+        "aten::_to_copy",
+        "aten::slice",
+        "aten::slice",
+        "aten::select",
+        "aten::slice",
+        "aten::slice",
+        "aten::select",
+        "aten::slice",
+        "aten::slice",
+        "aten::select",
+        "aten::slice",
+        "aten::slice",
+        "aten::select",
+        "aten::slice",
+        "aten::slice",
+        "aten::select",
+        "aten::slice",
+        "aten::slice",
+        "aten::select",
+        "aten::slice",
+        "aten::slice",
+        "aten::select",
+        "aten::to",
+        "torch_sparse::ptr2ind",
+        "aten::mul",
+        "aten::add",
+        "aten::sort",
+        "aten::index",
+        "torch_sparse::ind2ptr",
+        "torch_sparse::spmm_sum"
+      ],
+      "resolved_by": "chrome_fwdbwd_flow",
+      "owner": "source_decoder/seven_spmm"
+    },
+    {
+      "backward": "autograd::engine::evaluate_function: IndexBackward0",
+      "key": [
+        1,
+        4273
+      ],
+      "scopes": [
+        "query_mapping",
+        "source_decoder"
+      ],
+      "forward_ops": [
+        "aten::index",
+        "aten::index",
+        "aten::cat",
+        "aten::index",
+        "aten::index",
+        "aten::cat",
+        "aten::stack",
+        "aten::slice",
+        "aten::select",
+        "aten::index"
+      ],
+      "resolved_by": "chrome_fwdbwd_flow",
+      "owner": "source_decoder"
+    },
+    {
+      "backward": "autograd::engine::evaluate_function: TBackward0",
+      "key": [
+        1,
+        4235
+      ],
+      "scopes": [
+        "gnn_embedding",
+        "memory_read/memory.last_time"
+      ],
+      "forward_ops": [
+        "aten::view",
+        "aten::expand_as",
+        "aten::expand",
+        "aten::new_zeros",
+        "aten::scatter_reduce_",
+        "aten::index",
+        "aten::index",
+        "aten::index",
+        "aten::select",
+        "aten::index",
+        "aten::sub",
+        "aten::to",
+        "aten::_to_copy",
+        "aten::view",
+        "aten::linear",
+        "aten::t"
+      ],
+      "resolved_by": "chrome_fwdbwd_flow",
+      "owner": "gnn_embedding"
+    },
+    {
+      "backward": "autograd::engine::evaluate_function: TBackward0",
+      "key": [
+        1,
+        4222
+      ],
+      "scopes": [
+        "memory_read/memory.destination_messages/message.concat",
+        "memory_read/memory.destination_messages/message.lookup",
+        "memory_read/memory.destination_messages/message.time"
+      ],
+      "forward_ops": [
+        "aten::resolve_conj",
+        "aten::resolve_neg",
+        "aten::to",
+        "aten::_to_copy",
+        "aten::cat",
+        "aten::cat",
+        "aten::cat",
+        "aten::cat",
+        "aten::index",
+        "aten::sub",
+        "aten::to",
+        "aten::_to_copy",
+        "aten::view",
+        "aten::linear",
+        "aten::t"
+      ],
+      "resolved_by": "chrome_fwdbwd_flow",
+      "owner": "memory_read/memory.destination_messages/message.time"
+    },
+    {
+      "backward": "autograd::engine::evaluate_function: TBackward0",
+      "key": [
+        1,
+        4218
+      ],
+      "scopes": [
+        "memory_read/memory.assoc",
+        "memory_read/memory.source_messages/message.concat",
+        "memory_read/memory.source_messages/message.lookup",
+        "memory_read/memory.source_messages/message.time"
+      ],
+      "forward_ops": [
+        "aten::index_put_",
+        "aten::resolve_conj",
+        "aten::resolve_neg",
+        "aten::to",
+        "aten::_to_copy",
+        "aten::cat",
+        "aten::cat",
+        "aten::cat",
+        "aten::cat",
+        "aten::index",
+        "aten::sub",
+        "aten::to",
+        "aten::_to_copy",
+        "aten::view",
+        "aten::linear",
+        "aten::t"
+      ],
+      "resolved_by": "chrome_fwdbwd_flow",
+      "owner": "memory_read/memory.source_messages/message.time"
+    }
+  ],
+  "flow_evidence": [
+    {
+      "key": [
+        1,
+        4313
+      ],
+      "forward": "aten::add",
+      "backward": "AddBackward0",
+      "owner": "loss"
+    },
+    {
+      "key": [
+        1,
+        4312
+      ],
+      "forward": "aten::binary_cross_entropy_with_logits",
+      "backward": "BinaryCrossEntropyWithLogitsBackward0",
+      "owner": "loss"
+    },
+    {
+      "key": [
+        1,
+        4311
+      ],
+      "forward": "aten::binary_cross_entropy_with_logits",
+      "backward": "BinaryCrossEntropyWithLogitsBackward0",
+      "owner": "loss"
+    },
+    {
+      "key": [
+        1,
+        4310
+      ],
+      "forward": "aten::addmm",
+      "backward": "AddmmBackward0",
+      "owner": "source_decoder"
+    },
+    {
+      "key": [
+        1,
+        4309
+      ],
+      "forward": "aten::t",
+      "backward": "TBackward0",
+      "owner": "source_decoder"
+    },
+    {
+      "key": [
+        1,
+        4308
+      ],
+      "forward": "aten::relu",
+      "backward": "ReluBackward0",
+      "owner": "source_decoder"
+    },
+    {
+      "key": [
+        1,
+        4307
+      ],
+      "forward": "aten::addmm",
+      "backward": "AddmmBackward0",
+      "owner": "source_decoder"
+    },
+    {
+      "key": [
+        1,
+        4306
+      ],
+      "forward": "aten::t",
+      "backward": "TBackward0",
+      "owner": "source_decoder"
+    },
+    {
+      "key": [
+        1,
+        4304
+      ],
+      "forward": "aten::cat",
+      "backward": "CatBackward0",
+      "owner": "source_decoder"
+    },
+    {
+      "key": [
+        1,
+        4303
+      ],
+      "forward": "aten::cat",
+      "backward": "CatBackward0",
+      "owner": "source_decoder/seven_spmm"
+    },
+    {
+      "key": [
+        1,
+        4302
+      ],
+      "forward": "torch_sparse::spmm_sum",
+      "backward": "torch::autograd::CppNode<SPMMSum>",
+      "owner": "source_decoder/seven_spmm"
+    },
+    {
+      "key": [
+        1,
+        4301
+      ],
+      "forward": "torch_sparse::spmm_sum",
+      "backward": "torch::autograd::CppNode<SPMMSum>",
+      "owner": "source_decoder/seven_spmm"
+    },
+    {
+      "key": [
+        1,
+        4300
+      ],
+      "forward": "torch_sparse::spmm_sum",
+      "backward": "torch::autograd::CppNode<SPMMSum>",
+      "owner": "source_decoder/seven_spmm"
+    },
+    {
+      "key": [
+        1,
+        4299
+      ],
+      "forward": "torch_sparse::spmm_sum",
+      "backward": "torch::autograd::CppNode<SPMMSum>",
+      "owner": "source_decoder/seven_spmm"
+    },
+    {
+      "key": [
+        1,
+        4298
+      ],
+      "forward": "torch_sparse::spmm_sum",
+      "backward": "torch::autograd::CppNode<SPMMSum>",
+      "owner": "source_decoder/seven_spmm"
+    },
+    {
+      "key": [
+        1,
+        4297
+      ],
+      "forward": "torch_sparse::spmm_sum",
+      "backward": "torch::autograd::CppNode<SPMMSum>",
+      "owner": "source_decoder/seven_spmm"
+    },
+    {
+      "key": [
+        1,
+        4296
+      ],
+      "forward": "torch_sparse::spmm_sum",
+      "backward": "torch::autograd::CppNode<SPMMSum>",
+      "owner": "source_decoder/seven_spmm"
+    },
+    {
+      "key": [
+        1,
+        4295
+      ],
+      "forward": "aten::view",
+      "backward": "ViewBackward0",
+      "owner": "source_decoder"
+    },
+    {
+      "key": [
+        1,
+        4294
+      ],
+      "forward": "aten::mul",
+      "backward": "MulBackward0",
+      "owner": "source_decoder"
+    },
+    {
+      "key": [
+        1,
+        4293
+      ],
+      "forward": "aten::index",
+      "backward": "IndexBackward0",
+      "owner": "source_decoder"
+    },
+    {
+      "key": [
+        1,
+        4292
+      ],
+      "forward": "aten::index",
+      "backward": "IndexBackward0",
+      "owner": "source_decoder"
+    },
+    {
+      "key": [
+        1,
+        4291
+      ],
+      "forward": "aten::addmm",
+      "backward": "AddmmBackward0",
+      "owner": "source_decoder"
+    },
+    {
+      "key": [
+        1,
+        4290
+      ],
+      "forward": "aten::t",
+      "backward": "TBackward0",
+      "owner": "source_decoder"
+    },
+    {
+      "key": [
+        1,
+        4289
+      ],
+      "forward": "aten::relu",
+      "backward": "ReluBackward0",
+      "owner": "source_decoder"
+    },
+    {
+      "key": [
+        1,
+        4288
+      ],
+      "forward": "aten::addmm",
+      "backward": "AddmmBackward0",
+      "owner": "source_decoder"
+    },
+    {
+      "key": [
+        1,
+        4287
+      ],
+      "forward": "aten::t",
+      "backward": "TBackward0",
+      "owner": "source_decoder"
+    },
+    {
+      "key": [
+        1,
+        4285
+      ],
+      "forward": "aten::cat",
+      "backward": "CatBackward0",
+      "owner": "source_decoder"
+    },
+    {
+      "key": [
+        1,
+        4284
+      ],
+      "forward": "aten::cat",
+      "backward": "CatBackward0",
+      "owner": "source_decoder/seven_spmm"
+    },
+    {
+      "key": [
+        1,
+        4283
+      ],
+      "forward": "torch_sparse::spmm_sum",
+      "backward": "torch::autograd::CppNode<SPMMSum>",
+      "owner": "source_decoder/seven_spmm"
+    },
+    {
+      "key": [
+        1,
+        4282
+      ],
+      "forward": "torch_sparse::spmm_sum",
+      "backward": "torch::autograd::CppNode<SPMMSum>",
+      "owner": "source_decoder/seven_spmm"
+    },
+    {
+      "key": [
+        1,
+        4281
+      ],
+      "forward": "torch_sparse::spmm_sum",
+      "backward": "torch::autograd::CppNode<SPMMSum>",
+      "owner": "source_decoder/seven_spmm"
+    },
+    {
+      "key": [
+        1,
+        4280
+      ],
+      "forward": "torch_sparse::spmm_sum",
+      "backward": "torch::autograd::CppNode<SPMMSum>",
+      "owner": "source_decoder/seven_spmm"
+    },
+    {
+      "key": [
+        1,
+        4279
+      ],
+      "forward": "torch_sparse::spmm_sum",
+      "backward": "torch::autograd::CppNode<SPMMSum>",
+      "owner": "source_decoder/seven_spmm"
+    },
+    {
+      "key": [
+        1,
+        4278
+      ],
+      "forward": "torch_sparse::spmm_sum",
+      "backward": "torch::autograd::CppNode<SPMMSum>",
+      "owner": "source_decoder/seven_spmm"
+    },
+    {
+      "key": [
+        1,
+        4277
+      ],
+      "forward": "torch_sparse::spmm_sum",
+      "backward": "torch::autograd::CppNode<SPMMSum>",
+      "owner": "source_decoder/seven_spmm"
+    },
+    {
+      "key": [
+        1,
+        4276
+      ],
+      "forward": "aten::view",
+      "backward": "ViewBackward0",
+      "owner": "source_decoder"
+    },
+    {
+      "key": [
+        1,
+        4275
+      ],
+      "forward": "aten::mul",
+      "backward": "MulBackward0",
+      "owner": "source_decoder"
+    },
+    {
+      "key": [
+        1,
+        4274
+      ],
+      "forward": "aten::index",
+      "backward": "IndexBackward0",
+      "owner": "source_decoder"
+    },
+    {
+      "key": [
+        1,
+        4273
+      ],
+      "forward": "aten::index",
+      "backward": "IndexBackward0",
+      "owner": "source_decoder"
+    },
+    {
+      "key": [
+        1,
+        4272
+      ],
+      "forward": "aten::add",
+      "backward": "AddBackward0",
+      "owner": "gnn_embedding"
+    },
+    {
+      "key": [
+        1,
+        4271
+      ],
+      "forward": "aten::addmm",
+      "backward": "AddmmBackward0",
+      "owner": "gnn_embedding"
+    },
+    {
+      "key": [
+        1,
+        4270
+      ],
+      "forward": "aten::t",
+      "backward": "TBackward0",
+      "owner": "gnn_embedding"
+    },
+    {
+      "key": [
+        1,
+        4269
+      ],
+      "forward": "aten::view",
+      "backward": "ViewBackward0",
+      "owner": "gnn_embedding"
+    },
+    {
+      "key": [
+        1,
+        4268
+      ],
+      "forward": "aten::scatter_add_",
+      "backward": "ScatterAddBackward0",
+      "owner": "gnn_embedding"
+    },
+    {
+      "key": [
+        1,
+        4267
+      ],
+      "forward": "aten::mul",
+      "backward": "MulBackward0",
+      "owner": "gnn_embedding"
+    },
+    {
+      "key": [
+        1,
+        4266
+      ],
+      "forward": "aten::view",
+      "backward": "ViewBackward0",
+      "owner": "gnn_embedding"
+    },
+    {
+      "key": [
+        1,
+        4265
+      ],
+      "forward": "aten::add",
+      "backward": "AddBackward0",
+      "owner": "gnn_embedding"
+    },
+    {
+      "key": [
+        1,
+        4264
+      ],
+      "forward": "aten::native_dropout",
+      "backward": "NativeDropoutBackward0",
+      "owner": "gnn_embedding"
+    },
+    {
+      "key": [
+        1,
+        4263
+      ],
+      "forward": "aten::div",
+      "backward": "DivBackward0",
+      "owner": "gnn_embedding"
+    },
+    {
+      "key": [
+        1,
+        4262
+      ],
+      "forward": "aten::index_select",
+      "backward": "IndexSelectBackward0",
+      "owner": "gnn_embedding"
+    },
+    {
+      "key": [
+        1,
+        4261
+      ],
+      "forward": "aten::add",
+      "backward": "AddBackward0",
+      "owner": "gnn_embedding"
+    },
+    {
+      "key": [
+        1,
+        4260
+      ],
+      "forward": "aten::scatter_add_",
+      "backward": "ScatterAddBackward0",
+      "owner": "gnn_embedding"
+    },
+    {
+      "key": [
+        1,
+        4259
+      ],
+      "forward": "aten::exp",
+      "backward": "ExpBackward0",
+      "owner": "gnn_embedding"
+    },
+    {
+      "key": [
+        1,
+        4258
+      ],
+      "forward": "aten::sub",
+      "backward": "SubBackward0",
+      "owner": "gnn_embedding"
+    },
+    {
+      "key": [
+        1,
+        4257
+      ],
+      "forward": "aten::div",
+      "backward": "DivBackward0",
+      "owner": "gnn_embedding"
+    },
+    {
+      "key": [
+        1,
+        4256
+      ],
+      "forward": "aten::sum",
+      "backward": "SumBackward1",
+      "owner": "gnn_embedding"
+    },
+    {
+      "key": [
+        1,
+        4255
+      ],
+      "forward": "aten::mul",
+      "backward": "MulBackward0",
+      "owner": "gnn_embedding"
+    },
+    {
+      "key": [
+        1,
+        4254
+      ],
+      "forward": "aten::add",
+      "backward": "AddBackward0",
+      "owner": "gnn_embedding"
+    },
+    {
+      "key": [
+        1,
+        4253
+      ],
+      "forward": "aten::view",
+      "backward": "ViewBackward0",
+      "owner": "gnn_embedding"
+    },
+    {
+      "key": [
+        1,
+        4252
+      ],
+      "forward": "aten::mm",
+      "backward": "MmBackward0",
+      "owner": "gnn_embedding"
+    },
+    {
+      "key": [
+        1,
+        4251
+      ],
+      "forward": "aten::t",
+      "backward": "TBackward0",
+      "owner": "gnn_embedding"
+    },
+    {
+      "key": [
+        1,
+        4250
+      ],
+      "forward": "aten::index_select",
+      "backward": "IndexSelectBackward0",
+      "owner": "gnn_embedding"
+    },
+    {
+      "key": [
+        1,
+        4249
+      ],
+      "forward": "aten::index_select",
+      "backward": "IndexSelectBackward0",
+      "owner": "gnn_embedding"
+    },
+    {
+      "key": [
+        1,
+        4248
+      ],
+      "forward": "aten::index_select",
+      "backward": "IndexSelectBackward0",
+      "owner": "gnn_embedding"
+    },
+    {
+      "key": [
+        1,
+        4247
+      ],
+      "forward": "aten::view",
+      "backward": "ViewBackward0",
+      "owner": "gnn_embedding"
+    },
+    {
+      "key": [
+        1,
+        4246
+      ],
+      "forward": "aten::addmm",
+      "backward": "AddmmBackward0",
+      "owner": "gnn_embedding"
+    },
+    {
+      "key": [
+        1,
+        4245
+      ],
+      "forward": "aten::t",
+      "backward": "TBackward0",
+      "owner": "gnn_embedding"
+    },
+    {
+      "key": [
+        1,
+        4244
+      ],
+      "forward": "aten::view",
+      "backward": "ViewBackward0",
+      "owner": "gnn_embedding"
+    },
+    {
+      "key": [
+        1,
+        4243
+      ],
+      "forward": "aten::addmm",
+      "backward": "AddmmBackward0",
+      "owner": "gnn_embedding"
+    },
+    {
+      "key": [
+        1,
+        4242
+      ],
+      "forward": "aten::t",
+      "backward": "TBackward0",
+      "owner": "gnn_embedding"
+    },
+    {
+      "key": [
+        1,
+        4241
+      ],
+      "forward": "aten::view",
+      "backward": "ViewBackward0",
+      "owner": "gnn_embedding"
+    },
+    {
+      "key": [
+        1,
+        4240
+      ],
+      "forward": "aten::addmm",
+      "backward": "AddmmBackward0",
+      "owner": "gnn_embedding"
+    },
+    {
+      "key": [
+        1,
+        4239
+      ],
+      "forward": "aten::t",
+      "backward": "TBackward0",
+      "owner": "gnn_embedding"
+    },
+    {
+      "key": [
+        1,
+        4238
+      ],
+      "forward": "aten::cat",
+      "backward": "CatBackward0",
+      "owner": "gnn_embedding"
+    },
+    {
+      "key": [
+        1,
+        4237
+      ],
+      "forward": "aten::cos",
+      "backward": "CosBackward0",
+      "owner": "gnn_embedding"
+    },
+    {
+      "key": [
+        1,
+        4236
+      ],
+      "forward": "aten::addmm",
+      "backward": "AddmmBackward0",
+      "owner": "gnn_embedding"
+    },
+    {
+      "key": [
+        1,
+        4235
+      ],
+      "forward": "aten::t",
+      "backward": "TBackward0",
+      "owner": "gnn_embedding"
+    },
+    {
+      "key": [
+        1,
+        4234
+      ],
+      "forward": "aten::_thnn_fused_gru_cell",
+      "backward": "ThnnFusedGruCellBackward0",
+      "owner": "memory_read/memory.gru"
+    },
+    {
+      "key": [
+        1,
+        4233
+      ],
+      "forward": "aten::mm",
+      "backward": "MmBackward0",
+      "owner": "memory_read/memory.gru"
+    },
+    {
+      "key": [
+        1,
+        4232
+      ],
+      "forward": "aten::t",
+      "backward": "TBackward0",
+      "owner": "memory_read/memory.gru"
+    },
+    {
+      "key": [
+        1,
+        4231
+      ],
+      "forward": "aten::mm",
+      "backward": "MmBackward0",
+      "owner": "memory_read/memory.gru"
+    },
+    {
+      "key": [
+        1,
+        4230
+      ],
+      "forward": "aten::t",
+      "backward": "TBackward0",
+      "owner": "memory_read/memory.gru"
+    },
+    {
+      "key": [
+        1,
+        4229
+      ],
+      "forward": "aten::index_put_",
+      "backward": "IndexPutBackward0",
+      "owner": "memory_read/memory.last_aggregate"
+    },
+    {
+      "key": [
+        1,
+        4228
+      ],
+      "forward": "aten::index",
+      "backward": "IndexBackward0",
+      "owner": "memory_read/memory.last_aggregate"
+    },
+    {
+      "key": [
+        1,
+        4226
+      ],
+      "forward": "aten::cat",
+      "backward": "CatBackward0",
+      "owner": "memory_read/memory.aggregate_inputs"
+    },
+    {
+      "key": [
+        1,
+        4225
+      ],
+      "forward": "aten::cat",
+      "backward": "CatBackward0",
+      "owner": "memory_read/memory.destination_messages/message.compose"
+    },
+    {
+      "key": [
+        1,
+        4224
+      ],
+      "forward": "aten::cos",
+      "backward": "CosBackward0",
+      "owner": "memory_read/memory.destination_messages/message.time"
+    },
+    {
+      "key": [
+        1,
+        4223
+      ],
+      "forward": "aten::addmm",
+      "backward": "AddmmBackward0",
+      "owner": "memory_read/memory.destination_messages/message.time"
+    },
+    {
+      "key": [
+        1,
+        4222
+      ],
+      "forward": "aten::t",
+      "backward": "TBackward0",
+      "owner": "memory_read/memory.destination_messages/message.time"
+    },
+    {
+      "key": [
+        1,
+        4221
+      ],
+      "forward": "aten::cat",
+      "backward": "CatBackward0",
+      "owner": "memory_read/memory.source_messages/message.compose"
+    },
+    {
+      "key": [
+        1,
+        4220
+      ],
+      "forward": "aten::cos",
+      "backward": "CosBackward0",
+      "owner": "memory_read/memory.source_messages/message.time"
+    },
+    {
+      "key": [
+        1,
+        4219
+      ],
+      "forward": "aten::addmm",
+      "backward": "AddmmBackward0",
+      "owner": "memory_read/memory.source_messages/message.time"
+    },
+    {
+      "key": [
+        1,
+        4218
+      ],
+      "forward": "aten::t",
+      "backward": "TBackward0",
+      "owner": "memory_read/memory.source_messages/message.time"
+    }
+  ],
+  "link_coverage": {
+    "linked": 1022,
+    "total": 1030,
+    "unmatched": [
+      {
+        "name": "gb_scatter(int, int, long const*, int*)",
+        "external_id": null,
+        "correlation": 3886,
+        "owner": "unlinked"
+      },
+      {
+        "name": "gb_count_bits(int, int, int const*, int*, unsigned int*)",
+        "external_id": null,
+        "correlation": 3889,
+        "owner": "unlinked"
+      },
+      {
+        "name": "gb_scan(int, int const*, long*)",
+        "external_id": null,
+        "correlation": 3892,
+        "owner": "unlinked"
+      },
+      {
+        "name": "gb_emit(int, int, int const*, long const*, long*, long*)",
+        "external_id": null,
+        "correlation": 3895,
+        "owner": "unlinked"
+      },
+      {
+        "name": "void produce<0, false>(int, int, long const*, long const*, long const*, unsigned int const*, long const*, long*, long const*, long*, long*)",
+        "external_id": null,
+        "correlation": 3928,
+        "owner": "unlinked"
+      },
+      {
+        "name": "void produce<0, true>(int, int, long const*, long const*, long const*, unsigned int const*, long const*, long*, long const*, long*, long*)",
+        "external_id": null,
+        "correlation": 4033,
+        "owner": "unlinked"
+      },
+      {
+        "name": "void produce<0, false>(int, int, long const*, long const*, long const*, unsigned int const*, long const*, long*, long const*, long*, long*)",
+        "external_id": null,
+        "correlation": 5152,
+        "owner": "unlinked"
+      },
+      {
+        "name": "void produce<0, true>(int, int, long const*, long const*, long const*, unsigned int const*, long const*, long*, long const*, long*, long*)",
+        "external_id": null,
+        "correlation": 5257,
+        "owner": "unlinked"
+      }
+    ],
+    "duplicate_cpu_external_ids": {},
+    "outside_roi": [],
+    "methods": {
+      "external_id": 931,
+      "chrome_cpu_tree": 91,
+      "unlinked": 8
+    },
+    "owner_crosscheck_disagreements": []
+  },
+  "cpu_ops": [
+    {
+      "owner": "batch_and_zero_grad",
+      "name": "aten::slice",
+      "count": 4
+    },
+    {
+      "owner": "batch_and_zero_grad",
+      "name": "aten::as_strided",
+      "count": 4
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::randint",
+      "count": 1
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::empty",
+      "count": 38
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::random_",
+      "count": 1
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::cat",
+      "count": 7
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::_unique2",
+      "count": 3
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::item",
+      "count": 3
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::_local_scalar_dense",
+      "count": 3
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::resize_",
+      "count": 17
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::index",
+      "count": 14
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::as_strided",
+      "count": 57
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::reshape",
+      "count": 25
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::view",
+      "count": 31
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::repeat",
+      "count": 2
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::expand",
+      "count": 7
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::unfold",
+      "count": 4
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::expand_as",
+      "count": 2
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::copy_",
+      "count": 2
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::arange",
+      "count": 16
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::add",
+      "count": 2
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::unsqueeze",
+      "count": 4
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::narrow",
+      "count": 2
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::slice",
+      "count": 2
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::flatten",
+      "count": 2
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::permute",
+      "count": 2
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::ge",
+      "count": 5
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::nonzero",
+      "count": 6
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::t",
+      "count": 6
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::transpose",
+      "count": 6
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::set_",
+      "count": 6
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::select",
+      "count": 12
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::index_put_",
+      "count": 3
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::_index_put_impl_",
+      "count": 3
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::max",
+      "count": 3
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::lt",
+      "count": 3
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::_assert_async",
+      "count": 6
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::min",
+      "count": 3
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::remainder",
+      "count": 3
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::mul",
+      "count": 3
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::to",
+      "count": 3
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::empty_like",
+      "count": 6
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::divide_",
+      "count": 3
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::div_",
+      "count": 3
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::stack",
+      "count": 2
+    },
+    {
+      "owner": "memory_read/memory.assoc",
+      "name": "aten::arange",
+      "count": 4
+    },
+    {
+      "owner": "memory_read/memory.assoc",
+      "name": "aten::empty",
+      "count": 6
+    },
+    {
+      "owner": "memory_read/memory.assoc",
+      "name": "aten::resize_",
+      "count": 2
+    },
+    {
+      "owner": "memory_read/memory.assoc",
+      "name": "aten::index_put_",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.assoc",
+      "name": "aten::_index_put_impl_",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.assoc",
+      "name": "aten::max",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.assoc",
+      "name": "aten::as_strided",
+      "count": 3
+    },
+    {
+      "owner": "memory_read/memory.assoc",
+      "name": "aten::lt",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.assoc",
+      "name": "aten::_assert_async",
+      "count": 2
+    },
+    {
+      "owner": "memory_read/memory.assoc",
+      "name": "aten::min",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.assoc",
+      "name": "aten::ge",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.assoc",
+      "name": "aten::remainder",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.assoc",
+      "name": "aten::mul",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.assoc",
+      "name": "aten::to",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.assoc",
+      "name": "aten::expand",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.assoc",
+      "name": "aten::reshape",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.assoc",
+      "name": "aten::view",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.assoc",
+      "name": "aten::empty_like",
+      "count": 2
+    },
+    {
+      "owner": "memory_read/memory.assoc",
+      "name": "aten::divide_",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.assoc",
+      "name": "aten::div_",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.source_messages/message.lookup",
+      "name": "aten::resolve_conj",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.source_messages/message.lookup",
+      "name": "aten::resolve_neg",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.source_messages/message.lookup",
+      "name": "aten::to",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.source_messages/message.lookup",
+      "name": "aten::_to_copy",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.source_messages/message.lookup",
+      "name": "aten::empty_strided",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.source_messages/message.lookup",
+      "name": "aten::copy_",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.source_messages/message.concat",
+      "name": "aten::cat",
+      "count": 4
+    },
+    {
+      "owner": "memory_read/memory.source_messages/message.time",
+      "name": "aten::index",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.source_messages/message.time",
+      "name": "aten::as_strided",
+      "count": 3
+    },
+    {
+      "owner": "memory_read/memory.source_messages/message.time",
+      "name": "aten::reshape",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.source_messages/message.time",
+      "name": "aten::view",
+      "count": 2
+    },
+    {
+      "owner": "memory_read/memory.source_messages/message.time",
+      "name": "aten::sub",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.source_messages/message.time",
+      "name": "aten::to",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.source_messages/message.time",
+      "name": "aten::_to_copy",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.source_messages/message.time",
+      "name": "aten::empty_strided",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.source_messages/message.time",
+      "name": "aten::copy_",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.source_messages/message.time",
+      "name": "aten::linear",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.source_messages/message.time",
+      "name": "aten::t",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.source_messages/message.time",
+      "name": "aten::transpose",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.source_messages/message.time",
+      "name": "aten::addmm",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.source_messages/message.time",
+      "name": "aten::expand",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.source_messages/message.time",
+      "name": "aten::cos",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.source_messages/message.compose",
+      "name": "aten::index",
+      "count": 2
+    },
+    {
+      "owner": "memory_read/memory.source_messages/message.compose",
+      "name": "aten::as_strided",
+      "count": 2
+    },
+    {
+      "owner": "memory_read/memory.source_messages/message.compose",
+      "name": "aten::reshape",
+      "count": 2
+    },
+    {
+      "owner": "memory_read/memory.source_messages/message.compose",
+      "name": "aten::view",
+      "count": 2
+    },
+    {
+      "owner": "memory_read/memory.source_messages/message.compose",
+      "name": "aten::cat",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.destination_messages/message.lookup",
+      "name": "aten::resolve_conj",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.destination_messages/message.lookup",
+      "name": "aten::resolve_neg",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.destination_messages/message.lookup",
+      "name": "aten::to",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.destination_messages/message.lookup",
+      "name": "aten::_to_copy",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.destination_messages/message.lookup",
+      "name": "aten::empty_strided",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.destination_messages/message.lookup",
+      "name": "aten::copy_",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.destination_messages/message.concat",
+      "name": "aten::cat",
+      "count": 4
+    },
+    {
+      "owner": "memory_read/memory.destination_messages/message.time",
+      "name": "aten::index",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.destination_messages/message.time",
+      "name": "aten::as_strided",
+      "count": 3
+    },
+    {
+      "owner": "memory_read/memory.destination_messages/message.time",
+      "name": "aten::reshape",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.destination_messages/message.time",
+      "name": "aten::view",
+      "count": 2
+    },
+    {
+      "owner": "memory_read/memory.destination_messages/message.time",
+      "name": "aten::sub",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.destination_messages/message.time",
+      "name": "aten::to",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.destination_messages/message.time",
+      "name": "aten::_to_copy",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.destination_messages/message.time",
+      "name": "aten::empty_strided",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.destination_messages/message.time",
+      "name": "aten::copy_",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.destination_messages/message.time",
+      "name": "aten::linear",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.destination_messages/message.time",
+      "name": "aten::t",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.destination_messages/message.time",
+      "name": "aten::transpose",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.destination_messages/message.time",
+      "name": "aten::addmm",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.destination_messages/message.time",
+      "name": "aten::expand",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.destination_messages/message.time",
+      "name": "aten::cos",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.destination_messages/message.compose",
+      "name": "aten::index",
+      "count": 2
+    },
+    {
+      "owner": "memory_read/memory.destination_messages/message.compose",
+      "name": "aten::as_strided",
+      "count": 2
+    },
+    {
+      "owner": "memory_read/memory.destination_messages/message.compose",
+      "name": "aten::reshape",
+      "count": 2
+    },
+    {
+      "owner": "memory_read/memory.destination_messages/message.compose",
+      "name": "aten::view",
+      "count": 2
+    },
+    {
+      "owner": "memory_read/memory.destination_messages/message.compose",
+      "name": "aten::cat",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.aggregate_inputs",
+      "name": "aten::cat",
+      "count": 3
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::index",
+      "count": 3
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::as_strided",
+      "count": 11
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::reshape",
+      "count": 4
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::view",
+      "count": 4
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "torch_scatter::scatter_max",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::expand",
+      "count": 2
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::empty",
+      "count": 7
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::full_like",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::empty_like",
+      "count": 3
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::empty_strided",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::fill_",
+      "count": 3
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::eq",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::masked_fill_",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::new_zeros",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::new_empty",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::zero_",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::lt",
+      "count": 2
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::nonzero",
+      "count": 2
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::resize_",
+      "count": 3
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::t",
+      "count": 2
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::transpose",
+      "count": 2
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::set_",
+      "count": 2
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::select",
+      "count": 2
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::index_put_",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::_index_put_impl_",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::max",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::_assert_async",
+      "count": 2
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::min",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::ge",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::remainder",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::mul",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::to",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::divide_",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::div_",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::arange",
+      "count": 2
+    },
+    {
+      "owner": "memory_read/memory.gru",
+      "name": "aten::index",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.gru",
+      "name": "aten::as_strided",
+      "count": 3
+    },
+    {
+      "owner": "memory_read/memory.gru",
+      "name": "aten::reshape",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.gru",
+      "name": "aten::view",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.gru",
+      "name": "aten::gru_cell",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.gru",
+      "name": "aten::t",
+      "count": 2
+    },
+    {
+      "owner": "memory_read/memory.gru",
+      "name": "aten::transpose",
+      "count": 2
+    },
+    {
+      "owner": "memory_read/memory.gru",
+      "name": "aten::matmul",
+      "count": 2
+    },
+    {
+      "owner": "memory_read/memory.gru",
+      "name": "aten::mm",
+      "count": 2
+    },
+    {
+      "owner": "memory_read/memory.gru",
+      "name": "aten::_thnn_fused_gru_cell",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.gru",
+      "name": "aten::empty",
+      "count": 2
+    },
+    {
+      "owner": "memory_read/memory.gru",
+      "name": "aten::empty_like",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.last_time",
+      "name": "aten::view",
+      "count": 2
+    },
+    {
+      "owner": "memory_read/memory.last_time",
+      "name": "aten::expand_as",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.last_time",
+      "name": "aten::expand",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.last_time",
+      "name": "aten::as_strided",
+      "count": 5
+    },
+    {
+      "owner": "memory_read/memory.last_time",
+      "name": "aten::new_zeros",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.last_time",
+      "name": "aten::new_empty",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.last_time",
+      "name": "aten::empty",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.last_time",
+      "name": "aten::zero_",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.last_time",
+      "name": "aten::fill_",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.last_time",
+      "name": "aten::scatter_reduce_",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.last_time",
+      "name": "aten::scatter_",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.last_time",
+      "name": "aten::index",
+      "count": 1
+    },
+    {
+      "owner": "memory_read/memory.last_time",
+      "name": "aten::reshape",
+      "count": 1
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::index",
+      "count": 3
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::as_strided",
+      "count": 46
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::reshape",
+      "count": 5
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::view",
+      "count": 20
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::select",
+      "count": 6
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::sub",
+      "count": 2
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::to",
+      "count": 3
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::_to_copy",
+      "count": 1
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::empty_strided",
+      "count": 3
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::copy_",
+      "count": 1
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::linear",
+      "count": 6
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::t",
+      "count": 6
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::transpose",
+      "count": 6
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::addmm",
+      "count": 5
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::expand",
+      "count": 11
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::cos",
+      "count": 1
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::cat",
+      "count": 1
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::index_select",
+      "count": 5
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::empty",
+      "count": 18
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::resize_",
+      "count": 7
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::gather",
+      "count": 5
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::matmul",
+      "count": 1
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::mm",
+      "count": 1
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::add",
+      "count": 4
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::mul",
+      "count": 4
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::sum",
+      "count": 1
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::div",
+      "count": 2
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::detach",
+      "count": 1
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "detach",
+      "count": 1
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::expand_as",
+      "count": 3
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::new_zeros",
+      "count": 3
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::new_empty",
+      "count": 3
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::zero_",
+      "count": 3
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::fill_",
+      "count": 3
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::scatter_reduce_",
+      "count": 1
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::scatter_",
+      "count": 1
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::exp",
+      "count": 1
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::scatter_add_",
+      "count": 2
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::index_put_",
+      "count": 2
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::_index_put_impl_",
+      "count": 2
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::max",
+      "count": 2
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::lt",
+      "count": 2
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::_assert_async",
+      "count": 4
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::min",
+      "count": 2
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::ge",
+      "count": 2
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::remainder",
+      "count": 2
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::empty_like",
+      "count": 6
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::divide_",
+      "count": 2
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::div_",
+      "count": 2
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::arange",
+      "count": 4
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::dropout",
+      "count": 1
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::native_dropout",
+      "count": 1
+    },
+    {
+      "owner": "query_mapping",
+      "name": "aten::index",
+      "count": 4
+    },
+    {
+      "owner": "query_mapping",
+      "name": "aten::as_strided",
+      "count": 4
+    },
+    {
+      "owner": "query_mapping",
+      "name": "aten::reshape",
+      "count": 4
+    },
+    {
+      "owner": "query_mapping",
+      "name": "aten::view",
+      "count": 5
+    },
+    {
+      "owner": "query_mapping",
+      "name": "aten::cat",
+      "count": 3
+    },
+    {
+      "owner": "query_mapping",
+      "name": "aten::stack",
+      "count": 1
+    },
+    {
+      "owner": "source_decoder",
+      "name": "aten::slice",
+      "count": 2
+    },
+    {
+      "owner": "source_decoder",
+      "name": "aten::as_strided",
+      "count": 16
+    },
+    {
+      "owner": "source_decoder",
+      "name": "aten::select",
+      "count": 4
+    },
+    {
+      "owner": "source_decoder",
+      "name": "aten::index",
+      "count": 4
+    },
+    {
+      "owner": "source_decoder",
+      "name": "aten::reshape",
+      "count": 6
+    },
+    {
+      "owner": "source_decoder",
+      "name": "aten::view",
+      "count": 6
+    },
+    {
+      "owner": "source_decoder",
+      "name": "aten::mul",
+      "count": 2
+    },
+    {
+      "owner": "source_decoder/graph_build",
+      "name": "aten::empty",
+      "count": 5
+    },
+    {
+      "owner": "source_decoder/graph_build",
+      "name": "aten::empty_like",
+      "count": 1
+    },
+    {
+      "owner": "source_decoder/graph_build",
+      "name": "aten::empty_strided",
+      "count": 1
+    },
+    {
+      "owner": "source_decoder/graph_build",
+      "name": "aten::zero_",
+      "count": 1
+    },
+    {
+      "owner": "source_decoder/graph_build",
+      "name": "aten::fill_",
+      "count": 1
+    },
+    {
+      "owner": "source_decoder/integer_producer",
+      "name": "aten::alias",
+      "count": 2
+    },
+    {
+      "owner": "source_decoder/integer_producer",
+      "name": "aten::contiguous",
+      "count": 2
+    },
+    {
+      "owner": "source_decoder/integer_producer",
+      "name": "aten::clone",
+      "count": 2
+    },
+    {
+      "owner": "source_decoder/integer_producer",
+      "name": "aten::empty_like",
+      "count": 4
+    },
+    {
+      "owner": "source_decoder/integer_producer",
+      "name": "aten::empty",
+      "count": 8
+    },
+    {
+      "owner": "source_decoder/integer_producer",
+      "name": "aten::copy_",
+      "count": 2
+    },
+    {
+      "owner": "source_decoder/integer_producer",
+      "name": "aten::zeros",
+      "count": 2
+    },
+    {
+      "owner": "source_decoder/integer_producer",
+      "name": "aten::zero_",
+      "count": 2
+    },
+    {
+      "owner": "source_decoder/integer_producer",
+      "name": "aten::fill_",
+      "count": 2
+    },
+    {
+      "owner": "source_decoder/integer_producer",
+      "name": "aten::cumsum",
+      "count": 2
+    },
+    {
+      "owner": "source_decoder/integer_producer",
+      "name": "aten::to",
+      "count": 2
+    },
+    {
+      "owner": "source_decoder/integer_producer",
+      "name": "aten::cat",
+      "count": 2
+    },
+    {
+      "owner": "source_decoder/integer_producer",
+      "name": "aten::select",
+      "count": 2
+    },
+    {
+      "owner": "source_decoder/integer_producer",
+      "name": "aten::as_strided",
+      "count": 2
+    },
+    {
+      "owner": "source_decoder/integer_producer",
+      "name": "aten::item",
+      "count": 2
+    },
+    {
+      "owner": "source_decoder/integer_producer",
+      "name": "aten::_local_scalar_dense",
+      "count": 2
+    },
+    {
+      "owner": "source_decoder/integer_producer",
+      "name": "aten::empty_strided",
+      "count": 2
+    },
+    {
+      "owner": "source_decoder/csr_conversion",
+      "name": "aten::slice",
+      "count": 40
+    },
+    {
+      "owner": "source_decoder/csr_conversion",
+      "name": "aten::as_strided",
+      "count": 62
+    },
+    {
+      "owner": "source_decoder/csr_conversion",
+      "name": "aten::stack",
+      "count": 2
+    },
+    {
+      "owner": "source_decoder/csr_conversion",
+      "name": "aten::cat",
+      "count": 4
+    },
+    {
+      "owner": "source_decoder/csr_conversion",
+      "name": "aten::narrow",
+      "count": 2
+    },
+    {
+      "owner": "source_decoder/csr_conversion",
+      "name": "aten::view",
+      "count": 4
+    },
+    {
+      "owner": "source_decoder/csr_conversion",
+      "name": "aten::to",
+      "count": 6
+    },
+    {
+      "owner": "source_decoder/csr_conversion",
+      "name": "aten::_to_copy",
+      "count": 4
+    },
+    {
+      "owner": "source_decoder/csr_conversion",
+      "name": "aten::empty_strided",
+      "count": 4
+    },
+    {
+      "owner": "source_decoder/csr_conversion",
+      "name": "aten::copy_",
+      "count": 4
+    },
+    {
+      "owner": "source_decoder/csr_conversion",
+      "name": "aten::resolve_conj",
+      "count": 2
+    },
+    {
+      "owner": "source_decoder/csr_conversion",
+      "name": "aten::resolve_neg",
+      "count": 2
+    },
+    {
+      "owner": "source_decoder/csr_conversion",
+      "name": "aten::sub",
+      "count": 6
+    },
+    {
+      "owner": "source_decoder/csr_conversion",
+      "name": "aten::cumsum",
+      "count": 2
+    },
+    {
+      "owner": "source_decoder/csr_conversion",
+      "name": "aten::reshape",
+      "count": 2
+    },
+    {
+      "owner": "source_decoder/csr_conversion",
+      "name": "aten::select",
+      "count": 18
+    },
+    {
+      "owner": "source_decoder/csr_conversion",
+      "name": "aten::unsqueeze",
+      "count": 4
+    },
+    {
+      "owner": "source_decoder/csr_conversion",
+      "name": "aten::add",
+      "count": 2
+    },
+    {
+      "owner": "source_decoder/seven_spmm",
+      "name": "aten::to",
+      "count": 14
+    },
+    {
+      "owner": "source_decoder/seven_spmm",
+      "name": "torch_sparse::ptr2ind",
+      "count": 14
+    },
+    {
+      "owner": "source_decoder/seven_spmm",
+      "name": "aten::empty",
+      "count": 46
+    },
+    {
+      "owner": "source_decoder/seven_spmm",
+      "name": "aten::mul",
+      "count": 14
+    },
+    {
+      "owner": "source_decoder/seven_spmm",
+      "name": "aten::add",
+      "count": 14
+    },
+    {
+      "owner": "source_decoder/seven_spmm",
+      "name": "aten::sort",
+      "count": 14
+    },
+    {
+      "owner": "source_decoder/seven_spmm",
+      "name": "aten::copy_",
+      "count": 32
+    },
+    {
+      "owner": "source_decoder/seven_spmm",
+      "name": "aten::arange",
+      "count": 8
+    },
+    {
+      "owner": "source_decoder/seven_spmm",
+      "name": "aten::resize_",
+      "count": 4
+    },
+    {
+      "owner": "source_decoder/seven_spmm",
+      "name": "aten::view",
+      "count": 18
+    },
+    {
+      "owner": "source_decoder/seven_spmm",
+      "name": "aten::index",
+      "count": 14
+    },
+    {
+      "owner": "source_decoder/seven_spmm",
+      "name": "aten::as_strided",
+      "count": 14
+    },
+    {
+      "owner": "source_decoder/seven_spmm",
+      "name": "aten::reshape",
+      "count": 14
+    },
+    {
+      "owner": "source_decoder/seven_spmm",
+      "name": "torch_sparse::ind2ptr",
+      "count": 14
+    },
+    {
+      "owner": "source_decoder/seven_spmm",
+      "name": "torch_sparse::spmm_sum",
+      "count": 14
+    },
+    {
+      "owner": "source_decoder/seven_spmm",
+      "name": "aten::zero_",
+      "count": 10
+    },
+    {
+      "owner": "source_decoder/seven_spmm",
+      "name": "aten::fill_",
+      "count": 10
+    },
+    {
+      "owner": "source_decoder/seven_spmm",
+      "name": "aten::cat",
+      "count": 2
+    },
+    {
+      "owner": "source_decoder",
+      "name": "aten::cat",
+      "count": 2
+    },
+    {
+      "owner": "source_decoder",
+      "name": "aten::relu",
+      "count": 4
+    },
+    {
+      "owner": "source_decoder",
+      "name": "aten::clamp_min",
+      "count": 4
+    },
+    {
+      "owner": "source_decoder",
+      "name": "aten::linear",
+      "count": 4
+    },
+    {
+      "owner": "source_decoder",
+      "name": "aten::t",
+      "count": 4
+    },
+    {
+      "owner": "source_decoder",
+      "name": "aten::transpose",
+      "count": 4
+    },
+    {
+      "owner": "source_decoder",
+      "name": "aten::addmm",
+      "count": 4
+    },
+    {
+      "owner": "source_decoder",
+      "name": "aten::expand",
+      "count": 2
+    },
+    {
+      "owner": "loss",
+      "name": "aten::ones_like",
+      "count": 1
+    },
+    {
+      "owner": "loss",
+      "name": "aten::empty_like",
+      "count": 6
+    },
+    {
+      "owner": "loss",
+      "name": "aten::empty_strided",
+      "count": 6
+    },
+    {
+      "owner": "loss",
+      "name": "aten::fill_",
+      "count": 4
+    },
+    {
+      "owner": "loss",
+      "name": "aten::binary_cross_entropy_with_logits",
+      "count": 2
+    },
+    {
+      "owner": "loss",
+      "name": "aten::log_sigmoid",
+      "count": 2
+    },
+    {
+      "owner": "loss",
+      "name": "aten::log_sigmoid_forward",
+      "count": 2
+    },
+    {
+      "owner": "loss",
+      "name": "aten::empty",
+      "count": 2
+    },
+    {
+      "owner": "loss",
+      "name": "aten::sub_",
+      "count": 4
+    },
+    {
+      "owner": "loss",
+      "name": "aten::mul_",
+      "count": 2
+    },
+    {
+      "owner": "loss",
+      "name": "aten::mean",
+      "count": 2
+    },
+    {
+      "owner": "loss",
+      "name": "aten::as_strided",
+      "count": 2
+    },
+    {
+      "owner": "loss",
+      "name": "aten::zeros_like",
+      "count": 1
+    },
+    {
+      "owner": "loss",
+      "name": "aten::zero_",
+      "count": 1
+    },
+    {
+      "owner": "loss",
+      "name": "aten::add",
+      "count": 1
+    },
+    {
+      "owner": "memory_update",
+      "name": "aten::cat",
+      "count": 1
+    },
+    {
+      "owner": "memory_update",
+      "name": "aten::_unique2",
+      "count": 1
+    },
+    {
+      "owner": "memory_update",
+      "name": "aten::empty",
+      "count": 5
+    },
+    {
+      "owner": "memory_update",
+      "name": "aten::item",
+      "count": 1
+    },
+    {
+      "owner": "memory_update",
+      "name": "aten::_local_scalar_dense",
+      "count": 1
+    },
+    {
+      "owner": "memory_update",
+      "name": "aten::resize_",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.assoc",
+      "name": "aten::arange",
+      "count": 4
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.assoc",
+      "name": "aten::empty",
+      "count": 6
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.assoc",
+      "name": "aten::resize_",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.assoc",
+      "name": "aten::index_put_",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.assoc",
+      "name": "aten::_index_put_impl_",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.assoc",
+      "name": "aten::max",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.assoc",
+      "name": "aten::as_strided",
+      "count": 3
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.assoc",
+      "name": "aten::lt",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.assoc",
+      "name": "aten::_assert_async",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.assoc",
+      "name": "aten::min",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.assoc",
+      "name": "aten::ge",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.assoc",
+      "name": "aten::remainder",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.assoc",
+      "name": "aten::mul",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.assoc",
+      "name": "aten::to",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.assoc",
+      "name": "aten::expand",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.assoc",
+      "name": "aten::reshape",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.assoc",
+      "name": "aten::view",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.assoc",
+      "name": "aten::empty_like",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.assoc",
+      "name": "aten::divide_",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.assoc",
+      "name": "aten::div_",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.source_messages/message.lookup",
+      "name": "aten::resolve_conj",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.source_messages/message.lookup",
+      "name": "aten::resolve_neg",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.source_messages/message.lookup",
+      "name": "aten::to",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.source_messages/message.lookup",
+      "name": "aten::_to_copy",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.source_messages/message.lookup",
+      "name": "aten::empty_strided",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.source_messages/message.lookup",
+      "name": "aten::copy_",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.source_messages/message.concat",
+      "name": "aten::cat",
+      "count": 4
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.source_messages/message.time",
+      "name": "aten::index",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.source_messages/message.time",
+      "name": "aten::as_strided",
+      "count": 3
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.source_messages/message.time",
+      "name": "aten::reshape",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.source_messages/message.time",
+      "name": "aten::view",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.source_messages/message.time",
+      "name": "aten::sub",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.source_messages/message.time",
+      "name": "aten::to",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.source_messages/message.time",
+      "name": "aten::_to_copy",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.source_messages/message.time",
+      "name": "aten::empty_strided",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.source_messages/message.time",
+      "name": "aten::copy_",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.source_messages/message.time",
+      "name": "aten::linear",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.source_messages/message.time",
+      "name": "aten::t",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.source_messages/message.time",
+      "name": "aten::transpose",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.source_messages/message.time",
+      "name": "aten::addmm",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.source_messages/message.time",
+      "name": "aten::expand",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.source_messages/message.time",
+      "name": "aten::cos",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.source_messages/message.compose",
+      "name": "aten::index",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.source_messages/message.compose",
+      "name": "aten::as_strided",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.source_messages/message.compose",
+      "name": "aten::reshape",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.source_messages/message.compose",
+      "name": "aten::view",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.source_messages/message.compose",
+      "name": "aten::cat",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.destination_messages/message.lookup",
+      "name": "aten::resolve_conj",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.destination_messages/message.lookup",
+      "name": "aten::resolve_neg",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.destination_messages/message.lookup",
+      "name": "aten::to",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.destination_messages/message.lookup",
+      "name": "aten::_to_copy",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.destination_messages/message.lookup",
+      "name": "aten::empty_strided",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.destination_messages/message.lookup",
+      "name": "aten::copy_",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.destination_messages/message.concat",
+      "name": "aten::cat",
+      "count": 4
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.destination_messages/message.time",
+      "name": "aten::index",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.destination_messages/message.time",
+      "name": "aten::as_strided",
+      "count": 3
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.destination_messages/message.time",
+      "name": "aten::reshape",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.destination_messages/message.time",
+      "name": "aten::view",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.destination_messages/message.time",
+      "name": "aten::sub",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.destination_messages/message.time",
+      "name": "aten::to",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.destination_messages/message.time",
+      "name": "aten::_to_copy",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.destination_messages/message.time",
+      "name": "aten::empty_strided",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.destination_messages/message.time",
+      "name": "aten::copy_",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.destination_messages/message.time",
+      "name": "aten::linear",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.destination_messages/message.time",
+      "name": "aten::t",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.destination_messages/message.time",
+      "name": "aten::transpose",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.destination_messages/message.time",
+      "name": "aten::addmm",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.destination_messages/message.time",
+      "name": "aten::expand",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.destination_messages/message.time",
+      "name": "aten::cos",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.destination_messages/message.compose",
+      "name": "aten::index",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.destination_messages/message.compose",
+      "name": "aten::as_strided",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.destination_messages/message.compose",
+      "name": "aten::reshape",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.destination_messages/message.compose",
+      "name": "aten::view",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.destination_messages/message.compose",
+      "name": "aten::cat",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.aggregate_inputs",
+      "name": "aten::cat",
+      "count": 3
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::index",
+      "count": 3
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::as_strided",
+      "count": 11
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::reshape",
+      "count": 4
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::view",
+      "count": 4
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "torch_scatter::scatter_max",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::expand",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::empty",
+      "count": 7
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::full_like",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::empty_like",
+      "count": 3
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::empty_strided",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::fill_",
+      "count": 3
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::eq",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::masked_fill_",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::new_zeros",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::new_empty",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::zero_",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::lt",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::nonzero",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::resize_",
+      "count": 3
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::t",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::transpose",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::set_",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::select",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::index_put_",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::_index_put_impl_",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::max",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::_assert_async",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::min",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::ge",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::remainder",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::mul",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::to",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::divide_",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::div_",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::arange",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.gru",
+      "name": "aten::index",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.gru",
+      "name": "aten::as_strided",
+      "count": 3
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.gru",
+      "name": "aten::reshape",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.gru",
+      "name": "aten::view",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.gru",
+      "name": "aten::gru_cell",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.gru",
+      "name": "aten::t",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.gru",
+      "name": "aten::transpose",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.gru",
+      "name": "aten::matmul",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.gru",
+      "name": "aten::mm",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.gru",
+      "name": "aten::_thnn_fused_gru_cell",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.gru",
+      "name": "aten::empty",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.gru",
+      "name": "aten::empty_like",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_time",
+      "name": "aten::view",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_time",
+      "name": "aten::expand_as",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_time",
+      "name": "aten::expand",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_time",
+      "name": "aten::as_strided",
+      "count": 5
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_time",
+      "name": "aten::new_zeros",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_time",
+      "name": "aten::new_empty",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_time",
+      "name": "aten::empty",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_time",
+      "name": "aten::zero_",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_time",
+      "name": "aten::fill_",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_time",
+      "name": "aten::scatter_reduce_",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_time",
+      "name": "aten::scatter_",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_time",
+      "name": "aten::index",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_time",
+      "name": "aten::reshape",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/state.write",
+      "name": "aten::index_put_",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.write",
+      "name": "aten::_index_put_impl_",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.write",
+      "name": "aten::max",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.write",
+      "name": "aten::empty",
+      "count": 10
+    },
+    {
+      "owner": "memory_update/state.write",
+      "name": "aten::as_strided",
+      "count": 6
+    },
+    {
+      "owner": "memory_update/state.write",
+      "name": "aten::lt",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.write",
+      "name": "aten::_assert_async",
+      "count": 4
+    },
+    {
+      "owner": "memory_update/state.write",
+      "name": "aten::min",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.write",
+      "name": "aten::ge",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.write",
+      "name": "aten::remainder",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.write",
+      "name": "aten::mul",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.write",
+      "name": "aten::to",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.write",
+      "name": "aten::expand",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.write",
+      "name": "aten::reshape",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.write",
+      "name": "aten::view",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.write",
+      "name": "aten::empty_like",
+      "count": 4
+    },
+    {
+      "owner": "memory_update/state.write",
+      "name": "aten::divide_",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.write",
+      "name": "aten::div_",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/state.write",
+      "name": "aten::arange",
+      "count": 4
+    },
+    {
+      "owner": "memory_update/state.write",
+      "name": "aten::resize_",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/store.sort",
+      "name": "aten::sort",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/store.sort",
+      "name": "aten::copy_",
+      "count": 6
+    },
+    {
+      "owner": "memory_update/store.sort",
+      "name": "aten::arange",
+      "count": 4
+    },
+    {
+      "owner": "memory_update/store.sort",
+      "name": "aten::empty",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/store.sort",
+      "name": "aten::resize_",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/store.sort",
+      "name": "aten::view",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/store.counts",
+      "name": "aten::unique_consecutive",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/store.counts",
+      "name": "aten::empty",
+      "count": 8
+    },
+    {
+      "owner": "memory_update/store.counts",
+      "name": "aten::resize_",
+      "count": 6
+    },
+    {
+      "owner": "memory_update/store.counts",
+      "name": "aten::item",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/store.counts",
+      "name": "aten::_local_scalar_dense",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/store.per_node_gathers",
+      "name": "aten::resolve_conj",
+      "count": 4
+    },
+    {
+      "owner": "memory_update/store.per_node_gathers",
+      "name": "aten::resolve_neg",
+      "count": 4
+    },
+    {
+      "owner": "memory_update/store.per_node_gathers",
+      "name": "aten::to",
+      "count": 4
+    },
+    {
+      "owner": "memory_update/store.per_node_gathers",
+      "name": "aten::_to_copy",
+      "count": 4
+    },
+    {
+      "owner": "memory_update/store.per_node_gathers",
+      "name": "aten::empty_strided",
+      "count": 4
+    },
+    {
+      "owner": "memory_update/store.per_node_gathers",
+      "name": "aten::copy_",
+      "count": 4
+    },
+    {
+      "owner": "memory_update/store.per_node_gathers",
+      "name": "aten::split_with_sizes",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/store.per_node_gathers",
+      "name": "aten::as_strided",
+      "count": 160
+    },
+    {
+      "owner": "memory_update/store.per_node_gathers",
+      "name": "aten::index",
+      "count": 128
+    },
+    {
+      "owner": "memory_update/store.per_node_gathers",
+      "name": "aten::reshape",
+      "count": 128
+    },
+    {
+      "owner": "memory_update/store.per_node_gathers",
+      "name": "aten::view",
+      "count": 128
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::cat",
+      "count": 5
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::arange",
+      "count": 20
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::empty",
+      "count": 38
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::resize_",
+      "count": 11
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::repeat",
+      "count": 1
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::expand",
+      "count": 7
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::as_strided",
+      "count": 29
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::unfold",
+      "count": 1
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::expand_as",
+      "count": 1
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::copy_",
+      "count": 4
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::add",
+      "count": 1
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::unsqueeze",
+      "count": 2
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::narrow",
+      "count": 1
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::slice",
+      "count": 1
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::flatten",
+      "count": 1
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::view",
+      "count": 15
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::permute",
+      "count": 1
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::reshape",
+      "count": 11
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::sort",
+      "count": 1
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::index",
+      "count": 5
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::_unique2",
+      "count": 1
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::item",
+      "count": 1
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::_local_scalar_dense",
+      "count": 1
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::index_put_",
+      "count": 5
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::_index_put_impl_",
+      "count": 5
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::max",
+      "count": 5
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::lt",
+      "count": 5
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::_assert_async",
+      "count": 10
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::min",
+      "count": 5
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::ge",
+      "count": 5
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::remainder",
+      "count": 6
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::mul",
+      "count": 5
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::to",
+      "count": 5
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::empty_like",
+      "count": 10
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::divide_",
+      "count": 5
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::div_",
+      "count": 5
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::mul_",
+      "count": 1
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::add_",
+      "count": 1
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::new_full",
+      "count": 1
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::new_empty",
+      "count": 2
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::fill_",
+      "count": 1
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::topk",
+      "count": 1
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::gather",
+      "count": 1
+    },
+    {
+      "owner": "backward",
+      "name": "aten::ones_like",
+      "count": 1
+    },
+    {
+      "owner": "backward",
+      "name": "aten::empty_like",
+      "count": 1
+    },
+    {
+      "owner": "backward",
+      "name": "aten::empty_strided",
+      "count": 1
+    },
+    {
+      "owner": "backward",
+      "name": "aten::fill_",
+      "count": 1
+    },
+    {
+      "owner": "backward/loss",
+      "name": "autograd::engine::evaluate_function: AddBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/loss",
+      "name": "AddBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/loss",
+      "name": "autograd::engine::evaluate_function: BinaryCrossEntropyWithLogitsBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/loss",
+      "name": "BinaryCrossEntropyWithLogitsBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/loss",
+      "name": "aten::sigmoid",
+      "count": 2
+    },
+    {
+      "owner": "backward/loss",
+      "name": "aten::sub_",
+      "count": 2
+    },
+    {
+      "owner": "backward/loss",
+      "name": "aten::mul_",
+      "count": 2
+    },
+    {
+      "owner": "backward/loss",
+      "name": "aten::div_",
+      "count": 2
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "autograd::engine::evaluate_function: AddmmBackward0",
+      "count": 4
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "AddmmBackward0",
+      "count": 4
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "aten::t",
+      "count": 16
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "aten::transpose",
+      "count": 16
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "aten::as_strided",
+      "count": 24
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "aten::mm",
+      "count": 8
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "aten::sum",
+      "count": 4
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "aten::view",
+      "count": 8
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "autograd::engine::evaluate_function: TBackward0",
+      "count": 4
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "TBackward0",
+      "count": 4
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "autograd::engine::evaluate_function: ReluBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "ReluBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "aten::threshold_backward",
+      "count": 2
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "autograd::engine::evaluate_function: CatBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "CatBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "aten::narrow",
+      "count": 4
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "aten::slice",
+      "count": 4
+    },
+    {
+      "owner": "backward/source_decoder/seven_spmm",
+      "name": "autograd::engine::evaluate_function: CatBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/source_decoder/seven_spmm",
+      "name": "CatBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/source_decoder/seven_spmm",
+      "name": "aten::narrow",
+      "count": 14
+    },
+    {
+      "owner": "backward/source_decoder/seven_spmm",
+      "name": "aten::slice",
+      "count": 14
+    },
+    {
+      "owner": "backward/source_decoder/seven_spmm",
+      "name": "aten::as_strided",
+      "count": 32
+    },
+    {
+      "owner": "backward/source_decoder/seven_spmm",
+      "name": "autograd::engine::evaluate_function: torch::autograd::CppNode<SPMMSum>",
+      "count": 14
+    },
+    {
+      "owner": "backward/source_decoder/seven_spmm",
+      "name": "torch::autograd::CppNode<SPMMSum>",
+      "count": 14
+    },
+    {
+      "owner": "backward/source_decoder/seven_spmm",
+      "name": "aten::view",
+      "count": 34
+    },
+    {
+      "owner": "backward/source_decoder/seven_spmm",
+      "name": "aten::index_select",
+      "count": 28
+    },
+    {
+      "owner": "backward/source_decoder/seven_spmm",
+      "name": "aten::empty",
+      "count": 56
+    },
+    {
+      "owner": "backward/source_decoder/seven_spmm",
+      "name": "aten::resize_",
+      "count": 18
+    },
+    {
+      "owner": "backward/source_decoder/seven_spmm",
+      "name": "aten::contiguous",
+      "count": 14
+    },
+    {
+      "owner": "backward/source_decoder/seven_spmm",
+      "name": "aten::clone",
+      "count": 14
+    },
+    {
+      "owner": "backward/source_decoder/seven_spmm",
+      "name": "aten::empty_like",
+      "count": 14
+    },
+    {
+      "owner": "backward/source_decoder/seven_spmm",
+      "name": "aten::copy_",
+      "count": 14
+    },
+    {
+      "owner": "backward/source_decoder/seven_spmm",
+      "name": "aten::add_",
+      "count": 13
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "autograd::engine::evaluate_function: ViewBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "ViewBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "aten::reshape",
+      "count": 6
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "aten::_reshape_alias",
+      "count": 2
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "autograd::engine::evaluate_function: MulBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "MulBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "aten::mul",
+      "count": 8
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "autograd::engine::evaluate_function: IndexBackward0",
+      "count": 4
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "IndexBackward0",
+      "count": 4
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "aten::new_zeros",
+      "count": 4
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "aten::new_empty",
+      "count": 4
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "aten::empty",
+      "count": 16
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "aten::zero_",
+      "count": 4
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "aten::fill_",
+      "count": 4
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "aten::_index_put_impl_",
+      "count": 4
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "aten::remainder",
+      "count": 4
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "aten::to",
+      "count": 4
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "aten::expand",
+      "count": 4
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "aten::empty_like",
+      "count": 8
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "aten::divide_",
+      "count": 4
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "aten::div_",
+      "count": 4
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "aten::arange",
+      "count": 8
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "aten::resize_",
+      "count": 4
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "aten::add_",
+      "count": 4
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "aten::add",
+      "count": 4
+    },
+    {
+      "owner": "backward/leaf_or_unsequenced",
+      "name": "autograd::engine::evaluate_function: torch::autograd::AccumulateGrad",
+      "count": 19
+    },
+    {
+      "owner": "backward/leaf_or_unsequenced",
+      "name": "torch::autograd::AccumulateGrad",
+      "count": 19
+    },
+    {
+      "owner": "backward/leaf_or_unsequenced",
+      "name": "aten::detach",
+      "count": 19
+    },
+    {
+      "owner": "backward/leaf_or_unsequenced",
+      "name": "detach",
+      "count": 19
+    },
+    {
+      "owner": "backward/source_decoder/seven_spmm",
+      "name": "aten::expand",
+      "count": 6
+    },
+    {
+      "owner": "backward/source_decoder/seven_spmm",
+      "name": "aten::gather",
+      "count": 6
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "autograd::engine::evaluate_function: AddBackward0",
+      "count": 4
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "AddBackward0",
+      "count": 4
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "autograd::engine::evaluate_function: AddmmBackward0",
+      "count": 5
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "AddmmBackward0",
+      "count": 5
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::t",
+      "count": 23
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::transpose",
+      "count": 23
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::as_strided",
+      "count": 43
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::mm",
+      "count": 11
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::sum",
+      "count": 6
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::view",
+      "count": 15
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "autograd::engine::evaluate_function: TBackward0",
+      "count": 6
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "TBackward0",
+      "count": 6
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "autograd::engine::evaluate_function: ViewBackward0",
+      "count": 6
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "ViewBackward0",
+      "count": 6
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::reshape",
+      "count": 10
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "autograd::engine::evaluate_function: ScatterAddBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "ScatterAddBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::gather",
+      "count": 2
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "autograd::engine::evaluate_function: MulBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "MulBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::mul",
+      "count": 15
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "autograd::engine::evaluate_function: NativeDropoutBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "NativeDropoutBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::native_dropout_backward",
+      "count": 1
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::empty_like",
+      "count": 9
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::empty",
+      "count": 25
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "autograd::engine::evaluate_function: DivBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "DivBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::div",
+      "count": 4
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::neg",
+      "count": 2
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "autograd::engine::evaluate_function: IndexSelectBackward0",
+      "count": 4
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "IndexSelectBackward0",
+      "count": 4
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::index_select_backward",
+      "count": 4
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::new_zeros",
+      "count": 4
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::new_empty",
+      "count": 4
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::zero_",
+      "count": 4
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::fill_",
+      "count": 4
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::index_add_",
+      "count": 4
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::to",
+      "count": 8
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::index_put_",
+      "count": 4
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::_index_put_impl_",
+      "count": 4
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::max",
+      "count": 4
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::lt",
+      "count": 4
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::_assert_async",
+      "count": 8
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::min",
+      "count": 4
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::ge",
+      "count": 4
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::remainder",
+      "count": 4
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::expand",
+      "count": 5
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::divide_",
+      "count": 4
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::div_",
+      "count": 4
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::arange",
+      "count": 8
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::resize_",
+      "count": 4
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::add_",
+      "count": 4
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "autograd::engine::evaluate_function: ExpBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "ExpBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "autograd::engine::evaluate_function: SubBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "SubBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "autograd::engine::evaluate_function: SumBackward1",
+      "count": 1
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "SumBackward1",
+      "count": 1
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::unsqueeze",
+      "count": 1
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::add",
+      "count": 1
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "autograd::engine::evaluate_function: MmBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "MmBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "autograd::engine::evaluate_function: CatBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "CatBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::narrow",
+      "count": 2
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::slice",
+      "count": 2
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "autograd::engine::evaluate_function: CosBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "CosBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::sin",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.gru",
+      "name": "autograd::engine::evaluate_function: ThnnFusedGruCellBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.gru",
+      "name": "ThnnFusedGruCellBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.gru",
+      "name": "aten::_thnn_fused_gru_cell_backward",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.gru",
+      "name": "aten::empty",
+      "count": 3
+    },
+    {
+      "owner": "backward/memory_read/memory.gru",
+      "name": "aten::empty_like",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.gru",
+      "name": "aten::sum",
+      "count": 2
+    },
+    {
+      "owner": "backward/memory_read/memory.gru",
+      "name": "aten::as_strided",
+      "count": 9
+    },
+    {
+      "owner": "backward/memory_read/memory.gru",
+      "name": "autograd::engine::evaluate_function: MmBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/memory_read/memory.gru",
+      "name": "MmBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/memory_read/memory.gru",
+      "name": "aten::t",
+      "count": 7
+    },
+    {
+      "owner": "backward/memory_read/memory.gru",
+      "name": "aten::transpose",
+      "count": 7
+    },
+    {
+      "owner": "backward/memory_read/memory.gru",
+      "name": "aten::mm",
+      "count": 3
+    },
+    {
+      "owner": "backward/memory_read/memory.gru",
+      "name": "autograd::engine::evaluate_function: TBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/memory_read/memory.gru",
+      "name": "TBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/memory_read/memory.last_aggregate",
+      "name": "autograd::engine::evaluate_function: IndexPutBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.last_aggregate",
+      "name": "IndexPutBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.last_aggregate",
+      "name": "aten::index",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.last_aggregate",
+      "name": "aten::nonzero",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.last_aggregate",
+      "name": "aten::resize_",
+      "count": 2
+    },
+    {
+      "owner": "backward/memory_read/memory.last_aggregate",
+      "name": "aten::t",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.last_aggregate",
+      "name": "aten::transpose",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.last_aggregate",
+      "name": "aten::as_strided",
+      "count": 4
+    },
+    {
+      "owner": "backward/memory_read/memory.last_aggregate",
+      "name": "aten::set_",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.last_aggregate",
+      "name": "aten::select",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.last_aggregate",
+      "name": "aten::reshape",
+      "count": 2
+    },
+    {
+      "owner": "backward/memory_read/memory.last_aggregate",
+      "name": "aten::view",
+      "count": 2
+    },
+    {
+      "owner": "backward/memory_read/memory.last_aggregate",
+      "name": "autograd::engine::evaluate_function: IndexBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.last_aggregate",
+      "name": "IndexBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.last_aggregate",
+      "name": "aten::new_zeros",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.last_aggregate",
+      "name": "aten::new_empty",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.last_aggregate",
+      "name": "aten::empty",
+      "count": 4
+    },
+    {
+      "owner": "backward/memory_read/memory.last_aggregate",
+      "name": "aten::zero_",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.last_aggregate",
+      "name": "aten::fill_",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.last_aggregate",
+      "name": "aten::_index_put_impl_",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.last_aggregate",
+      "name": "aten::remainder",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.last_aggregate",
+      "name": "aten::mul",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.last_aggregate",
+      "name": "aten::to",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.last_aggregate",
+      "name": "aten::expand",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.last_aggregate",
+      "name": "aten::empty_like",
+      "count": 2
+    },
+    {
+      "owner": "backward/memory_read/memory.last_aggregate",
+      "name": "aten::divide_",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.last_aggregate",
+      "name": "aten::div_",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.last_aggregate",
+      "name": "aten::arange",
+      "count": 2
+    },
+    {
+      "owner": "backward/memory_read/memory.aggregate_inputs",
+      "name": "autograd::engine::evaluate_function: CatBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.aggregate_inputs",
+      "name": "CatBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.aggregate_inputs",
+      "name": "aten::narrow",
+      "count": 2
+    },
+    {
+      "owner": "backward/memory_read/memory.aggregate_inputs",
+      "name": "aten::slice",
+      "count": 2
+    },
+    {
+      "owner": "backward/memory_read/memory.aggregate_inputs",
+      "name": "aten::as_strided",
+      "count": 2
+    },
+    {
+      "owner": "backward/memory_read/memory.destination_messages/message.compose",
+      "name": "autograd::engine::evaluate_function: CatBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.destination_messages/message.compose",
+      "name": "CatBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.destination_messages/message.compose",
+      "name": "aten::narrow",
+      "count": 4
+    },
+    {
+      "owner": "backward/memory_read/memory.destination_messages/message.compose",
+      "name": "aten::slice",
+      "count": 4
+    },
+    {
+      "owner": "backward/memory_read/memory.destination_messages/message.compose",
+      "name": "aten::as_strided",
+      "count": 4
+    },
+    {
+      "owner": "backward/memory_read/memory.destination_messages/message.time",
+      "name": "autograd::engine::evaluate_function: CosBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.destination_messages/message.time",
+      "name": "CosBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.destination_messages/message.time",
+      "name": "aten::sin",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.destination_messages/message.time",
+      "name": "aten::neg",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.destination_messages/message.time",
+      "name": "aten::mul",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.destination_messages/message.time",
+      "name": "autograd::engine::evaluate_function: AddmmBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.destination_messages/message.time",
+      "name": "AddmmBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.destination_messages/message.time",
+      "name": "aten::t",
+      "count": 3
+    },
+    {
+      "owner": "backward/memory_read/memory.destination_messages/message.time",
+      "name": "aten::transpose",
+      "count": 3
+    },
+    {
+      "owner": "backward/memory_read/memory.destination_messages/message.time",
+      "name": "aten::as_strided",
+      "count": 3
+    },
+    {
+      "owner": "backward/memory_read/memory.destination_messages/message.time",
+      "name": "aten::mm",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.destination_messages/message.time",
+      "name": "aten::sum",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.destination_messages/message.time",
+      "name": "aten::view",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.destination_messages/message.time",
+      "name": "aten::add",
+      "count": 2
+    },
+    {
+      "owner": "backward/memory_read/memory.destination_messages/message.time",
+      "name": "autograd::engine::evaluate_function: TBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.destination_messages/message.time",
+      "name": "TBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.source_messages/message.compose",
+      "name": "autograd::engine::evaluate_function: CatBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.source_messages/message.compose",
+      "name": "CatBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.source_messages/message.compose",
+      "name": "aten::narrow",
+      "count": 4
+    },
+    {
+      "owner": "backward/memory_read/memory.source_messages/message.compose",
+      "name": "aten::slice",
+      "count": 4
+    },
+    {
+      "owner": "backward/memory_read/memory.source_messages/message.compose",
+      "name": "aten::as_strided",
+      "count": 4
+    },
+    {
+      "owner": "backward/memory_read/memory.source_messages/message.time",
+      "name": "autograd::engine::evaluate_function: CosBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.source_messages/message.time",
+      "name": "CosBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.source_messages/message.time",
+      "name": "aten::sin",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.source_messages/message.time",
+      "name": "aten::neg",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.source_messages/message.time",
+      "name": "aten::mul",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.source_messages/message.time",
+      "name": "autograd::engine::evaluate_function: AddmmBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.source_messages/message.time",
+      "name": "AddmmBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.source_messages/message.time",
+      "name": "aten::t",
+      "count": 3
+    },
+    {
+      "owner": "backward/memory_read/memory.source_messages/message.time",
+      "name": "aten::transpose",
+      "count": 3
+    },
+    {
+      "owner": "backward/memory_read/memory.source_messages/message.time",
+      "name": "aten::as_strided",
+      "count": 3
+    },
+    {
+      "owner": "backward/memory_read/memory.source_messages/message.time",
+      "name": "aten::mm",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.source_messages/message.time",
+      "name": "aten::sum",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.source_messages/message.time",
+      "name": "aten::view",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.source_messages/message.time",
+      "name": "aten::add_",
+      "count": 2
+    },
+    {
+      "owner": "backward/memory_read/memory.source_messages/message.time",
+      "name": "autograd::engine::evaluate_function: TBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_read/memory.source_messages/message.time",
+      "name": "TBackward0",
+      "count": 1
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::empty",
+      "count": 1
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::to",
+      "count": 1
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::lift_fresh",
+      "count": 1
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::detach_",
+      "count": 1
+    },
+    {
+      "owner": "optimizer",
+      "name": "detach_",
+      "count": 1
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::_foreach_add_",
+      "count": 2
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::add_",
+      "count": 19
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::_foreach_lerp_",
+      "count": 1
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::_foreach_mul_",
+      "count": 1
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::_foreach_addcmul_",
+      "count": 1
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::item",
+      "count": 38
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::_local_scalar_dense",
+      "count": 38
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::_foreach_sqrt",
+      "count": 1
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::empty_strided",
+      "count": 19
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::_foreach_div_",
+      "count": 1
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::_foreach_addcdiv_",
+      "count": 1
+    },
+    {
+      "owner": "detach_and_loss_read",
+      "name": "aten::detach_",
+      "count": 1
+    },
+    {
+      "owner": "detach_and_loss_read",
+      "name": "detach_",
+      "count": 1
+    },
+    {
+      "owner": "detach_and_loss_read",
+      "name": "aten::item",
+      "count": 1
+    },
+    {
+      "owner": "detach_and_loss_read",
+      "name": "aten::_local_scalar_dense",
+      "count": 1
+    }
+  ],
+  "top_gpu_operations": [
+    {
+      "owner": "memory_update/store.per_node_gathers",
+      "name": "aten::index",
+      "count": 128,
+      "duration_us": 178.69799999999998
+    },
+    {
+      "owner": "memory_read/memory.source_messages/message.concat",
+      "name": "aten::cat",
+      "count": 14,
+      "duration_us": 166.75400000000005
+    },
+    {
+      "owner": "memory_read/memory.destination_messages/message.concat",
+      "name": "aten::cat",
+      "count": 11,
+      "duration_us": 121.66399999999999
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::mm",
+      "count": 16,
+      "duration_us": 66.30499999999999
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::_unique2",
+      "count": 9,
+      "duration_us": 54.976
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::_index_put_impl_",
+      "count": 8,
+      "duration_us": 46.338
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::index",
+      "count": 14,
+      "duration_us": 42.08200000000001
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::nonzero",
+      "count": 30,
+      "duration_us": 37.983000000000004
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::addmm",
+      "count": 6,
+      "duration_us": 36.415
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "aten::_index_put_impl_",
+      "count": 8,
+      "duration_us": 27.423
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::_index_put_impl_",
+      "count": 10,
+      "duration_us": 26.911
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::sum",
+      "count": 6,
+      "duration_us": 25.504
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.destination_messages/message.concat",
+      "name": "aten::cat",
+      "count": 4,
+      "duration_us": 25.217000000000002
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.source_messages/message.concat",
+      "name": "aten::cat",
+      "count": 4,
+      "duration_us": 25.057
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "aten::mm",
+      "count": 10,
+      "duration_us": 23.649
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::_foreach_addcdiv_",
+      "count": 1,
+      "duration_us": 22.912
+    },
+    {
+      "owner": "source_decoder",
+      "name": "aten::addmm",
+      "count": 8,
+      "duration_us": 20.993000000000002
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::_foreach_div_",
+      "count": 1,
+      "duration_us": 20.512
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::mul",
+      "count": 15,
+      "duration_us": 18.915
+    },
+    {
+      "owner": "source_decoder/seven_spmm",
+      "name": "torch_sparse::spmm_sum",
+      "count": 14,
+      "duration_us": 18.848000000000006
+    },
+    {
+      "owner": "source_decoder/seven_spmm",
+      "name": "torch_sparse::ind2ptr",
+      "count": 4,
+      "duration_us": 18.848
+    },
+    {
+      "owner": "backward/source_decoder/seven_spmm",
+      "name": "torch::autograd::CppNode<SPMMSum>",
+      "count": 14,
+      "duration_us": 18.752000000000002
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::_assert_async",
+      "count": 10,
+      "duration_us": 18.338
+    },
+    {
+      "owner": "backward/source_decoder/seven_spmm",
+      "name": "aten::copy_",
+      "count": 14,
+      "duration_us": 18.241
+    },
+    {
+      "owner": "memory_update",
+      "name": "aten::_unique2",
+      "count": 3,
+      "duration_us": 18.240000000000002
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::_unique2",
+      "count": 3,
+      "duration_us": 18.112000000000002
+    },
+    {
+      "owner": "backward/memory_read/memory.gru",
+      "name": "aten::mm",
+      "count": 6,
+      "duration_us": 18.112000000000002
+    },
+    {
+      "owner": "memory_read/memory.gru",
+      "name": "aten::mm",
+      "count": 3,
+      "duration_us": 16.96
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::_index_put_impl_",
+      "count": 4,
+      "duration_us": 16.834
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::_index_put_impl_",
+      "count": 6,
+      "duration_us": 16.384999999999998
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::_foreach_sqrt",
+      "count": 1,
+      "duration_us": 15.392
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::topk",
+      "count": 2,
+      "duration_us": 15.328
+    },
+    {
+      "owner": "source_decoder/seven_spmm",
+      "name": "aten::sort",
+      "count": 4,
+      "duration_us": 14.879999999999999
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::_assert_async",
+      "count": 8,
+      "duration_us": 14.686
+    },
+    {
+      "owner": "backward/source_decoder/seven_spmm",
+      "name": "aten::add_",
+      "count": 13,
+      "duration_us": 14.657000000000004
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.gru",
+      "name": "aten::mm",
+      "count": 3,
+      "duration_us": 14.208
+    },
+    {
+      "owner": "source_decoder/seven_spmm",
+      "name": "torch_sparse::ptr2ind",
+      "count": 14,
+      "duration_us": 13.185000000000002
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::scatter_reduce_",
+      "count": 1,
+      "duration_us": 12.672
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::gather",
+      "count": 5,
+      "duration_us": 12.608
+    },
+    {
+      "owner": "unlinked",
+      "name": "void produce<0, true>(int, int, long const*, long const*, long const*, unsigned int const*, long const*, long*, long const*, long*, long*)",
+      "count": 2,
+      "duration_us": 11.584
+    },
+    {
+      "owner": "source_decoder/seven_spmm",
+      "name": "aten::copy_",
+      "count": 12,
+      "duration_us": 11.136000000000003
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::_assert_async",
+      "count": 6,
+      "duration_us": 11.103
+    },
+    {
+      "owner": "unlinked",
+      "name": "void produce<0, false>(int, int, long const*, long const*, long const*, unsigned int const*, long const*, long*, long const*, long*, long*)",
+      "count": 2,
+      "duration_us": 11.04
+    },
+    {
+      "owner": "memory_update/state.write",
+      "name": "aten::_index_put_impl_",
+      "count": 4,
+      "duration_us": 10.943999999999999
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "aten::sum",
+      "count": 4,
+      "duration_us": 10.4
+    },
+    {
+      "owner": "backward/memory_read/memory.gru",
+      "name": "aten::sum",
+      "count": 2,
+      "duration_us": 10.176
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::_foreach_lerp_",
+      "count": 1,
+      "duration_us": 9.953
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::_foreach_addcmul_",
+      "count": 1,
+      "duration_us": 9.92
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "aten::mul",
+      "count": 8,
+      "duration_us": 9.760000000000002
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::_foreach_mul_",
+      "count": 1,
+      "duration_us": 8.928
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::_foreach_add_",
+      "count": 1,
+      "duration_us": 8.768
+    },
+    {
+      "owner": "backward/source_decoder/seven_spmm",
+      "name": "aten::gather",
+      "count": 6,
+      "duration_us": 8.703999999999999
+    },
+    {
+      "owner": "source_decoder/seven_spmm",
+      "name": "aten::fill_",
+      "count": 10,
+      "duration_us": 8.607
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::max",
+      "count": 5,
+      "duration_us": 8.576
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::nonzero",
+      "count": 8,
+      "duration_us": 8.575000000000001
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::nonzero",
+      "count": 8,
+      "duration_us": 8.481
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::min",
+      "count": 5,
+      "duration_us": 8.448
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::max",
+      "count": 4,
+      "duration_us": 8.448
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::min",
+      "count": 4,
+      "duration_us": 8.352
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::div_",
+      "count": 4,
+      "duration_us": 7.873
+    },
+    {
+      "owner": "memory_update/store.sort",
+      "name": "aten::sort",
+      "count": 2,
+      "duration_us": 7.616
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::remainder",
+      "count": 6,
+      "duration_us": 7.5840000000000005
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::sort",
+      "count": 1,
+      "duration_us": 7.52
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::index",
+      "count": 3,
+      "duration_us": 7.4239999999999995
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::mm",
+      "count": 2,
+      "duration_us": 7.3919999999999995
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::_assert_async",
+      "count": 4,
+      "duration_us": 7.391
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::remainder",
+      "count": 4,
+      "duration_us": 7.359999999999999
+    },
+    {
+      "owner": "memory_update/state.write",
+      "name": "aten::_assert_async",
+      "count": 4,
+      "duration_us": 7.264
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::arange",
+      "count": 9,
+      "duration_us": 7.200999999999999
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::index",
+      "count": 5,
+      "duration_us": 6.5920000000000005
+    },
+    {
+      "owner": "source_decoder/csr_conversion",
+      "name": "aten::sub",
+      "count": 6,
+      "duration_us": 6.433
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::div",
+      "count": 4,
+      "duration_us": 6.368
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::max",
+      "count": 3,
+      "duration_us": 6.336
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::min",
+      "count": 3,
+      "duration_us": 6.304
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::div_",
+      "count": 5,
+      "duration_us": 6.3020000000000005
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::index",
+      "count": 3,
+      "duration_us": 5.951
+    },
+    {
+      "owner": "source_decoder/seven_spmm",
+      "name": "aten::index",
+      "count": 4,
+      "duration_us": 5.888
+    },
+    {
+      "owner": "backward/memory_read/memory.last_aggregate",
+      "name": "aten::_index_put_impl_",
+      "count": 2,
+      "duration_us": 5.824
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::cat",
+      "count": 5,
+      "duration_us": 5.759
+    },
+    {
+      "owner": "query_mapping",
+      "name": "aten::index",
+      "count": 4,
+      "duration_us": 5.759
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::ge",
+      "count": 5,
+      "duration_us": 5.696000000000001
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::_index_put_impl_",
+      "count": 2,
+      "duration_us": 5.696
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::gather",
+      "count": 2,
+      "duration_us": 5.663
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::lt",
+      "count": 5,
+      "duration_us": 5.567
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::ge",
+      "count": 5,
+      "duration_us": 5.473000000000001
+    },
+    {
+      "owner": "memory_update/store.sort",
+      "name": "aten::copy_",
+      "count": 6,
+      "duration_us": 5.442
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.assoc",
+      "name": "aten::_index_put_impl_",
+      "count": 2,
+      "duration_us": 5.4399999999999995
+    },
+    {
+      "owner": "memory_read/memory.assoc",
+      "name": "aten::_index_put_impl_",
+      "count": 2,
+      "duration_us": 5.409000000000001
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::mul",
+      "count": 4,
+      "duration_us": 5.184
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::mul",
+      "count": 5,
+      "duration_us": 5.184
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "aten::remainder",
+      "count": 4,
+      "duration_us": 5.12
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "aten::div_",
+      "count": 4,
+      "duration_us": 5.088
+    },
+    {
+      "owner": "source_decoder",
+      "name": "aten::index",
+      "count": 4,
+      "duration_us": 4.8
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::remainder",
+      "count": 3,
+      "duration_us": 4.7989999999999995
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::arange",
+      "count": 6,
+      "duration_us": 4.673
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::add",
+      "count": 4,
+      "duration_us": 4.672
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::add_",
+      "count": 4,
+      "duration_us": 4.640000000000001
+    },
+    {
+      "owner": "memory_update/store.counts",
+      "name": "aten::unique_consecutive",
+      "count": 4,
+      "duration_us": 4.638999999999999
+    },
+    {
+      "owner": "source_decoder/integer_producer",
+      "name": "aten::cumsum",
+      "count": 4,
+      "duration_us": 4.576
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "aten::add",
+      "count": 4,
+      "duration_us": 4.5440000000000005
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::lt",
+      "count": 4,
+      "duration_us": 4.5440000000000005
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "aten::add_",
+      "count": 4,
+      "duration_us": 4.48
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::ge",
+      "count": 4,
+      "duration_us": 4.48
+    },
+    {
+      "owner": "source_decoder/seven_spmm",
+      "name": "aten::add",
+      "count": 4,
+      "duration_us": 4.449
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::max",
+      "count": 2,
+      "duration_us": 4.416
+    },
+    {
+      "owner": "source_decoder/seven_spmm",
+      "name": "aten::mul",
+      "count": 4,
+      "duration_us": 4.416
+    },
+    {
+      "owner": "memory_read/memory.last_time",
+      "name": "aten::scatter_reduce_",
+      "count": 1,
+      "duration_us": 4.352
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::min",
+      "count": 2,
+      "duration_us": 4.352
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::div_",
+      "count": 3,
+      "duration_us": 4.321
+    },
+    {
+      "owner": "backward/memory_read/memory.last_aggregate",
+      "name": "aten::nonzero",
+      "count": 4,
+      "duration_us": 4.32
+    },
+    {
+      "owner": "source_decoder/csr_conversion",
+      "name": "aten::cat",
+      "count": 4,
+      "duration_us": 4.288
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::_index_put_impl_",
+      "count": 2,
+      "duration_us": 4.224
+    },
+    {
+      "owner": "source_decoder",
+      "name": "aten::clamp_min",
+      "count": 4,
+      "duration_us": 4.191
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::cat",
+      "count": 4,
+      "duration_us": 4.16
+    },
+    {
+      "owner": "loss",
+      "name": "aten::sub_",
+      "count": 4,
+      "duration_us": 4.128
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::div_",
+      "count": 2,
+      "duration_us": 3.999
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::index",
+      "count": 3,
+      "duration_us": 3.998
+    },
+    {
+      "owner": "memory_read/memory.source_messages/message.time",
+      "name": "aten::cos",
+      "count": 1,
+      "duration_us": 3.936
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::sin",
+      "count": 1,
+      "duration_us": 3.936
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::cos",
+      "count": 1,
+      "duration_us": 3.904
+    },
+    {
+      "owner": "backward/memory_read/memory.source_messages/message.time",
+      "name": "aten::sin",
+      "count": 1,
+      "duration_us": 3.872
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::copy_",
+      "count": 4,
+      "duration_us": 3.7439999999999998
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::_assert_async",
+      "count": 2,
+      "duration_us": 3.7119999999999997
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::_assert_async",
+      "count": 2,
+      "duration_us": 3.681
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.assoc",
+      "name": "aten::_assert_async",
+      "count": 2,
+      "duration_us": 3.678
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "aten::fill_",
+      "count": 4,
+      "duration_us": 3.6159999999999997
+    },
+    {
+      "owner": "memory_read/memory.assoc",
+      "name": "aten::_assert_async",
+      "count": 2,
+      "duration_us": 3.583
+    },
+    {
+      "owner": "backward/memory_read/memory.destination_messages/message.time",
+      "name": "aten::sum",
+      "count": 1,
+      "duration_us": 3.551
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::fill_",
+      "count": 4,
+      "duration_us": 3.5509999999999997
+    },
+    {
+      "owner": "loss",
+      "name": "aten::fill_",
+      "count": 4,
+      "duration_us": 3.521
+    },
+    {
+      "owner": "backward/source_decoder/seven_spmm",
+      "name": "aten::index_select",
+      "count": 2,
+      "duration_us": 3.52
+    },
+    {
+      "owner": "memory_update/state.write",
+      "name": "aten::min",
+      "count": 2,
+      "duration_us": 3.488
+    },
+    {
+      "owner": "memory_read/memory.aggregate_inputs",
+      "name": "aten::cat",
+      "count": 3,
+      "duration_us": 3.4560000000000004
+    },
+    {
+      "owner": "memory_update/state.write",
+      "name": "aten::max",
+      "count": 2,
+      "duration_us": 3.456
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::mul",
+      "count": 3,
+      "duration_us": 3.3920000000000003
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::scatter_",
+      "count": 1,
+      "duration_us": 3.392
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::lt",
+      "count": 3,
+      "duration_us": 3.3600000000000003
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.aggregate_inputs",
+      "name": "aten::cat",
+      "count": 3,
+      "duration_us": 3.3280000000000003
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "aten::arange",
+      "count": 4,
+      "duration_us": 3.2649999999999997
+    },
+    {
+      "owner": "source_decoder/seven_spmm",
+      "name": "aten::arange",
+      "count": 4,
+      "duration_us": 3.2640000000000002
+    },
+    {
+      "owner": "loss",
+      "name": "aten::mean",
+      "count": 2,
+      "duration_us": 3.2640000000000002
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::arange",
+      "count": 4,
+      "duration_us": 3.264
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "torch_scatter::scatter_max",
+      "count": 2,
+      "duration_us": 3.201
+    },
+    {
+      "owner": "memory_read/memory.source_messages/message.time",
+      "name": "aten::addmm",
+      "count": 2,
+      "duration_us": 3.168
+    },
+    {
+      "owner": "backward/memory_read/memory.source_messages/message.time",
+      "name": "aten::sum",
+      "count": 1,
+      "duration_us": 3.168
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "torch_scatter::scatter_max",
+      "count": 2,
+      "duration_us": 3.104
+    },
+    {
+      "owner": "memory_read/memory.destination_messages/message.time",
+      "name": "aten::addmm",
+      "count": 2,
+      "duration_us": 3.039
+    },
+    {
+      "owner": "query_mapping",
+      "name": "aten::cat",
+      "count": 3,
+      "duration_us": 3.0389999999999997
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::remainder",
+      "count": 2,
+      "duration_us": 2.976
+    },
+    {
+      "owner": "backward/memory_read/memory.destination_messages/message.time",
+      "name": "aten::sin",
+      "count": 1,
+      "duration_us": 2.944
+    },
+    {
+      "owner": "memory_read/memory.destination_messages/message.time",
+      "name": "aten::cos",
+      "count": 1,
+      "duration_us": 2.912
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.source_messages/message.time",
+      "name": "aten::addmm",
+      "count": 2,
+      "duration_us": 2.912
+    },
+    {
+      "owner": "backward/memory_read/memory.destination_messages/message.time",
+      "name": "aten::mm",
+      "count": 1,
+      "duration_us": 2.88
+    },
+    {
+      "owner": "source_decoder/csr_conversion",
+      "name": "aten::add",
+      "count": 2,
+      "duration_us": 2.784
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::fill_",
+      "count": 3,
+      "duration_us": 2.753
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::div",
+      "count": 2,
+      "duration_us": 2.72
+    },
+    {
+      "owner": "backward/memory_read/memory.source_messages/message.time",
+      "name": "aten::mm",
+      "count": 1,
+      "duration_us": 2.72
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::copy_",
+      "count": 2,
+      "duration_us": 2.7199999999999998
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.destination_messages/message.time",
+      "name": "aten::addmm",
+      "count": 2,
+      "duration_us": 2.688
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.source_messages/message.time",
+      "name": "aten::cos",
+      "count": 1,
+      "duration_us": 2.656
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::sub",
+      "count": 2,
+      "duration_us": 2.6559999999999997
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::fill_",
+      "count": 3,
+      "duration_us": 2.624
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::fill_",
+      "count": 3,
+      "duration_us": 2.56
+    },
+    {
+      "owner": "memory_update/state.write",
+      "name": "aten::remainder",
+      "count": 2,
+      "duration_us": 2.559
+    },
+    {
+      "owner": "memory_update/state.write",
+      "name": "aten::div_",
+      "count": 2,
+      "duration_us": 2.528
+    },
+    {
+      "owner": "backward/loss",
+      "name": "aten::sigmoid",
+      "count": 2,
+      "duration_us": 2.528
+    },
+    {
+      "owner": "source_decoder/csr_conversion",
+      "name": "aten::cumsum",
+      "count": 2,
+      "duration_us": 2.497
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.destination_messages/message.time",
+      "name": "aten::cos",
+      "count": 1,
+      "duration_us": 2.496
+    },
+    {
+      "owner": "loss",
+      "name": "aten::log_sigmoid_forward",
+      "count": 2,
+      "duration_us": 2.495
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.source_messages/message.compose",
+      "name": "aten::index",
+      "count": 2,
+      "duration_us": 2.464
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.destination_messages/message.compose",
+      "name": "aten::index",
+      "count": 2,
+      "duration_us": 2.4320000000000004
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::gather",
+      "count": 1,
+      "duration_us": 2.432
+    },
+    {
+      "owner": "memory_read/memory.source_messages/message.compose",
+      "name": "aten::index",
+      "count": 2,
+      "duration_us": 2.4
+    },
+    {
+      "owner": "memory_read/memory.destination_messages/message.compose",
+      "name": "aten::index",
+      "count": 2,
+      "duration_us": 2.4
+    },
+    {
+      "owner": "memory_read/memory.last_time",
+      "name": "aten::index",
+      "count": 1,
+      "duration_us": 2.304
+    },
+    {
+      "owner": "source_decoder/seven_spmm",
+      "name": "aten::cat",
+      "count": 2,
+      "duration_us": 2.304
+    },
+    {
+      "owner": "memory_update/state.write",
+      "name": "aten::ge",
+      "count": 2,
+      "duration_us": 2.2729999999999997
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::lt",
+      "count": 2,
+      "duration_us": 2.2720000000000002
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::lt",
+      "count": 2,
+      "duration_us": 2.271
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::ge",
+      "count": 2,
+      "duration_us": 2.24
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::neg",
+      "count": 2,
+      "duration_us": 2.24
+    },
+    {
+      "owner": "backward/source_decoder",
+      "name": "aten::threshold_backward",
+      "count": 2,
+      "duration_us": 2.209
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_time",
+      "name": "aten::scatter_reduce_",
+      "count": 1,
+      "duration_us": 2.208
+    },
+    {
+      "owner": "memory_update/state.write",
+      "name": "aten::lt",
+      "count": 2,
+      "duration_us": 2.177
+    },
+    {
+      "owner": "source_decoder",
+      "name": "aten::cat",
+      "count": 2,
+      "duration_us": 2.176
+    },
+    {
+      "owner": "memory_update/state.write",
+      "name": "aten::mul",
+      "count": 2,
+      "duration_us": 2.176
+    },
+    {
+      "owner": "source_decoder/csr_conversion",
+      "name": "aten::copy_",
+      "count": 3,
+      "duration_us": 2.1759999999999997
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::min",
+      "count": 1,
+      "duration_us": 2.145
+    },
+    {
+      "owner": "source_decoder/integer_producer",
+      "name": "aten::cat",
+      "count": 2,
+      "duration_us": 2.144
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::lt",
+      "count": 2,
+      "duration_us": 2.144
+    },
+    {
+      "owner": "source_decoder/integer_producer",
+      "name": "aten::copy_",
+      "count": 2,
+      "duration_us": 2.142
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::max",
+      "count": 1,
+      "duration_us": 2.112
+    },
+    {
+      "owner": "memory_read/memory.source_messages/message.time",
+      "name": "aten::index",
+      "count": 1,
+      "duration_us": 2.08
+    },
+    {
+      "owner": "loss",
+      "name": "aten::mul_",
+      "count": 2,
+      "duration_us": 2.08
+    },
+    {
+      "owner": "backward/loss",
+      "name": "aten::mul_",
+      "count": 2,
+      "duration_us": 2.08
+    },
+    {
+      "owner": "backward/memory_read/memory.source_messages/message.time",
+      "name": "aten::add_",
+      "count": 2,
+      "duration_us": 2.08
+    },
+    {
+      "owner": "backward/loss",
+      "name": "aten::sub_",
+      "count": 2,
+      "duration_us": 2.0789999999999997
+    },
+    {
+      "owner": "backward/memory_read/memory.destination_messages/message.time",
+      "name": "aten::add",
+      "count": 2,
+      "duration_us": 2.049
+    },
+    {
+      "owner": "memory_read/memory.assoc",
+      "name": "aten::max",
+      "count": 1,
+      "duration_us": 2.048
+    },
+    {
+      "owner": "source_decoder",
+      "name": "aten::mul",
+      "count": 2,
+      "duration_us": 2.048
+    },
+    {
+      "owner": "backward/loss",
+      "name": "aten::div_",
+      "count": 2,
+      "duration_us": 2.0469999999999997
+    },
+    {
+      "owner": "memory_read/memory.destination_messages/message.time",
+      "name": "aten::index",
+      "count": 1,
+      "duration_us": 1.983
+    },
+    {
+      "owner": "memory_read/memory.assoc",
+      "name": "aten::min",
+      "count": 1,
+      "duration_us": 1.952
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::copy_",
+      "count": 1,
+      "duration_us": 1.952
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::sum",
+      "count": 1,
+      "duration_us": 1.952
+    },
+    {
+      "owner": "memory_read/memory.last_time",
+      "name": "aten::scatter_",
+      "count": 1,
+      "duration_us": 1.888
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::max",
+      "count": 1,
+      "duration_us": 1.824
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::min",
+      "count": 1,
+      "duration_us": 1.824
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.assoc",
+      "name": "aten::min",
+      "count": 1,
+      "duration_us": 1.792
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.assoc",
+      "name": "aten::max",
+      "count": 1,
+      "duration_us": 1.791
+    },
+    {
+      "owner": "memory_read/memory.gru",
+      "name": "aten::_thnn_fused_gru_cell",
+      "count": 1,
+      "duration_us": 1.76
+    },
+    {
+      "owner": "source_decoder/integer_producer",
+      "name": "aten::fill_",
+      "count": 2,
+      "duration_us": 1.759
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.gru",
+      "name": "aten::_thnn_fused_gru_cell",
+      "count": 1,
+      "duration_us": 1.728
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.assoc",
+      "name": "aten::arange",
+      "count": 2,
+      "duration_us": 1.633
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::arange",
+      "count": 2,
+      "duration_us": 1.631
+    },
+    {
+      "owner": "memory_read/memory.assoc",
+      "name": "aten::arange",
+      "count": 2,
+      "duration_us": 1.6
+    },
+    {
+      "owner": "memory_update/state.write",
+      "name": "aten::arange",
+      "count": 2,
+      "duration_us": 1.6
+    },
+    {
+      "owner": "memory_update/store.sort",
+      "name": "aten::arange",
+      "count": 2,
+      "duration_us": 1.6
+    },
+    {
+      "owner": "memory_update/store.per_node_gathers",
+      "name": "aten::copy_",
+      "count": 4,
+      "duration_us": 1.6
+    },
+    {
+      "owner": "backward/memory_read/memory.gru",
+      "name": "aten::_thnn_fused_gru_cell_backward",
+      "count": 1,
+      "duration_us": 1.6
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_time",
+      "name": "aten::index",
+      "count": 1,
+      "duration_us": 1.568
+    },
+    {
+      "owner": "memory_read/memory.source_messages/message.time",
+      "name": "aten::copy_",
+      "count": 1,
+      "duration_us": 1.536
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.destination_messages/message.time",
+      "name": "aten::index",
+      "count": 1,
+      "duration_us": 1.536
+    },
+    {
+      "owner": "memory_read/memory.assoc",
+      "name": "aten::remainder",
+      "count": 1,
+      "duration_us": 1.505
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.source_messages/message.time",
+      "name": "aten::index",
+      "count": 1,
+      "duration_us": 1.505
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::remainder",
+      "count": 1,
+      "duration_us": 1.504
+    },
+    {
+      "owner": "backward/memory_read/memory.last_aggregate",
+      "name": "aten::remainder",
+      "count": 1,
+      "duration_us": 1.472
+    },
+    {
+      "owner": "memory_read/memory.destination_messages/message.time",
+      "name": "aten::copy_",
+      "count": 1,
+      "duration_us": 1.471
+    },
+    {
+      "owner": "backward/memory_read/memory.last_aggregate",
+      "name": "aten::div_",
+      "count": 1,
+      "duration_us": 1.44
+    },
+    {
+      "owner": "backward/memory_read/memory.destination_messages/message.time",
+      "name": "aten::mul",
+      "count": 1,
+      "duration_us": 1.44
+    },
+    {
+      "owner": "memory_read/memory.assoc",
+      "name": "aten::div_",
+      "count": 1,
+      "duration_us": 1.409
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::div_",
+      "count": 1,
+      "duration_us": 1.408
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::_local_scalar_dense",
+      "count": 3,
+      "duration_us": 1.376
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::remainder",
+      "count": 1,
+      "duration_us": 1.376
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::div_",
+      "count": 1,
+      "duration_us": 1.376
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::cat",
+      "count": 1,
+      "duration_us": 1.344
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::exp",
+      "count": 1,
+      "duration_us": 1.344
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_time",
+      "name": "aten::scatter_",
+      "count": 1,
+      "duration_us": 1.344
+    },
+    {
+      "owner": "unlinked",
+      "name": "gb_scatter(int, int, long const*, int*)",
+      "count": 1,
+      "duration_us": 1.312
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.source_messages/message.time",
+      "name": "aten::copy_",
+      "count": 1,
+      "duration_us": 1.312
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.assoc",
+      "name": "aten::remainder",
+      "count": 1,
+      "duration_us": 1.311
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.gru",
+      "name": "aten::index",
+      "count": 1,
+      "duration_us": 1.28
+    },
+    {
+      "owner": "backward/memory_read/memory.source_messages/message.time",
+      "name": "aten::mul",
+      "count": 1,
+      "duration_us": 1.28
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.assoc",
+      "name": "aten::div_",
+      "count": 1,
+      "duration_us": 1.248
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.destination_messages/message.time",
+      "name": "aten::copy_",
+      "count": 1,
+      "duration_us": 1.248
+    },
+    {
+      "owner": "backward/memory_read/memory.last_aggregate",
+      "name": "aten::index",
+      "count": 1,
+      "duration_us": 1.248
+    },
+    {
+      "owner": "unlinked",
+      "name": "gb_emit(int, int, int const*, long const*, long*, long*)",
+      "count": 1,
+      "duration_us": 1.217
+    },
+    {
+      "owner": "unlinked",
+      "name": "gb_count_bits(int, int, int const*, int*, unsigned int*)",
+      "count": 1,
+      "duration_us": 1.216
+    },
+    {
+      "owner": "unlinked",
+      "name": "gb_scan(int, int const*, long*)",
+      "count": 1,
+      "duration_us": 1.216
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::native_dropout_backward",
+      "count": 1,
+      "duration_us": 1.216
+    },
+    {
+      "owner": "negative_and_neighbor_sampling",
+      "name": "aten::random_",
+      "count": 1,
+      "duration_us": 1.185
+    },
+    {
+      "owner": "memory_read/memory.destination_messages/message.compose",
+      "name": "aten::cat",
+      "count": 1,
+      "duration_us": 1.184
+    },
+    {
+      "owner": "memory_read/memory.gru",
+      "name": "aten::index",
+      "count": 1,
+      "duration_us": 1.184
+    },
+    {
+      "owner": "gnn_embedding",
+      "name": "aten::native_dropout",
+      "count": 1,
+      "duration_us": 1.184
+    },
+    {
+      "owner": "backward/gnn_embedding",
+      "name": "aten::add",
+      "count": 1,
+      "duration_us": 1.184
+    },
+    {
+      "owner": "memory_read/memory.assoc",
+      "name": "aten::mul",
+      "count": 1,
+      "duration_us": 1.152
+    },
+    {
+      "owner": "memory_read/memory.source_messages/message.time",
+      "name": "aten::sub",
+      "count": 1,
+      "duration_us": 1.152
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::masked_fill_",
+      "count": 1,
+      "duration_us": 1.152
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::ge",
+      "count": 1,
+      "duration_us": 1.152
+    },
+    {
+      "owner": "backward/memory_read/memory.last_aggregate",
+      "name": "aten::mul",
+      "count": 1,
+      "duration_us": 1.152
+    },
+    {
+      "owner": "backward/memory_read/memory.destination_messages/message.time",
+      "name": "aten::neg",
+      "count": 1,
+      "duration_us": 1.152
+    },
+    {
+      "owner": "memory_read/memory.destination_messages/message.time",
+      "name": "aten::sub",
+      "count": 1,
+      "duration_us": 1.151
+    },
+    {
+      "owner": "memory_read/memory.assoc",
+      "name": "aten::lt",
+      "count": 1,
+      "duration_us": 1.12
+    },
+    {
+      "owner": "memory_read/memory.assoc",
+      "name": "aten::ge",
+      "count": 1,
+      "duration_us": 1.12
+    },
+    {
+      "owner": "memory_read/memory.source_messages/message.compose",
+      "name": "aten::cat",
+      "count": 1,
+      "duration_us": 1.12
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::eq",
+      "count": 1,
+      "duration_us": 1.12
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::ge",
+      "count": 1,
+      "duration_us": 1.12
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::mul",
+      "count": 1,
+      "duration_us": 1.12
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.destination_messages/message.time",
+      "name": "aten::sub",
+      "count": 1,
+      "duration_us": 1.12
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.destination_messages/message.compose",
+      "name": "aten::cat",
+      "count": 1,
+      "duration_us": 1.12
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::masked_fill_",
+      "count": 1,
+      "duration_us": 1.12
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::mul",
+      "count": 1,
+      "duration_us": 1.12
+    },
+    {
+      "owner": "loss",
+      "name": "aten::add",
+      "count": 1,
+      "duration_us": 1.088
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.assoc",
+      "name": "aten::ge",
+      "count": 1,
+      "duration_us": 1.088
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.source_messages/message.compose",
+      "name": "aten::cat",
+      "count": 1,
+      "duration_us": 1.088
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::eq",
+      "count": 1,
+      "duration_us": 1.088
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::add_",
+      "count": 1,
+      "duration_us": 1.088
+    },
+    {
+      "owner": "backward/memory_read/memory.source_messages/message.time",
+      "name": "aten::neg",
+      "count": 1,
+      "duration_us": 1.088
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.source_messages/message.time",
+      "name": "aten::sub",
+      "count": 1,
+      "duration_us": 1.087
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.assoc",
+      "name": "aten::lt",
+      "count": 1,
+      "duration_us": 1.057
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.assoc",
+      "name": "aten::mul",
+      "count": 1,
+      "duration_us": 1.056
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::mul_",
+      "count": 1,
+      "duration_us": 1.024
+    },
+    {
+      "owner": "memory_update",
+      "name": "aten::cat",
+      "count": 1,
+      "duration_us": 0.992
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_time",
+      "name": "aten::fill_",
+      "count": 1,
+      "duration_us": 0.96
+    },
+    {
+      "owner": "memory_read/memory.last_time",
+      "name": "aten::fill_",
+      "count": 1,
+      "duration_us": 0.929
+    },
+    {
+      "owner": "source_decoder/graph_build",
+      "name": "aten::fill_",
+      "count": 1,
+      "duration_us": 0.896
+    },
+    {
+      "owner": "backward/memory_read/memory.last_aggregate",
+      "name": "aten::fill_",
+      "count": 1,
+      "duration_us": 0.896
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::fill_",
+      "count": 1,
+      "duration_us": 0.864
+    },
+    {
+      "owner": "backward",
+      "name": "aten::fill_",
+      "count": 1,
+      "duration_us": 0.864
+    },
+    {
+      "owner": "source_decoder/integer_producer",
+      "name": "aten::_local_scalar_dense",
+      "count": 2,
+      "duration_us": 0.832
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.last_aggregate",
+      "name": "aten::arange",
+      "count": 1,
+      "duration_us": 0.832
+    },
+    {
+      "owner": "memory_update/store.counts",
+      "name": "aten::_local_scalar_dense",
+      "count": 2,
+      "duration_us": 0.832
+    },
+    {
+      "owner": "backward/memory_read/memory.last_aggregate",
+      "name": "aten::arange",
+      "count": 1,
+      "duration_us": 0.8
+    },
+    {
+      "owner": "memory_read/memory.last_aggregate",
+      "name": "aten::arange",
+      "count": 1,
+      "duration_us": 0.768
+    },
+    {
+      "owner": "memory_read/memory.source_messages/message.lookup",
+      "name": "aten::copy_",
+      "count": 1,
+      "duration_us": 0.608
+    },
+    {
+      "owner": "memory_read/memory.destination_messages/message.lookup",
+      "name": "aten::copy_",
+      "count": 1,
+      "duration_us": 0.608
+    },
+    {
+      "owner": "detach_and_loss_read",
+      "name": "aten::_local_scalar_dense",
+      "count": 1,
+      "duration_us": 0.417
+    },
+    {
+      "owner": "memory_update",
+      "name": "aten::_local_scalar_dense",
+      "count": 1,
+      "duration_us": 0.416
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.source_messages/message.lookup",
+      "name": "aten::copy_",
+      "count": 1,
+      "duration_us": 0.416
+    },
+    {
+      "owner": "neighbor_insert",
+      "name": "aten::_local_scalar_dense",
+      "count": 1,
+      "duration_us": 0.416
+    },
+    {
+      "owner": "memory_update/state.recompute/memory.destination_messages/message.lookup",
+      "name": "aten::copy_",
+      "count": 1,
+      "duration_us": 0.415
+    }
+  ]
+}

@@ -1,0 +1,348 @@
+{"kind": "opening", "stage": "diagnostic_timing", "rep": 3, "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition", "gpu_uuid": "GPU-9bd364a9-9d88-0b78-ef55-caac6f73d6b1", "torch": "2.11.0+cu130", "cuda": "13.0", "interpretation": "diagnostic only; original replay gate failed; amendment 1", "hashes": {"/home/data/wangxuran/flash_tgn_rebaseline_20260909/src/followup.py": "188fcf3d0c4f14a6eb8503804f09eb6f1e720b0f4a023156a9541edb82a4af37", "/home/data/wangxuran/flash_tgn_rebaseline_20260909/src/core.py": "2cf0459ade24786df9ceb56d09926547527f1793f74d72176be7398aae6f8670", "/home/data/wangxuran/flash_tgn_rebaseline_20260909/src/fullrun.py": "862f3740b68705c5f17ac68806175617b53c1d16df4b9c0eb6812566e86593ca", "/home/data/wangxuran/flash_tgn_rebaseline_20260909/src/mailbox_cpu.py": "db908b3b33b8d94f66646f1c2278bc253f8aa4857b6389005d4c434c9984da80", "/home/data/wangxuran/flash_tgn_rebaseline_20260909/src/mailbox_repair.py": "06a1ce5dacc4bcfed72d333e4ba6ff3a7190795e5f2b187ea49cc7b12a39f2cb", "/home/data/wangxuran/flash_tgn_rebaseline_20260909/CONTRACT.md": "b0e9304ded2cdc7cec60be00371c30efbe94364dbd9bc972466870db13560a67", "/home/data/wangxuran/flash_tgn_rebaseline_20260909/AMENDMENT_1.md": "aef57347aae5de07f0fe8035234963e4c377f13779da1ca6a54f2a63ee09d7c9", "/home/data/wangxuran/flash_tgn_rebaseline_20260909/AMENDMENT_2.md": "c6a6d9383c868f50e24943099714f4a564e036483502962914b783720b489946", "/home/data/wangxuran/flash_tgn_rebaseline_20260909/input_manifest.json": "575503fe0004e489d12f1becb97c5b77814f307f666a9c5691a60dd6931bc4f5"}}
+{"kind": "diagnostic_gate", "qualified": false, "original_qualification": "/home/data/wangxuran/flash_tgn_rebaseline_20260909/output/qualify_v1/artifacts/qualification.json", "reason": "known source self-replay failure; timing has no accuracy/speedup qualification"}
+{"kind": "case_order", "rep": 3, "cases": [{"bs": 2000, "k": 20, "layers": 2, "label": "wiki_bs2000_k20_l2"}, {"bs": 2000, "k": 50, "layers": 1, "label": "wiki_bs2000_k50_l1"}, {"bs": 2000, "k": 20, "layers": 1, "label": "wiki_bs2000_k20_l1"}, {"bs": 200, "k": 50, "layers": 1, "label": "wiki_bs200_k50_l1"}, {"bs": 200, "k": 20, "layers": 1, "label": "wiki_bs200_k20_l1"}, {"bs": 200, "k": 20, "layers": 2, "label": "wiki_bs200_k20_l2"}, {"bs": 200, "k": 50, "layers": 2, "label": "wiki_bs200_k50_l2"}, {"bs": 2000, "k": 50, "layers": 2, "label": "wiki_bs2000_k50_l2"}]}
+Loading wiki...
+  efeat: mode=cpu, dim=172, E=157474
+  nfeat: (9227, 256)
+  edges=157474, nodes=9227, nfeat=256, efeat=172
+  efeat GPU: fp32, 0.1GB
+  [TCSR] N=9227, E'=314948 (undirected)
+{"kind": "configuration", "case": {"bs": 2000, "k": 20, "layers": 2, "label": "wiki_bs2000_k20_l2"}, "config": {"data": "wiki", "data_path": "/home/data/wangxuran/factor_tgn_sptc_20260902/project/experiments/factor_tgn_20260904_anchored_time_quality_wikipedia_full/data_root", "gpu": 0, "epochs": 4, "bsize": 2000, "lr": 0.0001, "n_nbrs": 20, "n_layers": 2, "dim_time": 256, "dim_embed": 256, "num_heads": 2, "dropout": 0.1, "seed": 42, "no_reset": false, "train_only": true, "model_dir": "/home/data/wangxuran/flash_tgn_rebaseline_20260909/unused_train_only_models", "precompute_mode": "auto", "max_train_batches": null}, "setup_ms": 967.970415, "train_end": 110000, "fp32_precision": "high", "tf32": true, "deterministic": false}
+  [precompute] skipped full-epoch host precompute, using online sampling (reason=two_layer_bounded_schedule_default, host_avail=171.8GB, est=0.1GB, layers=2)
+  [precompute] 32 batches, 192000 queries, 0.203s
+  [precompute] 23 batches, 138000 queries, 0.042s
+   loop | time:2.01s
+Epoch   1 | loss=0.4323 AP=0.0000 AUC=0.0000 | time=2.0s TPS=54759
+{"kind": "epoch", "epoch": 1, "mode": "coarse", "case": "wiki_bs2000_k20_l2", "source_result": {"loss": 0.4322711993347515, "ap": 0.0, "auc": 0.0, "loop_time": 2.008460283279419}, "phases": {"epoch/online_loop": {"calls": 1, "host_ms": 2008.73411, "timeline_ms": 2008.738037109375}, "epoch": {"calls": 1, "host_ms": 2008.868898, "timeline_ms": 2008.8828125}}, "cuda_calls": {"tcsr_temporal_sample": 57, "fused_lse_gather": 55, "fused_gather_encode_v2": 55, "fused_seg_attn_forward": 9, "fused_l0_gather_encode": 55, "fused_seg_attn_backward": 9, "fused_l0_gather_encode_backward_v2": 55, "fused_index_scatter": 55, "fused_gather_encode_backward_v2": 55, "fused_mh_attn_forward": 101, "fused_mh_attn_backward": 101}, "operator_counts": {}, "peak_allocated": 5278844416, "peak_reserved": 29047652352}
+  [precompute] 32 batches, 192000 queries, 0.085s
+  [precompute] 23 batches, 138000 queries, 0.042s
+   loop | time:1.46s
+Epoch   2 | loss=0.2595 AP=0.0000 AUC=0.0000 | time=1.5s TPS=75114
+{"kind": "epoch", "epoch": 2, "mode": "coarse", "case": "wiki_bs2000_k20_l2", "source_result": {"loss": 0.2595459385351701, "ap": 0.0, "auc": 0.0, "loop_time": 1.4639983177185059}, "phases": {"epoch/online_loop": {"calls": 1, "host_ms": 1464.369764, "timeline_ms": 1464.37060546875}, "epoch": {"calls": 1, "host_ms": 1464.533143, "timeline_ms": 1464.537841796875}}, "cuda_calls": {"tcsr_temporal_sample": 57, "fused_lse_gather": 55, "fused_gather_encode_v2": 55, "fused_seg_attn_forward": 9, "fused_l0_gather_encode": 55, "fused_seg_attn_backward": 9, "fused_l0_gather_encode_backward_v2": 55, "fused_index_scatter": 55, "fused_gather_encode_backward_v2": 55, "fused_mh_attn_forward": 101, "fused_mh_attn_backward": 101}, "operator_counts": {}, "peak_allocated": 5285436928, "peak_reserved": 31536971776}
+  [precompute] 32 batches, 192000 queries, 0.118s
+  [precompute] 23 batches, 138000 queries, 0.040s
+   loop | time:1.53s
+Epoch   3 | loss=0.2269 AP=0.0000 AUC=0.0000 | time=1.5s TPS=72103
+{"kind": "epoch", "epoch": 3, "mode": "coarse", "case": "wiki_bs2000_k20_l2", "source_result": {"loss": 0.2268794430927797, "ap": 0.0, "auc": 0.0, "loop_time": 1.5251576900482178}, "phases": {"epoch/online_loop": {"calls": 1, "host_ms": 1525.540899, "timeline_ms": 1525.5438232421875}, "epoch": {"calls": 1, "host_ms": 1525.680182, "timeline_ms": 1525.6851806640625}}, "cuda_calls": {"tcsr_temporal_sample": 57, "fused_lse_gather": 55, "fused_gather_encode_v2": 55, "fused_seg_attn_forward": 10, "fused_l0_gather_encode": 55, "fused_seg_attn_backward": 10, "fused_l0_gather_encode_backward_v2": 55, "fused_index_scatter": 55, "fused_gather_encode_backward_v2": 55, "fused_mh_attn_forward": 100, "fused_mh_attn_backward": 100}, "operator_counts": {}, "peak_allocated": 5285436928, "peak_reserved": 31536971776}
+  [precompute] 32 batches, 192000 queries, 0.084s
+  [precompute] 23 batches, 138000 queries, 0.041s
+   loop | time:1.44s
+Epoch   4 | loss=0.2043 AP=0.0000 AUC=0.0000 | time=1.4s TPS=76514
+{"kind": "epoch", "epoch": 4, "mode": "coarse", "case": "wiki_bs2000_k20_l2", "source_result": {"loss": 0.20432719371535563, "ap": 0.0, "auc": 0.0, "loop_time": 1.437239408493042}, "phases": {"epoch/online_loop": {"calls": 1, "host_ms": 1437.59378, "timeline_ms": 1437.58642578125}, "epoch": {"calls": 1, "host_ms": 1437.722119, "timeline_ms": 1437.72607421875}}, "cuda_calls": {"tcsr_temporal_sample": 57, "fused_lse_gather": 55, "fused_gather_encode_v2": 55, "fused_seg_attn_forward": 9, "fused_l0_gather_encode": 55, "fused_seg_attn_backward": 9, "fused_l0_gather_encode_backward_v2": 55, "fused_index_scatter": 55, "fused_gather_encode_backward_v2": 55, "fused_mh_attn_forward": 101, "fused_mh_attn_backward": 101}, "operator_counts": {}, "peak_allocated": 5285436928, "peak_reserved": 31536971776}
+{"kind": "training_complete", "case": {"bs": 2000, "k": 20, "layers": 2, "label": "wiki_bs2000_k20_l2"}, "mode": "coarse", "rep": 3, "train_invocation_wall_ms": 6439.888581, "finite": true, "fields": 169, "initial_phases": {}, "cuda_calls": {"tcsr_temporal_sample": 228, "fused_lse_gather": 220, "fused_gather_encode_v2": 220, "fused_seg_attn_forward": 37, "fused_l0_gather_encode": 220, "fused_seg_attn_backward": 37, "fused_l0_gather_encode_backward_v2": 220, "fused_index_scatter": 220, "fused_gather_encode_backward_v2": 220, "fused_mh_attn_forward": 403, "fused_mh_attn_backward": 403}, "cuda_errors": [], "operator_counts": {}, "peak_allocated": 5285436928, "peak_reserved": 31536971776}
+Loading wiki...
+  efeat: mode=cpu, dim=172, E=157474
+  nfeat: (9227, 256)
+  edges=157474, nodes=9227, nfeat=256, efeat=172
+  efeat GPU: fp32, 0.1GB
+  [TCSR] N=9227, E'=314948 (undirected)
+{"kind": "configuration", "case": {"bs": 2000, "k": 50, "layers": 1, "label": "wiki_bs2000_k50_l1"}, "config": {"data": "wiki", "data_path": "/home/data/wangxuran/factor_tgn_sptc_20260902/project/experiments/factor_tgn_20260904_anchored_time_quality_wikipedia_full/data_root", "gpu": 0, "epochs": 4, "bsize": 2000, "lr": 0.0001, "n_nbrs": 50, "n_layers": 1, "dim_time": 256, "dim_embed": 256, "num_heads": 2, "dropout": 0.1, "seed": 42, "no_reset": false, "train_only": true, "model_dir": "/home/data/wangxuran/flash_tgn_rebaseline_20260909/unused_train_only_models", "precompute_mode": "auto", "max_train_batches": null}, "setup_ms": 114.990864, "train_end": 110000, "fp32_precision": "high", "tf32": true, "deterministic": false}
+  [precompute] 55 batches, 330000 queries, 0.060s
+  [precompute] 55 batches, 330000 queries, 0.056s
+   loop | time:0.55s
+Epoch   1 | loss=0.4695 AP=0.0000 AUC=0.0000 | time=0.5s TPS=200011
+{"kind": "epoch", "epoch": 1, "mode": "coarse", "case": "wiki_bs2000_k50_l1", "source_result": {"loss": 0.46951707384803076, "ap": 0.0, "auc": 0.0, "loop_time": 0.5497257709503174}, "phases": {"epoch/schedule_full": {"calls": 1, "host_ms": 55.91318, "timeline_ms": 55.915550231933594}, "epoch/online_loop": {"calls": 1, "host_ms": 549.917498, "timeline_ms": 549.9174194335938}, "epoch": {"calls": 1, "host_ms": 609.738272, "timeline_ms": 609.739990234375}}, "cuda_calls": {"tcsr_temporal_sample": 1, "fused_lse_gather": 55, "fused_gather_encode_v2": 55, "fused_seg_attn_forward": 19, "fused_seg_attn_backward": 19, "fused_gather_encode_backward_v2": 55, "fused_mh_attn_forward": 36, "fused_mh_attn_backward": 36}, "operator_counts": {}, "peak_allocated": 3144443904, "peak_reserved": 3533701120}
+  [precompute] 55 batches, 330000 queries, 0.053s
+   loop | time:0.55s
+Epoch   2 | loss=0.2927 AP=0.0000 AUC=0.0000 | time=0.5s TPS=200979
+{"kind": "epoch", "epoch": 2, "mode": "coarse", "case": "wiki_bs2000_k50_l1", "source_result": {"loss": 0.29266227429563346, "ap": 0.0, "auc": 0.0, "loop_time": 0.5470764636993408}, "phases": {"epoch/schedule_full": {"calls": 1, "host_ms": 53.108334, "timeline_ms": 53.107391357421875}, "epoch/online_loop": {"calls": 1, "host_ms": 547.270254, "timeline_ms": 547.270263671875}, "epoch": {"calls": 1, "host_ms": 610.500473, "timeline_ms": 610.5025024414062}}, "cuda_calls": {"tcsr_temporal_sample": 1, "fused_lse_gather": 55, "fused_gather_encode_v2": 55, "fused_seg_attn_forward": 19, "fused_seg_attn_backward": 19, "fused_gather_encode_backward_v2": 55, "fused_mh_attn_forward": 36, "fused_mh_attn_backward": 36}, "operator_counts": {}, "peak_allocated": 3144750080, "peak_reserved": 3556769792}
+  [precompute] 55 batches, 330000 queries, 0.052s
+   loop | time:0.55s
+Epoch   3 | loss=0.2555 AP=0.0000 AUC=0.0000 | time=0.6s TPS=199987
+{"kind": "epoch", "epoch": 3, "mode": "coarse", "case": "wiki_bs2000_k50_l1", "source_result": {"loss": 0.25552346706390383, "ap": 0.0, "auc": 0.0, "loop_time": 0.5497701168060303}, "phases": {"epoch/schedule_full": {"calls": 1, "host_ms": 52.405494, "timeline_ms": 52.40371322631836}, "epoch/online_loop": {"calls": 1, "host_ms": 549.971815, "timeline_ms": 549.9706420898438}, "epoch": {"calls": 1, "host_ms": 612.653649, "timeline_ms": 612.6553955078125}}, "cuda_calls": {"tcsr_temporal_sample": 1, "fused_lse_gather": 55, "fused_gather_encode_v2": 55, "fused_seg_attn_forward": 19, "fused_seg_attn_backward": 19, "fused_gather_encode_backward_v2": 55, "fused_mh_attn_forward": 36, "fused_mh_attn_backward": 36}, "operator_counts": {}, "peak_allocated": 3144750080, "peak_reserved": 4490002432}
+  [precompute] 55 batches, 330000 queries, 0.052s
+   loop | time:0.54s
+Epoch   4 | loss=0.2375 AP=0.0000 AUC=0.0000 | time=0.5s TPS=202609
+{"kind": "epoch", "epoch": 4, "mode": "coarse", "case": "wiki_bs2000_k50_l1", "source_result": {"loss": 0.23752938942475751, "ap": 0.0, "auc": 0.0, "loop_time": 0.5426797866821289}, "phases": {"epoch/schedule_full": {"calls": 1, "host_ms": 52.000008, "timeline_ms": 51.99919891357422}, "epoch/online_loop": {"calls": 1, "host_ms": 542.867196, "timeline_ms": 542.8668212890625}, "epoch": {"calls": 1, "host_ms": 608.292731, "timeline_ms": 608.2945556640625}}, "cuda_calls": {"tcsr_temporal_sample": 1, "fused_lse_gather": 55, "fused_gather_encode_v2": 55, "fused_seg_attn_forward": 19, "fused_seg_attn_backward": 19, "fused_gather_encode_backward_v2": 55, "fused_mh_attn_forward": 36, "fused_mh_attn_backward": 36}, "operator_counts": {}, "peak_allocated": 3144750080, "peak_reserved": 4490002432}
+{"kind": "training_complete", "case": {"bs": 2000, "k": 50, "layers": 1, "label": "wiki_bs2000_k50_l1"}, "mode": "coarse", "rep": 3, "train_invocation_wall_ms": 2504.025243, "finite": true, "fields": 119, "initial_phases": {"schedule_full": {"calls": 1, "host_ms": 60.035766, "timeline_ms": 60.03580856323242}}, "cuda_calls": {"tcsr_temporal_sample": 5, "fused_lse_gather": 220, "fused_gather_encode_v2": 220, "fused_seg_attn_forward": 76, "fused_seg_attn_backward": 76, "fused_gather_encode_backward_v2": 220, "fused_mh_attn_forward": 144, "fused_mh_attn_backward": 144}, "cuda_errors": [], "operator_counts": {}, "peak_allocated": 3144750080, "peak_reserved": 4490002432}
+Loading wiki...
+  efeat: mode=cpu, dim=172, E=157474
+  nfeat: (9227, 256)
+  edges=157474, nodes=9227, nfeat=256, efeat=172
+  efeat GPU: fp32, 0.1GB
+  [TCSR] N=9227, E'=314948 (undirected)
+{"kind": "configuration", "case": {"bs": 2000, "k": 20, "layers": 1, "label": "wiki_bs2000_k20_l1"}, "config": {"data": "wiki", "data_path": "/home/data/wangxuran/factor_tgn_sptc_20260902/project/experiments/factor_tgn_20260904_anchored_time_quality_wikipedia_full/data_root", "gpu": 0, "epochs": 4, "bsize": 2000, "lr": 0.0001, "n_nbrs": 20, "n_layers": 1, "dim_time": 256, "dim_embed": 256, "num_heads": 2, "dropout": 0.1, "seed": 42, "no_reset": false, "train_only": true, "model_dir": "/home/data/wangxuran/flash_tgn_rebaseline_20260909/unused_train_only_models", "precompute_mode": "auto", "max_train_batches": null}, "setup_ms": 109.729071, "train_end": 110000, "fp32_precision": "high", "tf32": true, "deterministic": false}
+  [precompute] 55 batches, 330000 queries, 0.062s
+  [precompute] 55 batches, 330000 queries, 0.062s
+   loop | time:0.39s
+Epoch   1 | loss=0.4689 AP=0.0000 AUC=0.0000 | time=0.4s TPS=281437
+{"kind": "epoch", "epoch": 1, "mode": "coarse", "case": "wiki_bs2000_k20_l1", "source_result": {"loss": 0.4689452848651192, "ap": 0.0, "auc": 0.0, "loop_time": 0.3905215263366699}, "phases": {"epoch/schedule_full": {"calls": 1, "host_ms": 61.873348, "timeline_ms": 61.87305450439453}, "epoch/online_loop": {"calls": 1, "host_ms": 390.798727, "timeline_ms": 390.7965087890625}, "epoch": {"calls": 1, "host_ms": 462.219107, "timeline_ms": 462.22119140625}}, "cuda_calls": {"tcsr_temporal_sample": 1, "fused_lse_gather": 55, "fused_gather_encode_v2": 55, "fused_seg_attn_forward": 5, "fused_seg_attn_backward": 5, "fused_gather_encode_backward_v2": 55, "fused_mh_attn_forward": 50, "fused_mh_attn_backward": 50}, "operator_counts": {}, "peak_allocated": 1557015552, "peak_reserved": 2149580800}
+  [precompute] 55 batches, 330000 queries, 0.057s
+   loop | time:0.39s
+Epoch   2 | loss=0.2893 AP=0.0000 AUC=0.0000 | time=0.4s TPS=282676
+{"kind": "epoch", "epoch": 2, "mode": "coarse", "case": "wiki_bs2000_k20_l1", "source_result": {"loss": 0.289280244437131, "ap": 0.0, "auc": 0.0, "loop_time": 0.3889122009277344}, "phases": {"epoch/schedule_full": {"calls": 1, "host_ms": 57.406939, "timeline_ms": 57.40572738647461}, "epoch/online_loop": {"calls": 1, "host_ms": 389.088684, "timeline_ms": 389.0881042480469}, "epoch": {"calls": 1, "host_ms": 722.710911, "timeline_ms": 722.7142944335938}}, "cuda_calls": {"tcsr_temporal_sample": 1, "fused_lse_gather": 55, "fused_gather_encode_v2": 55, "fused_seg_attn_forward": 5, "fused_seg_attn_backward": 5, "fused_gather_encode_backward_v2": 55, "fused_mh_attn_forward": 50, "fused_mh_attn_backward": 50}, "operator_counts": {}, "peak_allocated": 1557270528, "peak_reserved": 2153775104}
+  [precompute] 55 batches, 330000 queries, 0.061s
+   loop | time:0.39s
+Epoch   3 | loss=0.2550 AP=0.0000 AUC=0.0000 | time=0.4s TPS=281935
+{"kind": "epoch", "epoch": 3, "mode": "coarse", "case": "wiki_bs2000_k20_l1", "source_result": {"loss": 0.2549681785431775, "ap": 0.0, "auc": 0.0, "loop_time": 0.38980650901794434}, "phases": {"epoch/schedule_full": {"calls": 1, "host_ms": 61.483843, "timeline_ms": 61.485504150390625}, "epoch/online_loop": {"calls": 1, "host_ms": 390.112356, "timeline_ms": 390.11175537109375}, "epoch": {"calls": 1, "host_ms": 512.075168, "timeline_ms": 512.0770263671875}}, "cuda_calls": {"tcsr_temporal_sample": 1, "fused_lse_gather": 55, "fused_gather_encode_v2": 55, "fused_seg_attn_forward": 5, "fused_seg_attn_backward": 5, "fused_gather_encode_backward_v2": 55, "fused_mh_attn_forward": 50, "fused_mh_attn_backward": 50}, "operator_counts": {}, "peak_allocated": 1557270528, "peak_reserved": 2155872256}
+  [precompute] 55 batches, 330000 queries, 0.056s
+   loop | time:0.39s
+Epoch   4 | loss=0.2367 AP=0.0000 AUC=0.0000 | time=0.4s TPS=282791
+{"kind": "epoch", "epoch": 4, "mode": "coarse", "case": "wiki_bs2000_k20_l1", "source_result": {"loss": 0.23668177073652094, "ap": 0.0, "auc": 0.0, "loop_time": 0.3887622356414795}, "phases": {"epoch/schedule_full": {"calls": 1, "host_ms": 56.287054, "timeline_ms": 56.285152435302734}, "epoch/online_loop": {"calls": 1, "host_ms": 388.93281, "timeline_ms": 388.93212890625}, "epoch": {"calls": 1, "host_ms": 455.950754, "timeline_ms": 455.9525146484375}}, "cuda_calls": {"tcsr_temporal_sample": 1, "fused_lse_gather": 55, "fused_gather_encode_v2": 55, "fused_seg_attn_forward": 5, "fused_seg_attn_backward": 5, "fused_gather_encode_backward_v2": 55, "fused_mh_attn_forward": 50, "fused_mh_attn_backward": 50}, "operator_counts": {}, "peak_allocated": 1557369856, "peak_reserved": 2155872256}
+{"kind": "training_complete", "case": {"bs": 2000, "k": 20, "layers": 1, "label": "wiki_bs2000_k20_l1"}, "mode": "coarse", "rep": 3, "train_invocation_wall_ms": 2218.42051, "finite": true, "fields": 119, "initial_phases": {"schedule_full": {"calls": 1, "host_ms": 62.567947, "timeline_ms": 62.56687927246094}}, "cuda_calls": {"tcsr_temporal_sample": 5, "fused_lse_gather": 220, "fused_gather_encode_v2": 220, "fused_seg_attn_forward": 20, "fused_seg_attn_backward": 20, "fused_gather_encode_backward_v2": 220, "fused_mh_attn_forward": 200, "fused_mh_attn_backward": 200}, "cuda_errors": [], "operator_counts": {}, "peak_allocated": 1557369856, "peak_reserved": 2155872256}
+Loading wiki...
+  efeat: mode=cpu, dim=172, E=157474
+  nfeat: (9227, 256)
+  edges=157474, nodes=9227, nfeat=256, efeat=172
+  efeat GPU: fp32, 0.1GB
+  [TCSR] N=9227, E'=314948 (undirected)
+{"kind": "configuration", "case": {"bs": 200, "k": 50, "layers": 1, "label": "wiki_bs200_k50_l1"}, "config": {"data": "wiki", "data_path": "/home/data/wangxuran/factor_tgn_sptc_20260902/project/experiments/factor_tgn_20260904_anchored_time_quality_wikipedia_full/data_root", "gpu": 0, "epochs": 4, "bsize": 200, "lr": 0.0001, "n_nbrs": 50, "n_layers": 1, "dim_time": 256, "dim_embed": 256, "num_heads": 2, "dropout": 0.1, "seed": 42, "no_reset": false, "train_only": true, "model_dir": "/home/data/wangxuran/flash_tgn_rebaseline_20260909/unused_train_only_models", "precompute_mode": "auto", "max_train_batches": null}, "setup_ms": 110.877393, "train_end": 110200, "fp32_precision": "high", "tf32": true, "deterministic": false}
+  [precompute] 551 batches, 330600 queries, 0.459s
+  [precompute] 551 batches, 330600 queries, 0.451s
+   loop | time:3.91s
+Epoch   1 | loss=0.2373 AP=0.0000 AUC=0.0000 | time=3.9s TPS=28210
+{"kind": "epoch", "epoch": 1, "mode": "coarse", "case": "wiki_bs200_k50_l1", "source_result": {"loss": 0.23732376796364135, "ap": 0.0, "auc": 0.0, "loop_time": 3.906188488006592}, "phases": {"epoch/schedule_full": {"calls": 1, "host_ms": 451.465893, "timeline_ms": 451.466796875}, "epoch/online_loop": {"calls": 1, "host_ms": 3906.386205, "timeline_ms": 3906.396240234375}, "epoch": {"calls": 1, "host_ms": 4381.500457, "timeline_ms": 4381.51318359375}}, "cuda_calls": {"tcsr_temporal_sample": 2, "fused_lse_gather": 551, "fused_gather_encode_v2": 551, "fused_seg_attn_forward": 194, "fused_seg_attn_backward": 194, "fused_gather_encode_backward_v2": 551, "fused_mh_attn_forward": 357, "fused_mh_attn_backward": 357}, "operator_counts": {}, "peak_allocated": 979609600, "peak_reserved": 1172307968}
+  [precompute] 551 batches, 330600 queries, 0.454s
+   loop | time:4.05s
+Epoch   2 | loss=0.1732 AP=0.0000 AUC=0.0000 | time=4.1s TPS=27199
+{"kind": "epoch", "epoch": 2, "mode": "coarse", "case": "wiki_bs200_k50_l1", "source_result": {"loss": 0.17321360321502505, "ap": 0.0, "auc": 0.0, "loop_time": 4.05135703086853}, "phases": {"epoch/schedule_full": {"calls": 1, "host_ms": 454.46024, "timeline_ms": 454.45941162109375}, "epoch/online_loop": {"calls": 1, "host_ms": 4051.55078, "timeline_ms": 4051.5615234375}, "epoch": {"calls": 1, "host_ms": 4530.770729, "timeline_ms": 4530.78466796875}}, "cuda_calls": {"tcsr_temporal_sample": 2, "fused_lse_gather": 551, "fused_gather_encode_v2": 551, "fused_seg_attn_forward": 194, "fused_seg_attn_backward": 194, "fused_gather_encode_backward_v2": 551, "fused_mh_attn_forward": 357, "fused_mh_attn_backward": 357}, "operator_counts": {}, "peak_allocated": 980156928, "peak_reserved": 1293942784}
+  [precompute] 551 batches, 330600 queries, 0.452s
+   loop | time:4.03s
+Epoch   3 | loss=0.1538 AP=0.0000 AUC=0.0000 | time=4.0s TPS=27340
+{"kind": "epoch", "epoch": 3, "mode": "coarse", "case": "wiki_bs200_k50_l1", "source_result": {"loss": 0.15380357314043167, "ap": 0.0, "auc": 0.0, "loop_time": 4.030441522598267}, "phases": {"epoch/schedule_full": {"calls": 1, "host_ms": 452.563102, "timeline_ms": 452.5621643066406}, "epoch/online_loop": {"calls": 1, "host_ms": 4030.637476, "timeline_ms": 4030.64794921875}, "epoch": {"calls": 1, "host_ms": 4507.316874, "timeline_ms": 4507.330078125}}, "cuda_calls": {"tcsr_temporal_sample": 2, "fused_lse_gather": 551, "fused_gather_encode_v2": 551, "fused_seg_attn_forward": 197, "fused_seg_attn_backward": 197, "fused_gather_encode_backward_v2": 551, "fused_mh_attn_forward": 354, "fused_mh_attn_backward": 354}, "operator_counts": {}, "peak_allocated": 980156928, "peak_reserved": 1293942784}
+  [precompute] 551 batches, 330600 queries, 0.450s
+   loop | time:4.08s
+Epoch   4 | loss=0.1448 AP=0.0000 AUC=0.0000 | time=4.1s TPS=26997
+{"kind": "epoch", "epoch": 4, "mode": "coarse", "case": "wiki_bs200_k50_l1", "source_result": {"loss": 0.14483901229560267, "ap": 0.0, "auc": 0.0, "loop_time": 4.081716060638428}, "phases": {"epoch/schedule_full": {"calls": 1, "host_ms": 450.530098, "timeline_ms": 450.52911376953125}, "epoch/online_loop": {"calls": 1, "host_ms": 4081.906824, "timeline_ms": 4081.917724609375}, "epoch": {"calls": 1, "host_ms": 4555.305693, "timeline_ms": 4555.31982421875}}, "cuda_calls": {"tcsr_temporal_sample": 2, "fused_lse_gather": 551, "fused_gather_encode_v2": 551, "fused_seg_attn_forward": 199, "fused_seg_attn_backward": 199, "fused_gather_encode_backward_v2": 551, "fused_mh_attn_forward": 352, "fused_mh_attn_backward": 352}, "operator_counts": {}, "peak_allocated": 980156928, "peak_reserved": 1293942784}
+{"kind": "training_complete", "case": {"bs": 200, "k": 50, "layers": 1, "label": "wiki_bs200_k50_l1"}, "mode": "coarse", "rep": 3, "train_invocation_wall_ms": 18443.652514, "finite": true, "fields": 119, "initial_phases": {"schedule_full": {"calls": 1, "host_ms": 459.595595, "timeline_ms": 459.5965270996094}}, "cuda_calls": {"tcsr_temporal_sample": 10, "fused_lse_gather": 2204, "fused_gather_encode_v2": 2204, "fused_seg_attn_forward": 784, "fused_seg_attn_backward": 784, "fused_gather_encode_backward_v2": 2204, "fused_mh_attn_forward": 1420, "fused_mh_attn_backward": 1420}, "cuda_errors": [], "operator_counts": {}, "peak_allocated": 980156928, "peak_reserved": 1293942784}
+Loading wiki...
+  efeat: mode=cpu, dim=172, E=157474
+  nfeat: (9227, 256)
+  edges=157474, nodes=9227, nfeat=256, efeat=172
+  efeat GPU: fp32, 0.1GB
+  [TCSR] N=9227, E'=314948 (undirected)
+{"kind": "configuration", "case": {"bs": 200, "k": 20, "layers": 1, "label": "wiki_bs200_k20_l1"}, "config": {"data": "wiki", "data_path": "/home/data/wangxuran/factor_tgn_sptc_20260902/project/experiments/factor_tgn_20260904_anchored_time_quality_wikipedia_full/data_root", "gpu": 0, "epochs": 4, "bsize": 200, "lr": 0.0001, "n_nbrs": 20, "n_layers": 1, "dim_time": 256, "dim_embed": 256, "num_heads": 2, "dropout": 0.1, "seed": 42, "no_reset": false, "train_only": true, "model_dir": "/home/data/wangxuran/flash_tgn_rebaseline_20260909/unused_train_only_models", "precompute_mode": "auto", "max_train_batches": null}, "setup_ms": 113.84158, "train_end": 110200, "fp32_precision": "high", "tf32": true, "deterministic": false}
+  [precompute] 551 batches, 330600 queries, 0.432s
+  [precompute] 551 batches, 330600 queries, 0.430s
+   loop | time:3.98s
+Epoch   1 | loss=0.2359 AP=0.0000 AUC=0.0000 | time=4.0s TPS=27719
+{"kind": "epoch", "epoch": 1, "mode": "coarse", "case": "wiki_bs200_k20_l1", "source_result": {"loss": 0.2358810716391475, "ap": 0.0, "auc": 0.0, "loop_time": 3.9753646850585938}, "phases": {"epoch/schedule_full": {"calls": 1, "host_ms": 430.706821, "timeline_ms": 430.7079162597656}, "epoch/online_loop": {"calls": 1, "host_ms": 3975.541443, "timeline_ms": 3975.55859375}, "epoch": {"calls": 1, "host_ms": 4420.796443, "timeline_ms": 4420.81005859375}}, "cuda_calls": {"tcsr_temporal_sample": 2, "fused_lse_gather": 551, "fused_gather_encode_v2": 551, "fused_seg_attn_forward": 56, "fused_seg_attn_backward": 56, "fused_gather_encode_backward_v2": 551, "fused_mh_attn_forward": 495, "fused_mh_attn_backward": 495}, "operator_counts": {}, "peak_allocated": 573879296, "peak_reserved": 614465536}
+  [precompute] 551 batches, 330600 queries, 0.424s
+   loop | time:3.99s
+Epoch   2 | loss=0.1751 AP=0.0000 AUC=0.0000 | time=4.0s TPS=27603
+{"kind": "epoch", "epoch": 2, "mode": "coarse", "case": "wiki_bs200_k20_l1", "source_result": {"loss": 0.17509223603915605, "ap": 0.0, "auc": 0.0, "loop_time": 3.992051362991333}, "phases": {"epoch/schedule_full": {"calls": 1, "host_ms": 424.656824, "timeline_ms": 424.65771484375}, "epoch/online_loop": {"calls": 1, "host_ms": 3992.225978, "timeline_ms": 3992.237060546875}, "epoch": {"calls": 1, "host_ms": 4434.294793, "timeline_ms": 4434.3095703125}}, "cuda_calls": {"tcsr_temporal_sample": 2, "fused_lse_gather": 551, "fused_gather_encode_v2": 551, "fused_seg_attn_forward": 57, "fused_seg_attn_backward": 57, "fused_gather_encode_backward_v2": 551, "fused_mh_attn_forward": 494, "fused_mh_attn_backward": 494}, "operator_counts": {}, "peak_allocated": 573879296, "peak_reserved": 614465536}
+  [precompute] 551 batches, 330600 queries, 0.424s
+   loop | time:3.99s
+Epoch   3 | loss=0.1547 AP=0.0000 AUC=0.0000 | time=4.0s TPS=27634
+{"kind": "epoch", "epoch": 3, "mode": "coarse", "case": "wiki_bs200_k20_l1", "source_result": {"loss": 0.15466053011791675, "ap": 0.0, "auc": 0.0, "loop_time": 3.9875426292419434}, "phases": {"epoch/schedule_full": {"calls": 1, "host_ms": 424.106478, "timeline_ms": 424.1072082519531}, "epoch/online_loop": {"calls": 1, "host_ms": 3987.730131, "timeline_ms": 3987.74072265625}, "epoch": {"calls": 1, "host_ms": 4424.63554, "timeline_ms": 4424.6494140625}}, "cuda_calls": {"tcsr_temporal_sample": 2, "fused_lse_gather": 551, "fused_gather_encode_v2": 551, "fused_seg_attn_forward": 58, "fused_seg_attn_backward": 58, "fused_gather_encode_backward_v2": 551, "fused_mh_attn_forward": 493, "fused_mh_attn_backward": 493}, "operator_counts": {}, "peak_allocated": 573894144, "peak_reserved": 614465536}
+  [precompute] 551 batches, 330600 queries, 0.427s
+   loop | time:3.97s
+Epoch   4 | loss=0.1442 AP=0.0000 AUC=0.0000 | time=4.0s TPS=27748
+{"kind": "epoch", "epoch": 4, "mode": "coarse", "case": "wiki_bs200_k20_l1", "source_result": {"loss": 0.14424883719608053, "ap": 0.0, "auc": 0.0, "loop_time": 3.971270799636841}, "phases": {"epoch/schedule_full": {"calls": 1, "host_ms": 427.720458, "timeline_ms": 427.721435546875}, "epoch/online_loop": {"calls": 1, "host_ms": 3971.446532, "timeline_ms": 3971.458251953125}, "epoch": {"calls": 1, "host_ms": 4412.940614, "timeline_ms": 4412.95654296875}}, "cuda_calls": {"tcsr_temporal_sample": 2, "fused_lse_gather": 551, "fused_gather_encode_v2": 551, "fused_seg_attn_forward": 56, "fused_seg_attn_backward": 56, "fused_gather_encode_backward_v2": 551, "fused_mh_attn_forward": 495, "fused_mh_attn_backward": 495}, "operator_counts": {}, "peak_allocated": 573894144, "peak_reserved": 614465536}
+{"kind": "training_complete", "case": {"bs": 200, "k": 20, "layers": 1, "label": "wiki_bs200_k20_l1"}, "mode": "coarse", "rep": 3, "train_invocation_wall_ms": 18134.350776, "finite": true, "fields": 119, "initial_phases": {"schedule_full": {"calls": 1, "host_ms": 432.64539, "timeline_ms": 432.646484375}}, "cuda_calls": {"tcsr_temporal_sample": 10, "fused_lse_gather": 2204, "fused_gather_encode_v2": 2204, "fused_seg_attn_forward": 227, "fused_seg_attn_backward": 227, "fused_gather_encode_backward_v2": 2204, "fused_mh_attn_forward": 1977, "fused_mh_attn_backward": 1977}, "cuda_errors": [], "operator_counts": {}, "peak_allocated": 573894144, "peak_reserved": 614465536}
+Loading wiki...
+  efeat: mode=cpu, dim=172, E=157474
+  nfeat: (9227, 256)
+  edges=157474, nodes=9227, nfeat=256, efeat=172
+  efeat GPU: fp32, 0.1GB
+  [TCSR] N=9227, E'=314948 (undirected)
+{"kind": "configuration", "case": {"bs": 200, "k": 20, "layers": 2, "label": "wiki_bs200_k20_l2"}, "config": {"data": "wiki", "data_path": "/home/data/wangxuran/factor_tgn_sptc_20260902/project/experiments/factor_tgn_20260904_anchored_time_quality_wikipedia_full/data_root", "gpu": 0, "epochs": 4, "bsize": 200, "lr": 0.0001, "n_nbrs": 20, "n_layers": 2, "dim_time": 256, "dim_embed": 256, "num_heads": 2, "dropout": 0.1, "seed": 42, "no_reset": false, "train_only": true, "model_dir": "/home/data/wangxuran/flash_tgn_rebaseline_20260909/unused_train_only_models", "precompute_mode": "auto", "max_train_batches": null}, "setup_ms": 114.61757, "train_end": 110200, "fp32_precision": "high", "tf32": true, "deterministic": false}
+  [precompute] skipped full-epoch host precompute, using online sampling (reason=two_layer_bounded_schedule_default, host_avail=173.3GB, est=0.1GB, layers=2)
+  [precompute] 32 batches, 19200 queries, 0.053s
+  [precompute] 32 batches, 19200 queries, 0.051s
+  [precompute] 32 batches, 19200 queries, 0.050s
+  [precompute] 32 batches, 19200 queries, 0.051s
+  [precompute] 32 batches, 19200 queries, 0.049s
+  [precompute] 32 batches, 19200 queries, 0.050s
+  [precompute] 32 batches, 19200 queries, 0.049s
+  [precompute] 32 batches, 19200 queries, 0.043s
+  [precompute] 32 batches, 19200 queries, 0.042s
+  [precompute] 32 batches, 19200 queries, 0.042s
+  [precompute] 32 batches, 19200 queries, 0.042s
+  [precompute] 32 batches, 19200 queries, 0.042s
+  [precompute] 32 batches, 19200 queries, 0.042s
+  [precompute] 32 batches, 19200 queries, 0.042s
+  [precompute] 32 batches, 19200 queries, 0.042s
+  [precompute] 32 batches, 19200 queries, 0.042s
+  [precompute] 32 batches, 19200 queries, 0.042s
+  [precompute] 7 batches, 4200 queries, 0.011s
+   loop | time:6.30s
+Epoch   1 | loss=0.2246 AP=0.0000 AUC=0.0000 | time=6.3s TPS=17493
+{"kind": "epoch", "epoch": 1, "mode": "coarse", "case": "wiki_bs200_k20_l2", "source_result": {"loss": 0.2246047608594929, "ap": 0.0, "auc": 0.0, "loop_time": 6.299332857131958}, "phases": {"epoch/online_loop": {"calls": 1, "host_ms": 6299.569733, "timeline_ms": 6299.58837890625}, "epoch": {"calls": 1, "host_ms": 6299.671495, "timeline_ms": 6299.69482421875}}, "cuda_calls": {"tcsr_temporal_sample": 569, "fused_lse_gather": 551, "fused_gather_encode_v2": 551, "fused_seg_attn_forward": 87, "fused_l0_gather_encode": 551, "fused_seg_attn_backward": 87, "fused_l0_gather_encode_backward_v2": 551, "fused_index_scatter": 551, "fused_gather_encode_backward_v2": 551, "fused_mh_attn_forward": 1015, "fused_mh_attn_backward": 1015}, "operator_counts": {}, "peak_allocated": 1307970560, "peak_reserved": 3248488448}
+  [precompute] 32 batches, 19200 queries, 0.046s
+  [precompute] 32 batches, 19200 queries, 0.043s
+  [precompute] 32 batches, 19200 queries, 0.042s
+  [precompute] 32 batches, 19200 queries, 0.042s
+  [precompute] 32 batches, 19200 queries, 0.042s
+  [precompute] 32 batches, 19200 queries, 0.042s
+  [precompute] 32 batches, 19200 queries, 0.042s
+  [precompute] 32 batches, 19200 queries, 0.042s
+  [precompute] 32 batches, 19200 queries, 0.042s
+  [precompute] 32 batches, 19200 queries, 0.042s
+  [precompute] 32 batches, 19200 queries, 0.043s
+  [precompute] 32 batches, 19200 queries, 0.042s
+  [precompute] 32 batches, 19200 queries, 0.042s
+  [precompute] 32 batches, 19200 queries, 0.042s
+  [precompute] 32 batches, 19200 queries, 0.043s
+  [precompute] 32 batches, 19200 queries, 0.042s
+  [precompute] 32 batches, 19200 queries, 0.042s
+  [precompute] 7 batches, 4200 queries, 0.011s
+   loop | time:5.88s
+Epoch   2 | loss=0.1602 AP=0.0000 AUC=0.0000 | time=5.9s TPS=18737
+{"kind": "epoch", "epoch": 2, "mode": "coarse", "case": "wiki_bs200_k20_l2", "source_result": {"loss": 0.16024948734986155, "ap": 0.0, "auc": 0.0, "loop_time": 5.881240367889404}, "phases": {"epoch/online_loop": {"calls": 1, "host_ms": 5881.433144, "timeline_ms": 5881.451171875}, "epoch": {"calls": 1, "host_ms": 5881.531412, "timeline_ms": 5881.55078125}}, "cuda_calls": {"tcsr_temporal_sample": 569, "fused_lse_gather": 551, "fused_gather_encode_v2": 551, "fused_seg_attn_forward": 89, "fused_l0_gather_encode": 551, "fused_seg_attn_backward": 89, "fused_l0_gather_encode_backward_v2": 551, "fused_index_scatter": 551, "fused_gather_encode_backward_v2": 551, "fused_mh_attn_forward": 1013, "fused_mh_attn_backward": 1013}, "operator_counts": {}, "peak_allocated": 1312889856, "peak_reserved": 3355443200}
+  [precompute] 32 batches, 19200 queries, 0.046s
+  [precompute] 32 batches, 19200 queries, 0.043s
+  [precompute] 32 batches, 19200 queries, 0.050s
+  [precompute] 32 batches, 19200 queries, 0.050s
+  [precompute] 32 batches, 19200 queries, 0.051s
+  [precompute] 32 batches, 19200 queries, 0.051s
+  [precompute] 32 batches, 19200 queries, 0.049s
+  [precompute] 32 batches, 19200 queries, 0.050s
+  [precompute] 32 batches, 19200 queries, 0.049s
+  [precompute] 32 batches, 19200 queries, 0.050s
+  [precompute] 32 batches, 19200 queries, 0.049s
+  [precompute] 32 batches, 19200 queries, 0.051s
+  [precompute] 32 batches, 19200 queries, 0.049s
+  [precompute] 32 batches, 19200 queries, 0.050s
+  [precompute] 32 batches, 19200 queries, 0.050s
+  [precompute] 32 batches, 19200 queries, 0.050s
+  [precompute] 32 batches, 19200 queries, 0.050s
+  [precompute] 7 batches, 4200 queries, 0.013s
+   loop | time:6.91s
+Epoch   3 | loss=0.1458 AP=0.0000 AUC=0.0000 | time=6.9s TPS=15944
+{"kind": "epoch", "epoch": 3, "mode": "coarse", "case": "wiki_bs200_k20_l2", "source_result": {"loss": 0.14579490076635582, "ap": 0.0, "auc": 0.0, "loop_time": 6.911369800567627}, "phases": {"epoch/online_loop": {"calls": 1, "host_ms": 6911.580309, "timeline_ms": 6911.59912109375}, "epoch": {"calls": 1, "host_ms": 6911.683759, "timeline_ms": 6911.70458984375}}, "cuda_calls": {"tcsr_temporal_sample": 569, "fused_lse_gather": 551, "fused_gather_encode_v2": 551, "fused_seg_attn_forward": 88, "fused_l0_gather_encode": 551, "fused_seg_attn_backward": 88, "fused_l0_gather_encode_backward_v2": 551, "fused_index_scatter": 551, "fused_gather_encode_backward_v2": 551, "fused_mh_attn_forward": 1014, "fused_mh_attn_backward": 1014}, "operator_counts": {}, "peak_allocated": 1312889856, "peak_reserved": 3380609024}
+  [precompute] 32 batches, 19200 queries, 0.053s
+  [precompute] 32 batches, 19200 queries, 0.051s
+  [precompute] 32 batches, 19200 queries, 0.048s
+  [precompute] 32 batches, 19200 queries, 0.042s
+  [precompute] 32 batches, 19200 queries, 0.042s
+  [precompute] 32 batches, 19200 queries, 0.042s
+  [precompute] 32 batches, 19200 queries, 0.042s
+  [precompute] 32 batches, 19200 queries, 0.042s
+  [precompute] 32 batches, 19200 queries, 0.041s
+  [precompute] 32 batches, 19200 queries, 0.042s
+  [precompute] 32 batches, 19200 queries, 0.041s
+  [precompute] 32 batches, 19200 queries, 0.042s
+  [precompute] 32 batches, 19200 queries, 0.049s
+  [precompute] 32 batches, 19200 queries, 0.049s
+  [precompute] 32 batches, 19200 queries, 0.050s
+  [precompute] 32 batches, 19200 queries, 0.050s
+  [precompute] 32 batches, 19200 queries, 0.050s
+  [precompute] 7 batches, 4200 queries, 0.013s
+   loop | time:6.38s
+Epoch   4 | loss=0.1411 AP=0.0000 AUC=0.0000 | time=6.4s TPS=17264
+{"kind": "epoch", "epoch": 4, "mode": "coarse", "case": "wiki_bs200_k20_l2", "source_result": {"loss": 0.14105944397999565, "ap": 0.0, "auc": 0.0, "loop_time": 6.382726192474365}, "phases": {"epoch/online_loop": {"calls": 1, "host_ms": 6382.990347, "timeline_ms": 6383.00634765625}, "epoch": {"calls": 1, "host_ms": 6383.121421, "timeline_ms": 6383.1396484375}}, "cuda_calls": {"tcsr_temporal_sample": 569, "fused_lse_gather": 551, "fused_gather_encode_v2": 551, "fused_seg_attn_forward": 90, "fused_l0_gather_encode": 551, "fused_seg_attn_backward": 90, "fused_l0_gather_encode_backward_v2": 551, "fused_index_scatter": 551, "fused_gather_encode_backward_v2": 551, "fused_mh_attn_forward": 1012, "fused_mh_attn_backward": 1012}, "operator_counts": {}, "peak_allocated": 1317250560, "peak_reserved": 3844079616}
+{"kind": "training_complete", "case": {"bs": 200, "k": 20, "layers": 2, "label": "wiki_bs200_k20_l2"}, "mode": "coarse", "rep": 3, "train_invocation_wall_ms": 25478.223733, "finite": true, "fields": 169, "initial_phases": {}, "cuda_calls": {"tcsr_temporal_sample": 2276, "fused_lse_gather": 2204, "fused_gather_encode_v2": 2204, "fused_seg_attn_forward": 354, "fused_l0_gather_encode": 2204, "fused_seg_attn_backward": 354, "fused_l0_gather_encode_backward_v2": 2204, "fused_index_scatter": 2204, "fused_gather_encode_backward_v2": 2204, "fused_mh_attn_forward": 4054, "fused_mh_attn_backward": 4054}, "cuda_errors": [], "operator_counts": {}, "peak_allocated": 1317250560, "peak_reserved": 3844079616}
+Loading wiki...
+  efeat: mode=cpu, dim=172, E=157474
+  nfeat: (9227, 256)
+  edges=157474, nodes=9227, nfeat=256, efeat=172
+  efeat GPU: fp32, 0.1GB
+  [TCSR] N=9227, E'=314948 (undirected)
+{"kind": "configuration", "case": {"bs": 200, "k": 50, "layers": 2, "label": "wiki_bs200_k50_l2"}, "config": {"data": "wiki", "data_path": "/home/data/wangxuran/factor_tgn_sptc_20260902/project/experiments/factor_tgn_20260904_anchored_time_quality_wikipedia_full/data_root", "gpu": 0, "epochs": 4, "bsize": 200, "lr": 0.0001, "n_nbrs": 50, "n_layers": 2, "dim_time": 256, "dim_embed": 256, "num_heads": 2, "dropout": 0.1, "seed": 42, "no_reset": false, "train_only": true, "model_dir": "/home/data/wangxuran/flash_tgn_rebaseline_20260909/unused_train_only_models", "precompute_mode": "auto", "max_train_batches": null}, "setup_ms": 116.981806, "train_end": 110200, "fp32_precision": "high", "tf32": true, "deterministic": false}
+  [precompute] skipped full-epoch host precompute, using online sampling (reason=two_layer_bounded_schedule_default, host_avail=171.3GB, est=0.2GB, layers=2)
+  [precompute] 32 batches, 19200 queries, 0.059s
+  [precompute] 32 batches, 19200 queries, 0.056s
+  [precompute] 32 batches, 19200 queries, 0.053s
+  [precompute] 32 batches, 19200 queries, 0.052s
+  [precompute] 32 batches, 19200 queries, 0.051s
+  [precompute] 32 batches, 19200 queries, 0.051s
+  [precompute] 32 batches, 19200 queries, 0.050s
+  [precompute] 32 batches, 19200 queries, 0.051s
+  [precompute] 32 batches, 19200 queries, 0.050s
+  [precompute] 32 batches, 19200 queries, 0.051s
+  [precompute] 32 batches, 19200 queries, 0.051s
+  [precompute] 32 batches, 19200 queries, 0.051s
+  [precompute] 32 batches, 19200 queries, 0.053s
+  [precompute] 32 batches, 19200 queries, 0.051s
+  [precompute] 32 batches, 19200 queries, 0.052s
+  [precompute] 32 batches, 19200 queries, 0.051s
+  [precompute] 32 batches, 19200 queries, 0.052s
+  [precompute] 7 batches, 4200 queries, 0.013s
+   loop | time:10.95s
+Epoch   1 | loss=0.2267 AP=0.0000 AUC=0.0000 | time=10.9s TPS=10064
+{"kind": "epoch", "epoch": 1, "mode": "coarse", "case": "wiki_bs200_k50_l2", "source_result": {"loss": 0.22671852036364065, "ap": 0.0, "auc": 0.0, "loop_time": 10.949076652526855}, "phases": {"epoch/online_loop": {"calls": 1, "host_ms": 10949.337254, "timeline_ms": 10949.36328125}, "epoch": {"calls": 1, "host_ms": 10949.445643, "timeline_ms": 10949.4755859375}}, "cuda_calls": {"tcsr_temporal_sample": 569, "fused_lse_gather": 551, "fused_gather_encode_v2": 551, "fused_seg_attn_forward": 327, "fused_l0_gather_encode": 551, "fused_seg_attn_backward": 327, "fused_l0_gather_encode_backward_v2": 551, "fused_index_scatter": 551, "fused_gather_encode_backward_v2": 551, "fused_mh_attn_forward": 775, "fused_mh_attn_backward": 775}, "operator_counts": {}, "peak_allocated": 4672396800, "peak_reserved": 18010341376}
+  [precompute] 32 batches, 19200 queries, 0.067s
+  [precompute] 32 batches, 19200 queries, 0.056s
+  [precompute] 32 batches, 19200 queries, 0.053s
+  [precompute] 32 batches, 19200 queries, 0.052s
+  [precompute] 32 batches, 19200 queries, 0.051s
+  [precompute] 32 batches, 19200 queries, 0.050s
+  [precompute] 32 batches, 19200 queries, 0.050s
+  [precompute] 32 batches, 19200 queries, 0.050s
+  [precompute] 32 batches, 19200 queries, 0.050s
+  [precompute] 32 batches, 19200 queries, 0.050s
+  [precompute] 32 batches, 19200 queries, 0.050s
+  [precompute] 32 batches, 19200 queries, 0.051s
+  [precompute] 32 batches, 19200 queries, 0.051s
+  [precompute] 32 batches, 19200 queries, 0.051s
+  [precompute] 32 batches, 19200 queries, 0.051s
+  [precompute] 32 batches, 19200 queries, 0.051s
+  [precompute] 32 batches, 19200 queries, 0.051s
+  [precompute] 7 batches, 4200 queries, 0.013s
+   loop | time:10.86s
+Epoch   2 | loss=0.1603 AP=0.0000 AUC=0.0000 | time=10.9s TPS=10150
+{"kind": "epoch", "epoch": 2, "mode": "coarse", "case": "wiki_bs200_k50_l2", "source_result": {"loss": 0.16032065822998107, "ap": 0.0, "auc": 0.0, "loop_time": 10.856324195861816}, "phases": {"epoch/online_loop": {"calls": 1, "host_ms": 10856.570648, "timeline_ms": 10856.5908203125}, "epoch": {"calls": 1, "host_ms": 10856.692375, "timeline_ms": 10856.7138671875}}, "cuda_calls": {"tcsr_temporal_sample": 569, "fused_lse_gather": 551, "fused_gather_encode_v2": 551, "fused_seg_attn_forward": 328, "fused_l0_gather_encode": 551, "fused_seg_attn_backward": 328, "fused_l0_gather_encode_backward_v2": 551, "fused_index_scatter": 551, "fused_gather_encode_backward_v2": 551, "fused_mh_attn_forward": 774, "fused_mh_attn_backward": 774}, "operator_counts": {}, "peak_allocated": 4672396800, "peak_reserved": 18010341376}
+  [precompute] 32 batches, 19200 queries, 0.073s
+  [precompute] 32 batches, 19200 queries, 0.056s
+  [precompute] 32 batches, 19200 queries, 0.052s
+  [precompute] 32 batches, 19200 queries, 0.051s
+  [precompute] 32 batches, 19200 queries, 0.051s
+  [precompute] 32 batches, 19200 queries, 0.050s
+  [precompute] 32 batches, 19200 queries, 0.050s
+  [precompute] 32 batches, 19200 queries, 0.043s
+  [precompute] 32 batches, 19200 queries, 0.043s
+  [precompute] 32 batches, 19200 queries, 0.043s
+  [precompute] 32 batches, 19200 queries, 0.043s
+  [precompute] 32 batches, 19200 queries, 0.051s
+  [precompute] 32 batches, 19200 queries, 0.051s
+  [precompute] 32 batches, 19200 queries, 0.051s
+  [precompute] 32 batches, 19200 queries, 0.051s
+  [precompute] 32 batches, 19200 queries, 0.051s
+  [precompute] 32 batches, 19200 queries, 0.051s
+  [precompute] 7 batches, 4200 queries, 0.013s
+   loop | time:10.68s
+Epoch   3 | loss=0.1438 AP=0.0000 AUC=0.0000 | time=10.7s TPS=10315
+{"kind": "epoch", "epoch": 3, "mode": "coarse", "case": "wiki_bs200_k50_l2", "source_result": {"loss": 0.14382517915185264, "ap": 0.0, "auc": 0.0, "loop_time": 10.683645963668823}, "phases": {"epoch/online_loop": {"calls": 1, "host_ms": 10683.904258, "timeline_ms": 10683.9169921875}, "epoch": {"calls": 1, "host_ms": 10684.021536, "timeline_ms": 10684.0361328125}}, "cuda_calls": {"tcsr_temporal_sample": 569, "fused_lse_gather": 551, "fused_gather_encode_v2": 551, "fused_seg_attn_forward": 330, "fused_l0_gather_encode": 551, "fused_seg_attn_backward": 330, "fused_l0_gather_encode_backward_v2": 551, "fused_index_scatter": 551, "fused_gather_encode_backward_v2": 551, "fused_mh_attn_forward": 772, "fused_mh_attn_backward": 772}, "operator_counts": {}, "peak_allocated": 4672396800, "peak_reserved": 18010341376}
+  [precompute] 32 batches, 19200 queries, 0.073s
+  [precompute] 32 batches, 19200 queries, 0.056s
+  [precompute] 32 batches, 19200 queries, 0.053s
+  [precompute] 32 batches, 19200 queries, 0.052s
+  [precompute] 32 batches, 19200 queries, 0.051s
+  [precompute] 32 batches, 19200 queries, 0.052s
+  [precompute] 32 batches, 19200 queries, 0.051s
+  [precompute] 32 batches, 19200 queries, 0.052s
+  [precompute] 32 batches, 19200 queries, 0.050s
+  [precompute] 32 batches, 19200 queries, 0.051s
+  [precompute] 32 batches, 19200 queries, 0.051s
+  [precompute] 32 batches, 19200 queries, 0.052s
+  [precompute] 32 batches, 19200 queries, 0.051s
+  [precompute] 32 batches, 19200 queries, 0.051s
+  [precompute] 32 batches, 19200 queries, 0.051s
+  [precompute] 32 batches, 19200 queries, 0.052s
+  [precompute] 32 batches, 19200 queries, 0.052s
+  [precompute] 7 batches, 4200 queries, 0.014s
+   loop | time:10.85s
+Epoch   4 | loss=0.1384 AP=0.0000 AUC=0.0000 | time=10.9s TPS=10156
+{"kind": "epoch", "epoch": 4, "mode": "coarse", "case": "wiki_bs200_k50_l2", "source_result": {"loss": 0.13842379380889683, "ap": 0.0, "auc": 0.0, "loop_time": 10.85006070137024}, "phases": {"epoch/online_loop": {"calls": 1, "host_ms": 10850.3111, "timeline_ms": 10850.3203125}, "epoch": {"calls": 1, "host_ms": 10850.425362, "timeline_ms": 10850.435546875}}, "cuda_calls": {"tcsr_temporal_sample": 569, "fused_lse_gather": 551, "fused_gather_encode_v2": 551, "fused_seg_attn_forward": 329, "fused_l0_gather_encode": 551, "fused_seg_attn_backward": 329, "fused_l0_gather_encode_backward_v2": 551, "fused_index_scatter": 551, "fused_gather_encode_backward_v2": 551, "fused_mh_attn_forward": 773, "fused_mh_attn_backward": 773}, "operator_counts": {}, "peak_allocated": 4726820352, "peak_reserved": 18010341376}
+{"kind": "training_complete", "case": {"bs": 200, "k": 50, "layers": 2, "label": "wiki_bs200_k50_l2"}, "mode": "coarse", "rep": 3, "train_invocation_wall_ms": 43342.796888, "finite": true, "fields": 169, "initial_phases": {}, "cuda_calls": {"tcsr_temporal_sample": 2276, "fused_lse_gather": 2204, "fused_gather_encode_v2": 2204, "fused_seg_attn_forward": 1314, "fused_l0_gather_encode": 2204, "fused_seg_attn_backward": 1314, "fused_l0_gather_encode_backward_v2": 2204, "fused_index_scatter": 2204, "fused_gather_encode_backward_v2": 2204, "fused_mh_attn_forward": 3094, "fused_mh_attn_backward": 3094}, "cuda_errors": [], "operator_counts": {}, "peak_allocated": 4726820352, "peak_reserved": 18010341376}
+Loading wiki...
+  efeat: mode=cpu, dim=172, E=157474
+  nfeat: (9227, 256)
+  edges=157474, nodes=9227, nfeat=256, efeat=172
+  efeat GPU: fp32, 0.1GB
+  [TCSR] N=9227, E'=314948 (undirected)
+{"kind": "configuration", "case": {"bs": 2000, "k": 50, "layers": 2, "label": "wiki_bs2000_k50_l2"}, "config": {"data": "wiki", "data_path": "/home/data/wangxuran/factor_tgn_sptc_20260902/project/experiments/factor_tgn_20260904_anchored_time_quality_wikipedia_full/data_root", "gpu": 0, "epochs": 4, "bsize": 2000, "lr": 0.0001, "n_nbrs": 50, "n_layers": 2, "dim_time": 256, "dim_embed": 256, "num_heads": 2, "dropout": 0.1, "seed": 42, "no_reset": false, "train_only": true, "model_dir": "/home/data/wangxuran/flash_tgn_rebaseline_20260909/unused_train_only_models", "precompute_mode": "auto", "max_train_batches": null}, "setup_ms": 113.925959, "train_end": 110000, "fp32_precision": "high", "tf32": true, "deterministic": false}
+  [precompute] skipped full-epoch host precompute, using online sampling (reason=two_layer_bounded_schedule_default, host_avail=173.2GB, est=0.2GB, layers=2)
+  [precompute] 32 batches, 192000 queries, 0.073s
+  [precompute] 23 batches, 138000 queries, 0.073s
+   loop | time:3.52s
+Epoch   1 | loss=0.4289 AP=0.0000 AUC=0.0000 | time=3.5s TPS=31272
+{"kind": "epoch", "epoch": 1, "mode": "coarse", "case": "wiki_bs2000_k50_l2", "source_result": {"loss": 0.42892436249689625, "ap": 0.0, "auc": 0.0, "loop_time": 3.517183303833008}, "phases": {"epoch/online_loop": {"calls": 1, "host_ms": 3517.451993, "timeline_ms": 3517.4521484375}, "epoch": {"calls": 1, "host_ms": 3517.589768, "timeline_ms": 3517.593505859375}}, "cuda_calls": {"tcsr_temporal_sample": 57, "fused_lse_gather": 55, "fused_gather_encode_v2": 55, "fused_seg_attn_forward": 36, "fused_l0_gather_encode": 55, "fused_seg_attn_backward": 36, "fused_l0_gather_encode_backward_v2": 55, "fused_index_scatter": 55, "fused_gather_encode_backward_v2": 55, "fused_mh_attn_forward": 74, "fused_mh_attn_backward": 74}, "operator_counts": {}, "peak_allocated": 21165939200, "peak_reserved": 98140422144}
+  [precompute] 32 batches, 192000 queries, 0.117s
+  [precompute] 23 batches, 138000 queries, 0.054s
+   loop | time:3.62s
+Epoch   2 | loss=0.2552 AP=0.0000 AUC=0.0000 | time=3.6s TPS=30385
+{"kind": "epoch", "epoch": 2, "mode": "coarse", "case": "wiki_bs2000_k50_l2", "source_result": {"loss": 0.25517342009327626, "ap": 0.0, "auc": 0.0, "loop_time": 3.619978904724121}, "phases": {"epoch/online_loop": {"calls": 1, "host_ms": 3620.220284, "timeline_ms": 3620.2197265625}, "epoch": {"calls": 1, "host_ms": 3620.359717, "timeline_ms": 3620.36083984375}}, "cuda_calls": {"tcsr_temporal_sample": 57, "fused_lse_gather": 55, "fused_gather_encode_v2": 55, "fused_seg_attn_forward": 35, "fused_l0_gather_encode": 55, "fused_seg_attn_backward": 35, "fused_l0_gather_encode_backward_v2": 55, "fused_index_scatter": 55, "fused_gather_encode_backward_v2": 55, "fused_mh_attn_forward": 75, "fused_mh_attn_backward": 75}, "operator_counts": {}, "peak_allocated": 21165939200, "peak_reserved": 100889788416}
+  [precompute] 32 batches, 192000 queries, 0.116s
+  [precompute] 23 batches, 138000 queries, 0.053s
+   loop | time:3.62s
+Epoch   3 | loss=0.2295 AP=0.0000 AUC=0.0000 | time=3.6s TPS=30386
+{"kind": "epoch", "epoch": 3, "mode": "coarse", "case": "wiki_bs2000_k50_l2", "source_result": {"loss": 0.2295488704334606, "ap": 0.0, "auc": 0.0, "loop_time": 3.6197640895843506}, "phases": {"epoch/online_loop": {"calls": 1, "host_ms": 3620.0048, "timeline_ms": 3620.003173828125}, "epoch": {"calls": 1, "host_ms": 3620.124568, "timeline_ms": 3620.125244140625}}, "cuda_calls": {"tcsr_temporal_sample": 57, "fused_lse_gather": 55, "fused_gather_encode_v2": 55, "fused_seg_attn_forward": 36, "fused_l0_gather_encode": 55, "fused_seg_attn_backward": 36, "fused_l0_gather_encode_backward_v2": 55, "fused_index_scatter": 55, "fused_gather_encode_backward_v2": 55, "fused_mh_attn_forward": 74, "fused_mh_attn_backward": 74}, "operator_counts": {}, "peak_allocated": 21165939200, "peak_reserved": 100889788416}
+  [precompute] 32 batches, 192000 queries, 0.109s
+  [precompute] 23 batches, 138000 queries, 0.058s
+   loop | time:3.64s
+Epoch   4 | loss=0.2080 AP=0.0000 AUC=0.0000 | time=3.6s TPS=30229
+{"kind": "epoch", "epoch": 4, "mode": "coarse", "case": "wiki_bs2000_k50_l2", "source_result": {"loss": 0.20798032392155041, "ap": 0.0, "auc": 0.0, "loop_time": 3.6384799480438232}, "phases": {"epoch/online_loop": {"calls": 1, "host_ms": 3638.799842, "timeline_ms": 3638.796875}, "epoch": {"calls": 1, "host_ms": 3638.954053, "timeline_ms": 3638.9521484375}}, "cuda_calls": {"tcsr_temporal_sample": 57, "fused_lse_gather": 55, "fused_gather_encode_v2": 55, "fused_seg_attn_forward": 35, "fused_l0_gather_encode": 55, "fused_seg_attn_backward": 35, "fused_l0_gather_encode_backward_v2": 55, "fused_index_scatter": 55, "fused_gather_encode_backward_v2": 55, "fused_mh_attn_forward": 75, "fused_mh_attn_backward": 75}, "operator_counts": {}, "peak_allocated": 21165939200, "peak_reserved": 101076434944}
+{"kind": "training_complete", "case": {"bs": 2000, "k": 50, "layers": 2, "label": "wiki_bs2000_k50_l2"}, "mode": "coarse", "rep": 3, "train_invocation_wall_ms": 14399.312084, "finite": true, "fields": 169, "initial_phases": {}, "cuda_calls": {"tcsr_temporal_sample": 228, "fused_lse_gather": 220, "fused_gather_encode_v2": 220, "fused_seg_attn_forward": 142, "fused_l0_gather_encode": 220, "fused_seg_attn_backward": 142, "fused_l0_gather_encode_backward_v2": 220, "fused_index_scatter": 220, "fused_gather_encode_backward_v2": 220, "fused_mh_attn_forward": 298, "fused_mh_attn_backward": 298}, "cuda_errors": [], "operator_counts": {}, "peak_allocated": 21165939200, "peak_reserved": 101076434944}
+{"kind": "complete", "apps": "GPU-9bd364a9-9d88-0b78-ef55-caac6f73d6b1, 1992489, /home/data/wangxuran/isaacsim6/env/bin/python, 1074\nGPU-e5a0e7f5-9917-c2a1-ee8e-7282cbba2603, 1050457, VLLM::EngineCore, 15224\nGPU-e5a0e7f5-9917-c2a1-ee8e-7282cbba2603, 1050568, VLLM::EngineCore, 15240\n"}

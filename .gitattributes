@@ -1,0 +1,6 @@
+# Preserve the exact bytes covered by the original experiment manifests.
+tgn_sparsebit_review_20260908/** -text
+README.md text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+PUBLISH_MANIFEST.sha256 text eol=lf

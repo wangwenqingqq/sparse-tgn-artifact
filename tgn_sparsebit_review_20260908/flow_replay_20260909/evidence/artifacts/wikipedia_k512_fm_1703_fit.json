@@ -1,0 +1,86 @@
+{
+  "mode": "fm",
+  "seed": 1703,
+  "steps": 1500,
+  "selected_step": 300,
+  "validation_mse": 0.6238451527431421,
+  "parameters": 516708,
+  "seconds": 3.8004800750059076,
+  "curve": [
+    {
+      "step": 100,
+      "training_loss": 0.35853826999664307,
+      "validation_mse": 0.6529850763715711
+    },
+    {
+      "step": 200,
+      "training_loss": 0.20852042734622955,
+      "validation_mse": 0.6288241115960099
+    },
+    {
+      "step": 300,
+      "training_loss": 0.15914592146873474,
+      "validation_mse": 0.6238451527431421
+    },
+    {
+      "step": 400,
+      "training_loss": 0.13954345881938934,
+      "validation_mse": 0.6333030314837905
+    },
+    {
+      "step": 500,
+      "training_loss": 0.12369407713413239,
+      "validation_mse": 0.6409728023690773
+    },
+    {
+      "step": 600,
+      "training_loss": 0.11249902844429016,
+      "validation_mse": 0.65311338840399
+    },
+    {
+      "step": 700,
+      "training_loss": 0.09906291961669922,
+      "validation_mse": 0.6639877649625935
+    },
+    {
+      "step": 800,
+      "training_loss": 0.09877081960439682,
+      "validation_mse": 0.6737494544887781
+    },
+    {
+      "step": 900,
+      "training_loss": 0.094737708568573,
+      "validation_mse": 0.6824284600997507
+    },
+    {
+      "step": 1000,
+      "training_loss": 0.08806867152452469,
+      "validation_mse": 0.697294108478803
+    },
+    {
+      "step": 1100,
+      "training_loss": 0.08836068958044052,
+      "validation_mse": 0.7105307824189526
+    },
+    {
+      "step": 1200,
+      "training_loss": 0.08412843197584152,
+      "validation_mse": 0.7201086346633416
+    },
+    {
+      "step": 1300,
+      "training_loss": 0.08339299261569977,
+      "validation_mse": 0.7271187655860349
+    },
+    {
+      "step": 1400,
+      "training_loss": 0.07979024946689606,
+      "validation_mse": 0.7361329488778054
+    },
+    {
+      "step": 1500,
+      "training_loss": 0.0747377872467041,
+      "validation_mse": 0.7428807668329177
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "time": "2026-09-09T10:14:21.868853+00:00",
+  "host": "pro6000-8",
+  "gpu_run": false,
+  "flash_tgn_source_root": "/home/data/wangxuran/factor_tgn_sptc_20260902/vendor/flash-tgn-artifact",
+  "git_metadata_present": false,
+  "official_upstream_revision_unverified": true,
+  "flash_tgn_files": {
+    "state.py": "3e4fbfc0ec2cac4b15c63f41d7cea7dbb95f4bb8a8e41b7e75f7afb095975947",
+    "lse.py": "e0998d21471bc59a61953ddf009948da324d130ebf1542969d4026cedc347896",
+    "trainer.py": "403532111c2648f264f04cb1976f945af8a2f70c10484732d4aa85d9ba4d2b10",
+    "layers.py": "fb29b3feac79626b9230540d81d9d9278d67d404d72e1fac29dd01b4ea203813",
+    "config.py": "147822992b4702d3c2f4fcd76f6cb31eec3a37af3ca82b2f01e2d6359aefaab1",
+    "model.py": "ed15c5d7e45970d57935ccfd93474908429027a36782139cc1f5d3ffca55969d",
+    "operator_policy.py": "b9a1d91c5e12acaf0d1ddb624d52bbc69196b670d2e31be94f89a0c7c039ba6b",
+    "schedule.py": "02bfd6ac312983e01cd81fe06c328555738b09b98e20aa290f431d8b66d2c313"
+  },
+  "actual_tncn_runner": {
+    "path": "/home/data/wangxuran/tncn_training_profile_20260908/src/profile_training.py",
+    "sha256": "6661592757c40c635b61e51c9294d693adae20f1be7486dfbfc51375d7645418"
+  },
+  "user_designated_project_baseline": "FlashTGN",
+  "prior_experiment_role": "TNCN internal ablation only"
+}

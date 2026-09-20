@@ -1,0 +1,5 @@
+Frozen before any corrected-candidate GPU computation. qualify_keep_empty_v1 passed the supervisor's idle snapshot but an unrelated .venv/bin/python job (PID 2912245, 31,802 MiB) arrived on GPU0 before the child guard. The child failed before CUDA initialization/opening and before any numerical trial; retain its run record. The unrelated job was not stopped or altered.
+
+Move corrected qualification and all subsequent paired timing to idle GPU6, same RTX PRO 6000 Blackwell Server Edition, UUID GPU-865ae1f0-780e-d04c-5ec3-4deccea65f82, under /home/data/wangxuran/.locks/flash_wkv_gpu6.lock. Keep inputs, precision and candidate arithmetic unchanged. Original capture and frozen-kernel noise are GPU0 observations; corrected source A/B/candidate and all paired timing share GPU6. No cross-device timing ratio is used.
+
+The successful corrected qualification is designated qualify_keep_empty_v2. A new supervisor_gpu6.py and diagnostic harness opening record this hardware correction. The prior preflight harness is retained. Timing still requires the corrected local gate and its independent CPU audit to pass.

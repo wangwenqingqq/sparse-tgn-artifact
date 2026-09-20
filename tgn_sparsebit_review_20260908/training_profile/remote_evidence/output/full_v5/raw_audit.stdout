@@ -1,0 +1,13 @@
+{"case": "college_b200_s20", "audit_complete": true}
+{"case": "college_b200_s40", "audit_complete": true}
+{"case": "college_b200_s80", "audit_complete": true}
+{"case": "college_b32_s128", "audit_complete": true}
+{"case": "college_b32_s256", "audit_complete": true}
+{"case": "college_b32_s512", "audit_complete": true}
+{"case": "wikipedia_b200_s20", "audit_complete": true}
+{"case": "wikipedia_b200_s40", "audit_complete": true}
+{"case": "wikipedia_b200_s80", "audit_complete": true}
+{"case": "wikipedia_b32_s128", "audit_complete": true}
+{"case": "wikipedia_b32_s256", "audit_complete": true}
+{"case": "wikipedia_b32_s512", "audit_complete": true}
+{"status": "complete", "comparisons": 384, "tensor_element_comparisons": 751213720, "cases": 12, "all_runtime_flags_reproduced": true, "cuda_initialized": false, "passed": 374, "failed": 10, "by_variant": {"keeper": {"passed": 96, "failed": 0}, "source": {"passed": 86, "failed": 10}, "free_graph": {"passed": 96, "failed": 0}, "free_relations": {"passed": 96, "failed": 0}}}

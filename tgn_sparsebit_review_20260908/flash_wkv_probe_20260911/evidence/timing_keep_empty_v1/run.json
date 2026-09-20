@@ -1,0 +1,21 @@
+{
+  "start": "2026-09-10T18:41:34.496452+00:00",
+  "gpu": "GPU-865ae1f0-780e-d04c-5ec3-4deccea65f82",
+  "args": {
+    "run": "timing_keep_empty_v1",
+    "stage": "timing",
+    "qualification": null,
+    "script": "probe_keep_empty.py",
+    "rep": 0
+  },
+  "command": [
+    "/home/data/wangxuran/isaacsim6/env/bin/python",
+    "/home/data/wangxuran/flash_wkv_probe_20260911/src/probe_keep_empty.py",
+    "--output",
+    "/home/data/wangxuran/flash_wkv_probe_20260911/output/timing_keep_empty_v1/artifacts",
+    "--stage",
+    "timing"
+  ],
+  "exit_code": 0,
+  "end": "2026-09-10T18:42:13.572552+00:00"
+}

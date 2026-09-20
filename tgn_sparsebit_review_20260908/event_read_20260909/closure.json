@@ -1,0 +1,57 @@
+{
+  "time": "2026-09-09T06:36:28.408214+00:00",
+  "gpu": "GPU-a149f5af-55ab-ce33-8d3d-371a7ae61dd2",
+  "gpu_released": true,
+  "lock_independently_verified_free": true,
+  "previous_remote": {
+    "files": 1648,
+    "mismatches": []
+  },
+  "previous_local": {
+    "verified_files": {
+      "training_profile": 141,
+      "numeric_diagnosis": 45,
+      "compatible_csr": 34,
+      "memory_profile_20260909": 80,
+      "state_nograd_20260909": 39,
+      "cache_read_oracle_20260909": 47
+    },
+    "mismatches": []
+  },
+  "raw_tensor_files": 36,
+  "raw_tensor_bytes": 1799239652,
+  "transferred_files": 39,
+  "qualification": {
+    "batch_store": {
+      "steps": 96,
+      "bitwise": 96,
+      "source_bitwise": 96,
+      "elements": 214887202
+    },
+    "event_index": {
+      "steps": 96,
+      "bitwise": 96,
+      "source_bitwise": 96,
+      "elements": 214887202
+    },
+    "prefix": {
+      "calls": 384,
+      "exact": true,
+      "elements": 10610895
+    },
+    "event_gathers": {
+      "calls": 384,
+      "exact": true
+    }
+  },
+  "profile_replays": 24,
+  "persistent_fields": 115,
+  "profile_endstates_bitwise": true,
+  "timing": {
+    "intervals": 216,
+    "steps": 1728,
+    "rounds_per_window": 9
+  },
+  "candidates_modified_after_gpu_opening": false,
+  "failures_or_tolerance_relaxations": false
+}

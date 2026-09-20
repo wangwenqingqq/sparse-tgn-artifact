@@ -1,0 +1,20 @@
+{
+  "capture": {
+    "steps": 96,
+    "bitwise": 96,
+    "elements": 214887202,
+    "source_bitwise": 96
+  },
+  "batch_store": {
+    "steps": 96,
+    "bitwise": 96,
+    "elements": 214887202,
+    "source_bitwise": 96
+  },
+  "free_cache_reads": {
+    "steps": 96,
+    "bitwise": 96,
+    "elements": 214887202,
+    "source_bitwise": 96
+  }
+}

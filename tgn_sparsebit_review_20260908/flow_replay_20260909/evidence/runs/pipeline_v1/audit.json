@@ -1,0 +1,828 @@
+{
+  "pass_all": true,
+  "rollout_archives": 60,
+  "snapshots": 210,
+  "checked_elements": 108673890,
+  "predictions": 72960,
+  "rollout": [
+    {
+      "file": "college_k128_coarse_rollout.pt",
+      "sha256": "8ed1055b76920da45cc8d2353eb980eedf7317cf79554659e49a303fac0a313b",
+      "quality": {
+        "ap": 0.9373918486023567,
+        "auc": 0.9206611561849636,
+        "bce": 0.3388647391722422,
+        "examples": 1984
+      },
+      "blocks": 31,
+      "snapshots": 4
+    },
+    {
+      "file": "college_k128_copy_rollout.pt",
+      "sha256": "8da0970208ced0ab4def362b995dba0007b453c1e63d1954e559cbce2b7ebb13",
+      "quality": {
+        "ap": 0.9372787076887394,
+        "auc": 0.9211936418769511,
+        "bce": 0.3393023397234796,
+        "examples": 1984
+      },
+      "blocks": 31,
+      "snapshots": 4
+    },
+    {
+      "file": "college_k128_exact_rollout.pt",
+      "sha256": "3df46fe493e992e6b78b5bff19f9c0cf567d608d805b84066cfb259296b75892",
+      "quality": {
+        "ap": 0.9375724015325194,
+        "auc": 0.9210513747073361,
+        "bce": 0.3377907800576211,
+        "examples": 1984
+      },
+      "blocks": 31,
+      "snapshots": 4
+    },
+    {
+      "file": "college_k128_fm1_s1701_rollout.pt",
+      "sha256": "d5f24ab411a89557f934741ce2947a258c22599bee6e18ddae173a66e61a0104",
+      "quality": {
+        "ap": 0.9378227480363867,
+        "auc": 0.921326763299948,
+        "bce": 0.3388794319960451,
+        "examples": 1984
+      },
+      "blocks": 31,
+      "snapshots": 4
+    },
+    {
+      "file": "college_k128_fm1_s1702_rollout.pt",
+      "sha256": "e5546666f1ecaf7e392a9fa43bc5eeb3a966fdfc9a00493b45a737091b50f782",
+      "quality": {
+        "ap": 0.9376248413660713,
+        "auc": 0.9209639820174298,
+        "bce": 0.3393407277926191,
+        "examples": 1984
+      },
+      "blocks": 31,
+      "snapshots": 4
+    },
+    {
+      "file": "college_k128_fm1_s1703_rollout.pt",
+      "sha256": "20fa934e9cbe16dac7f90d1a408b175a6296d9c26b21c9cadef7f9d33c4ec445",
+      "quality": {
+        "ap": 0.9384340474954243,
+        "auc": 0.9223521031152445,
+        "bce": 0.33719499137103265,
+        "examples": 1984
+      },
+      "blocks": 31,
+      "snapshots": 4
+    },
+    {
+      "file": "college_k128_fm2_s1701_rollout.pt",
+      "sha256": "ffaa8be18f0b0f3eedcc713a10d744554f5801fb21346ead54c0b55abf331ac2",
+      "quality": {
+        "ap": 0.9380121787758149,
+        "auc": 0.9216783664477107,
+        "bce": 0.3385374164868355,
+        "examples": 1984
+      },
+      "blocks": 31,
+      "snapshots": 4
+    },
+    {
+      "file": "college_k128_fm2_s1702_rollout.pt",
+      "sha256": "d6bc0736e44cb43008362da82b8e3faf910f6cf2dc7958412b79740b2eafb77b",
+      "quality": {
+        "ap": 0.9377359851874356,
+        "auc": 0.9211347026209677,
+        "bce": 0.33924939520245934,
+        "examples": 1984
+      },
+      "blocks": 31,
+      "snapshots": 4
+    },
+    {
+      "file": "college_k128_fm2_s1703_rollout.pt",
+      "sha256": "92729dd9389f913470a538de6740ba39f863e940572f8861bda04158f76fdbfe",
+      "quality": {
+        "ap": 0.9385923953740254,
+        "auc": 0.9225187589425078,
+        "bce": 0.3371426887163712,
+        "examples": 1984
+      },
+      "blocks": 31,
+      "snapshots": 4
+    },
+    {
+      "file": "college_k128_fm4_s1701_rollout.pt",
+      "sha256": "3252639a21fa6f0a49a43b6b09699e736f44d5ae8e5cbe8b3b07fc1061b7539d",
+      "quality": {
+        "ap": 0.9381283237423984,
+        "auc": 0.9218602651860042,
+        "bce": 0.3383285360692121,
+        "examples": 1984
+      },
+      "blocks": 31,
+      "snapshots": 4
+    },
+    {
+      "file": "college_k128_fm4_s1702_rollout.pt",
+      "sha256": "556d69443d6964cadffd268b90c7950741e7be0c0e873232db6a3fe9432df0dd",
+      "quality": {
+        "ap": 0.9378354631530728,
+        "auc": 0.9212576621032779,
+        "bce": 0.3393447302305715,
+        "examples": 1984
+      },
+      "blocks": 31,
+      "snapshots": 4
+    },
+    {
+      "file": "college_k128_fm4_s1703_rollout.pt",
+      "sha256": "276be671679469ac5ef6a2f2bebf437bae8143f0fae3d4a29559fa6a6d92d2cc",
+      "quality": {
+        "ap": 0.9385178455337576,
+        "auc": 0.922394783266129,
+        "bce": 0.3372991641071932,
+        "examples": 1984
+      },
+      "blocks": 31,
+      "snapshots": 4
+    },
+    {
+      "file": "college_k128_mlp1_s1701_rollout.pt",
+      "sha256": "e846ba932aadee9c4a66835d516382306c52bcfefe2eeb21e206f33c1c35d170",
+      "quality": {
+        "ap": 0.9381815837647123,
+        "auc": 0.9216671883129552,
+        "bce": 0.3381431969854477,
+        "examples": 1984
+      },
+      "blocks": 31,
+      "snapshots": 4
+    },
+    {
+      "file": "college_k128_mlp1_s1702_rollout.pt",
+      "sha256": "16dba2ac7b7a242d7fa17cf8e0c06a796df1d6acc059716c2404e1ce24e87f01",
+      "quality": {
+        "ap": 0.9387463097001573,
+        "auc": 0.9226102164086889,
+        "bce": 0.3363068977373314,
+        "examples": 1984
+      },
+      "blocks": 31,
+      "snapshots": 4
+    },
+    {
+      "file": "college_k128_mlp1_s1703_rollout.pt",
+      "sha256": "3ae4830f726876c7577db1b16f487d72db7576b29f7ed857aa7ee9970464ff7a",
+      "quality": {
+        "ap": 0.9381758142471563,
+        "auc": 0.9221783339295005,
+        "bce": 0.33736638433269717,
+        "examples": 1984
+      },
+      "blocks": 31,
+      "snapshots": 4
+    },
+    {
+      "file": "college_k512_coarse_rollout.pt",
+      "sha256": "c966a52b4e7250fa0df1ff058971fae22ca99dfadd67413760d49e074b7c9cd5",
+      "quality": {
+        "ap": 0.9531217283847333,
+        "auc": 0.9372110172193877,
+        "bce": 0.3049549195213278,
+        "examples": 448
+      },
+      "blocks": 7,
+      "snapshots": 3
+    },
+    {
+      "file": "college_k512_copy_rollout.pt",
+      "sha256": "3ccfebc121fa0f8d317794955228632d205dddf460c16427690c70d9af6c9dd6",
+      "quality": {
+        "ap": 0.9546994976433364,
+        "auc": 0.9409378985969388,
+        "bce": 0.30391658206182987,
+        "examples": 448
+      },
+      "blocks": 7,
+      "snapshots": 3
+    },
+    {
+      "file": "college_k512_exact_rollout.pt",
+      "sha256": "5adccc70b0580b004d1e01e3783fdfaa893c70109a3005419b5437c640c6369d",
+      "quality": {
+        "ap": 0.9567075376180436,
+        "auc": 0.9420141103316326,
+        "bce": 0.29785391970465147,
+        "examples": 448
+      },
+      "blocks": 7,
+      "snapshots": 3
+    },
+    {
+      "file": "college_k512_fm1_s1701_rollout.pt",
+      "sha256": "c1de38a946ae72422979bb1de129bcf5b302713bbc52df90655b6e53fe00c806",
+      "quality": {
+        "ap": 0.9541825372837031,
+        "auc": 0.9394630899234694,
+        "bce": 0.3021261494259021,
+        "examples": 448
+      },
+      "blocks": 7,
+      "snapshots": 3
+    },
+    {
+      "file": "college_k512_fm1_s1702_rollout.pt",
+      "sha256": "361f898ce71eeed9fc126d9298c1db5f12cb13680789773cad6864bf7723570c",
+      "quality": {
+        "ap": 0.9550791295389259,
+        "auc": 0.9413165656887755,
+        "bce": 0.3009601786548687,
+        "examples": 448
+      },
+      "blocks": 7,
+      "snapshots": 3
+    },
+    {
+      "file": "college_k512_fm1_s1703_rollout.pt",
+      "sha256": "a60a904a03025b35de39055b3afbd55ee7e3bfbfb86a4e161cf4c98bf36ed7de",
+      "quality": {
+        "ap": 0.9545296863320901,
+        "auc": 0.9408183195153061,
+        "bce": 0.2998017887511972,
+        "examples": 448
+      },
+      "blocks": 7,
+      "snapshots": 3
+    },
+    {
+      "file": "college_k512_fm2_s1701_rollout.pt",
+      "sha256": "bfd799f02a0d74c2a2f6d53470cf7da7e5dd51176f23f5f364f77b9aea9b976c",
+      "quality": {
+        "ap": 0.9542026024574453,
+        "auc": 0.9395228794642857,
+        "bce": 0.3025308118147329,
+        "examples": 448
+      },
+      "blocks": 7,
+      "snapshots": 3
+    },
+    {
+      "file": "college_k512_fm2_s1702_rollout.pt",
+      "sha256": "c4842374dce7b23e3e9e40558be03a3b8d64655c67d343eeb692a1594049a026",
+      "quality": {
+        "ap": 0.9551585726904207,
+        "auc": 0.941535794005102,
+        "bce": 0.3010958774623299,
+        "examples": 448
+      },
+      "blocks": 7,
+      "snapshots": 3
+    },
+    {
+      "file": "college_k512_fm2_s1703_rollout.pt",
+      "sha256": "591f3faa9a20e71795765a73f47e76833126b0e7f02d2e9a2189db3e70d5c770",
+      "quality": {
+        "ap": 0.9545981751335801,
+        "auc": 0.9407784598214286,
+        "bce": 0.29989143713485195,
+        "examples": 448
+      },
+      "blocks": 7,
+      "snapshots": 3
+    },
+    {
+      "file": "college_k512_fm4_s1701_rollout.pt",
+      "sha256": "fdcd9b3649552b26ab732334d8ee61f8f97b4434ce685ae675ad16fdd53a4e35",
+      "quality": {
+        "ap": 0.9539650018657656,
+        "auc": 0.9392040019132653,
+        "bce": 0.3028258666119835,
+        "examples": 448
+      },
+      "blocks": 7,
+      "snapshots": 3
+    },
+    {
+      "file": "college_k512_fm4_s1702_rollout.pt",
+      "sha256": "dbb8f562a7140cf2b997e3063f6cb11bd596b0efb597c5c9cb7a0d6f2b2eb2a0",
+      "quality": {
+        "ap": 0.9551100543201055,
+        "auc": 0.9414959343112245,
+        "bce": 0.3012840904529876,
+        "examples": 448
+      },
+      "blocks": 7,
+      "snapshots": 3
+    },
+    {
+      "file": "college_k512_fm4_s1703_rollout.pt",
+      "sha256": "31f751ac6f398f9ecd09a94fb4f23dc87b5e0e1eda18258192f016eec1f83e9f",
+      "quality": {
+        "ap": 0.9544545305322729,
+        "auc": 0.940559231505102,
+        "bce": 0.3000107028131874,
+        "examples": 448
+      },
+      "blocks": 7,
+      "snapshots": 3
+    },
+    {
+      "file": "college_k512_mlp1_s1701_rollout.pt",
+      "sha256": "0b39b7e563881190ccfea428dca1d6e99a228bf1dffe6e613a5abcc6cee584c2",
+      "quality": {
+        "ap": 0.9539657330519694,
+        "auc": 0.9388651945153061,
+        "bce": 0.30451553267151815,
+        "examples": 448
+      },
+      "blocks": 7,
+      "snapshots": 3
+    },
+    {
+      "file": "college_k512_mlp1_s1702_rollout.pt",
+      "sha256": "af7fc2111e71b8a0afccc04aa6f08d5c0fd3f6deef5ef8b8354227f77428ba1a",
+      "quality": {
+        "ap": 0.9550844175823618,
+        "auc": 0.9408781090561225,
+        "bce": 0.3030359318083313,
+        "examples": 448
+      },
+      "blocks": 7,
+      "snapshots": 3
+    },
+    {
+      "file": "college_k512_mlp1_s1703_rollout.pt",
+      "sha256": "1573e98690ba360d5756bbc058f0b2611de5c978e304efc9b3bc236ce9670635",
+      "quality": {
+        "ap": 0.9552833151617252,
+        "auc": 0.9411770567602041,
+        "bce": 0.3014545823013842,
+        "examples": 448
+      },
+      "blocks": 7,
+      "snapshots": 3
+    },
+    {
+      "file": "wikipedia_k128_coarse_rollout.pt",
+      "sha256": "8fb389c629b9236bd57a31ac30a0e42c37b6a9f2ab88cc5006bab412b53545b4",
+      "quality": {
+        "ap": 0.9669453677936478,
+        "auc": 0.9579651323491155,
+        "bce": 0.2439662734193934,
+        "examples": 1984
+      },
+      "blocks": 31,
+      "snapshots": 4
+    },
+    {
+      "file": "wikipedia_k128_copy_rollout.pt",
+      "sha256": "4e52b7a5fa40243fa42753ec1a85f5e501cca07d7ee638bf9d8409623c67413d",
+      "quality": {
+        "ap": 0.9599099186408777,
+        "auc": 0.9489758796175859,
+        "bce": 0.27211454544984526,
+        "examples": 1984
+      },
+      "blocks": 31,
+      "snapshots": 4
+    },
+    {
+      "file": "wikipedia_k128_exact_rollout.pt",
+      "sha256": "7183702923969d65396b37d486644a2af38166bb87cae749a7c505703a5d9ef4",
+      "quality": {
+        "ap": 0.9675062714852791,
+        "auc": 0.959528038826743,
+        "bce": 0.2411681522687953,
+        "examples": 1984
+      },
+      "blocks": 31,
+      "snapshots": 4
+    },
+    {
+      "file": "wikipedia_k128_fm1_s1701_rollout.pt",
+      "sha256": "514692d986db54c246d297b1a2036ea3dd0d463d83f584e8f153b435eee38bee",
+      "quality": {
+        "ap": 0.9659551604991051,
+        "auc": 0.9574458571800208,
+        "bce": 0.2493258736813432,
+        "examples": 1984
+      },
+      "blocks": 31,
+      "snapshots": 4
+    },
+    {
+      "file": "wikipedia_k128_fm1_s1702_rollout.pt",
+      "sha256": "a6728df1b7a9affded857950ec6d9388c362cdbefc0ff051c3c425d75c5818ab",
+      "quality": {
+        "ap": 0.9666088590521351,
+        "auc": 0.9579661485431842,
+        "bce": 0.24754229706485983,
+        "examples": 1984
+      },
+      "blocks": 31,
+      "snapshots": 4
+    },
+    {
+      "file": "wikipedia_k128_fm1_s1703_rollout.pt",
+      "sha256": "94736fee45d87ef9f6c3ec5bf452057f602ee3f63f086904e6e8ec91c9062b75",
+      "quality": {
+        "ap": 0.965801548424654,
+        "auc": 0.9571806305280958,
+        "bce": 0.2504052784311679,
+        "examples": 1984
+      },
+      "blocks": 31,
+      "snapshots": 4
+    },
+    {
+      "file": "wikipedia_k128_fm2_s1701_rollout.pt",
+      "sha256": "975f1d071caf3182309edfd24226df743937998a8f3ad66c56e27563160481e9",
+      "quality": {
+        "ap": 0.9656575731987121,
+        "auc": 0.957110513137357,
+        "bce": 0.2502517561268871,
+        "examples": 1984
+      },
+      "blocks": 31,
+      "snapshots": 4
+    },
+    {
+      "file": "wikipedia_k128_fm2_s1702_rollout.pt",
+      "sha256": "c1cd87b230bcc8543dd4969e1ebeea9dd6acef072a7b58d80ff36ab342152f0f",
+      "quality": {
+        "ap": 0.9666487079634883,
+        "auc": 0.9580606545915713,
+        "bce": 0.24721604527795613,
+        "examples": 1984
+      },
+      "blocks": 31,
+      "snapshots": 4
+    },
+    {
+      "file": "wikipedia_k128_fm2_s1703_rollout.pt",
+      "sha256": "0dfffe72af8d04e4af799cfe49a4c67af54a02bd8dee547b75b8052aadf8451e",
+      "quality": {
+        "ap": 0.9654984398798186,
+        "auc": 0.9568554484261186,
+        "bce": 0.2509666833378606,
+        "examples": 1984
+      },
+      "blocks": 31,
+      "snapshots": 4
+    },
+    {
+      "file": "wikipedia_k128_fm4_s1701_rollout.pt",
+      "sha256": "6c606e527cb0455c7f0340ee286020d42f4a70c88992e4181de4268b40944385",
+      "quality": {
+        "ap": 0.9651063466834673,
+        "auc": 0.9565495740114464,
+        "bce": 0.25139245406868027,
+        "examples": 1984
+      },
+      "blocks": 31,
+      "snapshots": 4
+    },
+    {
+      "file": "wikipedia_k128_fm4_s1702_rollout.pt",
+      "sha256": "01910a9a7d5e4c250a7133e7d50dec2de06114cdf1fe86ffc6dda3ac8d77aebb",
+      "quality": {
+        "ap": 0.9665622864523191,
+        "auc": 0.957982407648283,
+        "bce": 0.24707306246479882,
+        "examples": 1984
+      },
+      "blocks": 31,
+      "snapshots": 4
+    },
+    {
+      "file": "wikipedia_k128_fm4_s1703_rollout.pt",
+      "sha256": "5127237de621f4e95b9229b6542d2af01b62b5ed32df97545854bd6b037aa174",
+      "quality": {
+        "ap": 0.9653867123833194,
+        "auc": 0.9567060678980229,
+        "bce": 0.2514258228322451,
+        "examples": 1984
+      },
+      "blocks": 31,
+      "snapshots": 4
+    },
+    {
+      "file": "wikipedia_k128_mlp1_s1701_rollout.pt",
+      "sha256": "8e6c6f844e464d75a1173512f87cf1f2660183d26aae27a927561aa898a44bac",
+      "quality": {
+        "ap": 0.9663710409193051,
+        "auc": 0.9577161648022893,
+        "bce": 0.24630894110109125,
+        "examples": 1984
+      },
+      "blocks": 31,
+      "snapshots": 4
+    },
+    {
+      "file": "wikipedia_k128_mlp1_s1702_rollout.pt",
+      "sha256": "7c5d252229d8f216b06f02ef19645734aac47af9775d7b51cd1f79842a70a2e5",
+      "quality": {
+        "ap": 0.9665751579601702,
+        "auc": 0.9581653225806451,
+        "bce": 0.24543850304857248,
+        "examples": 1984
+      },
+      "blocks": 31,
+      "snapshots": 4
+    },
+    {
+      "file": "wikipedia_k128_mlp1_s1703_rollout.pt",
+      "sha256": "01dfb4cd3fb6e749ec4f712a60ce6dcbe5f6bbd88fd31c80924068984c0cc984",
+      "quality": {
+        "ap": 0.966374663312271,
+        "auc": 0.9580758975026015,
+        "bce": 0.2471117103973031,
+        "examples": 1984
+      },
+      "blocks": 31,
+      "snapshots": 4
+    },
+    {
+      "file": "wikipedia_k512_coarse_rollout.pt",
+      "sha256": "fe21e1c1981205fffc7f1d337e1d4e2daf080662bf1e8a88ec7981b7255409f0",
+      "quality": {
+        "ap": 0.9604294853696568,
+        "auc": 0.9472058354591837,
+        "bce": 0.2768401149482476,
+        "examples": 448
+      },
+      "blocks": 7,
+      "snapshots": 3
+    },
+    {
+      "file": "wikipedia_k512_copy_rollout.pt",
+      "sha256": "08e5884d406399ed3e06ea8c3652f9f0dd795a137819a3052c20c31078f2402c",
+      "quality": {
+        "ap": 0.9564124537935372,
+        "auc": 0.9413066007653061,
+        "bce": 0.2999558260712965,
+        "examples": 448
+      },
+      "blocks": 7,
+      "snapshots": 3
+    },
+    {
+      "file": "wikipedia_k512_exact_rollout.pt",
+      "sha256": "47d51bc25be7aebaa7b31cc449a4f5412acf696b122bd3e01d39d90039109500",
+      "quality": {
+        "ap": 0.9617794792178026,
+        "auc": 0.9511519451530612,
+        "bce": 0.2736171676405312,
+        "examples": 448
+      },
+      "blocks": 7,
+      "snapshots": 3
+    },
+    {
+      "file": "wikipedia_k512_fm1_s1701_rollout.pt",
+      "sha256": "c10ffd80949db4536efd35e83ba9a7cee91ea6d6223704ccd1053ab7e6a872b6",
+      "quality": {
+        "ap": 0.9600468715143645,
+        "auc": 0.9471261160714286,
+        "bce": 0.2863508631217068,
+        "examples": 448
+      },
+      "blocks": 7,
+      "snapshots": 3
+    },
+    {
+      "file": "wikipedia_k512_fm1_s1702_rollout.pt",
+      "sha256": "5997520de495ccd7f3232247f343d2937dfd19bac7a1b51032d95b7b5e165bd3",
+      "quality": {
+        "ap": 0.9589105363524955,
+        "auc": 0.9461495535714286,
+        "bce": 0.2876317725356565,
+        "examples": 448
+      },
+      "blocks": 7,
+      "snapshots": 3
+    },
+    {
+      "file": "wikipedia_k512_fm1_s1703_rollout.pt",
+      "sha256": "cb6e1c7c05af56de7a556c4e89b8f6971aa88ed417e0912beea0bfbfe382dcb4",
+      "quality": {
+        "ap": 0.9600816819054463,
+        "auc": 0.9489397321428571,
+        "bce": 0.2793121905469951,
+        "examples": 448
+      },
+      "blocks": 7,
+      "snapshots": 3
+    },
+    {
+      "file": "wikipedia_k512_fm2_s1701_rollout.pt",
+      "sha256": "4f38db78e0eb91bef6c585609c320a4271e9177dabb63ab12cbb7e923c8a0685",
+      "quality": {
+        "ap": 0.959902302439776,
+        "auc": 0.9473254145408163,
+        "bce": 0.28513786521078593,
+        "examples": 448
+      },
+      "blocks": 7,
+      "snapshots": 3
+    },
+    {
+      "file": "wikipedia_k512_fm2_s1702_rollout.pt",
+      "sha256": "74ca979f452cd8054bd83e6a546d78ad102f8b986bded4698c54fd399ae8550f",
+      "quality": {
+        "ap": 0.9596372812255478,
+        "auc": 0.9470463966836735,
+        "bce": 0.2871487036096889,
+        "examples": 448
+      },
+      "blocks": 7,
+      "snapshots": 3
+    },
+    {
+      "file": "wikipedia_k512_fm2_s1703_rollout.pt",
+      "sha256": "3bc8265cd308ed975e7f5960d308ce315515c30418a6635eb18b0295de2fcb16",
+      "quality": {
+        "ap": 0.9601512916930428,
+        "auc": 0.9493183992346939,
+        "bce": 0.27819710541848947,
+        "examples": 448
+      },
+      "blocks": 7,
+      "snapshots": 3
+    },
+    {
+      "file": "wikipedia_k512_fm4_s1701_rollout.pt",
+      "sha256": "35f98c4ed879d18cb40b694e28afbcdde36c4d25edc14e0c08ebe849ef14eedf",
+      "quality": {
+        "ap": 0.9600710067827517,
+        "auc": 0.9476044323979592,
+        "bce": 0.2843308759752133,
+        "examples": 448
+      },
+      "blocks": 7,
+      "snapshots": 3
+    },
+    {
+      "file": "wikipedia_k512_fm4_s1702_rollout.pt",
+      "sha256": "8c4f0f2538bdd51af3549ab1624f844291ff3431be84a0d5fcaf00175c07f95a",
+      "quality": {
+        "ap": 0.9594857417962722,
+        "auc": 0.946906887755102,
+        "bce": 0.28665806652899545,
+        "examples": 448
+      },
+      "blocks": 7,
+      "snapshots": 3
+    },
+    {
+      "file": "wikipedia_k512_fm4_s1703_rollout.pt",
+      "sha256": "00b17b6a38400e478a68d7493bb6e19ca561ffc2b530e6f3ec9225d1d06fc9e4",
+      "quality": {
+        "ap": 0.9602026285006295,
+        "auc": 0.9493781887755102,
+        "bce": 0.27760579050898937,
+        "examples": 448
+      },
+      "blocks": 7,
+      "snapshots": 3
+    },
+    {
+      "file": "wikipedia_k512_mlp1_s1701_rollout.pt",
+      "sha256": "ab984d28e71a027667c7caa7e734a5897c328f37ea02aa793d12d40367c4df9e",
+      "quality": {
+        "ap": 0.9589768549507486,
+        "auc": 0.9462691326530612,
+        "bce": 0.28885457399438164,
+        "examples": 448
+      },
+      "blocks": 7,
+      "snapshots": 3
+    },
+    {
+      "file": "wikipedia_k512_mlp1_s1702_rollout.pt",
+      "sha256": "82e21c5af886f360fd78257e16c3869e01ff64decf336ca5beaf0f572adcb6fe",
+      "quality": {
+        "ap": 0.9594203861349855,
+        "auc": 0.9480428890306123,
+        "bce": 0.28325964555487254,
+        "examples": 448
+      },
+      "blocks": 7,
+      "snapshots": 3
+    },
+    {
+      "file": "wikipedia_k512_mlp1_s1703_rollout.pt",
+      "sha256": "d7762f38f00174a68d6ffa1b3991c8c43180ebdf61d4eb4714b5875eacf5d448",
+      "quality": {
+        "ap": 0.9596137593965337,
+        "auc": 0.9479233099489796,
+        "bce": 0.283144382448145,
+        "examples": 448
+      },
+      "blocks": 7,
+      "snapshots": 3
+    }
+  ],
+  "splits": [
+    {
+      "case": "college_k128",
+      "split": "train",
+      "blocks": 93,
+      "samples": 6831,
+      "lo": 0,
+      "hi": 12000
+    },
+    {
+      "case": "college_k128",
+      "split": "val",
+      "blocks": 31,
+      "samples": 2805,
+      "lo": 12000,
+      "hi": 16000
+    },
+    {
+      "case": "college_k128",
+      "split": "test",
+      "blocks": 31,
+      "samples": 2660,
+      "lo": 16000,
+      "hi": 20000
+    },
+    {
+      "case": "college_k512",
+      "split": "train",
+      "blocks": 23,
+      "samples": 3906,
+      "lo": 0,
+      "hi": 12000
+    },
+    {
+      "case": "college_k512",
+      "split": "val",
+      "blocks": 7,
+      "samples": 1593,
+      "lo": 12000,
+      "hi": 16000
+    },
+    {
+      "case": "college_k512",
+      "split": "test",
+      "blocks": 7,
+      "samples": 1391,
+      "lo": 16000,
+      "hi": 20000
+    },
+    {
+      "case": "wikipedia_k128",
+      "split": "train",
+      "blocks": 93,
+      "samples": 8713,
+      "lo": 0,
+      "hi": 12000
+    },
+    {
+      "case": "wikipedia_k128",
+      "split": "val",
+      "blocks": 31,
+      "samples": 3245,
+      "lo": 12000,
+      "hi": 16000
+    },
+    {
+      "case": "wikipedia_k128",
+      "split": "test",
+      "blocks": 31,
+      "samples": 3384,
+      "lo": 16000,
+      "hi": 20000
+    },
+    {
+      "case": "wikipedia_k512",
+      "split": "train",
+      "blocks": 23,
+      "samples": 5967,
+      "lo": 0,
+      "hi": 12000
+    },
+    {
+      "case": "wikipedia_k512",
+      "split": "val",
+      "blocks": 7,
+      "samples": 2005,
+      "lo": 12000,
+      "hi": 16000
+    },
+    {
+      "case": "wikipedia_k512",
+      "split": "test",
+      "blocks": 7,
+      "samples": 2124,
+      "lo": 16000,
+      "hi": 20000
+    }
+  ],
+  "boundary": "All stored query logits and selected raw state snapshots; intermediate discrete checks are recorded by the GPU runner."
+}

@@ -1,0 +1,20 @@
+{
+  "quality": {
+    "ap": 0.9594203861349866,
+    "auc": 0.9480428890306122,
+    "bce": 0.28325964555487254,
+    "examples": 448
+  },
+  "final_drift": {
+    "sse": 7997.612325207602,
+    "target_sq": 43390.65194285431,
+    "elements": 273000,
+    "rmse": 0.17115864933598504,
+    "nrmse": 0.42932095473069054,
+    "max_abs": 3.118810474872589
+  },
+  "discrete_exact": true,
+  "blocks": 7,
+  "replayed_events": 3584,
+  "queried_events": 224
+}

@@ -1,0 +1,52 @@
+ptxas /tmp/tmpxft_0010c521_00000000-7_layout_probe.compute_120.ptx, line 833; info    : Advisory: Modifier '.sp::ordered_metadata' should be used on instruction 'mma' instead of modifier '.sp' as it is expected to have substantially reduced performance on some future architectures
+ptxas /tmp/tmpxft_0010c521_00000000-7_layout_probe.compute_120.ptx, line 840; info    : Advisory: Modifier '.sp::ordered_metadata' should be used on instruction 'mma' instead of modifier '.sp' as it is expected to have substantially reduced performance on some future architectures
+ptxas /tmp/tmpxft_0010c521_00000000-7_layout_probe.compute_120.ptx, line 4783; info    : Advisory: Modifier '.sp::ordered_metadata' should be used on instruction 'mma' instead of modifier '.sp' as it is expected to have substantially reduced performance on some future architectures
+ptxas /tmp/tmpxft_0010c521_00000000-7_layout_probe.compute_120.ptx, line 4790; info    : Advisory: Modifier '.sp::ordered_metadata' should be used on instruction 'mma' instead of modifier '.sp' as it is expected to have substantially reduced performance on some future architectures
+ptxas /tmp/tmpxft_0010c521_00000000-7_layout_probe.compute_120.ptx, line 6909; info    : Advisory: Modifier '.sp::ordered_metadata' should be used on instruction 'mma' instead of modifier '.sp' as it is expected to have substantially reduced performance on some future architectures
+ptxas /tmp/tmpxft_0010c521_00000000-7_layout_probe.compute_120.ptx, line 6916; info    : Advisory: Modifier '.sp::ordered_metadata' should be used on instruction 'mma' instead of modifier '.sp' as it is expected to have substantially reduced performance on some future architectures
+ptxas /tmp/tmpxft_0010c521_00000000-7_layout_probe.compute_120.ptx, line 8827; info    : Advisory: Modifier '.sp::ordered_metadata' should be used on instruction 'mma' instead of modifier '.sp' as it is expected to have substantially reduced performance on some future architectures
+ptxas /tmp/tmpxft_0010c521_00000000-7_layout_probe.compute_120.ptx, line 8834; info    : Advisory: Modifier '.sp::ordered_metadata' should be used on instruction 'mma' instead of modifier '.sp' as it is expected to have substantially reduced performance on some future architectures
+ptxas /tmp/tmpxft_0010c521_00000000-6_layout_probe.compute_120a.ptx, line 833; info    : Advisory: Modifier '.sp::ordered_metadata' should be used on instruction 'mma' instead of modifier '.sp' as it is expected to have substantially reduced performance on some future architectures
+ptxas /tmp/tmpxft_0010c521_00000000-6_layout_probe.compute_120a.ptx, line 840; info    : Advisory: Modifier '.sp::ordered_metadata' should be used on instruction 'mma' instead of modifier '.sp' as it is expected to have substantially reduced performance on some future architectures
+ptxas /tmp/tmpxft_0010c521_00000000-6_layout_probe.compute_120a.ptx, line 4783; info    : Advisory: Modifier '.sp::ordered_metadata' should be used on instruction 'mma' instead of modifier '.sp' as it is expected to have substantially reduced performance on some future architectures
+ptxas /tmp/tmpxft_0010c521_00000000-6_layout_probe.compute_120a.ptx, line 4790; info    : Advisory: Modifier '.sp::ordered_metadata' should be used on instruction 'mma' instead of modifier '.sp' as it is expected to have substantially reduced performance on some future architectures
+ptxas /tmp/tmpxft_0010c521_00000000-6_layout_probe.compute_120a.ptx, line 6909; info    : Advisory: Modifier '.sp::ordered_metadata' should be used on instruction 'mma' instead of modifier '.sp' as it is expected to have substantially reduced performance on some future architectures
+ptxas /tmp/tmpxft_0010c521_00000000-6_layout_probe.compute_120a.ptx, line 6916; info    : Advisory: Modifier '.sp::ordered_metadata' should be used on instruction 'mma' instead of modifier '.sp' as it is expected to have substantially reduced performance on some future architectures
+ptxas /tmp/tmpxft_0010c521_00000000-6_layout_probe.compute_120a.ptx, line 8827; info    : Advisory: Modifier '.sp::ordered_metadata' should be used on instruction 'mma' instead of modifier '.sp' as it is expected to have substantially reduced performance on some future architectures
+ptxas /tmp/tmpxft_0010c521_00000000-6_layout_probe.compute_120a.ptx, line 8834; info    : Advisory: Modifier '.sp::ordered_metadata' should be used on instruction 'mma' instead of modifier '.sp' as it is expected to have substantially reduced performance on some future architectures
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_Z11sparse_pathILi4EEvPKjPKfPK6__halfPfS7_Phiii' for 'sm_120a'
+ptxas info    : Function properties for _Z11sparse_pathILi4EEvPKjPKfPK6__halfPfS7_Phiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 44 registers, used 0 barriers
+ptxas info    : Compile time = 51.394 ms
+ptxas info    : Compiling entry function '_Z11sparse_pathILi3EEvPKjPKfPK6__halfPfS7_Phiii' for 'sm_120a'
+ptxas info    : Function properties for _Z11sparse_pathILi3EEvPKjPKfPK6__halfPfS7_Phiii
+    64 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 64 bytes cumulative stack size
+ptxas info    : Compile time = 63.854 ms
+ptxas info    : Compiling entry function '_Z11sparse_pathILi1EEvPKjPKfPK6__halfPfS7_Phiii' for 'sm_120a'
+ptxas info    : Function properties for _Z11sparse_pathILi1EEvPKjPKfPK6__halfPfS7_Phiii
+    64 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 64 bytes cumulative stack size
+ptxas info    : Compile time = 79.148 ms
+ptxas info    : Compiling entry function '_Z11sparse_pathILi0EEvPKjPKfPK6__halfPfS7_Phiii' for 'sm_120a'
+ptxas info    : Function properties for _Z11sparse_pathILi0EEvPKjPKfPK6__halfPfS7_Phiii
+    64 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 64 bytes cumulative stack size
+ptxas info    : Compile time = 79.509 ms
+ptxas info    : Compiling entry function '_Z10pack_bytesPKhPji' for 'sm_120a'
+ptxas info    : Function properties for _Z10pack_bytesPKhPji
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, used 0 barriers
+ptxas info    : Compile time = 1.673 ms
+ptxas info    : Compiling entry function '_Z10dense_pathPKjPKfPK6__halfPfPhiii' for 'sm_120a'
+ptxas info    : Function properties for _Z10dense_pathPKjPKfPK6__halfPfPhiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 48 registers, used 0 barriers
+ptxas info    : Compile time = 55.251 ms
+ptxas info    : Compiling entry function '_Z14split_consumerPKfPK6__halfPfii' for 'sm_120a'
+ptxas info    : Function properties for _Z14split_consumerPKfPK6__halfPfii
+    64 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 64 bytes cumulative stack size
+ptxas info    : Compile time = 28.120 ms

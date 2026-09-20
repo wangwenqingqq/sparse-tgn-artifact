@@ -1,0 +1,14 @@
+{
+  "start": "2026-09-10T18:28:20.355532+00:00",
+  "gpu": "GPU-9bd364a9-9d88-0b78-ef55-caac6f73d6b1",
+  "args": {
+    "run": "noise_v1",
+    "stage": "noise",
+    "qualification": null,
+    "script": "probe.py",
+    "rep": 0
+  },
+  "error": "BlockingIOError(11, 'Resource temporarily unavailable')",
+  "exit_code": -1,
+  "end": "2026-09-10T18:28:20.567555+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "start": "2026-09-09T01:38:19.647009+00:00",
+  "gpu": "GPU-a149f5af-55ab-ce33-8d3d-371a7ae61dd2",
+  "args": {
+    "run": "pilot_v1",
+    "stage": "qualify",
+    "qualification": null
+  },
+  "command": [
+    "/home/data/wangxuran/isaacsim6/env/bin/python",
+    "/home/data/wangxuran/tncn_memory_profile_20260909/src/pilot.py",
+    "--output",
+    "/home/data/wangxuran/tncn_memory_profile_20260909/output/pilot_v1/artifacts",
+    "--stage",
+    "qualify"
+  ],
+  "exit_code": 0,
+  "end": "2026-09-09T01:38:30.062529+00:00"
+}

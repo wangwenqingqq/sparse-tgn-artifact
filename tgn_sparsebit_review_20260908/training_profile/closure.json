@@ -1,0 +1,19 @@
+{
+  "status": "profile_complete_with_source_equivalence_failures",
+  "time": "2026-09-08T12:48:26.974116+00:00",
+  "real_windows": 12,
+  "real_steps": 96,
+  "integer_coefficient_checks_pass": 96,
+  "source_step_checks_pass": 86,
+  "source_step_checks_fail": 10,
+  "keeper_oracle_checks_pass": 288,
+  "raw_audit_pass": true,
+  "recheck_intervals": 324,
+  "recheck_checkpoint_steps_pass": 96,
+  "geomean_free_relations": 1.0375391805953809,
+  "source_equivalence_qualified": false,
+  "original_tgn_qualified": false,
+  "gpu_released": true,
+  "raw_tensor_location": "pro6000-8:/home/data/wangxuran/tncn_training_profile_20260908/output/full_v5/artifacts",
+  "raw_tensor_bytes": 3974810576
+}

@@ -1,0 +1,122 @@
+{
+  "start": "2026-09-09T03:32:08.921428+00:00",
+  "gpu": "GPU-863c06a5-9f33-0265-b098-013fa840d5db",
+  "args": {
+    "run": "pipeline_v1",
+    "stage": "pipeline",
+    "dataset": "both",
+    "artifact_dir": "main",
+    "epochs": "5",
+    "steps": "1500",
+    "rounds": "7",
+    "gpu": 4
+  },
+  "sources": {
+    "src/supervise.py": "b30db79d201e5f2beaa3710693c06009ea0fa25b4b33ab91f498049a3c6e10e3",
+    "src/audit.py": "764d20d07fb06d5dd2aad97ac468a774e15402abc29644e25c74812c78b5ef3f",
+    "src/experiment.py": "f5bbda65783319ab37be6c6cd7e35cb8542c4a2c9bb262d7a3c62445cdf293d4"
+  },
+  "contract_sha256": "f3b3043bd2ffc4f7c9016540e01fedb973fd4e90285a61ca54c547b0c2825a96",
+  "import_hashes": {
+    "/home/data/wangxuran/tncn_memory_profile_20260909/src/instrument.py": "5d4a9390443e47809b8eb7d1bfc6e0aa8b62faa4e24fcf9b25d3b62248e30f83",
+    "/home/data/wangxuran/tncn_compatible_csr_20260908/src/bridge.py": "3d0994c94b14c19605ea3a63d239254e530791bee4c3692ca646e45ed11550d5",
+    "/home/data/wangxuran/tncn_numeric_diagnosis_20260908/src/diagnose.py": "e2c9db69d4857b6f8c1041d585be1278f63e80b46df2e14359fdff90594549f7",
+    "/home/data/wangxuran/tncn_training_profile_20260908/src/profile_training.py": "6661592757c40c635b61e51c9294d693adae20f1be7486dfbfc51375d7645418"
+  },
+  "stages": [
+    {
+      "stage": "samples",
+      "command": [
+        "/home/data/wangxuran/isaacsim6/env/bin/python",
+        "/home/data/wangxuran/tncn_flow_replay_20260909/src/experiment.py",
+        "--stage",
+        "samples",
+        "--dataset",
+        "both",
+        "--out",
+        "/home/data/wangxuran/tncn_flow_replay_20260909/artifacts/main",
+        "--epochs",
+        "5",
+        "--steps",
+        "1500",
+        "--rounds",
+        "7"
+      ],
+      "exit_code": 0
+    },
+    {
+      "stage": "fit",
+      "command": [
+        "/home/data/wangxuran/isaacsim6/env/bin/python",
+        "/home/data/wangxuran/tncn_flow_replay_20260909/src/experiment.py",
+        "--stage",
+        "fit",
+        "--dataset",
+        "both",
+        "--out",
+        "/home/data/wangxuran/tncn_flow_replay_20260909/artifacts/main",
+        "--epochs",
+        "5",
+        "--steps",
+        "1500",
+        "--rounds",
+        "7"
+      ],
+      "exit_code": 0
+    },
+    {
+      "stage": "evaluate",
+      "command": [
+        "/home/data/wangxuran/isaacsim6/env/bin/python",
+        "/home/data/wangxuran/tncn_flow_replay_20260909/src/experiment.py",
+        "--stage",
+        "evaluate",
+        "--dataset",
+        "both",
+        "--out",
+        "/home/data/wangxuran/tncn_flow_replay_20260909/artifacts/main",
+        "--epochs",
+        "5",
+        "--steps",
+        "1500",
+        "--rounds",
+        "7"
+      ],
+      "exit_code": 0
+    },
+    {
+      "stage": "audit",
+      "command": [
+        "/home/data/wangxuran/isaacsim6/env/bin/python",
+        "/home/data/wangxuran/tncn_flow_replay_20260909/src/audit.py",
+        "--input",
+        "/home/data/wangxuran/tncn_flow_replay_20260909/artifacts/main",
+        "--output",
+        "/home/data/wangxuran/tncn_flow_replay_20260909/runs/pipeline_v1/audit.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "stage": "timing",
+      "command": [
+        "/home/data/wangxuran/isaacsim6/env/bin/python",
+        "/home/data/wangxuran/tncn_flow_replay_20260909/src/experiment.py",
+        "--stage",
+        "timing",
+        "--dataset",
+        "both",
+        "--out",
+        "/home/data/wangxuran/tncn_flow_replay_20260909/artifacts/main",
+        "--epochs",
+        "5",
+        "--steps",
+        "1500",
+        "--rounds",
+        "7"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "exit_code": 0,
+  "end": "2026-09-09T03:37:44.577861+00:00"
+}

@@ -1,0 +1,32 @@
+{
+  "retrieved_utc": "2026-09-08T10:27:50.920302+00:00",
+  "input": {
+    "path": "/tmp/codex_remote_uploads/wxr/20260908_181217_787/TGN-sparseBit Tensor Core-astra.md",
+    "bytes": 1725103,
+    "lines": 20488,
+    "sha256": "b1a79ab9c590f64db66ace21beeb12d5dd761464bd76aec960c117b7d1945167"
+  },
+  "sources": [
+    {
+      "file": "sources/NCNPred_pinned.py",
+      "url": "https://raw.githubusercontent.com/GraphPKU/TNCN/4c93a2a6c67c4033bab50a2c0a6833cbf8f24b5b/modules/NCNDecoder/NCNPred.py",
+      "sha256": "fa65ddb7959aa39052ba6004f9f23e47e65e8d709275dd5b77c88516a6c776ca"
+    },
+    {
+      "file": "sources/pytorch_sparse_tensor.py",
+      "url": "https://raw.githubusercontent.com/rusty1s/pytorch_sparse/0.6.18/torch_sparse/tensor.py",
+      "sha256": "8f087e5e1a2738ced8e778c2bb5fd5053cc2c2614c1d7330b6a0ad7803c22a1c"
+    },
+    {
+      "file": "sources/tgm_ncnpred_pinned.py",
+      "url": "https://raw.githubusercontent.com/tgm-team/tgm/d3cdd9f1c49c091c5ca5b6640d326444e4809f0e/tgm/nn/decoder/ncnpred.py",
+      "sha256": "cedfbfd8df067774f545a05b82b693b250732e3fc13801ecbc42477c50606c06"
+    },
+    {
+      "file": "sources/sparse_metadata.png",
+      "url": "https://docs.nvidia.com/cuda/parallel-thread-execution/_images/sparse-mma-metadata-16832-f16bf16.png",
+      "sha256": "14eb6b0bed66ffc0de9d95937b00014be832e642f7667388b9f898cb9bd30553"
+    }
+  ],
+  "reading_boundary": "Historical raw experiment files were not provided or rerun. Local CPU screen is independent new work. Online publication abstracts and inspected method/source sections are linked in the report; no exhaustive novelty claim."
+}

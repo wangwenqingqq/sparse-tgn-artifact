@@ -1,0 +1,82 @@
+{
+  "time": "2026-09-09T03:36:34.474098+00:00",
+  "qualification": {
+    "free_cache_reads": {
+      "steps": 96,
+      "bitwise": 96,
+      "source_bitwise": 96,
+      "elements": 214887202
+    },
+    "batch_store": {
+      "steps": 96,
+      "bitwise": 96,
+      "source_bitwise": 96,
+      "elements": 214887202
+    },
+    "capture": {
+      "steps": 96,
+      "bitwise": 96,
+      "source_bitwise": 96,
+      "elements": 214887202
+    },
+    "prefix": {
+      "calls": 384,
+      "exact": true,
+      "elements": 10610895
+    }
+  },
+  "instrumented_checks": {
+    "phase_end_states": 24,
+    "fields": 115,
+    "bitwise_all": true,
+    "prefix_calls_as_designed": true
+  },
+  "cache_storage_same_steps": 96,
+  "timings": {
+    "intervals": 216,
+    "steps": 1728,
+    "speedup": {
+      "geomean": 1.1087277571237857,
+      "descriptive_bootstrap_95": [
+        1.0971691916473976,
+        1.1165644016263998
+      ],
+      "min": 1.052599795744499,
+      "max": 1.233709955967361,
+      "lower_ci_above_one": 12,
+      "lower_ci_above_1_10": 4,
+      "upper_ci_below_1_10": 4
+    },
+    "decision": {
+      "threshold": 1.1,
+      "metric": "Geomean across 12 paired-ratio medians",
+      "passes_point_estimate": true,
+      "action": "Admit further investigation, accounting for uncertainty and implementation cost"
+    }
+  },
+  "remote_prior_files_unchanged": {
+    "files": 1556,
+    "mismatches": []
+  },
+  "local_prior_manifests": {
+    "nograd": 39,
+    "memory_profile": 80,
+    "compatible_csr": 34,
+    "numeric_diagnosis": 45,
+    "training_profile": 141
+  },
+  "import_failure_retained": "qualify_v1, before any training",
+  "import_fix_only": "verified",
+  "source_syntax": "pass",
+  "tested_source_hashes": "pass",
+  "markdown_links": "pass",
+  "figure": "visually inspected",
+  "gpu3_lock_free": true,
+  "gpu_final": "0, GPU-9bd364a9-9d88-0b78-ef55-caac6f73d6b1, 14 MiB, 0 %\n1, GPU-daa88abc-ce4a-aa1c-c896-ae528bf9bce3, 14 MiB, 0 %\n2, GPU-16f27f5a-dfcd-48e0-bb39-bebbe4009245, 14 MiB, 0 %\n3, GPU-a149f5af-55ab-ce33-8d3d-371a7ae61dd2, 14 MiB, 0 %\n4, GPU-863c06a5-9f33-0265-b098-013fa840d5db, 838 MiB, 20 %\n5, GPU-a1e0baba-3982-4538-6540-2b013a1adf49, 14 MiB, 0 %\n6, GPU-865ae1f0-780e-d04c-5ec3-4deccea65f82, 14 MiB, 0 %\n7, GPU-e5a0e7f5-9917-c2a1-ee8e-7282cbba2603, 30492 MiB, 0 %\n",
+  "processes_final": "GPU-863c06a5-9f33-0265-b098-013fa840d5db, 1742808, /home/data/wangxuran/isaacsim6/env/bin/python, 816 MiB\nGPU-e5a0e7f5-9917-c2a1-ee8e-7282cbba2603, 1050457, VLLM::EngineCore, 15224 MiB\nGPU-e5a0e7f5-9917-c2a1-ee8e-7282cbba2603, 1050568, VLLM::EngineCore, 15240 MiB\n",
+  "remote_files": 92,
+  "remote_bytes": 2676167456,
+  "local_transfer_verified": 44,
+  "remote_only_raw_files": 48,
+  "remote_only_raw_bytes": 2674572232
+}

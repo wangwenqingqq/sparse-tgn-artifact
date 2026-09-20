@@ -1,0 +1,24 @@
+{
+  "start": "2026-09-09T11:01:33.212460+00:00",
+  "gpu": "GPU-9bd364a9-9d88-0b78-ef55-caac6f73d6b1",
+  "args": {
+    "run": "diagnostic_timing_v3",
+    "stage": "diagnostic_timing",
+    "qualification": "/home/data/wangxuran/flash_tgn_rebaseline_20260909/output/qualify_v1/artifacts/qualification.json",
+    "rep": 3
+  },
+  "command": [
+    "/home/data/wangxuran/isaacsim6/env/bin/python",
+    "/home/data/wangxuran/flash_tgn_rebaseline_20260909/src/followup.py",
+    "--output",
+    "/home/data/wangxuran/flash_tgn_rebaseline_20260909/output/diagnostic_timing_v3/artifacts",
+    "--stage",
+    "diagnostic_timing",
+    "--rep",
+    "3",
+    "--qualification",
+    "/home/data/wangxuran/flash_tgn_rebaseline_20260909/output/qualify_v1/artifacts/qualification.json"
+  ],
+  "exit_code": 0,
+  "end": "2026-09-09T11:03:54.221590+00:00"
+}

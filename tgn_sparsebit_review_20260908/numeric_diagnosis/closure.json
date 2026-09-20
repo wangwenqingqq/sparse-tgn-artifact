@@ -1,0 +1,52 @@
+{
+  "status": "complete_numerical_diagnosis_with_qualified_compatibility_path",
+  "time": "2026-09-08T13:49:23.811869+00:00",
+  "qualification": {
+    "windows": 12,
+    "steps": 96,
+    "fields_per_step": 107,
+    "bitwise_equal_steps": 96,
+    "tensor_elements": 187803430
+  },
+  "source_failures_reproduced": {
+    "wikipedia_b200_s20": 7,
+    "college_b200_s20": 3
+  },
+  "frequency_anchor_pass": {
+    "wikipedia": 8,
+    "college": 8
+  },
+  "time64_rejected": {
+    "passed": 7,
+    "total": 16,
+    "tolerance_unchanged": true
+  },
+  "compatible_oracle": {
+    "passed": 96,
+    "bitwise_equal": 96,
+    "total": 96
+  },
+  "timing": {
+    "intervals": 432,
+    "steps": 3456,
+    "paired_rounds_per_window": 9,
+    "source_over_compatible_geomean": 2.137534407716409,
+    "keeper_over_compatible_geomean": 0.8427325807546974,
+    "compatible_over_free_relations_geomean": 1.2289149474575927
+  },
+  "evidence": {
+    "remote_raw_files": 40,
+    "remote_raw_bytes": 2448209188,
+    "nonraw_hash_matches": 34,
+    "prior_files_unchanged": 1202
+  },
+  "gpu_released": true,
+  "limitations": [
+    "12 restored eight-step windows, not an epoch or task-quality evaluation",
+    "conditional equivalence from checkpoints whose history used the prior keeper",
+    "compatibility uses dense coefficient conversion and adds about 18.7 percent time versus old keeper",
+    "no Tensor Core contribution or original TGN entry acceptance",
+    "per-step message dictionaries and RNG states not separately compared",
+    "float aggregation and endpoint autograd changes repaired together, not individually attributed"
+  ]
+}

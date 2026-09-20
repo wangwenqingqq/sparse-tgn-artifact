@@ -1,0 +1,44 @@
+ptxas /tmp/tmpxft_0010c6b4_00000000-6_layout_probe.ptx, line 817; info    : Advisory: Modifier '.sp::ordered_metadata' should be used on instruction 'mma' instead of modifier '.sp' as it is expected to have substantially reduced performance on some future architectures
+ptxas /tmp/tmpxft_0010c6b4_00000000-6_layout_probe.ptx, line 825; info    : Advisory: Modifier '.sp::ordered_metadata' should be used on instruction 'mma' instead of modifier '.sp' as it is expected to have substantially reduced performance on some future architectures
+ptxas /tmp/tmpxft_0010c6b4_00000000-6_layout_probe.ptx, line 4106; info    : Advisory: Modifier '.sp::ordered_metadata' should be used on instruction 'mma' instead of modifier '.sp' as it is expected to have substantially reduced performance on some future architectures
+ptxas /tmp/tmpxft_0010c6b4_00000000-6_layout_probe.ptx, line 4114; info    : Advisory: Modifier '.sp::ordered_metadata' should be used on instruction 'mma' instead of modifier '.sp' as it is expected to have substantially reduced performance on some future architectures
+ptxas /tmp/tmpxft_0010c6b4_00000000-6_layout_probe.ptx, line 5872; info    : Advisory: Modifier '.sp::ordered_metadata' should be used on instruction 'mma' instead of modifier '.sp' as it is expected to have substantially reduced performance on some future architectures
+ptxas /tmp/tmpxft_0010c6b4_00000000-6_layout_probe.ptx, line 5880; info    : Advisory: Modifier '.sp::ordered_metadata' should be used on instruction 'mma' instead of modifier '.sp' as it is expected to have substantially reduced performance on some future architectures
+ptxas /tmp/tmpxft_0010c6b4_00000000-6_layout_probe.ptx, line 7681; info    : Advisory: Modifier '.sp::ordered_metadata' should be used on instruction 'mma' instead of modifier '.sp' as it is expected to have substantially reduced performance on some future architectures
+ptxas /tmp/tmpxft_0010c6b4_00000000-6_layout_probe.ptx, line 7689; info    : Advisory: Modifier '.sp::ordered_metadata' should be used on instruction 'mma' instead of modifier '.sp' as it is expected to have substantially reduced performance on some future architectures
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function '_Z11sparse_pathILi4EEvPKjPKfPK6__halfPfS7_Phiii' for 'sm_80'
+ptxas info    : Function properties for _Z11sparse_pathILi4EEvPKjPKfPK6__halfPfS7_Phiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 52 registers, used 0 barriers, 412 bytes cmem[0]
+ptxas info    : Compile time = 70.373 ms
+ptxas info    : Compiling entry function '_Z11sparse_pathILi3EEvPKjPKfPK6__halfPfS7_Phiii' for 'sm_80'
+ptxas info    : Function properties for _Z11sparse_pathILi3EEvPKjPKfPK6__halfPfS7_Phiii
+    64 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, used 0 barriers, 64 bytes cumulative stack size, 412 bytes cmem[0]
+ptxas info    : Compile time = 40.784 ms
+ptxas info    : Compiling entry function '_Z11sparse_pathILi1EEvPKjPKfPK6__halfPfS7_Phiii' for 'sm_80'
+ptxas info    : Function properties for _Z11sparse_pathILi1EEvPKjPKfPK6__halfPfS7_Phiii
+    64 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 52 registers, used 0 barriers, 64 bytes cumulative stack size, 412 bytes cmem[0]
+ptxas info    : Compile time = 81.539 ms
+ptxas info    : Compiling entry function '_Z11sparse_pathILi0EEvPKjPKfPK6__halfPfS7_Phiii' for 'sm_80'
+ptxas info    : Function properties for _Z11sparse_pathILi0EEvPKjPKfPK6__halfPfS7_Phiii
+    64 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, used 0 barriers, 64 bytes cumulative stack size, 412 bytes cmem[0]
+ptxas info    : Compile time = 80.137 ms
+ptxas info    : Compiling entry function '_Z10pack_bytesPKhPji' for 'sm_80'
+ptxas info    : Function properties for _Z10pack_bytesPKhPji
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 8 registers, used 0 barriers, 372 bytes cmem[0]
+ptxas info    : Compile time = 1.675 ms
+ptxas info    : Compiling entry function '_Z10dense_pathPKjPKfPK6__halfPfPhiii' for 'sm_80'
+ptxas info    : Function properties for _Z10dense_pathPKjPKfPK6__halfPfPhiii
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 42 registers, used 0 barriers, 404 bytes cmem[0]
+ptxas info    : Compile time = 57.001 ms
+ptxas info    : Compiling entry function '_Z14split_consumerPKfPK6__halfPfii' for 'sm_80'
+ptxas info    : Function properties for _Z14split_consumerPKfPK6__halfPfii
+    64 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 48 registers, used 0 barriers, 64 bytes cumulative stack size, 384 bytes cmem[0]
+ptxas info    : Compile time = 20.534 ms

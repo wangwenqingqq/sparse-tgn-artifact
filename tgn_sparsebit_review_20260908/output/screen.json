@@ -1,0 +1,71 @@
+{
+  "scope": "CPU coordinate/encoding screen only; no native kernel, training, or timing",
+  "all_pass": true,
+  "panel_order": [
+    [
+      0,
+      1,
+      4,
+      5,
+      8,
+      9,
+      12,
+      13
+    ],
+    [
+      2,
+      3,
+      6,
+      7,
+      10,
+      11,
+      14,
+      15
+    ],
+    [
+      16,
+      17,
+      20,
+      21,
+      24,
+      25,
+      28,
+      29
+    ],
+    [
+      18,
+      19,
+      22,
+      23,
+      26,
+      27,
+      30,
+      31
+    ]
+  ],
+  "coordinate_slots": 512,
+  "natural_remote_slots": 384,
+  "permuted_remote_slots": 0,
+  "natural_exactly_2_of_4_remote_range": [
+    128,
+    256
+  ],
+  "exhaustive_local_support_cases": 2048,
+  "binary_dot_panel_cases": 20,
+  "signed_tile_forward_transpose_cases": 64,
+  "metadata_remote_nibbles_per_plane": 96,
+  "metadata_total_nibbles_per_plane": 128,
+  "tf32_m16n8k16_candidate_slots": 256,
+  "tf32_m16n8k16_natural_remote_slots": 0,
+  "caveats": [
+    "Coordinate slots and nibbles are not warp instruction counts or HBM traffic.",
+    "Coefficient values are assumed to be produced in the BMMA accumulator owners.",
+    "BMMA gives Q witnesses/counts, not full weighted TNCN coefficients.",
+    "Input packing, weighted S delivery, metadata gathers and live registers must be paid.",
+    "Two planes are exact in this forward row format but do not guarantee transpose 2:4.",
+    "Transpose arithmetic check is algebraic, not a backward native layout.",
+    "Full packing modeled only for FP16/BF16 sparse m16n8k32; TF32 check is coordinates only.",
+    "A separate implementation may use the identical column schedule."
+  ],
+  "script_sha256": "63465d1ac7c4121d206c7dcfa8cfdf35570e5138ed7c05f0dcf4088c1f1c6424"
+}

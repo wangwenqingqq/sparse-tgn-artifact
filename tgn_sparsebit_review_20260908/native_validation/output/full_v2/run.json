@@ -1,0 +1,101 @@
+{
+  "start_utc": "2026-09-08T10:56:14.500804+00:00",
+  "gpu": "GPU-16f27f5a-dfcd-48e0-bb39-bebbe4009245",
+  "lock": "/home/data/wangxuran/.locks/tgn_sptc_gpu2.lock",
+  "stage": "full",
+  "files": {
+    "src/layout_probe.cu": "e6bc07e5edbf25dc68425ad475cbaf5b72fe477f24e69a134987fc39cfd203b6",
+    "src/CONTRACT.md": "4881fbe90bb1efdf86c91e67768457f9921851f7280ce3da6b59c6a023442f5f",
+    "compile/probe_v2_sm120a": "f57d95b9e8a29c9a5136d77ebf0648fc670f0b9c2f5822a72fa871d0ad92104f"
+  },
+  "steps": [
+    {
+      "label": "correctness",
+      "command": [
+        "/home/data/wangxuran/tgn_consumer_layout_20260908/compile/probe_v2_sm120a",
+        "check"
+      ],
+      "timeout": 180,
+      "start_utc": "2026-09-08T10:56:14.687757+00:00",
+      "exit_code": 0,
+      "end_utc": "2026-09-08T10:56:15.303440+00:00"
+    },
+    {
+      "label": "memcheck",
+      "command": [
+        "/usr/local/cuda/bin/compute-sanitizer",
+        "--tool",
+        "memcheck",
+        "--error-exitcode",
+        "91",
+        "/home/data/wangxuran/tgn_consumer_layout_20260908/compile/probe_v2_sm120a",
+        "small"
+      ],
+      "timeout": 180,
+      "start_utc": "2026-09-08T10:56:15.303958+00:00",
+      "exit_code": 0,
+      "end_utc": "2026-09-08T10:56:15.869265+00:00"
+    },
+    {
+      "label": "racecheck",
+      "command": [
+        "/usr/local/cuda/bin/compute-sanitizer",
+        "--tool",
+        "racecheck",
+        "--error-exitcode",
+        "91",
+        "/home/data/wangxuran/tgn_consumer_layout_20260908/compile/probe_v2_sm120a",
+        "small"
+      ],
+      "timeout": 180,
+      "start_utc": "2026-09-08T10:56:15.869770+00:00",
+      "exit_code": 0,
+      "end_utc": "2026-09-08T10:56:17.536624+00:00"
+    },
+    {
+      "label": "initcheck",
+      "command": [
+        "/usr/local/cuda/bin/compute-sanitizer",
+        "--tool",
+        "initcheck",
+        "--error-exitcode",
+        "91",
+        "/home/data/wangxuran/tgn_consumer_layout_20260908/compile/probe_v2_sm120a",
+        "small"
+      ],
+      "timeout": 180,
+      "start_utc": "2026-09-08T10:56:17.537382+00:00",
+      "exit_code": 0,
+      "end_utc": "2026-09-08T10:56:18.102792+00:00"
+    },
+    {
+      "label": "synccheck",
+      "command": [
+        "/usr/local/cuda/bin/compute-sanitizer",
+        "--tool",
+        "synccheck",
+        "--error-exitcode",
+        "91",
+        "/home/data/wangxuran/tgn_consumer_layout_20260908/compile/probe_v2_sm120a",
+        "small"
+      ],
+      "timeout": 180,
+      "start_utc": "2026-09-08T10:56:18.103428+00:00",
+      "exit_code": 0,
+      "end_utc": "2026-09-08T10:56:18.618588+00:00"
+    },
+    {
+      "label": "benchmark",
+      "command": [
+        "/home/data/wangxuran/tgn_consumer_layout_20260908/compile/probe_v2_sm120a",
+        "bench"
+      ],
+      "timeout": 360,
+      "start_utc": "2026-09-08T10:56:18.619124+00:00",
+      "exit_code": 0,
+      "end_utc": "2026-09-08T10:56:23.740470+00:00"
+    }
+  ],
+  "status": "complete",
+  "end_utc": "2026-09-08T10:56:23.906749+00:00"
+}

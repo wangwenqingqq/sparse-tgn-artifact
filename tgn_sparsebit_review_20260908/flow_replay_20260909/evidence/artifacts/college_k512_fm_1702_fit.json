@@ -1,0 +1,86 @@
+{
+  "mode": "fm",
+  "seed": 1702,
+  "steps": 1500,
+  "selected_step": 100,
+  "validation_mse": 0.761074770480226,
+  "parameters": 297828,
+  "seconds": 3.8028802420012653,
+  "curve": [
+    {
+      "step": 100,
+      "training_loss": 0.3679545521736145,
+      "validation_mse": 0.761074770480226
+    },
+    {
+      "step": 200,
+      "training_loss": 0.26178231835365295,
+      "validation_mse": 0.7639674552730696
+    },
+    {
+      "step": 300,
+      "training_loss": 0.2155715525150299,
+      "validation_mse": 0.7763611307281858
+    },
+    {
+      "step": 400,
+      "training_loss": 0.18994954228401184,
+      "validation_mse": 0.7993295374293785
+    },
+    {
+      "step": 500,
+      "training_loss": 0.17514555156230927,
+      "validation_mse": 0.8180202938637791
+    },
+    {
+      "step": 600,
+      "training_loss": 0.1563587635755539,
+      "validation_mse": 0.8486651561519146
+    },
+    {
+      "step": 700,
+      "training_loss": 0.136098712682724,
+      "validation_mse": 0.875662762868801
+    },
+    {
+      "step": 800,
+      "training_loss": 0.1317344307899475,
+      "validation_mse": 0.904929476616447
+    },
+    {
+      "step": 900,
+      "training_loss": 0.12020068615674973,
+      "validation_mse": 0.9204613935969869
+    },
+    {
+      "step": 1000,
+      "training_loss": 0.11802303045988083,
+      "validation_mse": 0.9351949937225361
+    },
+    {
+      "step": 1100,
+      "training_loss": 0.1066528931260109,
+      "validation_mse": 0.9445667569052103
+    },
+    {
+      "step": 1200,
+      "training_loss": 0.10159197449684143,
+      "validation_mse": 0.9570876490897677
+    },
+    {
+      "step": 1300,
+      "training_loss": 0.10549961030483246,
+      "validation_mse": 0.9575276600753295
+    },
+    {
+      "step": 1400,
+      "training_loss": 0.1022564098238945,
+      "validation_mse": 0.970161056183302
+    },
+    {
+      "step": 1500,
+      "training_loss": 0.09371834248304367,
+      "validation_mse": 0.9772055477087257
+    }
+  ]
+}

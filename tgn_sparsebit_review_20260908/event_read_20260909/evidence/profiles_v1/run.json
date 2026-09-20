@@ -1,0 +1,21 @@
+{
+  "start": "2026-09-09T06:30:01.159238+00:00",
+  "gpu": "GPU-a149f5af-55ab-ce33-8d3d-371a7ae61dd2",
+  "args": {
+    "run": "profiles_v1",
+    "stage": "profiles",
+    "qualification": "/home/data/wangxuran/tncn_event_read_20260909/output/qualify_v1/artifacts/qualification.json"
+  },
+  "command": [
+    "/home/data/wangxuran/isaacsim6/env/bin/python",
+    "/home/data/wangxuran/tncn_event_read_20260909/src/fullrun.py",
+    "--output",
+    "/home/data/wangxuran/tncn_event_read_20260909/output/profiles_v1/artifacts",
+    "--stage",
+    "profiles",
+    "--qualification",
+    "/home/data/wangxuran/tncn_event_read_20260909/output/qualify_v1/artifacts/qualification.json"
+  ],
+  "exit_code": 0,
+  "end": "2026-09-09T06:30:30.108274+00:00"
+}

@@ -1,0 +1,80 @@
+{"kind": "opening", "stage": "capture", "input_files": 809, "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition", "gpu_uuid": "GPU-9bd364a9-9d88-0b78-ef55-caac6f73d6b1", "torch": "2.11.0+cu130", "cuda": "13.0", "precision": "high", "tf32": true, "hashes": {"/home/data/wangxuran/flash_wkv_probe_20260911/CONTRACT.md": "79d5375e2c1d34a31fdca8ce7c83350d477a85632c884eff85fb7ab39a7204f7", "/home/data/wangxuran/flash_wkv_probe_20260911/src/common.py": "398a857e4d5e2a5b03475b07cb254d0219febb8a67265ba55ecf5438fd9bbabe", "/home/data/wangxuran/flash_tgn_rebaseline_20260909/src/core.py": "2cf0459ade24786df9ceb56d09926547527f1793f74d72176be7398aae6f8670", "/home/data/wangxuran/flash_tgn_rebaseline_20260909/input_manifest.json": "575503fe0004e489d12f1becb97c5b77814f307f666a9c5691a60dd6931bc4f5", "/home/data/wangxuran/flash_wkv_probe_20260911/src/capture.py": "9863b3a2a20c3a10505a7d46e4990906b8e2dd3711d6b9a93d6bf199ab8652fd"}}
+Loading wiki...
+  efeat: mode=cpu, dim=172, E=157474
+  nfeat: (9227, 256)
+  edges=157474, nodes=9227, nfeat=256, efeat=172
+  efeat GPU: fp32, 0.1GB
+  [TCSR] N=9227, E'=314948 (undirected)
+  [precompute] 551 batches, 330600 queries, 0.508s
+  [precompute] 551 batches, 330600 queries, 0.396s
+{"kind": "capture", "label": "wiki_bs200_k50_l1_s8_tce", "case": {"bs": 200, "k": 50, "layers": 1, "label": "wiki_bs200_k50_l1"}, "step": 8, "position": "early", "module": "tce", "rows": 30000, "valid": 5254, "valid_ratio": 0.17513333333333334, "source_packed": true, "input_file": "wiki_bs200_k50_l1_s8_tce_input.pt", "bytes": 85449980, "sha256": "a428305939911d3b3f03b1b88999b8988d53a42e196de7961446419cad3a23a7", "q_shape": [600, 256], "z_shape": [30000, 684]}
+{"kind": "capture", "label": "wiki_bs200_k50_l1_s276_tce", "case": {"bs": 200, "k": 50, "layers": 1, "label": "wiki_bs200_k50_l1"}, "step": 276, "position": "middle", "module": "tce", "rows": 30000, "valid": 17843, "valid_ratio": 0.5947666666666667, "source_packed": false, "input_file": "wiki_bs200_k50_l1_s276_tce_input.pt", "bytes": 85450006, "sha256": "d3aff40afefb47c9000400c4aa275f46a5cfdd2d3220dffe2a0cad3414b5a7bc", "q_shape": [600, 256], "z_shape": [30000, 684]}
+   loop | time:4.59s
+Epoch   1 | loss=0.2357 AP=0.0000 AUC=0.0000 | time=4.6s TPS=23997
+[op-path] calls=551 gather_fused=551 gather_pytorch=0 l0_gather_fused=0 l0_gather_pytorch=0 packed=194 fused_dense=357 pytorch_dense=0 fallback_exceptions=0 avg_Q=600.0
+{"kind": "case_complete", "case": {"bs": 200, "k": 50, "layers": 1, "label": "wiki_bs200_k50_l1"}, "batches": 551, "cuda_calls": {"tcsr_temporal_sample": 4, "fused_lse_gather": 551, "fused_gather_encode_v2": 551, "fused_seg_attn_forward": 194, "fused_seg_attn_backward": 194, "fused_gather_encode_backward_v2": 551, "fused_mh_attn_forward": 357, "fused_mh_attn_backward": 357}, "cuda_errors": []}
+Loading wiki...
+  efeat: mode=cpu, dim=172, E=157474
+  nfeat: (9227, 256)
+  edges=157474, nodes=9227, nfeat=256, efeat=172
+  efeat GPU: fp32, 0.1GB
+  [TCSR] N=9227, E'=314948 (undirected)
+  [precompute] skipped full-epoch host precompute, using online sampling (reason=two_layer_bounded_schedule_default, host_avail=185.6GB, est=0.2GB, layers=2)
+  [precompute] 32 batches, 19200 queries, 0.098s
+{"kind": "capture", "label": "wiki_bs200_k50_l2_s8_tce_layer1", "case": {"bs": 200, "k": 50, "layers": 2, "label": "wiki_bs200_k50_l2"}, "step": 8, "position": "early", "module": "tce.layer1", "rows": 68500, "valid": 12614, "valid_ratio": 0.18414598540145985, "source_packed": true, "input_file": "wiki_bs200_k50_l2_s8_tce_layer1_input.pt", "bytes": 193305495, "sha256": "774970456a7263b02b059ca94376e3dc5a36cc1a3f8497c02f6185c4cb46c421", "q_shape": [1370, 256], "z_shape": [68500, 684]}
+{"kind": "capture", "label": "wiki_bs200_k50_l2_s8_tce_layer2", "case": {"bs": 200, "k": 50, "layers": 2, "label": "wiki_bs200_k50_l2"}, "step": 8, "position": "early", "module": "tce.layer2", "rows": 30000, "valid": 5218, "valid_ratio": 0.17393333333333333, "source_packed": true, "input_file": "wiki_bs200_k50_l2_s8_tce_layer2_input.pt", "bytes": 85450071, "sha256": "b613172fb0f56b551e74ca2187d9048c2a574d6f7f92fc68f94ad0e9dbdbe0a3", "q_shape": [600, 256], "z_shape": [30000, 684]}
+  [precompute] 32 batches, 19200 queries, 0.049s
+  [precompute] 32 batches, 19200 queries, 0.045s
+  [precompute] 32 batches, 19200 queries, 0.046s
+  [precompute] 32 batches, 19200 queries, 0.046s
+  [precompute] 32 batches, 19200 queries, 0.045s
+  [precompute] 32 batches, 19200 queries, 0.045s
+  [precompute] 32 batches, 19200 queries, 0.045s
+  [precompute] 32 batches, 19200 queries, 0.044s
+{"kind": "capture", "label": "wiki_bs200_k50_l2_s276_tce_layer1", "case": {"bs": 200, "k": 50, "layers": 2, "label": "wiki_bs200_k50_l2"}, "step": 276, "position": "middle", "module": "tce.layer1", "rows": 320450, "valid": 213760, "valid_ratio": 0.6670619441410517, "source_packed": false, "input_file": "wiki_bs200_k50_l2_s276_tce_layer1_input.pt", "bytes": 899128305, "sha256": "e0e0464350f057b46eac270fd02dc230f91f0182afd9df49c84e91dfff823af8", "q_shape": [6409, 256], "z_shape": [320450, 684]}
+{"kind": "capture", "label": "wiki_bs200_k50_l2_s276_tce_layer2", "case": {"bs": 200, "k": 50, "layers": 2, "label": "wiki_bs200_k50_l2"}, "step": 276, "position": "middle", "module": "tce.layer2", "rows": 30000, "valid": 17544, "valid_ratio": 0.5848, "source_packed": false, "input_file": "wiki_bs200_k50_l2_s276_tce_layer2_input.pt", "bytes": 85450097, "sha256": "4c39b4b157b8a3ed1768eab0eb9d1404715213eb3ec488877d06a714def910e5", "q_shape": [600, 256], "z_shape": [30000, 684]}
+  [precompute] 32 batches, 19200 queries, 0.045s
+  [precompute] 32 batches, 19200 queries, 0.044s
+  [precompute] 32 batches, 19200 queries, 0.045s
+  [precompute] 32 batches, 19200 queries, 0.045s
+  [precompute] 32 batches, 19200 queries, 0.045s
+  [precompute] 32 batches, 19200 queries, 0.045s
+  [precompute] 32 batches, 19200 queries, 0.045s
+  [precompute] 32 batches, 19200 queries, 0.045s
+  [precompute] 7 batches, 4200 queries, 0.012s
+   loop | time:16.65s
+Epoch   1 | loss=0.2290 AP=0.0000 AUC=0.0000 | time=16.7s TPS=6617
+[op-path] calls=1102 gather_fused=551 gather_pytorch=0 l0_gather_fused=551 l0_gather_pytorch=0 packed=327 fused_dense=775 pytorch_dense=0 fallback_exceptions=0 avg_Q=3460.9
+{"kind": "case_complete", "case": {"bs": 200, "k": 50, "layers": 2, "label": "wiki_bs200_k50_l2"}, "batches": 551, "cuda_calls": {"tcsr_temporal_sample": 569, "fused_lse_gather": 551, "fused_gather_encode_v2": 551, "fused_seg_attn_forward": 327, "fused_l0_gather_encode": 551, "fused_seg_attn_backward": 327, "fused_l0_gather_encode_backward_v2": 551, "fused_index_scatter": 551, "fused_gather_encode_backward_v2": 551, "fused_mh_attn_forward": 775, "fused_mh_attn_backward": 775}, "cuda_errors": []}
+Loading wiki...
+  efeat: mode=cpu, dim=172, E=157474
+  nfeat: (9227, 256)
+  edges=157474, nodes=9227, nfeat=256, efeat=172
+  efeat GPU: fp32, 0.1GB
+  [TCSR] N=9227, E'=314948 (undirected)
+  [precompute] 55 batches, 330000 queries, 0.050s
+  [precompute] 55 batches, 330000 queries, 0.049s
+{"kind": "capture", "label": "wiki_bs2000_k50_l1_s8_tce", "case": {"bs": 2000, "k": 50, "layers": 1, "label": "wiki_bs2000_k50_l1"}, "step": 8, "position": "early", "module": "tce", "rows": 300000, "valid": 115508, "valid_ratio": 0.3850266666666667, "source_packed": true, "input_file": "wiki_bs2000_k50_l1_s8_tce_input.pt", "bytes": 841838793, "sha256": "d0fe8dbdb924235e3753a86eab41a80f7f385ccbb9b0fd8ff97e0692fdaf79ba", "q_shape": [6000, 256], "z_shape": [300000, 684]}
+{"kind": "capture", "label": "wiki_bs2000_k50_l1_s28_tce", "case": {"bs": 2000, "k": 50, "layers": 1, "label": "wiki_bs2000_k50_l1"}, "step": 28, "position": "middle", "module": "tce", "rows": 300000, "valid": 165939, "valid_ratio": 0.55313, "source_packed": false, "input_file": "wiki_bs2000_k50_l1_s28_tce_input.pt", "bytes": 841838806, "sha256": "ff89cb659bcdc1aa37e65d151c1473ef24e3b8ba5df6926e13d9b423466c5632", "q_shape": [6000, 256], "z_shape": [300000, 684]}
+   loop | time:9.83s
+Epoch   1 | loss=0.4688 AP=0.0000 AUC=0.0000 | time=9.8s TPS=11195
+[op-path] calls=55 gather_fused=55 gather_pytorch=0 l0_gather_fused=0 l0_gather_pytorch=0 packed=19 fused_dense=36 pytorch_dense=0 fallback_exceptions=0 avg_Q=6000.0
+{"kind": "case_complete", "case": {"bs": 2000, "k": 50, "layers": 1, "label": "wiki_bs2000_k50_l1"}, "batches": 55, "cuda_calls": {"tcsr_temporal_sample": 2, "fused_lse_gather": 55, "fused_gather_encode_v2": 55, "fused_seg_attn_forward": 19, "fused_seg_attn_backward": 19, "fused_gather_encode_backward_v2": 55, "fused_mh_attn_forward": 36, "fused_mh_attn_backward": 36}, "cuda_errors": []}
+Loading wiki...
+  efeat: mode=cpu, dim=172, E=157474
+  nfeat: (9227, 256)
+  edges=157474, nodes=9227, nfeat=256, efeat=172
+  efeat GPU: fp32, 0.1GB
+  [TCSR] N=9227, E'=314948 (undirected)
+  [precompute] skipped full-epoch host precompute, using online sampling (reason=two_layer_bounded_schedule_default, host_avail=184.9GB, est=0.2GB, layers=2)
+  [precompute] 32 batches, 192000 queries, 0.065s
+{"kind": "capture", "label": "wiki_bs2000_k50_l2_s8_tce_layer1", "case": {"bs": 2000, "k": 50, "layers": 2, "label": "wiki_bs2000_k50_l2"}, "step": 8, "position": "early", "module": "tce.layer1", "rows": 1026000, "valid": 431868, "valid_ratio": 0.42092397660818714, "source_packed": true, "input_file": "wiki_bs2000_k50_l2_s8_tce_layer1_input.pt", "bytes": 2875684324, "sha256": "403d0cdff5955dba3edc973ad40ad1dcae4ecaa608c36b0a21fa167bd05549ce", "q_shape": [20520, 256], "z_shape": [1026000, 684]}
+{"kind": "capture", "label": "wiki_bs2000_k50_l2_s8_tce_layer2", "case": {"bs": 2000, "k": 50, "layers": 2, "label": "wiki_bs2000_k50_l2"}, "step": 8, "position": "early", "module": "tce.layer2", "rows": 300000, "valid": 115513, "valid_ratio": 0.38504333333333335, "source_packed": true, "input_file": "wiki_bs2000_k50_l2_s8_tce_layer2_input.pt", "bytes": 841838884, "sha256": "534c7cc5e0241ad1fc8ae03f11f63d01409d8327451c550c0045c096e2d52d79", "q_shape": [6000, 256], "z_shape": [300000, 684]}
+{"kind": "capture", "label": "wiki_bs2000_k50_l2_s28_tce_layer1", "case": {"bs": 2000, "k": 50, "layers": 2, "label": "wiki_bs2000_k50_l2"}, "step": 28, "position": "middle", "module": "tce.layer1", "rows": 1813700, "valid": 1116260, "valid_ratio": 0.6154601091691019, "source_packed": false, "input_file": "wiki_bs2000_k50_l2_s28_tce_layer1_input.pt", "bytes": 5082378849, "sha256": "8d36aa5bf4ecacd295946adf1dbe8c5225736de0bccb19bc57988d1421872303", "q_shape": [36274, 256], "z_shape": [1813700, 684]}
+{"kind": "capture", "label": "wiki_bs2000_k50_l2_s28_tce_layer2", "case": {"bs": 2000, "k": 50, "layers": 2, "label": "wiki_bs2000_k50_l2"}, "step": 28, "position": "middle", "module": "tce.layer2", "rows": 300000, "valid": 167892, "valid_ratio": 0.55964, "source_packed": false, "input_file": "wiki_bs2000_k50_l2_s28_tce_layer2_input.pt", "bytes": 841838897, "sha256": "8118abf0d783b3143f32e8b544338a47e16e62a27c07a3487b43fe544f2c8eee", "q_shape": [6000, 256], "z_shape": [300000, 684]}
+  [precompute] 23 batches, 138000 queries, 0.073s
+   loop | time:57.10s
+Epoch   1 | loss=0.4283 AP=0.0000 AUC=0.0000 | time=57.1s TPS=1927
+[op-path] calls=110 gather_fused=55 gather_pytorch=0 l0_gather_fused=55 l0_gather_pytorch=0 packed=36 fused_dense=74 pytorch_dense=0 fallback_exceptions=0 avg_Q=19970.4
+{"kind": "case_complete", "case": {"bs": 2000, "k": 50, "layers": 2, "label": "wiki_bs2000_k50_l2"}, "batches": 55, "cuda_calls": {"tcsr_temporal_sample": 57, "fused_lse_gather": 55, "fused_gather_encode_v2": 55, "fused_seg_attn_forward": 36, "fused_l0_gather_encode": 55, "fused_seg_attn_backward": 36, "fused_l0_gather_encode_backward_v2": 55, "fused_index_scatter": 55, "fused_gather_encode_backward_v2": 55, "fused_mh_attn_forward": 74, "fused_mh_attn_backward": 74}, "cuda_errors": []}
+{"kind": "complete", "ports": 12, "noise": 12, "apps": "GPU-9bd364a9-9d88-0b78-ef55-caac6f73d6b1, 2871624, /home/data/wangxuran/isaacsim6/env/bin/python, 840\n"}

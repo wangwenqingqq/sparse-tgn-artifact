@@ -1,0 +1,86 @@
+{
+  "mode": "fm",
+  "seed": 1701,
+  "steps": 1500,
+  "selected_step": 400,
+  "validation_mse": 0.6926555815508021,
+  "parameters": 297828,
+  "seconds": 3.813489732972812,
+  "curve": [
+    {
+      "step": 100,
+      "training_loss": 0.3898600935935974,
+      "validation_mse": 0.7186590352049911
+    },
+    {
+      "step": 200,
+      "training_loss": 0.28916436433792114,
+      "validation_mse": 0.7025624721479501
+    },
+    {
+      "step": 300,
+      "training_loss": 0.2491670697927475,
+      "validation_mse": 0.6958377478832443
+    },
+    {
+      "step": 400,
+      "training_loss": 0.22190484404563904,
+      "validation_mse": 0.6926555815508021
+    },
+    {
+      "step": 500,
+      "training_loss": 0.21400895714759827,
+      "validation_mse": 0.6946347342914438
+    },
+    {
+      "step": 600,
+      "training_loss": 0.2010566145181656,
+      "validation_mse": 0.6985667613636364
+    },
+    {
+      "step": 700,
+      "training_loss": 0.16149894893169403,
+      "validation_mse": 0.7052688279857398
+    },
+    {
+      "step": 800,
+      "training_loss": 0.1475309133529663,
+      "validation_mse": 0.7168428587344029
+    },
+    {
+      "step": 900,
+      "training_loss": 0.1496621072292328,
+      "validation_mse": 0.7208853609625668
+    },
+    {
+      "step": 1000,
+      "training_loss": 0.14656518399715424,
+      "validation_mse": 0.7275032308377897
+    },
+    {
+      "step": 1100,
+      "training_loss": 0.13249516487121582,
+      "validation_mse": 0.7236722510026738
+    },
+    {
+      "step": 1200,
+      "training_loss": 0.13468186557292938,
+      "validation_mse": 0.7226963290998217
+    },
+    {
+      "step": 1300,
+      "training_loss": 0.13195571303367615,
+      "validation_mse": 0.7241763313279858
+    },
+    {
+      "step": 1400,
+      "training_loss": 0.1298392415046692,
+      "validation_mse": 0.7196876671122995
+    },
+    {
+      "step": 1500,
+      "training_loss": 0.1260027438402176,
+      "validation_mse": 0.7183020137032086
+    }
+  ]
+}

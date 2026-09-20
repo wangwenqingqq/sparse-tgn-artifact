@@ -1,0 +1,36 @@
+{
+  "start": "2026-09-09T03:27:52.910911+00:00",
+  "gpu": "GPU-16f27f5a-dfcd-48e0-bb39-bebbe4009245",
+  "args": {
+    "run": "teacher_v1",
+    "stage": "teacher",
+    "dataset": "both",
+    "artifact_dir": "main",
+    "epochs": "5",
+    "steps": "1500",
+    "rounds": "7"
+  },
+  "sources": {
+    "src/supervise.py": "3e38f1a4576f7559f063493905af0804cab59f99a83261d10b4799c0ef1812e6",
+    "src/experiment.py": "f5bbda65783319ab37be6c6cd7e35cb8542c4a2c9bb262d7a3c62445cdf293d4"
+  },
+  "contract_sha256": "f3b3043bd2ffc4f7c9016540e01fedb973fd4e90285a61ca54c547b0c2825a96",
+  "command": [
+    "/home/data/wangxuran/isaacsim6/env/bin/python",
+    "/home/data/wangxuran/tncn_flow_replay_20260909/src/experiment.py",
+    "--stage",
+    "teacher",
+    "--dataset",
+    "both",
+    "--out",
+    "/home/data/wangxuran/tncn_flow_replay_20260909/artifacts/main",
+    "--epochs",
+    "5",
+    "--steps",
+    "1500",
+    "--rounds",
+    "7"
+  ],
+  "exit_code": 0,
+  "end": "2026-09-09T03:29:41.855950+00:00"
+}

@@ -1,0 +1,86 @@
+{
+  "mode": "mlp",
+  "seed": 1701,
+  "steps": 1500,
+  "selected_step": 100,
+  "validation_mse": 0.7079259135472371,
+  "parameters": 297828,
+  "seconds": 4.121076164999977,
+  "curve": [
+    {
+      "step": 100,
+      "training_loss": 0.6151207685470581,
+      "validation_mse": 0.7079259135472371
+    },
+    {
+      "step": 200,
+      "training_loss": 0.5168325901031494,
+      "validation_mse": 0.7161617229278074
+    },
+    {
+      "step": 300,
+      "training_loss": 0.4604196548461914,
+      "validation_mse": 0.7431827372994653
+    },
+    {
+      "step": 400,
+      "training_loss": 0.4206826686859131,
+      "validation_mse": 0.777989054144385
+    },
+    {
+      "step": 500,
+      "training_loss": 0.3925696909427643,
+      "validation_mse": 0.8122231784759358
+    },
+    {
+      "step": 600,
+      "training_loss": 0.3736986219882965,
+      "validation_mse": 0.8463750835561498
+    },
+    {
+      "step": 700,
+      "training_loss": 0.3488277494907379,
+      "validation_mse": 0.8783758912655971
+    },
+    {
+      "step": 800,
+      "training_loss": 0.32938212156295776,
+      "validation_mse": 0.9077722816399287
+    },
+    {
+      "step": 900,
+      "training_loss": 0.3119712471961975,
+      "validation_mse": 0.9399956550802139
+    },
+    {
+      "step": 1000,
+      "training_loss": 0.3037056028842926,
+      "validation_mse": 0.9706769719251337
+    },
+    {
+      "step": 1100,
+      "training_loss": 0.29431286454200745,
+      "validation_mse": 0.998651570855615
+    },
+    {
+      "step": 1200,
+      "training_loss": 0.2858712673187256,
+      "validation_mse": 1.0247315062388591
+    },
+    {
+      "step": 1300,
+      "training_loss": 0.267471581697464,
+      "validation_mse": 1.0501042223707664
+    },
+    {
+      "step": 1400,
+      "training_loss": 0.2675539255142212,
+      "validation_mse": 1.0750570409982174
+    },
+    {
+      "step": 1500,
+      "training_loss": 0.24861891567707062,
+      "validation_mse": 1.0997586898395721
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "start": "2026-09-10T18:25:35.762871+00:00",
+  "gpu": "GPU-9bd364a9-9d88-0b78-ef55-caac6f73d6b1",
+  "args": {
+    "run": "qualify_v1",
+    "stage": "qualify",
+    "qualification": null,
+    "script": "probe.py",
+    "rep": 0
+  },
+  "command": [
+    "/home/data/wangxuran/isaacsim6/env/bin/python",
+    "/home/data/wangxuran/flash_wkv_probe_20260911/src/probe.py",
+    "--output",
+    "/home/data/wangxuran/flash_wkv_probe_20260911/output/qualify_v1/artifacts",
+    "--stage",
+    "qualify"
+  ],
+  "exit_code": 0,
+  "end": "2026-09-10T18:28:34.547264+00:00"
+}

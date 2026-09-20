@@ -1,0 +1,2520 @@
+{
+  "checks": [
+    {
+      "case": "college_b200_s20",
+      "step_offset": 0,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1712166
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1725242
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1712166
+      }
+    },
+    {
+      "case": "college_b200_s20",
+      "step_offset": 1,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1708862
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1722306
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1708862
+      }
+    },
+    {
+      "case": "college_b200_s20",
+      "step_offset": 2,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1710144
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1723336
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1710144
+      }
+    },
+    {
+      "case": "college_b200_s20",
+      "step_offset": 3,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1711220
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1724524
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1711220
+      }
+    },
+    {
+      "case": "college_b200_s20",
+      "step_offset": 4,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1716316
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1729448
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1716316
+      }
+    },
+    {
+      "case": "college_b200_s20",
+      "step_offset": 5,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1716345
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1730049
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1716345
+      }
+    },
+    {
+      "case": "college_b200_s20",
+      "step_offset": 6,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1710792
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1724560
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1710792
+      }
+    },
+    {
+      "case": "college_b200_s20",
+      "step_offset": 7,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1709851
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1724459
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1709851
+      }
+    },
+    {
+      "case": "college_b200_s40",
+      "step_offset": 0,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1724857
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1739633
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1724857
+      }
+    },
+    {
+      "case": "college_b200_s40",
+      "step_offset": 1,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1725147
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1739887
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1725147
+      }
+    },
+    {
+      "case": "college_b200_s40",
+      "step_offset": 2,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1726590
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1741438
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1726590
+      }
+    },
+    {
+      "case": "college_b200_s40",
+      "step_offset": 3,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1728028
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1743088
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1728028
+      }
+    },
+    {
+      "case": "college_b200_s40",
+      "step_offset": 4,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1725879
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1741183
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1725879
+      }
+    },
+    {
+      "case": "college_b200_s40",
+      "step_offset": 5,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1731544
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1747080
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1731544
+      }
+    },
+    {
+      "case": "college_b200_s40",
+      "step_offset": 6,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1728392
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1743824
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1728392
+      }
+    },
+    {
+      "case": "college_b200_s40",
+      "step_offset": 7,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1730862
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1746314
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1730862
+      }
+    },
+    {
+      "case": "college_b200_s80",
+      "step_offset": 0,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1748717
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1765793
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1748717
+      }
+    },
+    {
+      "case": "college_b200_s80",
+      "step_offset": 1,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1753405
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1769825
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1753405
+      }
+    },
+    {
+      "case": "college_b200_s80",
+      "step_offset": 2,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1756255
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1773259
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1756255
+      }
+    },
+    {
+      "case": "college_b200_s80",
+      "step_offset": 3,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1754686
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1771654
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1754686
+      }
+    },
+    {
+      "case": "college_b200_s80",
+      "step_offset": 4,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1752903
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1770155
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1752903
+      }
+    },
+    {
+      "case": "college_b200_s80",
+      "step_offset": 5,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1754140
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1771400
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1754140
+      }
+    },
+    {
+      "case": "college_b200_s80",
+      "step_offset": 6,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1752377
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1769101
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1752377
+      }
+    },
+    {
+      "case": "college_b200_s80",
+      "step_offset": 7,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1750596
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1767744
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1750596
+      }
+    },
+    {
+      "case": "college_b32_s128",
+      "step_offset": 0,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1670001
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1680905
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1670001
+      }
+    },
+    {
+      "case": "college_b32_s128",
+      "step_offset": 1,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1667011
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1678003
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1667011
+      }
+    },
+    {
+      "case": "college_b32_s128",
+      "step_offset": 2,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1668629
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1679661
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1668629
+      }
+    },
+    {
+      "case": "college_b32_s128",
+      "step_offset": 3,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1667239
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1678363
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1667239
+      }
+    },
+    {
+      "case": "college_b32_s128",
+      "step_offset": 4,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1670055
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1681127
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1670055
+      }
+    },
+    {
+      "case": "college_b32_s128",
+      "step_offset": 5,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1667275
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1678395
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1667275
+      }
+    },
+    {
+      "case": "college_b32_s128",
+      "step_offset": 6,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1665088
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1676164
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1665088
+      }
+    },
+    {
+      "case": "college_b32_s128",
+      "step_offset": 7,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1669502
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1680558
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1669502
+      }
+    },
+    {
+      "case": "college_b32_s256",
+      "step_offset": 0,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1680932
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1693272
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1680932
+      }
+    },
+    {
+      "case": "college_b32_s256",
+      "step_offset": 1,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1680140
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1692512
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1680140
+      }
+    },
+    {
+      "case": "college_b32_s256",
+      "step_offset": 2,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1684155
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1696507
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1684155
+      }
+    },
+    {
+      "case": "college_b32_s256",
+      "step_offset": 3,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1681983
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1694399
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1681983
+      }
+    },
+    {
+      "case": "college_b32_s256",
+      "step_offset": 4,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1681395
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1693819
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1681395
+      }
+    },
+    {
+      "case": "college_b32_s256",
+      "step_offset": 5,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1686406
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1698886
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1686406
+      }
+    },
+    {
+      "case": "college_b32_s256",
+      "step_offset": 6,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1680214
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1692686
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1680214
+      }
+    },
+    {
+      "case": "college_b32_s256",
+      "step_offset": 7,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1683221
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1695649
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1683221
+      }
+    },
+    {
+      "case": "college_b32_s512",
+      "step_offset": 0,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1701872
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1716544
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1701872
+      }
+    },
+    {
+      "case": "college_b32_s512",
+      "step_offset": 1,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1698878
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1713574
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1698878
+      }
+    },
+    {
+      "case": "college_b32_s512",
+      "step_offset": 2,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1706093
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1720809
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1706093
+      }
+    },
+    {
+      "case": "college_b32_s512",
+      "step_offset": 3,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1705301
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1719997
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1705301
+      }
+    },
+    {
+      "case": "college_b32_s512",
+      "step_offset": 4,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1711315
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1726055
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1711315
+      }
+    },
+    {
+      "case": "college_b32_s512",
+      "step_offset": 5,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1708918
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1723634
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1708918
+      }
+    },
+    {
+      "case": "college_b32_s512",
+      "step_offset": 6,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1700120
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1714944
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1700120
+      }
+    },
+    {
+      "case": "college_b32_s512",
+      "step_offset": 7,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1708723
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1723451
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 1708723
+      }
+    },
+    {
+      "case": "wikipedia_b200_s20",
+      "step_offset": 0,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2211739
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2649516
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2211739
+      }
+    },
+    {
+      "case": "wikipedia_b200_s20",
+      "step_offset": 1,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2219686
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2669713
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2219686
+      }
+    },
+    {
+      "case": "wikipedia_b200_s20",
+      "step_offset": 2,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2225439
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2684216
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2225439
+      }
+    },
+    {
+      "case": "wikipedia_b200_s20",
+      "step_offset": 3,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2227830
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2699557
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2227830
+      }
+    },
+    {
+      "case": "wikipedia_b200_s20",
+      "step_offset": 4,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2219189
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2700891
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2219189
+      }
+    },
+    {
+      "case": "wikipedia_b200_s20",
+      "step_offset": 5,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2229723
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2715275
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2229723
+      }
+    },
+    {
+      "case": "wikipedia_b200_s20",
+      "step_offset": 6,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2228878
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2722480
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2228878
+      }
+    },
+    {
+      "case": "wikipedia_b200_s20",
+      "step_offset": 7,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2231227
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2729554
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2231227
+      }
+    },
+    {
+      "case": "wikipedia_b200_s40",
+      "step_offset": 0,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2256075
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2874977
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2256075
+      }
+    },
+    {
+      "case": "wikipedia_b200_s40",
+      "step_offset": 1,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2256995
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2877822
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2256995
+      }
+    },
+    {
+      "case": "wikipedia_b200_s40",
+      "step_offset": 2,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2246495
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2898297
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2246495
+      }
+    },
+    {
+      "case": "wikipedia_b200_s40",
+      "step_offset": 3,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2271224
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2920751
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2271224
+      }
+    },
+    {
+      "case": "wikipedia_b200_s40",
+      "step_offset": 4,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2251728
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2917180
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2251728
+      }
+    },
+    {
+      "case": "wikipedia_b200_s40",
+      "step_offset": 5,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2255650
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2936677
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2255650
+      }
+    },
+    {
+      "case": "wikipedia_b200_s40",
+      "step_offset": 6,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2260136
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2944488
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2260136
+      }
+    },
+    {
+      "case": "wikipedia_b200_s40",
+      "step_offset": 7,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2265827
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2951229
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2265827
+      }
+    },
+    {
+      "case": "wikipedia_b200_s80",
+      "step_offset": 0,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2293931
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 3156783
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2293931
+      }
+    },
+    {
+      "case": "wikipedia_b200_s80",
+      "step_offset": 1,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2307022
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 3172324
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2307022
+      }
+    },
+    {
+      "case": "wikipedia_b200_s80",
+      "step_offset": 2,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2313934
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 3186936
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2313934
+      }
+    },
+    {
+      "case": "wikipedia_b200_s80",
+      "step_offset": 3,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2310857
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 3190684
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2310857
+      }
+    },
+    {
+      "case": "wikipedia_b200_s80",
+      "step_offset": 4,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2296974
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 3187301
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2296974
+      }
+    },
+    {
+      "case": "wikipedia_b200_s80",
+      "step_offset": 5,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2311098
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 3209125
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2311098
+      }
+    },
+    {
+      "case": "wikipedia_b200_s80",
+      "step_offset": 6,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2309382
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 3209509
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2309382
+      }
+    },
+    {
+      "case": "wikipedia_b200_s80",
+      "step_offset": 7,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2317671
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 3208348
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2317671
+      }
+    },
+    {
+      "case": "wikipedia_b32_s128",
+      "step_offset": 0,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2125126
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2411528
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2125126
+      }
+    },
+    {
+      "case": "wikipedia_b32_s128",
+      "step_offset": 1,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2134955
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2422057
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2134955
+      }
+    },
+    {
+      "case": "wikipedia_b32_s128",
+      "step_offset": 2,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2137993
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2425445
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2137993
+      }
+    },
+    {
+      "case": "wikipedia_b32_s128",
+      "step_offset": 3,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2130828
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2419330
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2130828
+      }
+    },
+    {
+      "case": "wikipedia_b32_s128",
+      "step_offset": 4,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2132249
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2422851
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2132249
+      }
+    },
+    {
+      "case": "wikipedia_b32_s128",
+      "step_offset": 5,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2131265
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2422742
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2131265
+      }
+    },
+    {
+      "case": "wikipedia_b32_s128",
+      "step_offset": 6,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2129282
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2422859
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2129282
+      }
+    },
+    {
+      "case": "wikipedia_b32_s128",
+      "step_offset": 7,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2124105
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2415407
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2124105
+      }
+    },
+    {
+      "case": "wikipedia_b32_s256",
+      "step_offset": 0,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2142550
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2552327
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2142550
+      }
+    },
+    {
+      "case": "wikipedia_b32_s256",
+      "step_offset": 1,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2141966
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2550518
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2141966
+      }
+    },
+    {
+      "case": "wikipedia_b32_s256",
+      "step_offset": 2,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2146179
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2554206
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2146179
+      }
+    },
+    {
+      "case": "wikipedia_b32_s256",
+      "step_offset": 3,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2143208
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2553860
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2143208
+      }
+    },
+    {
+      "case": "wikipedia_b32_s256",
+      "step_offset": 4,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2150629
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2562856
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2150629
+      }
+    },
+    {
+      "case": "wikipedia_b32_s256",
+      "step_offset": 5,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2138253
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2546455
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2138253
+      }
+    },
+    {
+      "case": "wikipedia_b32_s256",
+      "step_offset": 6,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2140869
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2550471
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2140869
+      }
+    },
+    {
+      "case": "wikipedia_b32_s256",
+      "step_offset": 7,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2144485
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2556712
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2144485
+      }
+    },
+    {
+      "case": "wikipedia_b32_s512",
+      "step_offset": 0,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2158489
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2746066
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2158489
+      }
+    },
+    {
+      "case": "wikipedia_b32_s512",
+      "step_offset": 1,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2156505
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2745832
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2156505
+      }
+    },
+    {
+      "case": "wikipedia_b32_s512",
+      "step_offset": 2,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2161326
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2750128
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2161326
+      }
+    },
+    {
+      "case": "wikipedia_b32_s512",
+      "step_offset": 3,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2157340
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2747892
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2157340
+      }
+    },
+    {
+      "case": "wikipedia_b32_s512",
+      "step_offset": 4,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2165762
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2755439
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2165762
+      }
+    },
+    {
+      "case": "wikipedia_b32_s512",
+      "step_offset": 5,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2170183
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2761435
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2170183
+      }
+    },
+    {
+      "case": "wikipedia_b32_s512",
+      "step_offset": 6,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2160004
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2753881
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2160004
+      }
+    },
+    {
+      "case": "wikipedia_b32_s512",
+      "step_offset": 7,
+      "baseline_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2176629
+      },
+      "candidate": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2768056
+      },
+      "candidate_source": {
+        "pass_all": true,
+        "bitwise_equal": true,
+        "failures": [],
+        "different_fields": [],
+        "elements": 2176629
+      }
+    }
+  ],
+  "hashes": {
+    "college_b200_s20_batch_store_checks.pt": {
+      "bytes": 56073079,
+      "sha256": "6ccabab6b8f5546757c2ebc0ad89d95e35a157cf44ea43dca8251df4196949db"
+    },
+    "college_b200_s20_direct_checks.pt": {
+      "bytes": 56068369,
+      "sha256": "87118884a3c4964caffa5013362e2b66721329cf42a95fbf3eba75c174af74f9"
+    },
+    "college_b200_s40_batch_store_checks.pt": {
+      "bytes": 56705207,
+      "sha256": "175bd6c4e7f889c71d21a5702898f9ca0d4fcceda8bf5e3a78b18f98bbb085ee"
+    },
+    "college_b200_s40_direct_checks.pt": {
+      "bytes": 56700497,
+      "sha256": "f4371fcdd4b2b716e2e87ea16e3fbfb5d06af8eda052584fc056aed424581895"
+    },
+    "college_b200_s80_batch_store_checks.pt": {
+      "bytes": 57680247,
+      "sha256": "751624b17f6dc46a6eead712d2065d14173343ef492c161e2a6f007588f03f7a"
+    },
+    "college_b200_s80_direct_checks.pt": {
+      "bytes": 57675345,
+      "sha256": "80534610de122bae025b49cdd75bb22bd8f2e50d29e577b546f62cb04264fbb9"
+    },
+    "college_b32_s128_batch_store_checks.pt": {
+      "bytes": 54523063,
+      "sha256": "e2ecd6a0301f381ea8dfe156d9a82490cbb6ab5148775eb10a92e1b26a81919a"
+    },
+    "college_b32_s128_direct_checks.pt": {
+      "bytes": 54518289,
+      "sha256": "205e6c0af3170b658e1d8bf3d53b9e6cef2d25aec39838f62b0dacc8d098b0a3"
+    },
+    "college_b32_s256_batch_store_checks.pt": {
+      "bytes": 55096439,
+      "sha256": "c34cc243fed61a3b9d62f84cc5b79339a445cf7910b51df004554f6d5e63f5dd"
+    },
+    "college_b32_s256_direct_checks.pt": {
+      "bytes": 55091601,
+      "sha256": "05152fdc7c052a6a3559edac6f56d8bf4ad3fd732cbd74de666c4226c4abb0a7"
+    },
+    "college_b32_s512_batch_store_checks.pt": {
+      "bytes": 56024887,
+      "sha256": "7614c894d5bfc9a031f67b58e3f1fb0aea5efc91704971fb19a68188d3cb9849"
+    },
+    "college_b32_s512_direct_checks.pt": {
+      "bytes": 56020049,
+      "sha256": "53891de92458695fa4f5d2129eefb6792970b28caa9105ff546964980a50f330"
+    },
+    "wikipedia_b200_s20_batch_store_checks.pt": {
+      "bytes": 88039763,
+      "sha256": "f615086ca7c57618dabc83d620cff16361c9756e41cc7c174369830c721393c8"
+    },
+    "wikipedia_b200_s20_direct_checks.pt": {
+      "bytes": 88035053,
+      "sha256": "4914a4ed3e0b5e119bacd7c67b4f569a9a2f7b17f1ec43622ec9fe4ec77522d7"
+    },
+    "wikipedia_b200_s40_batch_store_checks.pt": {
+      "bytes": 95230483,
+      "sha256": "dc8120798aaaa064f47692e7a656a9f40bd24167a5fd2e603426eafedbb30d84"
+    },
+    "wikipedia_b200_s40_direct_checks.pt": {
+      "bytes": 95225773,
+      "sha256": "78809a958666abe01c9c9264ab2263f9b0ff7b1b30253475c4c389150f2ded55"
+    },
+    "wikipedia_b200_s80_batch_store_checks.pt": {
+      "bytes": 104288851,
+      "sha256": "ef794dbb3419de90ae7656b472a36c55d849e919b9c5e68d674fdafcdba6e21e"
+    },
+    "wikipedia_b200_s80_direct_checks.pt": {
+      "bytes": 104284141,
+      "sha256": "c53a944844107767306780ff22d2f50b926ff7280d77814c90c66182032482bd"
+    },
+    "wikipedia_b32_s128_batch_store_checks.pt": {
+      "bytes": 79086611,
+      "sha256": "1f9951da74d7cfdda0d677288cdaa372bb95b999f1b389e741f816b23721527d"
+    },
+    "wikipedia_b32_s128_direct_checks.pt": {
+      "bytes": 79081901,
+      "sha256": "937b91312df671f69662442409251093a14d6268cccd28a8c8ba6443fa10cf11"
+    },
+    "wikipedia_b32_s256_batch_store_checks.pt": {
+      "bytes": 83508883,
+      "sha256": "e7717b338534e836705b7778d8adf335cb678224649fbfde710351d07b7c3fb4"
+    },
+    "wikipedia_b32_s256_direct_checks.pt": {
+      "bytes": 83504173,
+      "sha256": "6ee394eea8ac1fa340479b6fc332ac2e45fb95b05c28e62d9eae4bfbb1559626"
+    },
+    "wikipedia_b32_s512_batch_store_checks.pt": {
+      "bytes": 90152403,
+      "sha256": "242182cf46e9eefe8e6da83a083cc303df0154763562eb18d7e2f7d7b15f2fa2"
+    },
+    "wikipedia_b32_s512_direct_checks.pt": {
+      "bytes": 90147693,
+      "sha256": "7f2638be470bd5c560616472e0f832a5f012755042e39be427ff62fdcaeda2c2"
+    }
+  },
+  "cuda_initialized": false,
+  "summary": {
+    "baseline_source": {
+      "steps": 96,
+      "bitwise": 96,
+      "elements": 187803430
+    },
+    "candidate": {
+      "steps": 96,
+      "bitwise": 96,
+      "elements": 214887202
+    },
+    "candidate_source": {
+      "steps": 96,
+      "bitwise": 96,
+      "elements": 187803430
+    }
+  }
+}

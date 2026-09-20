@@ -1,0 +1,101 @@
+{
+  "time": "2026-09-09T02:48:59.704558+00:00",
+  "qualification": {
+    "direct_nograd": {
+      "steps": 96,
+      "bitwise": 96,
+      "source_bitwise": 96,
+      "elements": 214887202
+    },
+    "batch_nograd": {
+      "steps": 96,
+      "bitwise": 96,
+      "source_bitwise": 96,
+      "elements": 214887202
+    },
+    "batch_store": {
+      "steps": 96,
+      "bitwise": 96,
+      "source_bitwise": 96,
+      "elements": 214887202
+    },
+    "direct": {
+      "steps": 96,
+      "bitwise": 96,
+      "source_bitwise": 96,
+      "elements": 214887202
+    }
+  },
+  "instrumented_checks": {
+    "phase_end_states": 48,
+    "phase_fields": 115,
+    "mechanism_steps": 16,
+    "mechanism_fields": 119,
+    "bitwise_all": true
+  },
+  "cache_storage_pair_observations": 192,
+  "cache_storage_same": true,
+  "timings": {
+    "intervals": 432,
+    "steps": 3456,
+    "aggregate": {
+      "direct/direct_nograd": {
+        "geomean": 1.0028691992969028,
+        "min": 0.9933295943888397,
+        "max": 1.021628833465179,
+        "lower_ci_above_one": 1,
+        "upper_ci_below_one": 0
+      },
+      "batch_store/batch_nograd": {
+        "geomean": 1.0036254985136612,
+        "min": 0.9991433580134588,
+        "max": 1.0109336788211418,
+        "lower_ci_above_one": 0,
+        "upper_ci_below_one": 0
+      },
+      "direct/batch_store": {
+        "geomean": 1.112894521934324,
+        "min": 1.0317339035786466,
+        "max": 1.2118963956275715,
+        "lower_ci_above_one": 12,
+        "upper_ci_below_one": 0
+      },
+      "direct/batch_nograd": {
+        "geomean": 1.116680334485906,
+        "min": 1.031914946590339,
+        "max": 1.2160630332772349,
+        "lower_ci_above_one": 11,
+        "upper_ci_below_one": 0
+      },
+      "direct_nograd/batch_nograd": {
+        "geomean": 1.1083675601128886,
+        "min": 1.019350623169623,
+        "max": 1.207147524622267,
+        "lower_ci_above_one": 11,
+        "upper_ci_below_one": 0
+      }
+    }
+  },
+  "remote_prior_files_unchanged": {
+    "files": 1472,
+    "mismatches": []
+  },
+  "local_prior_manifests": {
+    "memory_profile": 80,
+    "compatible_csr": 34,
+    "numeric_diagnosis": 45,
+    "training_profile": 141
+  },
+  "source_syntax": "pass",
+  "tested_source_hashes": "pass",
+  "markdown_links": "pass",
+  "figure": "visually inspected",
+  "gpu3_lock_free": true,
+  "gpu_final": "0, GPU-9bd364a9-9d88-0b78-ef55-caac6f73d6b1, 1180 MiB, 41 %\n1, GPU-daa88abc-ce4a-aa1c-c896-ae528bf9bce3, 1178 MiB, 22 %\n2, GPU-16f27f5a-dfcd-48e0-bb39-bebbe4009245, 1180 MiB, 31 %\n3, GPU-a149f5af-55ab-ce33-8d3d-371a7ae61dd2, 14 MiB, 0 %\n4, GPU-863c06a5-9f33-0265-b098-013fa840d5db, 1180 MiB, 38 %\n5, GPU-a1e0baba-3982-4538-6540-2b013a1adf49, 14 MiB, 0 %\n6, GPU-865ae1f0-780e-d04c-5ec3-4deccea65f82, 14 MiB, 0 %\n7, GPU-e5a0e7f5-9917-c2a1-ee8e-7282cbba2603, 30492 MiB, 0 %\n",
+  "processes_final": "GPU-9bd364a9-9d88-0b78-ef55-caac6f73d6b1, 1719762, /home/data/wangxuran/isaacsim6/env/bin/python, 1158 MiB\nGPU-daa88abc-ce4a-aa1c-c896-ae528bf9bce3, 1719763, /home/data/wangxuran/isaacsim6/env/bin/python, 1156 MiB\nGPU-16f27f5a-dfcd-48e0-bb39-bebbe4009245, 1719764, /home/data/wangxuran/isaacsim6/env/bin/python, 1158 MiB\nGPU-863c06a5-9f33-0265-b098-013fa840d5db, 1719765, /home/data/wangxuran/isaacsim6/env/bin/python, 1158 MiB\nGPU-e5a0e7f5-9917-c2a1-ee8e-7282cbba2603, 1050457, VLLM::EngineCore, 15224 MiB\nGPU-e5a0e7f5-9917-c2a1-ee8e-7282cbba2603, 1050568, VLLM::EngineCore, 15240 MiB\n",
+  "remote_files": 84,
+  "remote_bytes": 3507590134,
+  "local_transfer_verified": 36,
+  "remote_only_raw_files": 48,
+  "remote_only_raw_bytes": 3505628064
+}

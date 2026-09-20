@@ -1,0 +1,86 @@
+{
+  "mode": "mlp",
+  "seed": 1702,
+  "steps": 1500,
+  "selected_step": 200,
+  "validation_mse": 0.6355911003740649,
+  "parameters": 516708,
+  "seconds": 3.8451845530071296,
+  "curve": [
+    {
+      "step": 100,
+      "training_loss": 0.48955807089805603,
+      "validation_mse": 0.6559295511221945
+    },
+    {
+      "step": 200,
+      "training_loss": 0.3505145311355591,
+      "validation_mse": 0.6355911003740649
+    },
+    {
+      "step": 300,
+      "training_loss": 0.288619726896286,
+      "validation_mse": 0.6564731920199501
+    },
+    {
+      "step": 400,
+      "training_loss": 0.24547012150287628,
+      "validation_mse": 0.6868709476309227
+    },
+    {
+      "step": 500,
+      "training_loss": 0.21894904971122742,
+      "validation_mse": 0.7182030860349127
+    },
+    {
+      "step": 600,
+      "training_loss": 0.20122721791267395,
+      "validation_mse": 0.7493829488778054
+    },
+    {
+      "step": 700,
+      "training_loss": 0.23163314163684845,
+      "validation_mse": 0.7832199189526184
+    },
+    {
+      "step": 800,
+      "training_loss": 0.17496629059314728,
+      "validation_mse": 0.8128538809226933
+    },
+    {
+      "step": 900,
+      "training_loss": 0.16342730820178986,
+      "validation_mse": 0.8405960099750623
+    },
+    {
+      "step": 1000,
+      "training_loss": 0.1596083641052246,
+      "validation_mse": 0.8697281795511222
+    },
+    {
+      "step": 1100,
+      "training_loss": 0.14850878715515137,
+      "validation_mse": 0.9000343672069825
+    },
+    {
+      "step": 1200,
+      "training_loss": 0.14376068115234375,
+      "validation_mse": 0.9234764650872818
+    },
+    {
+      "step": 1300,
+      "training_loss": 0.13549965620040894,
+      "validation_mse": 0.9449895573566085
+    },
+    {
+      "step": 1400,
+      "training_loss": 0.12792429327964783,
+      "validation_mse": 0.9720366271820449
+    },
+    {
+      "step": 1500,
+      "training_loss": 0.13488160073757172,
+      "validation_mse": 0.9920978802992518
+    }
+  ]
+}

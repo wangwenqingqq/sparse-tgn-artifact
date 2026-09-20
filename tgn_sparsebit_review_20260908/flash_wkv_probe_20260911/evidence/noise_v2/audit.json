@@ -1,0 +1,58 @@
+{
+  "stage": "noise",
+  "all_logged_comparisons_match": true,
+  "all_pass": true,
+  "comparisons": 192,
+  "passed": 192,
+  "hashes": {
+    "wiki_bs200_k50_l2_s8_fused_l0_gather_encode_backward_v2_noise_outputs.pt": {
+      "bytes": 501410823,
+      "sha256": "29e26033978ea4a49010c3eb093dd256b4489d1aab0f7bdd351976f64176fab2"
+    },
+    "wiki_bs200_k50_l2_s276_fused_gather_encode_backward_v2_noise_outputs.pt": {
+      "bytes": 75918257,
+      "sha256": "300ab6821e91626932d06d5df74abdda8dda3a369491444727ecbc23b5bcb2b2"
+    },
+    "wiki_bs2000_k50_l2_s28_fused_l0_gather_encode_backward_v2_noise_outputs.pt": {
+      "bytes": 5013568443,
+      "sha256": "c6b74169d6f3cbe095f65b3be8d662221ab057e841e2cd011b00bfce8b18ecd3"
+    },
+    "wiki_bs200_k50_l2_s8_fused_gather_encode_backward_v2_noise_outputs.pt": {
+      "bytes": 14904005,
+      "sha256": "98c3e3357ce6a309af742c02abbd4624f37b75b787a7d0469c10d33879422895"
+    },
+    "wiki_bs2000_k50_l2_s8_fused_l0_gather_encode_backward_v2_noise_outputs.pt": {
+      "bytes": 5013565477,
+      "sha256": "59efca09f200a210eab0c48fbb4de670e62231b89f24a8f4d8796d1f3159cefd"
+    },
+    "wiki_bs200_k50_l1_s276_fused_gather_encode_backward_v2_noise_outputs.pt": {
+      "bytes": 29879217,
+      "sha256": "aa32d322a21e2281853ea156b111e140715d34bf68c8b91286a109758d7dde22"
+    },
+    "wiki_bs2000_k50_l2_s28_fused_gather_encode_backward_v2_noise_outputs.pt": {
+      "bytes": 184773553,
+      "sha256": "e9139f878eab7b4aee691009f7ed1a3e87e51b07b10f691b4e150986610acfd1"
+    },
+    "wiki_bs2000_k50_l1_s28_fused_gather_encode_backward_v2_noise_outputs.pt": {
+      "bytes": 137685937,
+      "sha256": "9d568da9ed6cd68660335f590e9e2374bfe0e65086688e453bfedd0ad06ba88e"
+    },
+    "wiki_bs200_k50_l1_s8_fused_gather_encode_backward_v2_noise_outputs.pt": {
+      "bytes": 13626053,
+      "sha256": "2e929918e7eb153398fbe66c776f924ef433817d5bf7d33d4a87d76f860779a0"
+    },
+    "wiki_bs2000_k50_l2_s8_fused_gather_encode_backward_v2_noise_outputs.pt": {
+      "bytes": 119794523,
+      "sha256": "d1dd926d463c4c055cf64e2dff2573f21dee7182c839fe3ba3a3e8fc580f680a"
+    },
+    "wiki_bs200_k50_l2_s276_fused_l0_gather_encode_backward_v2_noise_outputs.pt": {
+      "bytes": 501414643,
+      "sha256": "284fff6b32144fa98cb7f6440f13a71386d2e7554b233abaef38fc4f43bea50f"
+    },
+    "wiki_bs2000_k50_l1_s8_fused_gather_encode_backward_v2_noise_outputs.pt": {
+      "bytes": 111242075,
+      "sha256": "e63b11f39f04bd397b991433c4387222638a8ffd81b1b91f9fc64e4b5441c3bb"
+    }
+  },
+  "cuda_initialized": false
+}

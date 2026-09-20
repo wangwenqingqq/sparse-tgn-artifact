@@ -1,0 +1,1286 @@
+{
+  "root": "/home/data/wangxuran/tncn_flow_replay_20260909",
+  "files": [
+    {
+      "path": "CONTRACT.md",
+      "bytes": 4512,
+      "sha256": "f3b3043bd2ffc4f7c9016540e01fedb973fd4e90285a61ca54c547b0c2825a96"
+    },
+    {
+      "path": "REPRODUCE.md",
+      "bytes": 7041,
+      "sha256": "5eb94cf6fc270d9837c7e1ca28e60e084fd728ddd2a39ee99fbe2670d2730369"
+    },
+    {
+      "path": "artifacts/main/college_k128_coarse_rollout.json",
+      "bytes": 445,
+      "sha256": "a4ed7b99e481bd7904f2835e4e30b88a16deafe785fea67b7ac70f587f1f6490"
+    },
+    {
+      "path": "artifacts/main/college_k128_coarse_rollout.pt",
+      "bytes": 5071839,
+      "sha256": "8ed1055b76920da45cc8d2353eb980eedf7317cf79554659e49a303fac0a313b"
+    },
+    {
+      "path": "artifacts/main/college_k128_copy_rollout.json",
+      "bytes": 442,
+      "sha256": "e2616c52957e5627a6c9242283949f5a8d8a881a5aadf114cc19619326dc769c"
+    },
+    {
+      "path": "artifacts/main/college_k128_copy_rollout.pt",
+      "bytes": 5071339,
+      "sha256": "8da0970208ced0ab4def362b995dba0007b453c1e63d1954e559cbce2b7ebb13"
+    },
+    {
+      "path": "artifacts/main/college_k128_evaluation.json",
+      "bytes": 12133,
+      "sha256": "522607f0df0cf78fa4386496ac9a80f7c7cbb1eb354eb9655bc2b249151656b9"
+    },
+    {
+      "path": "artifacts/main/college_k128_exact_rollout.json",
+      "bytes": 380,
+      "sha256": "c91539b16ffaef5c76ade91eba9979a41acc22ff670b455786213c878fd9f110"
+    },
+    {
+      "path": "artifacts/main/college_k128_exact_rollout.pt",
+      "bytes": 2565741,
+      "sha256": "3df46fe493e992e6b78b5bff19f9c0cf567d608d805b84066cfb259296b75892"
+    },
+    {
+      "path": "artifacts/main/college_k128_fm1_s1701_rollout.json",
+      "bytes": 440,
+      "sha256": "44ae39b544713a8b68daee1cd7d25ea1006491353f46661c84f53f143e713340"
+    },
+    {
+      "path": "artifacts/main/college_k128_fm1_s1701_rollout.pt",
+      "bytes": 5072397,
+      "sha256": "d5f24ab411a89557f934741ce2947a258c22599bee6e18ddae173a66e61a0104"
+    },
+    {
+      "path": "artifacts/main/college_k128_fm1_s1702_rollout.json",
+      "bytes": 445,
+      "sha256": "0aea2cfa3beeb47a314c79cfe6eee57f33182f75dcc61f94734a2ec79c956cec"
+    },
+    {
+      "path": "artifacts/main/college_k128_fm1_s1702_rollout.pt",
+      "bytes": 5072397,
+      "sha256": "e5546666f1ecaf7e392a9fa43bc5eeb3a966fdfc9a00493b45a737091b50f782"
+    },
+    {
+      "path": "artifacts/main/college_k128_fm1_s1703_rollout.json",
+      "bytes": 444,
+      "sha256": "824aca7cbb08dbc77a2502869fa20ec7c205e0b5b6580e902e558c3c20a2c454"
+    },
+    {
+      "path": "artifacts/main/college_k128_fm1_s1703_rollout.pt",
+      "bytes": 5072397,
+      "sha256": "20fa934e9cbe16dac7f90d1a408b175a6296d9c26b21c9cadef7f9d33c4ec445"
+    },
+    {
+      "path": "artifacts/main/college_k128_fm2_s1701_rollout.json",
+      "bytes": 444,
+      "sha256": "b1536447a68b596e2364272580aeaae361cfe1dc4a0bffeb80a0373ac9d3688e"
+    },
+    {
+      "path": "artifacts/main/college_k128_fm2_s1701_rollout.pt",
+      "bytes": 5072397,
+      "sha256": "ffaa8be18f0b0f3eedcc713a10d744554f5801fb21346ead54c0b55abf331ac2"
+    },
+    {
+      "path": "artifacts/main/college_k128_fm2_s1702_rollout.json",
+      "bytes": 444,
+      "sha256": "c4c1bff0b59bce2daea495c019446dd16ab01bddd2edd96cdf45ea7a81f051d6"
+    },
+    {
+      "path": "artifacts/main/college_k128_fm2_s1702_rollout.pt",
+      "bytes": 5072397,
+      "sha256": "d6bc0736e44cb43008362da82b8e3faf910f6cf2dc7958412b79740b2eafb77b"
+    },
+    {
+      "path": "artifacts/main/college_k128_fm2_s1703_rollout.json",
+      "bytes": 443,
+      "sha256": "a0bbb44495417da3da5d57a317e52db7fee71ed09698c023c1cd26563a833ce7"
+    },
+    {
+      "path": "artifacts/main/college_k128_fm2_s1703_rollout.pt",
+      "bytes": 5072397,
+      "sha256": "92729dd9389f913470a538de6740ba39f863e940572f8861bda04158f76fdbfe"
+    },
+    {
+      "path": "artifacts/main/college_k128_fm4_s1701_rollout.json",
+      "bytes": 443,
+      "sha256": "f53735603e329ef6325110ff9f879504038fed6778c659e62fb33fa3fd42c722"
+    },
+    {
+      "path": "artifacts/main/college_k128_fm4_s1701_rollout.pt",
+      "bytes": 5072397,
+      "sha256": "3252639a21fa6f0a49a43b6b09699e736f44d5ae8e5cbe8b3b07fc1061b7539d"
+    },
+    {
+      "path": "artifacts/main/college_k128_fm4_s1702_rollout.json",
+      "bytes": 444,
+      "sha256": "eba27975bdfeb83bb8e071afd33cda29cec13592c60504561a369b295518d176"
+    },
+    {
+      "path": "artifacts/main/college_k128_fm4_s1702_rollout.pt",
+      "bytes": 5072397,
+      "sha256": "556d69443d6964cadffd268b90c7950741e7be0c0e873232db6a3fe9432df0dd"
+    },
+    {
+      "path": "artifacts/main/college_k128_fm4_s1703_rollout.json",
+      "bytes": 443,
+      "sha256": "d571459e21b6d5dc4753cb7fce88b79e8813a596889257300986584f691bcd03"
+    },
+    {
+      "path": "artifacts/main/college_k128_fm4_s1703_rollout.pt",
+      "bytes": 5072397,
+      "sha256": "276be671679469ac5ef6a2f2bebf437bae8143f0fae3d4a29559fa6a6d92d2cc"
+    },
+    {
+      "path": "artifacts/main/college_k128_fm_1701.pt",
+      "bytes": 1194481,
+      "sha256": "f777e372336d387d20fc3d7a879bf49e9222206dec253e3cafcc875945b656ba"
+    },
+    {
+      "path": "artifacts/main/college_k128_fm_1701_fit.json",
+      "bytes": 1973,
+      "sha256": "c773280e13e8445f07554f3e97f2d0735c74757881e1bde1d100573cefc2a493"
+    },
+    {
+      "path": "artifacts/main/college_k128_fm_1702.pt",
+      "bytes": 1194481,
+      "sha256": "b8e642f0767ce3bd6485886ff51fe2cb19512520eba1d3418b1a0f35e8e4dce6"
+    },
+    {
+      "path": "artifacts/main/college_k128_fm_1702_fit.json",
+      "bytes": 1976,
+      "sha256": "89825bba412fb58ee5934b461ce4cc280a35ec81ff94dff0c864379172fec2b2"
+    },
+    {
+      "path": "artifacts/main/college_k128_fm_1703.pt",
+      "bytes": 1194481,
+      "sha256": "9648048b2078211529c020fecbe0912bf219c377999aaa3533e58fe3a9b0a57c"
+    },
+    {
+      "path": "artifacts/main/college_k128_fm_1703_fit.json",
+      "bytes": 1973,
+      "sha256": "438c8c772cb1f3e5f93a42fa9e55fe41ddfbe8482bb4878a7946155a462e9e01"
+    },
+    {
+      "path": "artifacts/main/college_k128_isolated.json",
+      "bytes": 3814,
+      "sha256": "4747dc29da0bb89c499dd55f4021ceab79f3814dd3bfaf093a2828884f50c2f9"
+    },
+    {
+      "path": "artifacts/main/college_k128_mlp1_s1701_rollout.json",
+      "bytes": 444,
+      "sha256": "0189134d6b86a3fca6a50375292776f451472c60f7baeaa108c474ef698138f0"
+    },
+    {
+      "path": "artifacts/main/college_k128_mlp1_s1701_rollout.pt",
+      "bytes": 5072583,
+      "sha256": "e846ba932aadee9c4a66835d516382306c52bcfefe2eeb21e206f33c1c35d170"
+    },
+    {
+      "path": "artifacts/main/college_k128_mlp1_s1702_rollout.json",
+      "bytes": 443,
+      "sha256": "2c18a4e5854e975dc27cfb3c2668c737f33fe535613e8389eeeaa1fe59ae8939"
+    },
+    {
+      "path": "artifacts/main/college_k128_mlp1_s1702_rollout.pt",
+      "bytes": 5072583,
+      "sha256": "16dba2ac7b7a242d7fa17cf8e0c06a796df1d6acc059716c2404e1ce24e87f01"
+    },
+    {
+      "path": "artifacts/main/college_k128_mlp1_s1703_rollout.json",
+      "bytes": 442,
+      "sha256": "c90673d9d11f56695812382238da537c2096162d481ffdb51fd6f9cae6e50310"
+    },
+    {
+      "path": "artifacts/main/college_k128_mlp1_s1703_rollout.pt",
+      "bytes": 5072583,
+      "sha256": "3ae4830f726876c7577db1b16f487d72db7576b29f7ed857aa7ee9970464ff7a"
+    },
+    {
+      "path": "artifacts/main/college_k128_mlp_1701.pt",
+      "bytes": 1194493,
+      "sha256": "1c9c497b90c7915939de2364005381ed1bb3bda18385655dfc533a729a4cbe10"
+    },
+    {
+      "path": "artifacts/main/college_k128_mlp_1701_fit.json",
+      "bytes": 1966,
+      "sha256": "96ef2c421b34e302bd9991db65a4c0d330f4adcd754d95fe236ba0936f9a3185"
+    },
+    {
+      "path": "artifacts/main/college_k128_mlp_1702.pt",
+      "bytes": 1194493,
+      "sha256": "6684b3efa27b2b09630685bd3f101adf466b67be8f85eab7f07e959df924d383"
+    },
+    {
+      "path": "artifacts/main/college_k128_mlp_1702_fit.json",
+      "bytes": 1972,
+      "sha256": "7d6966c818a02438110b84b572dcdbfa7c26e6a3121188d14622543a4e838440"
+    },
+    {
+      "path": "artifacts/main/college_k128_mlp_1703.pt",
+      "bytes": 1194493,
+      "sha256": "d5f2ec864eb5cc4114b4eab8672c8a9785aee5ef799b36d15ec211c84de90da6"
+    },
+    {
+      "path": "artifacts/main/college_k128_mlp_1703_fit.json",
+      "bytes": 1967,
+      "sha256": "14a7857a3e8c98a08914189e9590a4c7474f60d6a3729c8d583633091ee718f9"
+    },
+    {
+      "path": "artifacts/main/college_k128_queries.npz",
+      "bytes": 154720,
+      "sha256": "7ef144a97030f501787f373598f3f3574b9cc7b09ebe1b42a0d2bde3684a8df4"
+    },
+    {
+      "path": "artifacts/main/college_k128_samples.json",
+      "bytes": 474,
+      "sha256": "f50f8b19dd8e4d495ba11d41afb6f7cbdb851e7e4ceeae2a26f44dd32d90ee31"
+    },
+    {
+      "path": "artifacts/main/college_k128_scaler.pt",
+      "bytes": 8205,
+      "sha256": "c98bd266646b06b3e74bfbea60397faccc81b67d3c565b3721d658a2ce6143a3"
+    },
+    {
+      "path": "artifacts/main/college_k128_test.pt",
+      "bytes": 9642945,
+      "sha256": "57edb17820cab4a588694a0875f53375c24a71fbbc39fd8d91a965b878efb850"
+    },
+    {
+      "path": "artifacts/main/college_k128_test_start.pt",
+      "bytes": 4878790,
+      "sha256": "e418fa58b56ee8bea62c03ab50ab3ed976793e5457fbe6da1a777aa2dbda17be"
+    },
+    {
+      "path": "artifacts/main/college_k128_timing.json",
+      "bytes": 45124,
+      "sha256": "9091747c093847ad19baa37b15a06fde01ba2b5dec71ddc5a499674612d6a0ff"
+    },
+    {
+      "path": "artifacts/main/college_k128_train.pt",
+      "bytes": 24759755,
+      "sha256": "1abb0d7c3fa3c0afc46125ca174cdc14ef6cd27e9f291fb6ae33c8a922f727bb"
+    },
+    {
+      "path": "artifacts/main/college_k128_val.pt",
+      "bytes": 10168375,
+      "sha256": "3ea15815991de045bab3ee96e96a6bcb873c1b2dedd6112a8feec33b9315cbdf"
+    },
+    {
+      "path": "artifacts/main/college_k512_coarse_rollout.json",
+      "bytes": 440,
+      "sha256": "75a8428663a5fb48e36551d680da2bbd1fdc4924afbd55c92e2af100d9b73848"
+    },
+    {
+      "path": "artifacts/main/college_k512_coarse_rollout.pt",
+      "bytes": 3780661,
+      "sha256": "c966a52b4e7250fa0df1ff058971fae22ca99dfadd67413760d49e074b7c9cd5"
+    },
+    {
+      "path": "artifacts/main/college_k512_copy_rollout.json",
+      "bytes": 442,
+      "sha256": "faa45d7bc60ee240ff99c2cc054320dadbffbc9f5fb6dc3991703f1243424c00"
+    },
+    {
+      "path": "artifacts/main/college_k512_copy_rollout.pt",
+      "bytes": 3780315,
+      "sha256": "3ccfebc121fa0f8d317794955228632d205dddf460c16427690c70d9af6c9dd6"
+    },
+    {
+      "path": "artifacts/main/college_k512_evaluation.json",
+      "bytes": 12067,
+      "sha256": "1635d35a41813961f06a8cc048921a494d889f34bd623e9cd05757a847c6fc8e"
+    },
+    {
+      "path": "artifacts/main/college_k512_exact_rollout.json",
+      "bytes": 380,
+      "sha256": "7158a05cf366dfb781079630ebd7a8821c5bb5a6e915d3570ea9b81ebe8635c6"
+    },
+    {
+      "path": "artifacts/main/college_k512_exact_rollout.pt",
+      "bytes": 1899045,
+      "sha256": "5adccc70b0580b004d1e01e3783fdfaa893c70109a3005419b5437c640c6369d"
+    },
+    {
+      "path": "artifacts/main/college_k512_fm1_s1701_rollout.json",
+      "bytes": 441,
+      "sha256": "3ed48f55fffaf02f2aa9d4c2509c8cb65a3fca1a1133ea763a0da0346709defc"
+    },
+    {
+      "path": "artifacts/main/college_k512_fm1_s1701_rollout.pt",
+      "bytes": 3780988,
+      "sha256": "c1de38a946ae72422979bb1de129bcf5b302713bbc52df90655b6e53fe00c806"
+    },
+    {
+      "path": "artifacts/main/college_k512_fm1_s1702_rollout.json",
+      "bytes": 442,
+      "sha256": "3193b5380a1a27dffda367ee0e392a187e4b3f1925fc1d0d54dd1397d9fadf09"
+    },
+    {
+      "path": "artifacts/main/college_k512_fm1_s1702_rollout.pt",
+      "bytes": 3780988,
+      "sha256": "361f898ce71eeed9fc126d9298c1db5f12cb13680789773cad6864bf7723570c"
+    },
+    {
+      "path": "artifacts/main/college_k512_fm1_s1703_rollout.json",
+      "bytes": 439,
+      "sha256": "9a5fcc68904066a50a23d718df233b1b32806979a9574f80164d842b1e3eb2a7"
+    },
+    {
+      "path": "artifacts/main/college_k512_fm1_s1703_rollout.pt",
+      "bytes": 3780988,
+      "sha256": "a60a904a03025b35de39055b3afbd55ee7e3bfbfb86a4e161cf4c98bf36ed7de"
+    },
+    {
+      "path": "artifacts/main/college_k512_fm2_s1701_rollout.json",
+      "bytes": 441,
+      "sha256": "f05aa3f4fbff2844feb23f295dc0e5465febf3ec2a68bd56d3a43f1cfe85bac9"
+    },
+    {
+      "path": "artifacts/main/college_k512_fm2_s1701_rollout.pt",
+      "bytes": 3780988,
+      "sha256": "bfd799f02a0d74c2a2f6d53470cf7da7e5dd51176f23f5f364f77b9aea9b976c"
+    },
+    {
+      "path": "artifacts/main/college_k512_fm2_s1702_rollout.json",
+      "bytes": 440,
+      "sha256": "04965a50b35f68c2c127fa208af9219cc88f6f71a7b236fe64f41182e67a999b"
+    },
+    {
+      "path": "artifacts/main/college_k512_fm2_s1702_rollout.pt",
+      "bytes": 3780988,
+      "sha256": "c4842374dce7b23e3e9e40558be03a3b8d64655c67d343eeb692a1594049a026"
+    },
+    {
+      "path": "artifacts/main/college_k512_fm2_s1703_rollout.json",
+      "bytes": 442,
+      "sha256": "4d2395d2d4d36d70c2e1eac9bafe53970a9e73372113d62cf5700719789ea3d6"
+    },
+    {
+      "path": "artifacts/main/college_k512_fm2_s1703_rollout.pt",
+      "bytes": 3780988,
+      "sha256": "591f3faa9a20e71795765a73f47e76833126b0e7f02d2e9a2189db3e70d5c770"
+    },
+    {
+      "path": "artifacts/main/college_k512_fm4_s1701_rollout.json",
+      "bytes": 441,
+      "sha256": "68973bc8eda590ade235d742f1202f2e1ca8651ca3b88877500c0b7103faf24f"
+    },
+    {
+      "path": "artifacts/main/college_k512_fm4_s1701_rollout.pt",
+      "bytes": 3780988,
+      "sha256": "fdcd9b3649552b26ab732334d8ee61f8f97b4434ce685ae675ad16fdd53a4e35"
+    },
+    {
+      "path": "artifacts/main/college_k512_fm4_s1702_rollout.json",
+      "bytes": 441,
+      "sha256": "b0c69184f71e4554108c3dabd3b16d06476bfcd15274be9c0d7713bbeafe0acb"
+    },
+    {
+      "path": "artifacts/main/college_k512_fm4_s1702_rollout.pt",
+      "bytes": 3780988,
+      "sha256": "dbb8f562a7140cf2b997e3063f6cb11bd596b0efb597c5c9cb7a0d6f2b2eb2a0"
+    },
+    {
+      "path": "artifacts/main/college_k512_fm4_s1703_rollout.json",
+      "bytes": 441,
+      "sha256": "9403f2aa972a7a95b127f634e09566627d9e608a628e6ae4c217c85397716f34"
+    },
+    {
+      "path": "artifacts/main/college_k512_fm4_s1703_rollout.pt",
+      "bytes": 3780988,
+      "sha256": "31f751ac6f398f9ecd09a94fb4f23dc87b5e0e1eda18258192f016eec1f83e9f"
+    },
+    {
+      "path": "artifacts/main/college_k512_fm_1701.pt",
+      "bytes": 1194481,
+      "sha256": "1dbbe07562c013a876744f64c02f76219f01d20897474b9543800f89048ce86f"
+    },
+    {
+      "path": "artifacts/main/college_k512_fm_1701_fit.json",
+      "bytes": 1978,
+      "sha256": "a48707702813bc6a5e7c606d2403fa8d815608592cf7b81feedf363b6d3724b9"
+    },
+    {
+      "path": "artifacts/main/college_k512_fm_1702.pt",
+      "bytes": 1194481,
+      "sha256": "32816612d9574ae71431ee543b424d889985a5f0e33aef28fdd333c82c8e722c"
+    },
+    {
+      "path": "artifacts/main/college_k512_fm_1702_fit.json",
+      "bytes": 1968,
+      "sha256": "a4f1c5e8c323f7138b2d602ade78189db321545998828692d653aaf0623dee43"
+    },
+    {
+      "path": "artifacts/main/college_k512_fm_1703.pt",
+      "bytes": 1194481,
+      "sha256": "58989a3cb8bdbf515f1ab32f7dde27f84736f4de80b7596677b29e79076ce24d"
+    },
+    {
+      "path": "artifacts/main/college_k512_fm_1703_fit.json",
+      "bytes": 1974,
+      "sha256": "3be9c9e7a453e67bd261112371c1902c89dae02e0c395b2479d76f82c8be600a"
+    },
+    {
+      "path": "artifacts/main/college_k512_isolated.json",
+      "bytes": 3783,
+      "sha256": "d22b909ebad3bb32028cac5df7b73ea227f82f0c1952ef128a7f2809b10bd337"
+    },
+    {
+      "path": "artifacts/main/college_k512_mlp1_s1701_rollout.json",
+      "bytes": 441,
+      "sha256": "9e75889de9b58c7674529695f1ddd96d9721dd1be3c68710c5d92dfcb6637e5f"
+    },
+    {
+      "path": "artifacts/main/college_k512_mlp1_s1701_rollout.pt",
+      "bytes": 3781097,
+      "sha256": "0b39b7e563881190ccfea428dca1d6e99a228bf1dffe6e613a5abcc6cee584c2"
+    },
+    {
+      "path": "artifacts/main/college_k512_mlp1_s1702_rollout.json",
+      "bytes": 440,
+      "sha256": "8ac7e0342628fd4eb86ef4dc697f1548389c1fa17891b1f685beafb98884a1ad"
+    },
+    {
+      "path": "artifacts/main/college_k512_mlp1_s1702_rollout.pt",
+      "bytes": 3781097,
+      "sha256": "af7fc2111e71b8a0afccc04aa6f08d5c0fd3f6deef5ef8b8354227f77428ba1a"
+    },
+    {
+      "path": "artifacts/main/college_k512_mlp1_s1703_rollout.json",
+      "bytes": 441,
+      "sha256": "892de8cc6596411b9c7e04f11b883c4334c01e116230bdec7b3beb46f2de6cb3"
+    },
+    {
+      "path": "artifacts/main/college_k512_mlp1_s1703_rollout.pt",
+      "bytes": 3781097,
+      "sha256": "1573e98690ba360d5756bbc058f0b2611de5c978e304efc9b3bc236ce9670635"
+    },
+    {
+      "path": "artifacts/main/college_k512_mlp_1701.pt",
+      "bytes": 1194493,
+      "sha256": "8c52e01597eb7d7f3f0d710f72dd61955a74e1b27824e47a8902287419f3483a"
+    },
+    {
+      "path": "artifacts/main/college_k512_mlp_1701_fit.json",
+      "bytes": 1973,
+      "sha256": "aa5b0825c20fb30044c1dbe2ad016a7fd566b4d5ae4aca008c54b1d861862c48"
+    },
+    {
+      "path": "artifacts/main/college_k512_mlp_1702.pt",
+      "bytes": 1194493,
+      "sha256": "8e51c63bb196aaf7e9a96be5ff0da549cc7d66e7caf4d5d295161b93240c03a3"
+    },
+    {
+      "path": "artifacts/main/college_k512_mlp_1702_fit.json",
+      "bytes": 1973,
+      "sha256": "7eb91212c3085d46ea6048a72ec80dc078dab3689838d285ad3e43ed0c204e85"
+    },
+    {
+      "path": "artifacts/main/college_k512_mlp_1703.pt",
+      "bytes": 1194493,
+      "sha256": "019217b6f4c152d2034487d24cf04954e6b1aaaa2566ff162fcf6bd25149ff0b"
+    },
+    {
+      "path": "artifacts/main/college_k512_mlp_1703_fit.json",
+      "bytes": 1975,
+      "sha256": "c7bb67389cc5770a99c8817be1ca5c4d9206fa4045738f69f99c041c1566f47e"
+    },
+    {
+      "path": "artifacts/main/college_k512_queries.npz",
+      "bytes": 41248,
+      "sha256": "163710fd3715939a37d7d1f8c395e5ccb0ac255df74409fd381ff286a77984dc"
+    },
+    {
+      "path": "artifacts/main/college_k512_samples.json",
+      "bytes": 474,
+      "sha256": "121cdc0773b27b51e589abd91c4e4beba4d69f780d5677af080dae1ef6da7f39"
+    },
+    {
+      "path": "artifacts/main/college_k512_scaler.pt",
+      "bytes": 8205,
+      "sha256": "0702289d5406ef817b510f8b85c912a3801a8221ca0688363faba49184860281"
+    },
+    {
+      "path": "artifacts/main/college_k512_test.pt",
+      "bytes": 5043585,
+      "sha256": "1be9c42dc26bcec783beebe390064fb1b6c52d2f8f00bcd6789972f8b992ad94"
+    },
+    {
+      "path": "artifacts/main/college_k512_test_start.pt",
+      "bytes": 4878790,
+      "sha256": "9e49e4c836d76a0e57475dad18080d55671baa6d9be87db786e794562a6607a8"
+    },
+    {
+      "path": "artifacts/main/college_k512_timing.json",
+      "bytes": 45144,
+      "sha256": "3c9ee56ab71504b61d481a514a83a7d8484110934c6ebf10a1e97f49ca0ced7c"
+    },
+    {
+      "path": "artifacts/main/college_k512_train.pt",
+      "bytes": 14158283,
+      "sha256": "fb59d0885b01a0ac618bfd0621b9b480a38877926df29942981e1f61c8a3bea2"
+    },
+    {
+      "path": "artifacts/main/college_k512_val.pt",
+      "bytes": 5775671,
+      "sha256": "d6a0c302bef92032d805fb4cb7583066d915256023bd205946723a918aa5ed49"
+    },
+    {
+      "path": "artifacts/main/college_teacher.json",
+      "bytes": 1934,
+      "sha256": "9a562c644c2a83dceb1c68e64317864ae1675a5434e9bf684ffd355cbbc81913"
+    },
+    {
+      "path": "artifacts/main/college_teacher.pt",
+      "bytes": 1947733,
+      "sha256": "38a0efbaedeca0dd4f22e6d0b7c25261968a6ecd98f4cff41990781192f9e2ae"
+    },
+    {
+      "path": "artifacts/main/college_teacher_full_test.pt",
+      "bytes": 66101,
+      "sha256": "be01e61813f665287ca2c81868f9d6e492e7f99679cd2f814ae1324cdd2cc023"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_coarse_rollout.json",
+      "bytes": 443,
+      "sha256": "62be24184f1f948f12a9e9c9b0d226bebd15f2ddafe9ed4f079ef9b34ccde44e"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_coarse_rollout.pt",
+      "bytes": 31560531,
+      "sha256": "8fb389c629b9236bd57a31ac30a0e42c37b6a9f2ab88cc5006bab412b53545b4"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_copy_rollout.json",
+      "bytes": 445,
+      "sha256": "9d1e828661ef1b2dc35aaa35a4b778faea2037519b86a0ef224cf7847bf9b4aa"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_copy_rollout.pt",
+      "bytes": 31560159,
+      "sha256": "4e52b7a5fa40243fa42753ec1a85f5e501cca07d7ee638bf9d8409623c67413d"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_evaluation.json",
+      "bytes": 12117,
+      "sha256": "b7245c81e4640647f41ed87abfe20c15627dcce4b266183b405d34fe622a9fc9"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_exact_rollout.json",
+      "bytes": 384,
+      "sha256": "74c16b591650c2317d796589313327bf9cd93608bb7c7eda548c3edc325100a1"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_exact_rollout.pt",
+      "bytes": 15813617,
+      "sha256": "7183702923969d65396b37d486644a2af38166bb87cae749a7c505703a5d9ef4"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_fm1_s1701_rollout.json",
+      "bytes": 443,
+      "sha256": "f44958d3345a7cf40435b37e799b8907296013bf20051e52b770361292c76bf2"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_fm1_s1701_rollout.pt",
+      "bytes": 31563009,
+      "sha256": "514692d986db54c246d297b1a2036ea3dd0d463d83f584e8f153b435eee38bee"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_fm1_s1702_rollout.json",
+      "bytes": 442,
+      "sha256": "8a25251b3d958df8373651a0f63cc5e3ba38cd90c03985fdd920abadf7069f90"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_fm1_s1702_rollout.pt",
+      "bytes": 31563009,
+      "sha256": "a6728df1b7a9affded857950ec6d9388c362cdbefc0ff051c3c425d75c5818ab"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_fm1_s1703_rollout.json",
+      "bytes": 444,
+      "sha256": "cbcdea92169008713f68da80c8037966fc0843a1ce0dcd3531635bac61991cfa"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_fm1_s1703_rollout.pt",
+      "bytes": 31563009,
+      "sha256": "94736fee45d87ef9f6c3ec5bf452057f602ee3f63f086904e6e8ec91c9062b75"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_fm2_s1701_rollout.json",
+      "bytes": 442,
+      "sha256": "a62268f09c33558ae798906cb6a801610e5d0e0c5a470f4ada7f54118a6f7eb5"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_fm2_s1701_rollout.pt",
+      "bytes": 31563009,
+      "sha256": "975f1d071caf3182309edfd24226df743937998a8f3ad66c56e27563160481e9"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_fm2_s1702_rollout.json",
+      "bytes": 443,
+      "sha256": "af27cc8fbeef57b5e53e4f6f678e682864d619d2929fd8a4a151eb0a78989f27"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_fm2_s1702_rollout.pt",
+      "bytes": 31563009,
+      "sha256": "c1cd87b230bcc8543dd4969e1ebeea9dd6acef072a7b58d80ff36ab342152f0f"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_fm2_s1703_rollout.json",
+      "bytes": 444,
+      "sha256": "01837aca20f078f6b788678d4a619bdd747b76b27a95a41838fd65e42af65874"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_fm2_s1703_rollout.pt",
+      "bytes": 31563009,
+      "sha256": "0dfffe72af8d04e4af799cfe49a4c67af54a02bd8dee547b75b8052aadf8451e"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_fm4_s1701_rollout.json",
+      "bytes": 444,
+      "sha256": "79d65478ddedaa6fba48f135b9ea36d9f873fa8d88a8dd242c3f52bf8bb5edb6"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_fm4_s1701_rollout.pt",
+      "bytes": 31563009,
+      "sha256": "6c606e527cb0455c7f0340ee286020d42f4a70c88992e4181de4268b40944385"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_fm4_s1702_rollout.json",
+      "bytes": 440,
+      "sha256": "1e4068c7d0cfc92c7fe8453a5c04a8e473c27c14d581c81ced327c87d3beb4e6"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_fm4_s1702_rollout.pt",
+      "bytes": 31563009,
+      "sha256": "01910a9a7d5e4c250a7133e7d50dec2de06114cdf1fe86ffc6dda3ac8d77aebb"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_fm4_s1703_rollout.json",
+      "bytes": 441,
+      "sha256": "7478b4c9e85a0e81bdc38f3cf740fca0f69d368019f14b91b63108fd6b1c870a"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_fm4_s1703_rollout.pt",
+      "bytes": 31563009,
+      "sha256": "5127237de621f4e95b9229b6542d2af01b62b5ed32df97545854bd6b037aa174"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_fm_1701.pt",
+      "bytes": 2070089,
+      "sha256": "5795c928b65537f75c53b856088f5c32d2f385aea1f748ede275d1243522bff1"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_fm_1701_fit.json",
+      "bytes": 1971,
+      "sha256": "ca1b3f19314a6bdaa8df515b34ee350925a477aa90465b61a72245f977956d76"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_fm_1702.pt",
+      "bytes": 2070089,
+      "sha256": "7025a071857bd169194692152b49b7e246b001f2f1eb6d1994c80601c2c48914"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_fm_1702_fit.json",
+      "bytes": 1977,
+      "sha256": "4c384526039d79e5a8c786e401577c440da7730e86847d4b4560e48e41b81406"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_fm_1703.pt",
+      "bytes": 2070089,
+      "sha256": "a2f3707528664271281bd129294ed912941698eb869d4898e6bf02d3d7b07b36"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_fm_1703_fit.json",
+      "bytes": 1977,
+      "sha256": "5545de2c559dd615f4aedfc2ea59c096e83b767e356809583499acec328f2563"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_isolated.json",
+      "bytes": 3798,
+      "sha256": "5a588ac8fe81f4693d929bf93c96a7f77ef0380441e6d3f09122847ef109129a"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_mlp1_s1701_rollout.json",
+      "bytes": 440,
+      "sha256": "59188f998975a4db590e00a0e381f4672d1d4657a968c5a310b2a740e9282271"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_mlp1_s1701_rollout.pt",
+      "bytes": 31563195,
+      "sha256": "8e6c6f844e464d75a1173512f87cf1f2660183d26aae27a927561aa898a44bac"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_mlp1_s1702_rollout.json",
+      "bytes": 445,
+      "sha256": "30f7e4dafb1c8e8f91802f1c5786c680c56fbf11b1f3dba8c00422f30d932693"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_mlp1_s1702_rollout.pt",
+      "bytes": 31563195,
+      "sha256": "7c5d252229d8f216b06f02ef19645734aac47af9775d7b51cd1f79842a70a2e5"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_mlp1_s1703_rollout.json",
+      "bytes": 446,
+      "sha256": "6a784a425a65aef0f9697f5d28795ec2d40390b48e6dc752d71dc6d2922869fb"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_mlp1_s1703_rollout.pt",
+      "bytes": 31563195,
+      "sha256": "01dfb4cd3fb6e749ec4f712a60ce6dcbe5f6bbd88fd31c80924068984c0cc984"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_mlp_1701.pt",
+      "bytes": 2070101,
+      "sha256": "562136cca1e8b235fcd7318b449b4c98837493b1cd76b5927c7f9a7b9314cb83"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_mlp_1701_fit.json",
+      "bytes": 1972,
+      "sha256": "55b55789afafc5a6414dfaa752b9f0b451a0edd03c290f250e8efbaaa1ea0d1b"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_mlp_1702.pt",
+      "bytes": 2070101,
+      "sha256": "21e56e90e6402022c3d6fc06b85cca77739a24cc16e7f6506ae7319d42925ba9"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_mlp_1702_fit.json",
+      "bytes": 1972,
+      "sha256": "91d27f8230cbeaed0f7ebe9b417d456ff0743abb3ae5e7666e6a907ae10fb630"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_mlp_1703.pt",
+      "bytes": 2070101,
+      "sha256": "d0ac062a431fca0f94cc18140ad0d877b25f3ce4525bef0d5702797b7fd4005b"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_mlp_1703_fit.json",
+      "bytes": 1971,
+      "sha256": "f51d05391b49682934385201118aab51c99936d62e6fbc239a7ced4e41b33c69"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_queries.npz",
+      "bytes": 154720,
+      "sha256": "283f5abeeb5529d8328832f74290d87e36bb117d483831a1a31bde76d5d0689a"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_samples.json",
+      "bytes": 477,
+      "sha256": "89bc1436f19f0453cfa20c9acb1d62078b84281cef5312762f515398725f138d"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_scaler.pt",
+      "bytes": 15071,
+      "sha256": "8739430da72db7663f41faf5d9aef16a3dcac2b34b02699455d11c28f122f27c"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_test.pt",
+      "bytes": 23840021,
+      "sha256": "dceaff5d70c26a433492a7d59c8d07fe184388f2fa68d7e8be5e29df7d40ea63"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_test_start.pt",
+      "bytes": 13116245,
+      "sha256": "4f04a072759233906cbdbf5117ff663e345c3b1b47e84f3213272b14cadcb3d9"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_timing.json",
+      "bytes": 45099,
+      "sha256": "ba54679f514a82a255ccec89f0f2d47a347ea6f2482d7410c18934f1b1a7840e"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_train.pt",
+      "bytes": 61378655,
+      "sha256": "960ec7d866c1d3a3ab1969cbcc35b8d57f6c3ee8e7601bc3c6ffc001c5bd62f4"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k128_val.pt",
+      "bytes": 22860811,
+      "sha256": "32bf8468a5b7188fb8d149f052b734ee4336238722d6ac501f8aa58832b31426"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_coarse_rollout.json",
+      "bytes": 441,
+      "sha256": "69823d3f20265d1349bbb420f2daed55d596651e88b0b0e205e8469dec28a6bc"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_coarse_rollout.pt",
+      "bytes": 23858959,
+      "sha256": "fe21e1c1981205fffc7f1d337e1d4e2daf080662bf1e8a88ec7981b7255409f0"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_copy_rollout.json",
+      "bytes": 443,
+      "sha256": "fb1fb99de8e41e180f303db663831ed4322d0959f314dd6eefcd8875f5106b83"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_copy_rollout.pt",
+      "bytes": 23858741,
+      "sha256": "08e5884d406399ed3e06ea8c3652f9f0dd795a137819a3052c20c31078f2402c"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_evaluation.json",
+      "bytes": 12104,
+      "sha256": "e68f36ac6ea0d2cd0eb251c0fc91489b6f0906246935029b787ef9d299820ddd"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_exact_rollout.json",
+      "bytes": 382,
+      "sha256": "ec904eb10d636ae461bacbf55661b5107f55073904378b1b70221d0779b55800"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_exact_rollout.pt",
+      "bytes": 11940907,
+      "sha256": "47d51bc25be7aebaa7b31cc449a4f5412acf696b122bd3e01d39d90039109500"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_fm1_s1701_rollout.json",
+      "bytes": 442,
+      "sha256": "1c8aad1c39be5f36b81ffb5cd9889d1cd457f0fac6e983df6e096b190cbd7c21"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_fm1_s1701_rollout.pt",
+      "bytes": 23860438,
+      "sha256": "c10ffd80949db4536efd35e83ba9a7cee91ea6d6223704ccd1053ab7e6a872b6"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_fm1_s1702_rollout.json",
+      "bytes": 441,
+      "sha256": "96984642ac24f29f2d12621315a7d5e1a9fe72c5151a04171cfea19fa8c549ee"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_fm1_s1702_rollout.pt",
+      "bytes": 23860438,
+      "sha256": "5997520de495ccd7f3232247f343d2937dfd19bac7a1b51032d95b7b5e165bd3"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_fm1_s1703_rollout.json",
+      "bytes": 439,
+      "sha256": "d35837e96697bd6af71c79695b901fa5f8a403645d151eaea7e79e183a81cf78"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_fm1_s1703_rollout.pt",
+      "bytes": 23860438,
+      "sha256": "cb6e1c7c05af56de7a556c4e89b8f6971aa88ed417e0912beea0bfbfe382dcb4"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_fm2_s1701_rollout.json",
+      "bytes": 441,
+      "sha256": "81557166882fbe1d2adc935cf8fa333fe85a703e7b9e42d3ad9fe718f3f228f4"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_fm2_s1701_rollout.pt",
+      "bytes": 23860438,
+      "sha256": "4f38db78e0eb91bef6c585609c320a4271e9177dabb63ab12cbb7e923c8a0685"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_fm2_s1702_rollout.json",
+      "bytes": 440,
+      "sha256": "2808b1de38272879d1d80a5472fa36ae4725babcabd8e28967fcf7a6e166b083"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_fm2_s1702_rollout.pt",
+      "bytes": 23860438,
+      "sha256": "74ca979f452cd8054bd83e6a546d78ad102f8b986bded4698c54fd399ae8550f"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_fm2_s1703_rollout.json",
+      "bytes": 441,
+      "sha256": "bc99b2cbb3b435815fb481b99f21ac188d219468bcb98993f16422e0d530ace3"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_fm2_s1703_rollout.pt",
+      "bytes": 23860438,
+      "sha256": "3bc8265cd308ed975e7f5960d308ce315515c30418a6635eb18b0295de2fcb16"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_fm4_s1701_rollout.json",
+      "bytes": 440,
+      "sha256": "29ec9a8eec8ce9c46b89732e1af1c107060dbd658fa729242f103373eaf7e29a"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_fm4_s1701_rollout.pt",
+      "bytes": 23860438,
+      "sha256": "35f98c4ed879d18cb40b694e28afbcdde36c4d25edc14e0c08ebe849ef14eedf"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_fm4_s1702_rollout.json",
+      "bytes": 441,
+      "sha256": "e5869fca11b657fcff6fd446a51f9bb5a240cd0f4805a21cba07a162b44067d2"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_fm4_s1702_rollout.pt",
+      "bytes": 23860438,
+      "sha256": "8c4f0f2538bdd51af3549ab1624f844291ff3431be84a0d5fcaf00175c07f95a"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_fm4_s1703_rollout.json",
+      "bytes": 439,
+      "sha256": "dee9bbf726544e58bde0349a3303deae369a734d222d5677b914d72deb9df328"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_fm4_s1703_rollout.pt",
+      "bytes": 23860438,
+      "sha256": "00b17b6a38400e478a68d7493bb6e19ca561ffc2b530e6f3ec9225d1d06fc9e4"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_fm_1701.pt",
+      "bytes": 2070089,
+      "sha256": "f9ce19e841f21b800e54d1c7c26334d15914fb840943e8746fa56acebeda2b81"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_fm_1701_fit.json",
+      "bytes": 1974,
+      "sha256": "e2397296946402a220eab9c6a0ec536d80c040386737aea02fc0eaebf8ef99ad"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_fm_1702.pt",
+      "bytes": 2070089,
+      "sha256": "34b5cacdde7cdf2273e7ba151ce9d8427172871ca5e4cb551c6292278fccf497"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_fm_1702_fit.json",
+      "bytes": 1969,
+      "sha256": "c7513de941c1c96279365cb3f81c994cf2928cc1b7b34e847ede05186f45889f"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_fm_1703.pt",
+      "bytes": 2070089,
+      "sha256": "6d9f5f70a3c434b1a69e6356359a6814005295edb6be944a71f675a615fc8107"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_fm_1703_fit.json",
+      "bytes": 1975,
+      "sha256": "5351cd488c537dbcad6d4ac49cfac6a5cc094bbaf8fd01d4ffb102c29c02246d"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_isolated.json",
+      "bytes": 3814,
+      "sha256": "b69d4e8fd8fb5bdb4a35246f8c7b87d6657aabeebe8f2f2d2658deb1bb757bc4"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_mlp1_s1701_rollout.json",
+      "bytes": 441,
+      "sha256": "efdc6c8e0ae93b20c702e2c8a5ca996c8fdee9671047c7fbd76addfd1ad59e19"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_mlp1_s1701_rollout.pt",
+      "bytes": 23860547,
+      "sha256": "ab984d28e71a027667c7caa7e734a5897c328f37ea02aa793d12d40367c4df9e"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_mlp1_s1702_rollout.json",
+      "bytes": 443,
+      "sha256": "658011fac0ce086e2343f8e15d678a19938ea08c8a3b76a593894cd3c473a2e0"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_mlp1_s1702_rollout.pt",
+      "bytes": 23860547,
+      "sha256": "82e21c5af886f360fd78257e16c3869e01ff64decf336ca5beaf0f572adcb6fe"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_mlp1_s1703_rollout.json",
+      "bytes": 443,
+      "sha256": "1222ea172c354631f09b4cf3ac0f5b843b3c692d2441c6f006c1817bc8ed7d0b"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_mlp1_s1703_rollout.pt",
+      "bytes": 23860547,
+      "sha256": "d7762f38f00174a68d6ffa1b3991c8c43180ebdf61d4eb4714b5875eacf5d448"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_mlp_1701.pt",
+      "bytes": 2070101,
+      "sha256": "57029bee9b34f423def4b1986f70073255137e95d7201f69e8ecba3078d63c18"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_mlp_1701_fit.json",
+      "bytes": 1975,
+      "sha256": "ce2986ef47d57cbf918e595ac6e2b925aec0acb4e7c1b127b3cc5c5bf42b522b"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_mlp_1702.pt",
+      "bytes": 2070101,
+      "sha256": "f716c78e916ff4506b8d4181ca4efb359a689046f6300b03c9143a9af45ea9b3"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_mlp_1702_fit.json",
+      "bytes": 1978,
+      "sha256": "41d34fb09f896458cfd81b768d41dca982be971cd106484861e128bffd1742c0"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_mlp_1703.pt",
+      "bytes": 2070101,
+      "sha256": "d26bad45f4edbce107fa2caf64e495ee16d178498a913ca85ac312d894d3d64c"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_mlp_1703_fit.json",
+      "bytes": 1978,
+      "sha256": "0f6427b9a52fa4e1594f4657ca66f93871eafd5c9d6e21e7d59b49d3652eac44"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_queries.npz",
+      "bytes": 41248,
+      "sha256": "37a3d69e8571fe1d43bcaead4e3c4f52ed76f1762506d0ba6aa5007819f312a5"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_samples.json",
+      "bytes": 478,
+      "sha256": "ebcc6fb8ef61d53f530b91ecf1e69ec7fb00b3fd90edc50dcd90f0af53ecccf9"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_scaler.pt",
+      "bytes": 15071,
+      "sha256": "e39cf5a6a41f388b523082ad576d9fa4ba9c6ccd8b7ccad7939d4171b44f693b"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_test.pt",
+      "bytes": 14964117,
+      "sha256": "55905d94d2a9fbff6e4835f5abb3c9885c043bebca1c742a10c6f35c1c5b3ff7"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_test_start.pt",
+      "bytes": 13116245,
+      "sha256": "2493ac854ee5c44994d6c4e43e1e9d3856a65ee90a8c4f1beb03b2b55ebb68dc"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_timing.json",
+      "bytes": 45121,
+      "sha256": "1dde85597818bf712ded12ab28754996669dc88b0497b32dd1640cd32b4f6742"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_train.pt",
+      "bytes": 42034463,
+      "sha256": "76958adcee5968d1cd05ea49ced8de633dae34c68747bd892bda4949a04510c9"
+    },
+    {
+      "path": "artifacts/main/wikipedia_k512_val.pt",
+      "bytes": 14125835,
+      "sha256": "025f627f77ffae0589536d1b61e295b240fb3d1df300c79f30d6a137e83293c3"
+    },
+    {
+      "path": "artifacts/main/wikipedia_teacher.json",
+      "bytes": 1931,
+      "sha256": "dd4791e391b0ff39c393368a9fd8a62bfb9f73ca42cb14770415e49bb31c84c2"
+    },
+    {
+      "path": "artifacts/main/wikipedia_teacher.pt",
+      "bytes": 2944021,
+      "sha256": "03e338c277337dbc7a8ad3cc927a703c386e1bf5a090521b6701bc405914144b"
+    },
+    {
+      "path": "artifacts/main/wikipedia_teacher_full_test.pt",
+      "bytes": 66117,
+      "sha256": "1d06ba0b30e5dd35a4eddb9929402e469d349926b0194a1b6f2e891e74bdf2fa"
+    },
+    {
+      "path": "closure.json",
+      "bytes": 1379,
+      "sha256": "bac5bfe279ea749237f7dd9a6c247a7ccf6861a939bd37be9f76b71c79482f62"
+    },
+    {
+      "path": "integrator_audit.json",
+      "bytes": 979,
+      "sha256": "393e0c2028e0c0dbd4ab96144c1f6cfb66ef77e7f4c7468e8a4815eb31f5dd75"
+    },
+    {
+      "path": "runs/pipeline_v1/CONTRACT.md",
+      "bytes": 4512,
+      "sha256": "f3b3043bd2ffc4f7c9016540e01fedb973fd4e90285a61ca54c547b0c2825a96"
+    },
+    {
+      "path": "runs/pipeline_v1/after.txt",
+      "bytes": 940,
+      "sha256": "722ad0e407930bb4c7e676df53316aa64226ebe28bc59e3968c65f323ec4f8bf"
+    },
+    {
+      "path": "runs/pipeline_v1/audit.json",
+      "bytes": 22775,
+      "sha256": "aeacad639ea58c1e89edbda1a8bfdf5a1b62472b5f42d51c44d1ebe9252a2e1d"
+    },
+    {
+      "path": "runs/pipeline_v1/audit_stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/pipeline_v1/audit_stdout.jsonl",
+      "bytes": 248,
+      "sha256": "38ecfa26c05c6bcf819cbb2adc980ee2d22b356d823e4c655fc3d419ff8f22ab"
+    },
+    {
+      "path": "runs/pipeline_v1/before.txt",
+      "bytes": 940,
+      "sha256": "dbcb4b9898d7a4fb0b06656c21288a625e80802966d3a87e1fa6422dc5721f73"
+    },
+    {
+      "path": "runs/pipeline_v1/evaluate_stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/pipeline_v1/evaluate_stdout.jsonl",
+      "bytes": 28028,
+      "sha256": "b19c380ab2f459c50b9b95a37523a86feb00f1b18d23666f1af282edea3193de"
+    },
+    {
+      "path": "runs/pipeline_v1/fit_stderr.log",
+      "bytes": 389,
+      "sha256": "fe9c3978cfdae007d57fea80b1d290059a2ef69e890c2e86a20246953d3f5c81"
+    },
+    {
+      "path": "runs/pipeline_v1/fit_stdout.jsonl",
+      "bytes": 5527,
+      "sha256": "f68e118df2303845d2b25bbb6d25fb5fcd82905aa878842668c20d67c711dffb"
+    },
+    {
+      "path": "runs/pipeline_v1/progress.json",
+      "bytes": 3660,
+      "sha256": "6cc5a49a99d35c83634c4b4363b3c9e531bebd1540ef32096f02f542ba0e9306"
+    },
+    {
+      "path": "runs/pipeline_v1/run.json",
+      "bytes": 3705,
+      "sha256": "45179e580fd1ecbcb061c893b26e90dcb01b5d1f009d999ad102170f7ac18c3c"
+    },
+    {
+      "path": "runs/pipeline_v1/samples_stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/pipeline_v1/samples_stdout.jsonl",
+      "bytes": 2026,
+      "sha256": "ca17e65bebd863d4aefdc90216a2d57f7601a8151585b7f767b21926e9de3934"
+    },
+    {
+      "path": "runs/pipeline_v1/sources/audit.py",
+      "bytes": 5229,
+      "sha256": "764d20d07fb06d5dd2aad97ac468a774e15402abc29644e25c74812c78b5ef3f"
+    },
+    {
+      "path": "runs/pipeline_v1/sources/experiment.py",
+      "bytes": 25309,
+      "sha256": "f5bbda65783319ab37be6c6cd7e35cb8542c4a2c9bb262d7a3c62445cdf293d4"
+    },
+    {
+      "path": "runs/pipeline_v1/sources/supervise.py",
+      "bytes": 4709,
+      "sha256": "b30db79d201e5f2beaa3710693c06009ea0fa25b4b33ab91f498049a3c6e10e3"
+    },
+    {
+      "path": "runs/pipeline_v1/timing_stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/pipeline_v1/timing_stdout.jsonl",
+      "bytes": 2471,
+      "sha256": "a1b10dbc75e6858e15c055e2b7a1b1062a58204c284065036fd16df188504656"
+    },
+    {
+      "path": "runs/samples_v1/CONTRACT.md",
+      "bytes": 4512,
+      "sha256": "f3b3043bd2ffc4f7c9016540e01fedb973fd4e90285a61ca54c547b0c2825a96"
+    },
+    {
+      "path": "runs/samples_v1/after.txt",
+      "bytes": 1501,
+      "sha256": "a318cfcf580fcd95beb82a5c2a504694cedb61d6f679b3fa66fba079fca48311"
+    },
+    {
+      "path": "runs/samples_v1/run.json",
+      "bytes": 1395,
+      "sha256": "6eed2d9969ea8751d6dc93b5871b911ce23429f47743d5ecadacad9c2d6426b1"
+    },
+    {
+      "path": "runs/samples_v1/sources/audit.py",
+      "bytes": 5229,
+      "sha256": "764d20d07fb06d5dd2aad97ac468a774e15402abc29644e25c74812c78b5ef3f"
+    },
+    {
+      "path": "runs/samples_v1/sources/experiment.py",
+      "bytes": 25309,
+      "sha256": "f5bbda65783319ab37be6c6cd7e35cb8542c4a2c9bb262d7a3c62445cdf293d4"
+    },
+    {
+      "path": "runs/samples_v1/sources/supervise.py",
+      "bytes": 3644,
+      "sha256": "d024397a9ce406281ba51f38dcd271ce99812f412783771a85d45a9fbb60409c"
+    },
+    {
+      "path": "runs/teacher_v1/after.txt",
+      "bytes": 1044,
+      "sha256": "4cbf4fb900daab2c53310e2921f4b1be9608c4003a170bf9ff99af39217ca5d2"
+    },
+    {
+      "path": "runs/teacher_v1/before.txt",
+      "bytes": 1146,
+      "sha256": "16d9fdb6dcf7488fac23e40ce97605935df6ebaffcf28446d27ed868df2d34e0"
+    },
+    {
+      "path": "runs/teacher_v1/run.json",
+      "bytes": 996,
+      "sha256": "3797eedf51d8e96428c8ef8d55617075988cd3a25f3d0da49f4f0622e13ca2e8"
+    },
+    {
+      "path": "runs/teacher_v1/stderr.log",
+      "bytes": 342,
+      "sha256": "2fd90d36efe08f139467bfa270ccf8a2e5bdc2b7c7c61deb27313483f21a985a"
+    },
+    {
+      "path": "runs/teacher_v1/stdout.jsonl",
+      "bytes": 6720,
+      "sha256": "3a71b3dd54fa01c71f5b733722c4b230e7c2c700fc2d9918e2cdc9f8231a1519"
+    },
+    {
+      "path": "src/analyze.py",
+      "bytes": 7199,
+      "sha256": "562e64d8038b5b8951a4e22f9e4efe92fdb3e2f42ea4367199d5c6ee44a4918a"
+    },
+    {
+      "path": "src/audit.py",
+      "bytes": 5229,
+      "sha256": "764d20d07fb06d5dd2aad97ac468a774e15402abc29644e25c74812c78b5ef3f"
+    },
+    {
+      "path": "src/close_remote.py",
+      "bytes": 2351,
+      "sha256": "069714a9993058fee74e03d81513eeab5fe00282c05b1f6a9b87d5476411bb82"
+    },
+    {
+      "path": "src/experiment.py",
+      "bytes": 25309,
+      "sha256": "f5bbda65783319ab37be6c6cd7e35cb8542c4a2c9bb262d7a3c62445cdf293d4"
+    },
+    {
+      "path": "src/export_queries.py",
+      "bytes": 1247,
+      "sha256": "25c4c797f29c5276f7a9423b2f9850755d3b6a9749ca055727341be6026622d3"
+    },
+    {
+      "path": "src/plot.py",
+      "bytes": 2814,
+      "sha256": "d94aa429152ee13917652318a610794a862cee43ed86538eb65009ca806194f8"
+    },
+    {
+      "path": "src/supervise.py",
+      "bytes": 4709,
+      "sha256": "b30db79d201e5f2beaa3710693c06009ea0fa25b4b33ab91f498049a3c6e10e3"
+    },
+    {
+      "path": "src/verify_integrator.py",
+      "bytes": 1272,
+      "sha256": "b9137e27aea24fa538dd01bcd8e33fcb18e250420ff7f6504d17193e08376c4c"
+    }
+  ],
+  "total_bytes": 1262015509
+}

@@ -1,0 +1,574 @@
+{
+  "phases": {
+    "direct": {
+      "macro_ms": {
+        "batch_and_zero_grad": 0.12553000007756054,
+        "negative_and_neighbor_sampling": 1.578007669498523,
+        "memory_read": 3.9011859968304634,
+        "gnn_embedding": 1.9521923437714577,
+        "query_mapping": 0.12282333321248491,
+        "source_decoder": 4.756041650970777,
+        "loss": 0.19011766541128358,
+        "memory_update": 7.8709070434172945,
+        "neighbor_insert": 1.077014336983363,
+        "backward": 7.915362000465393,
+        "optimizer": 0.5558759992321333,
+        "detach_and_loss_read": 0.08733500028029084
+      },
+      "macro_percent": {
+        "batch_and_zero_grad": 0.41659485826530085,
+        "negative_and_neighbor_sampling": 5.2369145304717355,
+        "memory_read": 12.946817704230073,
+        "gnn_embedding": 6.478716579762472,
+        "query_mapping": 0.4076122764256539,
+        "source_decoder": 15.783816587794446,
+        "loss": 0.6309411441632076,
+        "memory_update": 26.12108183020649,
+        "neighbor_insert": 3.5742741558835207,
+        "backward": 26.268613946188328,
+        "optimizer": 1.8447788016419262,
+        "detach_and_loss_read": 0.2898375849668431
+      },
+      "macro_sum_ms": 30.132393040151026,
+      "memory_detail_ms": {
+        "message.lookup": 0.3286770009047662,
+        "message.unpack": 0.21153833330996955,
+        "message.concat": 1.5953470015665516,
+        "message.time": 0.9040356678306125,
+        "message.compose": 0.2894786666147411,
+        "memory.last_aggregate": 0.9416460003703833,
+        "memory.gru": 0.5791686638258398,
+        "memory.last_time": 0.2834306674194522,
+        "state.recompute": 2.736373665432135,
+        "state.write": 0.2849076670439293,
+        "store.sort": 0.14945599964509407,
+        "store.counts": 0.1740056675625965,
+        "store.per_node_gathers": 4.247062353417277
+      }
+    },
+    "batch_store": {
+      "macro_ms": {
+        "batch_and_zero_grad": 0.12383299988384049,
+        "negative_and_neighbor_sampling": 1.5377726604541142,
+        "memory_read": 3.8279790033896766,
+        "gnn_embedding": 1.877047337591648,
+        "query_mapping": 0.12174433283507824,
+        "source_decoder": 4.735229668517907,
+        "loss": 0.18849966721609235,
+        "memory_update": 4.315048664808273,
+        "neighbor_insert": 1.082578672717015,
+        "backward": 7.71367100874583,
+        "optimizer": 0.5490940030043324,
+        "detach_and_loss_read": 0.08868899980249505
+      },
+      "macro_percent": {
+        "batch_and_zero_grad": 0.47334625831031363,
+        "negative_and_neighbor_sampling": 5.878069138603158,
+        "memory_read": 14.632283315793252,
+        "gnn_embedding": 7.174931841704387,
+        "query_mapping": 0.4653624193230077,
+        "source_decoder": 18.100209539746672,
+        "loss": 0.7205317827491317,
+        "memory_update": 16.494085920795392,
+        "neighbor_insert": 4.138109910426344,
+        "backward": 29.4851720724812,
+        "optimizer": 2.098887954152275,
+        "detach_and_loss_read": 0.3390098459148563
+      },
+      "macro_sum_ms": 26.161187018966306,
+      "memory_detail_ms": {
+        "message.lookup": 0.32587833392123383,
+        "message.unpack": 0.19303533306811005,
+        "message.concat": 1.6391879997875851,
+        "message.time": 0.8675430004756587,
+        "message.compose": 0.28804433314750594,
+        "memory.last_aggregate": 0.9341630001241962,
+        "memory.gru": 0.5003426661714911,
+        "memory.last_time": 0.280727333437729,
+        "state.recompute": 2.657630326847235,
+        "state.write": 0.28304866747930646,
+        "store.sort": 0.1502650003725042,
+        "store.counts": 0.14998733345419168,
+        "store.metadata": 0.10800600016955286,
+        "store.batch_gathers": 0.14157866686582565,
+        "store.views_and_dictionary": 0.4702310004892449
+      }
+    }
+  },
+  "backward": [
+    {
+      "case_variant": "college_b200_s40_batch_store",
+      "cpu": {
+        "loss": {
+          "nodes": 3,
+          "cpu_us": 413.68299999999726
+        },
+        "source_decoder": {
+          "nodes": 36,
+          "cpu_us": 5497.553999999993
+        },
+        "leaf_or_unsequenced": {
+          "nodes": 19,
+          "cpu_us": 130.4509999999973
+        },
+        "gnn_embedding": {
+          "nodes": 38,
+          "cpu_us": 2971.8650000000125
+        },
+        "memory_read": {
+          "nodes": 16,
+          "cpu_us": 1160.2679999999964
+        }
+      },
+      "gpu": {
+        "loss": {
+          "activities": 8,
+          "gpu_us": 9.408999999999999,
+          "kernels": 8
+        },
+        "source_decoder": {
+          "activities": 125,
+          "gpu_us": 292.826,
+          "kernels": 125
+        },
+        "gnn_embedding": {
+          "activities": 129,
+          "gpu_us": 326.5869999999999,
+          "kernels": 112
+        },
+        "memory_read": {
+          "activities": 35,
+          "gpu_us": 103.426,
+          "kernels": 34
+        }
+      },
+      "backward_wall_us": 11357.689000000002
+    },
+    {
+      "case_variant": "college_b200_s40_direct",
+      "cpu": {
+        "loss": {
+          "nodes": 3,
+          "cpu_us": 396.2669999999998
+        },
+        "source_decoder": {
+          "nodes": 36,
+          "cpu_us": 5338.033000000003
+        },
+        "leaf_or_unsequenced": {
+          "nodes": 19,
+          "cpu_us": 130.23300000000017
+        },
+        "gnn_embedding": {
+          "nodes": 38,
+          "cpu_us": 2973.954999999958
+        },
+        "memory_read": {
+          "nodes": 16,
+          "cpu_us": 1180.9580000000205
+        }
+      },
+      "gpu": {
+        "loss": {
+          "activities": 8,
+          "gpu_us": 9.472999999999999,
+          "kernels": 8
+        },
+        "source_decoder": {
+          "activities": 125,
+          "gpu_us": 292.73,
+          "kernels": 125
+        },
+        "gnn_embedding": {
+          "activities": 129,
+          "gpu_us": 327.20799999999986,
+          "kernels": 112
+        },
+        "memory_read": {
+          "activities": 35,
+          "gpu_us": 102.94500000000002,
+          "kernels": 34
+        }
+      },
+      "backward_wall_us": 11160.871
+    },
+    {
+      "case_variant": "college_b32_s256_batch_store",
+      "cpu": {
+        "loss": {
+          "nodes": 3,
+          "cpu_us": 413.5709999999999
+        },
+        "source_decoder": {
+          "nodes": 36,
+          "cpu_us": 5278.609999999979
+        },
+        "leaf_or_unsequenced": {
+          "nodes": 19,
+          "cpu_us": 146.8010000000104
+        },
+        "gnn_embedding": {
+          "nodes": 38,
+          "cpu_us": 2705.869999999999
+        },
+        "memory_read": {
+          "nodes": 16,
+          "cpu_us": 1170.71000000001
+        }
+      },
+      "gpu": {
+        "loss": {
+          "activities": 8,
+          "gpu_us": 8.735000000000001,
+          "kernels": 8
+        },
+        "source_decoder": {
+          "activities": 121,
+          "gpu_us": 212.31799999999998,
+          "kernels": 121
+        },
+        "gnn_embedding": {
+          "activities": 100,
+          "gpu_us": 243.549,
+          "kernels": 100
+        },
+        "memory_read": {
+          "activities": 35,
+          "gpu_us": 83.452,
+          "kernels": 34
+        }
+      },
+      "backward_wall_us": 10851.288
+    },
+    {
+      "case_variant": "college_b32_s256_direct",
+      "cpu": {
+        "loss": {
+          "nodes": 3,
+          "cpu_us": 391.724000000002
+        },
+        "source_decoder": {
+          "nodes": 36,
+          "cpu_us": 4116.289999999997
+        },
+        "leaf_or_unsequenced": {
+          "nodes": 19,
+          "cpu_us": 148.01100000000952
+        },
+        "gnn_embedding": {
+          "nodes": 38,
+          "cpu_us": 2722.507000000034
+        },
+        "memory_read": {
+          "nodes": 16,
+          "cpu_us": 1175.768000000011
+        }
+      },
+      "gpu": {
+        "loss": {
+          "activities": 8,
+          "gpu_us": 8.639000000000001,
+          "kernels": 8
+        },
+        "source_decoder": {
+          "activities": 121,
+          "gpu_us": 211.805,
+          "kernels": 121
+        },
+        "gnn_embedding": {
+          "activities": 100,
+          "gpu_us": 243.83900000000003,
+          "kernels": 100
+        },
+        "memory_read": {
+          "activities": 35,
+          "gpu_us": 83.32600000000001,
+          "kernels": 34
+        }
+      },
+      "backward_wall_us": 9628.240999999998
+    },
+    {
+      "case_variant": "wikipedia_b200_s40_batch_store",
+      "cpu": {
+        "loss": {
+          "nodes": 3,
+          "cpu_us": 420.9220000000023
+        },
+        "source_decoder": {
+          "nodes": 36,
+          "cpu_us": 5100.1570000000065
+        },
+        "leaf_or_unsequenced": {
+          "nodes": 19,
+          "cpu_us": 130.05300000001444
+        },
+        "gnn_embedding": {
+          "nodes": 38,
+          "cpu_us": 2929.527999999991
+        },
+        "memory_read": {
+          "nodes": 16,
+          "cpu_us": 1218.7390000000014
+        }
+      },
+      "gpu": {
+        "loss": {
+          "activities": 8,
+          "gpu_us": 9.507000000000001,
+          "kernels": 8
+        },
+        "source_decoder": {
+          "activities": 109,
+          "gpu_us": 214.94,
+          "kernels": 109
+        },
+        "gnn_embedding": {
+          "activities": 129,
+          "gpu_us": 332.65999999999997,
+          "kernels": 112
+        },
+        "memory_read": {
+          "activities": 35,
+          "gpu_us": 117.059,
+          "kernels": 34
+        }
+      },
+      "backward_wall_us": 10907.533
+    },
+    {
+      "case_variant": "wikipedia_b200_s40_direct",
+      "cpu": {
+        "loss": {
+          "nodes": 3,
+          "cpu_us": 415.93299999999726
+        },
+        "source_decoder": {
+          "nodes": 36,
+          "cpu_us": 4534.517999999975
+        },
+        "leaf_or_unsequenced": {
+          "nodes": 19,
+          "cpu_us": 128.5130000000063
+        },
+        "gnn_embedding": {
+          "nodes": 38,
+          "cpu_us": 2927.7670000000144
+        },
+        "memory_read": {
+          "nodes": 16,
+          "cpu_us": 1216.839
+        }
+      },
+      "gpu": {
+        "loss": {
+          "activities": 8,
+          "gpu_us": 9.472000000000001,
+          "kernels": 8
+        },
+        "source_decoder": {
+          "activities": 109,
+          "gpu_us": 214.88099999999997,
+          "kernels": 109
+        },
+        "gnn_embedding": {
+          "activities": 129,
+          "gpu_us": 333.19000000000005,
+          "kernels": 112
+        },
+        "memory_read": {
+          "activities": 35,
+          "gpu_us": 117.22,
+          "kernels": 34
+        }
+      },
+      "backward_wall_us": 10418.585
+    },
+    {
+      "case_variant": "wikipedia_b32_s256_batch_store",
+      "cpu": {
+        "loss": {
+          "nodes": 3,
+          "cpu_us": 398.4249999999993
+        },
+        "source_decoder": {
+          "nodes": 36,
+          "cpu_us": 4861.533999999996
+        },
+        "leaf_or_unsequenced": {
+          "nodes": 19,
+          "cpu_us": 129.25899999999092
+        },
+        "gnn_embedding": {
+          "nodes": 38,
+          "cpu_us": 2716.6890000000094
+        },
+        "memory_read": {
+          "nodes": 16,
+          "cpu_us": 1177.7890000000007
+        }
+      },
+      "gpu": {
+        "loss": {
+          "activities": 8,
+          "gpu_us": 8.641000000000002,
+          "kernels": 8
+        },
+        "source_decoder": {
+          "activities": 105,
+          "gpu_us": 163.55100000000002,
+          "kernels": 105
+        },
+        "gnn_embedding": {
+          "activities": 100,
+          "gpu_us": 244.89599999999996,
+          "kernels": 100
+        },
+        "memory_read": {
+          "activities": 35,
+          "gpu_us": 75.268,
+          "kernels": 34
+        }
+      },
+      "backward_wall_us": 10396.190999999999
+    },
+    {
+      "case_variant": "wikipedia_b32_s256_direct",
+      "cpu": {
+        "loss": {
+          "nodes": 3,
+          "cpu_us": 4584.933000000001
+        },
+        "source_decoder": {
+          "nodes": 36,
+          "cpu_us": 3432.332000000002
+        },
+        "leaf_or_unsequenced": {
+          "nodes": 19,
+          "cpu_us": 143.18700000000172
+        },
+        "gnn_embedding": {
+          "nodes": 38,
+          "cpu_us": 2769.225999999995
+        },
+        "memory_read": {
+          "nodes": 16,
+          "cpu_us": 1242.8959999999934
+        }
+      },
+      "gpu": {
+        "loss": {
+          "activities": 8,
+          "gpu_us": 8.734,
+          "kernels": 8
+        },
+        "source_decoder": {
+          "activities": 105,
+          "gpu_us": 163.42800000000003,
+          "kernels": 105
+        },
+        "gnn_embedding": {
+          "activities": 100,
+          "gpu_us": 244.86699999999993,
+          "kernels": 100
+        },
+        "memory_read": {
+          "activities": 35,
+          "gpu_us": 75.26400000000001,
+          "kernels": 34
+        }
+      },
+      "backward_wall_us": 13372.538
+    }
+  ],
+  "trace_coverage": [
+    {
+      "case_variant": "college_b200_s40_batch_store",
+      "roi_us": 37819.9130859375,
+      "activity_union_us": 3532.1830000000405,
+      "active_fraction": 0.09339479421790117,
+      "linked": 1178,
+      "total": 1198,
+      "flow_resolved": 6,
+      "ambiguous": 0,
+      "owner_disagreements": 0
+    },
+    {
+      "case_variant": "college_b200_s40_direct",
+      "roi_us": 46471.900390625,
+      "activity_union_us": 4246.711999999992,
+      "active_fraction": 0.091382361476586,
+      "linked": 1694,
+      "total": 1714,
+      "flow_resolved": 6,
+      "ambiguous": 0,
+      "owner_disagreements": 0
+    },
+    {
+      "case_variant": "college_b32_s256_batch_store",
+      "roi_us": 32855.8359375,
+      "activity_union_us": 2374.1459999999474,
+      "active_fraction": 0.0722594915714872,
+      "linked": 993,
+      "total": 1001,
+      "flow_resolved": 6,
+      "ambiguous": 0,
+      "owner_disagreements": 0
+    },
+    {
+      "case_variant": "college_b32_s256_direct",
+      "roi_us": 39129.8916015625,
+      "activity_union_us": 2575.5390000000025,
+      "active_fraction": 0.06582024367011428,
+      "linked": 1137,
+      "total": 1145,
+      "flow_resolved": 6,
+      "ambiguous": 0,
+      "owner_disagreements": 0
+    },
+    {
+      "case_variant": "wikipedia_b200_s40_batch_store",
+      "roi_us": 38504.98046875,
+      "activity_union_us": 3515.487000000068,
+      "active_fraction": 0.09129953988298159,
+      "linked": 1100,
+      "total": 1120,
+      "flow_resolved": 6,
+      "ambiguous": 0,
+      "owner_disagreements": 0
+    },
+    {
+      "case_variant": "wikipedia_b200_s40_direct",
+      "roi_us": 46500.9052734375,
+      "activity_union_us": 4335.1200000001045,
+      "active_fraction": 0.09322657213893931,
+      "linked": 1692,
+      "total": 1712,
+      "flow_resolved": 6,
+      "ambiguous": 0,
+      "owner_disagreements": 0
+    },
+    {
+      "case_variant": "wikipedia_b32_s256_batch_store",
+      "roi_us": 30695.9189453125,
+      "activity_union_us": 2012.992999999967,
+      "active_fraction": 0.06557852213469459,
+      "linked": 902,
+      "total": 910,
+      "flow_resolved": 6,
+      "ambiguous": 0,
+      "owner_disagreements": 0
+    },
+    {
+      "case_variant": "wikipedia_b32_s256_direct",
+      "roi_us": 36061.642578125,
+      "activity_union_us": 2181.777999999971,
+      "active_fraction": 0.0605013483585309,
+      "linked": 1022,
+      "total": 1030,
+      "flow_resolved": 6,
+      "ambiguous": 0,
+      "owner_disagreements": 0
+    }
+  ]
+}

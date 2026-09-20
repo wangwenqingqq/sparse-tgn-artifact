@@ -1,0 +1,21 @@
+{
+  "start": "2026-09-10T18:23:12.964293+00:00",
+  "gpu": "GPU-9bd364a9-9d88-0b78-ef55-caac6f73d6b1",
+  "args": {
+    "run": "capture_v1",
+    "stage": "capture",
+    "qualification": null,
+    "script": "capture.py",
+    "rep": 0
+  },
+  "command": [
+    "/home/data/wangxuran/isaacsim6/env/bin/python",
+    "/home/data/wangxuran/flash_wkv_probe_20260911/src/capture.py",
+    "--output",
+    "/home/data/wangxuran/flash_wkv_probe_20260911/output/capture_v1/artifacts",
+    "--stage",
+    "capture"
+  ],
+  "exit_code": 0,
+  "end": "2026-09-10T18:24:50.152276+00:00"
+}

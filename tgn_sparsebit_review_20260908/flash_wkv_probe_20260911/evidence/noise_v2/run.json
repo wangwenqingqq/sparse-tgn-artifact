@@ -1,0 +1,21 @@
+{
+  "start": "2026-09-10T18:29:00.816494+00:00",
+  "gpu": "GPU-9bd364a9-9d88-0b78-ef55-caac6f73d6b1",
+  "args": {
+    "run": "noise_v2",
+    "stage": "noise",
+    "qualification": null,
+    "script": "probe.py",
+    "rep": 0
+  },
+  "command": [
+    "/home/data/wangxuran/isaacsim6/env/bin/python",
+    "/home/data/wangxuran/flash_wkv_probe_20260911/src/probe.py",
+    "--output",
+    "/home/data/wangxuran/flash_wkv_probe_20260911/output/noise_v2/artifacts",
+    "--stage",
+    "noise"
+  ],
+  "exit_code": 0,
+  "end": "2026-09-10T18:31:29.881198+00:00"
+}

@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/home/data/wangxuran/tncn_cache_read_oracle_20260909/src/fullrun.py", line 7, in <module>
+    import oracle as o
+  File "/home/data/wangxuran/tncn_cache_read_oracle_20260909/src/oracle.py", line 10, in <module>
+    import instrument as i
+  File "/home/data/wangxuran/tncn_memory_profile_20260909/src/instrument.py", line 12, in <module>
+    import bridge as b
+  File "/home/data/wangxuran/tncn_compatible_csr_20260908/src/bridge.py", line 8, in <module>
+    import diagnose as d
+  File "/home/data/wangxuran/tncn_numeric_diagnosis_20260908/src/diagnose.py", line 12, in <module>
+    import profile_training as p
+  File "/home/data/wangxuran/tncn_training_profile_20260908/src/profile_training.py", line 29, in <module>
+    import reference as ref
+  File "/home/data/wangxuran/factor_tgn_sptc_20260902/project/experiments/temporal_tc_20260905_graph_builder/src/reference.py", line 34, in <module>
+    from check_small import snap
+  File "/home/data/wangxuran/factor_tgn_sptc_20260902/project/experiments/temporal_tc_20260905_tncn_mode2_gate0/src/check_small.py", line 8, in <module>
+    from oracle import coefficients,consume,prediction
+ImportError: cannot import name 'coefficients' from partially initialized module 'oracle' (most likely due to a circular import) (/home/data/wangxuran/tncn_cache_read_oracle_20260909/src/oracle.py)

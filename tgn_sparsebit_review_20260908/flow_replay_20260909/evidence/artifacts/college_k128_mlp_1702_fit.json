@@ -1,0 +1,86 @@
+{
+  "mode": "mlp",
+  "seed": 1702,
+  "steps": 1500,
+  "selected_step": 100,
+  "validation_mse": 0.7082834781639928,
+  "parameters": 297828,
+  "seconds": 3.8176135730172973,
+  "curve": [
+    {
+      "step": 100,
+      "training_loss": 0.6280062198638916,
+      "validation_mse": 0.7082834781639928
+    },
+    {
+      "step": 200,
+      "training_loss": 0.5173656344413757,
+      "validation_mse": 0.7135967858734403
+    },
+    {
+      "step": 300,
+      "training_loss": 0.47075939178466797,
+      "validation_mse": 0.7458631907308378
+    },
+    {
+      "step": 400,
+      "training_loss": 0.41916412115097046,
+      "validation_mse": 0.7793382213680927
+    },
+    {
+      "step": 500,
+      "training_loss": 0.3955199420452118,
+      "validation_mse": 0.8152933656417112
+    },
+    {
+      "step": 600,
+      "training_loss": 0.3710445463657379,
+      "validation_mse": 0.8452044618983957
+    },
+    {
+      "step": 700,
+      "training_loss": 0.35431042313575745,
+      "validation_mse": 0.8794883021390374
+    },
+    {
+      "step": 800,
+      "training_loss": 0.33089780807495117,
+      "validation_mse": 0.9088124442959001
+    },
+    {
+      "step": 900,
+      "training_loss": 0.3211804926395416,
+      "validation_mse": 0.9403535260695187
+    },
+    {
+      "step": 1000,
+      "training_loss": 0.3077459931373596,
+      "validation_mse": 0.9670516934046346
+    },
+    {
+      "step": 1100,
+      "training_loss": 0.29648295044898987,
+      "validation_mse": 0.9965039271390375
+    },
+    {
+      "step": 1200,
+      "training_loss": 0.2799440920352936,
+      "validation_mse": 1.0234573863636363
+    },
+    {
+      "step": 1300,
+      "training_loss": 0.2779521644115448,
+      "validation_mse": 1.0485044284759357
+    },
+    {
+      "step": 1400,
+      "training_loss": 0.2662038505077362,
+      "validation_mse": 1.0756472816399287
+    },
+    {
+      "step": 1500,
+      "training_loss": 0.2555021345615387,
+      "validation_mse": 1.1016212121212121
+    }
+  ]
+}

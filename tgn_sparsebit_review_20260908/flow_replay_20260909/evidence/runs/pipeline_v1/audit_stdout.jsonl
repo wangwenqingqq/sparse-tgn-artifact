@@ -1,0 +1,1 @@
+{"pass_all": true, "rollout_archives": 60, "snapshots": 210, "checked_elements": 108673890, "predictions": 72960, "boundary": "All stored query logits and selected raw state snapshots; intermediate discrete checks are recorded by the GPU runner."}

@@ -1,0 +1,1732 @@
+{
+  "intervals": [
+    {
+      "label": "wiki_bs200_k50_l1_s8_tce",
+      "rep": 0,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 7.923232078552246,
+      "wall_ms": 7.998467
+    },
+    {
+      "label": "wiki_bs200_k50_l1_s8_tce",
+      "rep": 0,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 7.853055953979492,
+      "wall_ms": 7.903839
+    },
+    {
+      "label": "wiki_bs200_k50_l1_s8_tce",
+      "rep": 1,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 6.769375801086426,
+      "wall_ms": 6.853999
+    },
+    {
+      "label": "wiki_bs200_k50_l1_s8_tce",
+      "rep": 1,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 7.026815891265869,
+      "wall_ms": 7.081782
+    },
+    {
+      "label": "wiki_bs200_k50_l1_s8_tce",
+      "rep": 2,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 6.687967777252197,
+      "wall_ms": 6.733118
+    },
+    {
+      "label": "wiki_bs200_k50_l1_s8_tce",
+      "rep": 2,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 6.69001579284668,
+      "wall_ms": 6.735019
+    },
+    {
+      "label": "wiki_bs200_k50_l1_s8_tce",
+      "rep": 3,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 6.749279975891113,
+      "wall_ms": 6.791011
+    },
+    {
+      "label": "wiki_bs200_k50_l1_s8_tce",
+      "rep": 3,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 7.4053120613098145,
+      "wall_ms": 7.449814
+    },
+    {
+      "label": "wiki_bs200_k50_l1_s8_tce",
+      "rep": 4,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 7.087744235992432,
+      "wall_ms": 7.133616
+    },
+    {
+      "label": "wiki_bs200_k50_l1_s8_tce",
+      "rep": 4,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 6.716832160949707,
+      "wall_ms": 6.760851
+    },
+    {
+      "label": "wiki_bs200_k50_l1_s8_tce",
+      "rep": 5,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 7.530879974365234,
+      "wall_ms": 7.582185
+    },
+    {
+      "label": "wiki_bs200_k50_l1_s8_tce",
+      "rep": 5,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 6.877984046936035,
+      "wall_ms": 6.923777
+    },
+    {
+      "label": "wiki_bs200_k50_l1_s8_tce",
+      "rep": 6,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 7.2521281242370605,
+      "wall_ms": 7.295768
+    },
+    {
+      "label": "wiki_bs200_k50_l1_s8_tce",
+      "rep": 6,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 6.794432163238525,
+      "wall_ms": 6.840567
+    },
+    {
+      "label": "wiki_bs200_k50_l1_s8_tce",
+      "rep": 7,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 7.654272079467773,
+      "wall_ms": 7.706986
+    },
+    {
+      "label": "wiki_bs200_k50_l1_s8_tce",
+      "rep": 7,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 7.356192111968994,
+      "wall_ms": 7.407959
+    },
+    {
+      "label": "wiki_bs200_k50_l1_s8_tce",
+      "rep": 8,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 7.327392101287842,
+      "wall_ms": 7.372291
+    },
+    {
+      "label": "wiki_bs200_k50_l1_s8_tce",
+      "rep": 8,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 7.456704139709473,
+      "wall_ms": 7.5012
+    },
+    {
+      "label": "wiki_bs200_k50_l1_s276_tce",
+      "rep": 0,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 9.3024320602417,
+      "wall_ms": 9.354074
+    },
+    {
+      "label": "wiki_bs200_k50_l1_s276_tce",
+      "rep": 0,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 5.640223979949951,
+      "wall_ms": 5.683323
+    },
+    {
+      "label": "wiki_bs200_k50_l1_s276_tce",
+      "rep": 1,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 5.247776031494141,
+      "wall_ms": 5.293957
+    },
+    {
+      "label": "wiki_bs200_k50_l1_s276_tce",
+      "rep": 1,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 8.500767707824707,
+      "wall_ms": 8.549686
+    },
+    {
+      "label": "wiki_bs200_k50_l1_s276_tce",
+      "rep": 2,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 5.1636481285095215,
+      "wall_ms": 5.206812
+    },
+    {
+      "label": "wiki_bs200_k50_l1_s276_tce",
+      "rep": 2,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 9.145248413085938,
+      "wall_ms": 9.188864
+    },
+    {
+      "label": "wiki_bs200_k50_l1_s276_tce",
+      "rep": 3,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 9.142560005187988,
+      "wall_ms": 9.18581
+    },
+    {
+      "label": "wiki_bs200_k50_l1_s276_tce",
+      "rep": 3,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 5.101024150848389,
+      "wall_ms": 5.144874
+    },
+    {
+      "label": "wiki_bs200_k50_l1_s276_tce",
+      "rep": 4,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 9.669504165649414,
+      "wall_ms": 9.719505
+    },
+    {
+      "label": "wiki_bs200_k50_l1_s276_tce",
+      "rep": 4,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 5.290719985961914,
+      "wall_ms": 5.335488
+    },
+    {
+      "label": "wiki_bs200_k50_l1_s276_tce",
+      "rep": 5,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 9.691455841064453,
+      "wall_ms": 9.734144
+    },
+    {
+      "label": "wiki_bs200_k50_l1_s276_tce",
+      "rep": 5,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 5.451488018035889,
+      "wall_ms": 5.496201
+    },
+    {
+      "label": "wiki_bs200_k50_l1_s276_tce",
+      "rep": 6,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 9.207743644714355,
+      "wall_ms": 9.258641
+    },
+    {
+      "label": "wiki_bs200_k50_l1_s276_tce",
+      "rep": 6,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 5.660543918609619,
+      "wall_ms": 5.70288
+    },
+    {
+      "label": "wiki_bs200_k50_l1_s276_tce",
+      "rep": 7,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 9.149344444274902,
+      "wall_ms": 9.192413
+    },
+    {
+      "label": "wiki_bs200_k50_l1_s276_tce",
+      "rep": 7,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 5.3051838874816895,
+      "wall_ms": 5.348571
+    },
+    {
+      "label": "wiki_bs200_k50_l1_s276_tce",
+      "rep": 8,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 5.214879989624023,
+      "wall_ms": 5.256559
+    },
+    {
+      "label": "wiki_bs200_k50_l1_s276_tce",
+      "rep": 8,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 9.088735580444336,
+      "wall_ms": 9.131326
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s8_tce_layer1",
+      "rep": 0,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 8.508864402770996,
+      "wall_ms": 8.563339
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s8_tce_layer1",
+      "rep": 0,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 7.941055774688721,
+      "wall_ms": 7.984061
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s8_tce_layer1",
+      "rep": 1,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 7.9245758056640625,
+      "wall_ms": 7.96758
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s8_tce_layer1",
+      "rep": 1,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 8.010656356811523,
+      "wall_ms": 8.053811
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s8_tce_layer1",
+      "rep": 2,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 7.446720123291016,
+      "wall_ms": 7.489748
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s8_tce_layer1",
+      "rep": 2,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 7.364480018615723,
+      "wall_ms": 7.408052
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s8_tce_layer1",
+      "rep": 3,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 7.630879878997803,
+      "wall_ms": 7.673108
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s8_tce_layer1",
+      "rep": 3,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 7.54863977432251,
+      "wall_ms": 7.599151
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s8_tce_layer1",
+      "rep": 4,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 7.792575836181641,
+      "wall_ms": 7.836025
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s8_tce_layer1",
+      "rep": 4,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 7.720287799835205,
+      "wall_ms": 7.762807
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s8_tce_layer1",
+      "rep": 5,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 7.90451192855835,
+      "wall_ms": 7.945651
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s8_tce_layer1",
+      "rep": 5,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 7.33187198638916,
+      "wall_ms": 7.372396
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s8_tce_layer1",
+      "rep": 6,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 7.715104103088379,
+      "wall_ms": 7.757159
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s8_tce_layer1",
+      "rep": 6,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 7.56387186050415,
+      "wall_ms": 7.604205
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s8_tce_layer1",
+      "rep": 7,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 7.098080158233643,
+      "wall_ms": 7.129235
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s8_tce_layer1",
+      "rep": 7,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 7.419680118560791,
+      "wall_ms": 7.451556
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s8_tce_layer1",
+      "rep": 8,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 6.489376068115234,
+      "wall_ms": 6.521148
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s8_tce_layer1",
+      "rep": 8,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 6.916639804840088,
+      "wall_ms": 6.947454
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s8_tce_layer2",
+      "rep": 0,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 6.318943977355957,
+      "wall_ms": 6.355589
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s8_tce_layer2",
+      "rep": 0,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 6.27350378036499,
+      "wall_ms": 6.303103
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s8_tce_layer2",
+      "rep": 1,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 6.196479797363281,
+      "wall_ms": 6.228215
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s8_tce_layer2",
+      "rep": 1,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 6.212384223937988,
+      "wall_ms": 6.24548
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s8_tce_layer2",
+      "rep": 2,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 6.283967971801758,
+      "wall_ms": 6.317562
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s8_tce_layer2",
+      "rep": 2,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 5.905119895935059,
+      "wall_ms": 5.936789
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s8_tce_layer2",
+      "rep": 3,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 6.214623928070068,
+      "wall_ms": 6.248176
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s8_tce_layer2",
+      "rep": 3,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 6.664991855621338,
+      "wall_ms": 6.703038
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s8_tce_layer2",
+      "rep": 4,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 6.168960094451904,
+      "wall_ms": 6.202358
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s8_tce_layer2",
+      "rep": 4,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 6.928256034851074,
+      "wall_ms": 6.961843
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s8_tce_layer2",
+      "rep": 5,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 6.843935966491699,
+      "wall_ms": 6.878336
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s8_tce_layer2",
+      "rep": 5,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 6.578688144683838,
+      "wall_ms": 6.61998
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s8_tce_layer2",
+      "rep": 6,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 7.25654411315918,
+      "wall_ms": 7.297486
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s8_tce_layer2",
+      "rep": 6,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 6.975808143615723,
+      "wall_ms": 7.016271
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s8_tce_layer2",
+      "rep": 7,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 6.713151931762695,
+      "wall_ms": 6.751094
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s8_tce_layer2",
+      "rep": 7,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 6.319680213928223,
+      "wall_ms": 6.355693
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s8_tce_layer2",
+      "rep": 8,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 7.075551986694336,
+      "wall_ms": 7.119927
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s8_tce_layer2",
+      "rep": 8,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 6.419680118560791,
+      "wall_ms": 6.464029
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s276_tce_layer1",
+      "rep": 0,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 37.550079345703125,
+      "wall_ms": 37.592168
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s276_tce_layer1",
+      "rep": 0,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 54.82102584838867,
+      "wall_ms": 54.853186
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s276_tce_layer1",
+      "rep": 1,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 37.541473388671875,
+      "wall_ms": 37.574002
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s276_tce_layer1",
+      "rep": 1,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 54.8243522644043,
+      "wall_ms": 54.856447
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s276_tce_layer1",
+      "rep": 2,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 54.84025573730469,
+      "wall_ms": 54.872031
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s276_tce_layer1",
+      "rep": 2,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 37.50019073486328,
+      "wall_ms": 37.531562
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s276_tce_layer1",
+      "rep": 3,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 54.87433624267578,
+      "wall_ms": 54.906044
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s276_tce_layer1",
+      "rep": 3,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 37.527488708496094,
+      "wall_ms": 37.560453
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s276_tce_layer1",
+      "rep": 4,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 54.88278579711914,
+      "wall_ms": 54.915169
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s276_tce_layer1",
+      "rep": 4,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 37.555999755859375,
+      "wall_ms": 37.58732
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s276_tce_layer1",
+      "rep": 5,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 54.910911560058594,
+      "wall_ms": 54.940352
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s276_tce_layer1",
+      "rep": 5,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 41.168800354003906,
+      "wall_ms": 41.280983
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s276_tce_layer1",
+      "rep": 6,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 55.33340835571289,
+      "wall_ms": 55.371383
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s276_tce_layer1",
+      "rep": 6,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 37.590335845947266,
+      "wall_ms": 37.62491
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s276_tce_layer1",
+      "rep": 7,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 37.5939826965332,
+      "wall_ms": 37.628622
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s276_tce_layer1",
+      "rep": 7,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 55.185951232910156,
+      "wall_ms": 55.220083
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s276_tce_layer1",
+      "rep": 8,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 54.88617706298828,
+      "wall_ms": 54.919517
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s276_tce_layer1",
+      "rep": 8,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 37.53334426879883,
+      "wall_ms": 37.565629
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s276_tce_layer2",
+      "rep": 0,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 4.974847793579102,
+      "wall_ms": 5.011757
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s276_tce_layer2",
+      "rep": 0,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 8.610912322998047,
+      "wall_ms": 8.645809
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s276_tce_layer2",
+      "rep": 1,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 4.884448051452637,
+      "wall_ms": 4.915296
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s276_tce_layer2",
+      "rep": 1,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 8.175904273986816,
+      "wall_ms": 8.207995
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s276_tce_layer2",
+      "rep": 2,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 8.462047576904297,
+      "wall_ms": 8.494009
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s276_tce_layer2",
+      "rep": 2,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 4.908512115478516,
+      "wall_ms": 4.940154
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s276_tce_layer2",
+      "rep": 3,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 8.322688102722168,
+      "wall_ms": 8.353491
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s276_tce_layer2",
+      "rep": 3,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 4.995711803436279,
+      "wall_ms": 5.027493
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s276_tce_layer2",
+      "rep": 4,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 8.10649585723877,
+      "wall_ms": 8.137519
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s276_tce_layer2",
+      "rep": 4,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 4.968224048614502,
+      "wall_ms": 5.000559
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s276_tce_layer2",
+      "rep": 5,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 8.747615814208984,
+      "wall_ms": 8.780259
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s276_tce_layer2",
+      "rep": 5,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 4.9884161949157715,
+      "wall_ms": 5.02339
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s276_tce_layer2",
+      "rep": 6,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 8.623616218566895,
+      "wall_ms": 8.656284
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s276_tce_layer2",
+      "rep": 6,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 4.841951847076416,
+      "wall_ms": 4.871825
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s276_tce_layer2",
+      "rep": 7,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 4.849343776702881,
+      "wall_ms": 4.879908
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s276_tce_layer2",
+      "rep": 7,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 8.442591667175293,
+      "wall_ms": 8.475178
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s276_tce_layer2",
+      "rep": 8,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 8.12940788269043,
+      "wall_ms": 8.160041
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s276_tce_layer2",
+      "rep": 8,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 4.864384174346924,
+      "wall_ms": 4.895739
+    },
+    {
+      "label": "wiki_bs2000_k50_l1_s8_tce",
+      "rep": 0,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 24.929920196533203,
+      "wall_ms": 24.970662
+    },
+    {
+      "label": "wiki_bs2000_k50_l1_s8_tce",
+      "rep": 0,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 24.70185661315918,
+      "wall_ms": 24.733986
+    },
+    {
+      "label": "wiki_bs2000_k50_l1_s8_tce",
+      "rep": 1,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 24.71824073791504,
+      "wall_ms": 24.748263
+    },
+    {
+      "label": "wiki_bs2000_k50_l1_s8_tce",
+      "rep": 1,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 24.701343536376953,
+      "wall_ms": 24.735853
+    },
+    {
+      "label": "wiki_bs2000_k50_l1_s8_tce",
+      "rep": 2,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 24.678495407104492,
+      "wall_ms": 24.709992
+    },
+    {
+      "label": "wiki_bs2000_k50_l1_s8_tce",
+      "rep": 2,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 24.687711715698242,
+      "wall_ms": 24.718351
+    },
+    {
+      "label": "wiki_bs2000_k50_l1_s8_tce",
+      "rep": 3,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 24.64348793029785,
+      "wall_ms": 24.675503
+    },
+    {
+      "label": "wiki_bs2000_k50_l1_s8_tce",
+      "rep": 3,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 24.67401695251465,
+      "wall_ms": 24.706269
+    },
+    {
+      "label": "wiki_bs2000_k50_l1_s8_tce",
+      "rep": 4,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 24.802751541137695,
+      "wall_ms": 24.834034
+    },
+    {
+      "label": "wiki_bs2000_k50_l1_s8_tce",
+      "rep": 4,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 24.78371238708496,
+      "wall_ms": 24.813769
+    },
+    {
+      "label": "wiki_bs2000_k50_l1_s8_tce",
+      "rep": 5,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 24.696224212646484,
+      "wall_ms": 24.728102
+    },
+    {
+      "label": "wiki_bs2000_k50_l1_s8_tce",
+      "rep": 5,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 24.664064407348633,
+      "wall_ms": 24.694218
+    },
+    {
+      "label": "wiki_bs2000_k50_l1_s8_tce",
+      "rep": 6,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 24.6944637298584,
+      "wall_ms": 24.725911
+    },
+    {
+      "label": "wiki_bs2000_k50_l1_s8_tce",
+      "rep": 6,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 24.738271713256836,
+      "wall_ms": 24.771895
+    },
+    {
+      "label": "wiki_bs2000_k50_l1_s8_tce",
+      "rep": 7,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 24.857919692993164,
+      "wall_ms": 24.892728
+    },
+    {
+      "label": "wiki_bs2000_k50_l1_s8_tce",
+      "rep": 7,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 24.773344039916992,
+      "wall_ms": 24.806474
+    },
+    {
+      "label": "wiki_bs2000_k50_l1_s8_tce",
+      "rep": 8,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 24.728351593017578,
+      "wall_ms": 24.760788
+    },
+    {
+      "label": "wiki_bs2000_k50_l1_s8_tce",
+      "rep": 8,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 24.744543075561523,
+      "wall_ms": 24.778053
+    },
+    {
+      "label": "wiki_bs2000_k50_l1_s28_tce",
+      "rep": 0,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 35.15657424926758,
+      "wall_ms": 35.197225
+    },
+    {
+      "label": "wiki_bs2000_k50_l1_s28_tce",
+      "rep": 0,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 51.565311431884766,
+      "wall_ms": 51.597734
+    },
+    {
+      "label": "wiki_bs2000_k50_l1_s28_tce",
+      "rep": 1,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 51.59065628051758,
+      "wall_ms": 51.619872
+    },
+    {
+      "label": "wiki_bs2000_k50_l1_s28_tce",
+      "rep": 1,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 35.28102493286133,
+      "wall_ms": 35.319151
+    },
+    {
+      "label": "wiki_bs2000_k50_l1_s28_tce",
+      "rep": 2,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 51.974910736083984,
+      "wall_ms": 52.007403
+    },
+    {
+      "label": "wiki_bs2000_k50_l1_s28_tce",
+      "rep": 2,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 35.17488098144531,
+      "wall_ms": 35.206018
+    },
+    {
+      "label": "wiki_bs2000_k50_l1_s28_tce",
+      "rep": 3,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 51.65884780883789,
+      "wall_ms": 51.693917
+    },
+    {
+      "label": "wiki_bs2000_k50_l1_s28_tce",
+      "rep": 3,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 35.21878433227539,
+      "wall_ms": 35.254596
+    },
+    {
+      "label": "wiki_bs2000_k50_l1_s28_tce",
+      "rep": 4,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 51.53683090209961,
+      "wall_ms": 51.568906
+    },
+    {
+      "label": "wiki_bs2000_k50_l1_s28_tce",
+      "rep": 4,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 35.21324920654297,
+      "wall_ms": 35.249349
+    },
+    {
+      "label": "wiki_bs2000_k50_l1_s28_tce",
+      "rep": 5,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 51.694847106933594,
+      "wall_ms": 51.740055
+    },
+    {
+      "label": "wiki_bs2000_k50_l1_s28_tce",
+      "rep": 5,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 35.194271087646484,
+      "wall_ms": 35.23188
+    },
+    {
+      "label": "wiki_bs2000_k50_l1_s28_tce",
+      "rep": 6,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 51.499168395996094,
+      "wall_ms": 51.530806
+    },
+    {
+      "label": "wiki_bs2000_k50_l1_s28_tce",
+      "rep": 6,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 35.199134826660156,
+      "wall_ms": 35.233268
+    },
+    {
+      "label": "wiki_bs2000_k50_l1_s28_tce",
+      "rep": 7,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 51.507713317871094,
+      "wall_ms": 51.54088
+    },
+    {
+      "label": "wiki_bs2000_k50_l1_s28_tce",
+      "rep": 7,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 35.1893424987793,
+      "wall_ms": 35.222885
+    },
+    {
+      "label": "wiki_bs2000_k50_l1_s28_tce",
+      "rep": 8,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 35.20588684082031,
+      "wall_ms": 35.240187
+    },
+    {
+      "label": "wiki_bs2000_k50_l1_s28_tce",
+      "rep": 8,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 51.7848014831543,
+      "wall_ms": 51.819447
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s8_tce_layer1",
+      "rep": 0,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 83.52336120605469,
+      "wall_ms": 83.565249
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s8_tce_layer1",
+      "rep": 0,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 83.01961517333984,
+      "wall_ms": 83.056769
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s8_tce_layer1",
+      "rep": 1,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 82.89984130859375,
+      "wall_ms": 82.940614
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s8_tce_layer1",
+      "rep": 1,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 83.31433868408203,
+      "wall_ms": 83.355681
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s8_tce_layer1",
+      "rep": 2,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 82.94432067871094,
+      "wall_ms": 82.983142
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s8_tce_layer1",
+      "rep": 2,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 82.87165069580078,
+      "wall_ms": 82.909672
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s8_tce_layer1",
+      "rep": 3,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 83.04806518554688,
+      "wall_ms": 83.083136
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s8_tce_layer1",
+      "rep": 3,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 83.01715087890625,
+      "wall_ms": 83.053241
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s8_tce_layer1",
+      "rep": 4,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 83.04102325439453,
+      "wall_ms": 83.075048
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s8_tce_layer1",
+      "rep": 4,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 82.88829040527344,
+      "wall_ms": 82.923496
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s8_tce_layer1",
+      "rep": 5,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 82.80461120605469,
+      "wall_ms": 82.840753
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s8_tce_layer1",
+      "rep": 5,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 82.8493423461914,
+      "wall_ms": 82.885839
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s8_tce_layer1",
+      "rep": 6,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 83.10089874267578,
+      "wall_ms": 83.145408
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s8_tce_layer1",
+      "rep": 6,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 82.6126708984375,
+      "wall_ms": 82.648112
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s8_tce_layer1",
+      "rep": 7,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 82.77337646484375,
+      "wall_ms": 82.812924
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s8_tce_layer1",
+      "rep": 7,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 82.6717758178711,
+      "wall_ms": 82.71679
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s8_tce_layer1",
+      "rep": 8,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 82.81407928466797,
+      "wall_ms": 82.853814
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s8_tce_layer1",
+      "rep": 8,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 82.85107421875,
+      "wall_ms": 82.89047
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s8_tce_layer2",
+      "rep": 0,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 24.768512725830078,
+      "wall_ms": 24.807016
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s8_tce_layer2",
+      "rep": 0,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 24.81564712524414,
+      "wall_ms": 24.851055
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s8_tce_layer2",
+      "rep": 1,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 24.877056121826172,
+      "wall_ms": 24.912176
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s8_tce_layer2",
+      "rep": 1,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 24.904191970825195,
+      "wall_ms": 24.937604
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s8_tce_layer2",
+      "rep": 2,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 25.291519165039062,
+      "wall_ms": 25.344179
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s8_tce_layer2",
+      "rep": 2,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 25.104032516479492,
+      "wall_ms": 25.151952
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s8_tce_layer2",
+      "rep": 3,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 25.068096160888672,
+      "wall_ms": 25.116898
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s8_tce_layer2",
+      "rep": 3,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 25.183807373046875,
+      "wall_ms": 25.229065
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s8_tce_layer2",
+      "rep": 4,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 28.061983108520508,
+      "wall_ms": 28.105081
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s8_tce_layer2",
+      "rep": 4,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 25.1713924407959,
+      "wall_ms": 25.214152
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s8_tce_layer2",
+      "rep": 5,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 25.057504653930664,
+      "wall_ms": 25.099319
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s8_tce_layer2",
+      "rep": 5,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 25.26268768310547,
+      "wall_ms": 25.309181
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s8_tce_layer2",
+      "rep": 6,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 25.214111328125,
+      "wall_ms": 25.259935
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s8_tce_layer2",
+      "rep": 6,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 25.220256805419922,
+      "wall_ms": 25.265264
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s8_tce_layer2",
+      "rep": 7,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 25.160415649414062,
+      "wall_ms": 25.209141
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s8_tce_layer2",
+      "rep": 7,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 25.080896377563477,
+      "wall_ms": 25.131822
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s8_tce_layer2",
+      "rep": 8,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 25.1046085357666,
+      "wall_ms": 25.152099
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s8_tce_layer2",
+      "rep": 8,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 25.304576873779297,
+      "wall_ms": 25.352355
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s28_tce_layer1",
+      "rep": 0,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 199.9588165283203,
+      "wall_ms": 200.012249
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s28_tce_layer1",
+      "rep": 0,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 286.0655212402344,
+      "wall_ms": 286.116257
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s28_tce_layer1",
+      "rep": 1,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 195.46060180664062,
+      "wall_ms": 195.508084
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s28_tce_layer1",
+      "rep": 1,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 285.5356750488281,
+      "wall_ms": 285.578725
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s28_tce_layer1",
+      "rep": 2,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 287.72119140625,
+      "wall_ms": 287.760759
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s28_tce_layer1",
+      "rep": 2,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 195.67459106445312,
+      "wall_ms": 195.727768
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s28_tce_layer1",
+      "rep": 3,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 286.86895751953125,
+      "wall_ms": 286.925906
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s28_tce_layer1",
+      "rep": 3,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 196.40304565429688,
+      "wall_ms": 196.503722
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s28_tce_layer1",
+      "rep": 4,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 286.9718933105469,
+      "wall_ms": 287.026352
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s28_tce_layer1",
+      "rep": 4,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 201.2269744873047,
+      "wall_ms": 201.276631
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s28_tce_layer1",
+      "rep": 5,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 194.61712646484375,
+      "wall_ms": 194.759002
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s28_tce_layer1",
+      "rep": 5,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 284.7811584472656,
+      "wall_ms": 284.839434
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s28_tce_layer1",
+      "rep": 6,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 288.1219482421875,
+      "wall_ms": 288.181594
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s28_tce_layer1",
+      "rep": 6,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 194.80149841308594,
+      "wall_ms": 194.860682
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s28_tce_layer1",
+      "rep": 7,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 194.85171508789062,
+      "wall_ms": 194.915657
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s28_tce_layer1",
+      "rep": 7,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 283.90936279296875,
+      "wall_ms": 283.966361
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s28_tce_layer1",
+      "rep": 8,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 195.06150817871094,
+      "wall_ms": 195.582593
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s28_tce_layer1",
+      "rep": 8,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 282.7696533203125,
+      "wall_ms": 282.829741
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s28_tce_layer2",
+      "rep": 0,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 35.690975189208984,
+      "wall_ms": 35.748189
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s28_tce_layer2",
+      "rep": 0,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 52.82038497924805,
+      "wall_ms": 52.870746
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s28_tce_layer2",
+      "rep": 1,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 35.60835266113281,
+      "wall_ms": 35.658715
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s28_tce_layer2",
+      "rep": 1,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 52.701377868652344,
+      "wall_ms": 52.746107
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s28_tce_layer2",
+      "rep": 2,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 52.42063903808594,
+      "wall_ms": 52.465439
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s28_tce_layer2",
+      "rep": 2,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 35.577247619628906,
+      "wall_ms": 35.623458
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s28_tce_layer2",
+      "rep": 3,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 52.45951843261719,
+      "wall_ms": 52.50465
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s28_tce_layer2",
+      "rep": 3,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 37.184288024902344,
+      "wall_ms": 37.230282
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s28_tce_layer2",
+      "rep": 4,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 52.83225631713867,
+      "wall_ms": 52.87819
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s28_tce_layer2",
+      "rep": 4,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 35.48614501953125,
+      "wall_ms": 35.536365
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s28_tce_layer2",
+      "rep": 5,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 35.23206329345703,
+      "wall_ms": 35.281282
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s28_tce_layer2",
+      "rep": 5,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 52.69955062866211,
+      "wall_ms": 52.753012
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s28_tce_layer2",
+      "rep": 6,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 52.373600006103516,
+      "wall_ms": 52.420473
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s28_tce_layer2",
+      "rep": 6,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 35.21593475341797,
+      "wall_ms": 35.261345
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s28_tce_layer2",
+      "rep": 7,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 35.17484664916992,
+      "wall_ms": 35.220254
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s28_tce_layer2",
+      "rep": 7,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 52.63600158691406,
+      "wall_ms": 52.680553
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s28_tce_layer2",
+      "rep": 8,
+      "arm": "source",
+      "calls": 5,
+      "cuda_ms": 35.36460876464844,
+      "wall_ms": 35.406846
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s28_tce_layer2",
+      "rep": 8,
+      "arm": "candidate",
+      "calls": 5,
+      "cuda_ms": 52.464576721191406,
+      "wall_ms": 52.510699
+    }
+  ]
+}

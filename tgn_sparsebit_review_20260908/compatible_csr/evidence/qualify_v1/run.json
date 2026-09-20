@@ -1,0 +1,19 @@
+{
+  "start": "2026-09-08T14:14:19.101425+00:00",
+  "gpu": "GPU-a149f5af-55ab-ce33-8d3d-371a7ae61dd2",
+  "args": {
+    "run": "qualify_v1",
+    "stage": "qualify",
+    "qualification": null
+  },
+  "command": [
+    "/home/data/wangxuran/isaacsim6/env/bin/python",
+    "/home/data/wangxuran/tncn_compatible_csr_20260908/src/run.py",
+    "--output",
+    "/home/data/wangxuran/tncn_compatible_csr_20260908/output/qualify_v1/artifacts",
+    "--stage",
+    "qualify"
+  ],
+  "exit_code": 0,
+  "end": "2026-09-08T14:15:03.035098+00:00"
+}

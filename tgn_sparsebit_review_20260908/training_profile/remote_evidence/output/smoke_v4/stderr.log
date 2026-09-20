@@ -1,0 +1,20 @@
+/home/data/wangxuran/factor_tgn_sptc_20260902/project/experiments/temporal_tc_20260905_gpu2_notc/src/backend_v2.py:72: UserWarning: Sparse invariant checks are implicitly disabled. Memory errors (e.g. SEGFAULT) will occur when operating on a sparse tensor which violates the invariants, but checks incur performance overhead. To silence this warning, explicitly opt in or out. See `torch.sparse.check_sparse_tensor_invariants.__doc__` for guidance.  (Triggered internally at /pytorch/aten/src/ATen/Context.cpp:760.)
+  a=torch.sparse_csr_tensor(self.rp,self.col,v,size=(self.m,self.n))
+/home/data/wangxuran/factor_tgn_sptc_20260902/project/experiments/temporal_tc_20260905_gpu2_notc/src/backend_v2.py:72: UserWarning: Sparse CSR tensor support is in beta state. If you miss a functionality in the sparse tensor support, please submit a feature request to https://github.com/pytorch/pytorch/issues. (Triggered internally at /pytorch/aten/src/ATen/SparseCsrTensorImpl.cpp:49.)
+  a=torch.sparse_csr_tensor(self.rp,self.col,v,size=(self.m,self.n))
+/home/data/wangxuran/tncn_training_profile_20260908/src/profile_training.py:270: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  scalar = float(loss)
+Traceback (most recent call last):
+  File "/home/data/wangxuran/tncn_training_profile_20260908/src/profile_training.py", line 438, in <module>
+    main()
+  File "/home/data/wangxuran/tncn_training_profile_20260908/src/profile_training.py", line 429, in main
+    i = run_window(tr, start, args.output, 2 if args.smoke else 8, 1 if args.smoke else 3)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/data/wangxuran/tncn_training_profile_20260908/src/profile_training.py", line 343, in run_window
+    r = tr.step(idx, variant, captures[j], check=True)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/data/wangxuran/tncn_training_profile_20260908/src/profile_training.py", line 233, in step
+    assert torch.equal(q, cached['q']) and torch.equal(edges, cached['edges'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

@@ -1,0 +1,33 @@
+========= COMPUTE-SANITIZER
+check,0,natural_sparse,5,129,9,0,0,0,0
+check,1,aligned_sparse,5,129,9,0,0,0,0
+check,2,natural_dense,5,129,9,0,0,0,0
+check,3,simt_sparse,5,129,9,0,0,0,0
+check,4,aligned_split,5,129,9,0,0,0,0
+check,5,natural_sparse,5,129,9,0,0,0,0
+check,6,aligned_sparse,5,129,9,0,0,0,0
+check,7,natural_dense,5,129,9,0,0,0,0
+check,8,simt_sparse,5,129,9,0,0,0,0
+check,9,aligned_split,5,129,9,0,0,0,0
+check,10,natural_sparse,5,129,9,0,0,0,0
+check,11,aligned_sparse,5,129,9,0,0,0,0
+check,12,natural_dense,5,129,9,0,0,0,0
+check,13,simt_sparse,5,129,9,0,0,0,0
+check,14,aligned_split,5,129,9,0,0,0,0
+check,15,natural_sparse,5,129,9,0,0,0,0
+check,16,aligned_sparse,5,129,9,0,0,0,0
+check,17,natural_dense,5,129,9,0,0,0,0
+check,18,simt_sparse,5,129,9,0,0,0,0
+check,19,aligned_split,5,129,9,0,0,0,0
+check,20,natural_sparse,5,129,9,0,0,0,0
+check,21,aligned_sparse,5,129,9,0,0,0,0
+check,22,natural_dense,5,129,9,0,0,0,0
+check,23,simt_sparse,5,129,9,0,0,0,0
+check,24,aligned_split,5,129,9,0,0,0,0
+check,25,natural_sparse,5,129,9,0,0,0,0
+check,26,aligned_sparse,5,129,9,0,0,0,0
+check,27,natural_dense,5,129,9,0,0,0,0
+check,28,simt_sparse,5,129,9,0,0,0,0
+check,29,aligned_split,5,129,9,0,0,0,0
+SUMMARY checks=30 failures=0
+========= ERROR SUMMARY: 0 errors

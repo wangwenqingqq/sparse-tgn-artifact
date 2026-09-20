@@ -1,0 +1,21 @@
+{
+  "start": "2026-09-08T13:36:36.653733+00:00",
+  "gpu": "GPU-16f27f5a-dfcd-48e0-bb39-bebbe4009245",
+  "args": {
+    "run": "timing_v1",
+    "task": "witnesses",
+    "selected": "compatible,time64"
+  },
+  "command": [
+    "/home/data/wangxuran/isaacsim6/env/bin/python",
+    "/home/data/wangxuran/tncn_numeric_diagnosis_20260908/src/timing.py",
+    "--output",
+    "/home/data/wangxuran/tncn_numeric_diagnosis_20260908/output/timing_v1/artifacts",
+    "--task",
+    "witnesses",
+    "--selected",
+    "compatible,time64"
+  ],
+  "exit_code": 0,
+  "end": "2026-09-08T13:39:58.749821+00:00"
+}

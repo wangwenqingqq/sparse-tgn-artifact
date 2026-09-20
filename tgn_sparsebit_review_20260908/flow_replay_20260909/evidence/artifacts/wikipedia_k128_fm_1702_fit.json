@@ -1,0 +1,86 @@
+{
+  "mode": "fm",
+  "seed": 1702,
+  "steps": 1500,
+  "selected_step": 200,
+  "validation_mse": 0.6083495040446841,
+  "parameters": 516708,
+  "seconds": 3.892281288979575,
+  "curve": [
+    {
+      "step": 100,
+      "training_loss": 0.35557860136032104,
+      "validation_mse": 0.6409496099768875
+    },
+    {
+      "step": 200,
+      "training_loss": 0.23726055026054382,
+      "validation_mse": 0.6083495040446841
+    },
+    {
+      "step": 300,
+      "training_loss": 0.17910413444042206,
+      "validation_mse": 0.6107238058551618
+    },
+    {
+      "step": 400,
+      "training_loss": 0.15774312615394592,
+      "validation_mse": 0.615990562403698
+    },
+    {
+      "step": 500,
+      "training_loss": 0.14550065994262695,
+      "validation_mse": 0.6119380055855161
+    },
+    {
+      "step": 600,
+      "training_loss": 0.1337405890226364,
+      "validation_mse": 0.6149075260015409
+    },
+    {
+      "step": 700,
+      "training_loss": 0.12043166905641556,
+      "validation_mse": 0.6177391178736518
+    },
+    {
+      "step": 800,
+      "training_loss": 0.11703123152256012,
+      "validation_mse": 0.6393832940100154
+    },
+    {
+      "step": 900,
+      "training_loss": 0.11683253943920135,
+      "validation_mse": 0.6529066352080123
+    },
+    {
+      "step": 1000,
+      "training_loss": 0.1069369688630104,
+      "validation_mse": 0.6662111902927581
+    },
+    {
+      "step": 1100,
+      "training_loss": 0.10485977679491043,
+      "validation_mse": 0.6975082578967643
+    },
+    {
+      "step": 1200,
+      "training_loss": 0.10041426122188568,
+      "validation_mse": 0.7234732761941448
+    },
+    {
+      "step": 1300,
+      "training_loss": 0.09807504713535309,
+      "validation_mse": 0.7840588405238829
+    },
+    {
+      "step": 1400,
+      "training_loss": 0.09954456984996796,
+      "validation_mse": 0.8199980258089369
+    },
+    {
+      "step": 1500,
+      "training_loss": 0.08807931840419769,
+      "validation_mse": 0.8789394260400616
+    }
+  ]
+}

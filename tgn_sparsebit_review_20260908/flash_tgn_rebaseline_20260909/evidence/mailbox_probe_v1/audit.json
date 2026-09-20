@@ -1,0 +1,2870 @@
+{
+  "cases": [
+    {
+      "case": {
+        "bs": 200,
+        "k": 20,
+        "layers": 1,
+        "label": "wiki_bs200_k20_l1"
+      },
+      "checks": {
+        "original": [
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 44,
+            "payload_not_any_input_row": 47,
+            "payload_timestamp_not_any_input_pair": 56
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 51,
+            "payload_not_any_input_row": 46,
+            "payload_timestamp_not_any_input_pair": 56
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 50,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 56
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 50,
+            "payload_not_any_input_row": 43,
+            "payload_timestamp_not_any_input_pair": 56
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 51,
+            "payload_not_any_input_row": 43,
+            "payload_timestamp_not_any_input_pair": 55
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 51,
+            "payload_not_any_input_row": 45,
+            "payload_timestamp_not_any_input_pair": 56
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 51,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 56
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 51,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 56
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 51,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 56
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 51,
+            "payload_not_any_input_row": 43,
+            "payload_timestamp_not_any_input_pair": 55
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 51,
+            "payload_not_any_input_row": 45,
+            "payload_timestamp_not_any_input_pair": 56
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 51,
+            "payload_not_any_input_row": 45,
+            "payload_timestamp_not_any_input_pair": 56
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 51,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 56
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 51,
+            "payload_not_any_input_row": 43,
+            "payload_timestamp_not_any_input_pair": 55
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 51,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 55
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 43,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 55
+          }
+        ],
+        "writer_deterministic": [
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          }
+        ],
+        "explicit_last": [
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          }
+        ]
+      }
+    },
+    {
+      "case": {
+        "bs": 200,
+        "k": 20,
+        "layers": 2,
+        "label": "wiki_bs200_k20_l2"
+      },
+      "checks": {
+        "original": [
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 38,
+            "payload_not_any_input_row": 45,
+            "payload_timestamp_not_any_input_pair": 58
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 46,
+            "payload_timestamp_not_any_input_pair": 58
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 57
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 40,
+            "payload_not_any_input_row": 45,
+            "payload_timestamp_not_any_input_pair": 58
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 36,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 57
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 38,
+            "payload_not_any_input_row": 43,
+            "payload_timestamp_not_any_input_pair": 56
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 58
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 38,
+            "payload_not_any_input_row": 45,
+            "payload_timestamp_not_any_input_pair": 57
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 43,
+            "payload_timestamp_not_any_input_pair": 56
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 38,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 56
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 57
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 38,
+            "payload_not_any_input_row": 45,
+            "payload_timestamp_not_any_input_pair": 57
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 45,
+            "payload_timestamp_not_any_input_pair": 57
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 45,
+            "payload_timestamp_not_any_input_pair": 57
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 40,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 56
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 38,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 57
+          }
+        ],
+        "writer_deterministic": [
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          }
+        ],
+        "explicit_last": [
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          }
+        ]
+      }
+    },
+    {
+      "case": {
+        "bs": 200,
+        "k": 50,
+        "layers": 1,
+        "label": "wiki_bs200_k50_l1"
+      },
+      "checks": {
+        "original": [
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 57
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 40,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 57
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 56
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 43,
+            "payload_timestamp_not_any_input_pair": 56
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 56
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 41,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 58
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 57
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 43,
+            "payload_timestamp_not_any_input_pair": 56
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 56
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 58
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 40,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 56
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 35,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 56
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 45,
+            "payload_timestamp_not_any_input_pair": 57
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 40,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 55
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 36,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 55
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 40,
+            "payload_not_any_input_row": 43,
+            "payload_timestamp_not_any_input_pair": 55
+          }
+        ],
+        "writer_deterministic": [
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          }
+        ],
+        "explicit_last": [
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          }
+        ]
+      }
+    },
+    {
+      "case": {
+        "bs": 200,
+        "k": 50,
+        "layers": 2,
+        "label": "wiki_bs200_k50_l2"
+      },
+      "checks": {
+        "original": [
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 40,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 55
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 40,
+            "payload_not_any_input_row": 46,
+            "payload_timestamp_not_any_input_pair": 58
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 45,
+            "payload_timestamp_not_any_input_pair": 57
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 38,
+            "payload_not_any_input_row": 45,
+            "payload_timestamp_not_any_input_pair": 58
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 56
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 45,
+            "payload_timestamp_not_any_input_pair": 57
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 45,
+            "payload_timestamp_not_any_input_pair": 57
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 38,
+            "payload_not_any_input_row": 45,
+            "payload_timestamp_not_any_input_pair": 57
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 46,
+            "payload_timestamp_not_any_input_pair": 58
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 56
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 45,
+            "payload_timestamp_not_any_input_pair": 57
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 38,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 57
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 45,
+            "payload_timestamp_not_any_input_pair": 57
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 41,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 57
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 38,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 56
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 57
+          }
+        ],
+        "writer_deterministic": [
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          }
+        ],
+        "explicit_last": [
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          }
+        ]
+      }
+    },
+    {
+      "case": {
+        "bs": 2000,
+        "k": 20,
+        "layers": 1,
+        "label": "wiki_bs2000_k20_l1"
+      },
+      "checks": {
+        "original": [
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 355,
+            "wrong_timestamp_rows": 358,
+            "payload_not_any_input_row": 310,
+            "payload_timestamp_not_any_input_pair": 390
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 357,
+            "wrong_timestamp_rows": 354,
+            "payload_not_any_input_row": 306,
+            "payload_timestamp_not_any_input_pair": 391
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 358,
+            "wrong_timestamp_rows": 358,
+            "payload_not_any_input_row": 313,
+            "payload_timestamp_not_any_input_pair": 395
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 356,
+            "wrong_timestamp_rows": 349,
+            "payload_not_any_input_row": 309,
+            "payload_timestamp_not_any_input_pair": 397
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 353,
+            "wrong_timestamp_rows": 355,
+            "payload_not_any_input_row": 301,
+            "payload_timestamp_not_any_input_pair": 395
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 360,
+            "wrong_timestamp_rows": 360,
+            "payload_not_any_input_row": 310,
+            "payload_timestamp_not_any_input_pair": 398
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 357,
+            "wrong_timestamp_rows": 357,
+            "payload_not_any_input_row": 309,
+            "payload_timestamp_not_any_input_pair": 400
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 362,
+            "wrong_timestamp_rows": 356,
+            "payload_not_any_input_row": 311,
+            "payload_timestamp_not_any_input_pair": 400
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 354,
+            "wrong_timestamp_rows": 359,
+            "payload_not_any_input_row": 309,
+            "payload_timestamp_not_any_input_pair": 397
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 356,
+            "wrong_timestamp_rows": 346,
+            "payload_not_any_input_row": 303,
+            "payload_timestamp_not_any_input_pair": 388
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 355,
+            "wrong_timestamp_rows": 354,
+            "payload_not_any_input_row": 300,
+            "payload_timestamp_not_any_input_pair": 392
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 350,
+            "wrong_timestamp_rows": 353,
+            "payload_not_any_input_row": 299,
+            "payload_timestamp_not_any_input_pair": 394
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 356,
+            "wrong_timestamp_rows": 360,
+            "payload_not_any_input_row": 308,
+            "payload_timestamp_not_any_input_pair": 396
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 358,
+            "wrong_timestamp_rows": 359,
+            "payload_not_any_input_row": 309,
+            "payload_timestamp_not_any_input_pair": 395
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 352,
+            "wrong_timestamp_rows": 363,
+            "payload_not_any_input_row": 306,
+            "payload_timestamp_not_any_input_pair": 392
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 359,
+            "wrong_timestamp_rows": 354,
+            "payload_not_any_input_row": 309,
+            "payload_timestamp_not_any_input_pair": 391
+          }
+        ],
+        "writer_deterministic": [
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          }
+        ],
+        "explicit_last": [
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          }
+        ]
+      }
+    },
+    {
+      "case": {
+        "bs": 2000,
+        "k": 20,
+        "layers": 2,
+        "label": "wiki_bs2000_k20_l2"
+      },
+      "checks": {
+        "original": [
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 356,
+            "wrong_timestamp_rows": 364,
+            "payload_not_any_input_row": 300,
+            "payload_timestamp_not_any_input_pair": 395
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 354,
+            "wrong_timestamp_rows": 360,
+            "payload_not_any_input_row": 304,
+            "payload_timestamp_not_any_input_pair": 390
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 359,
+            "wrong_timestamp_rows": 357,
+            "payload_not_any_input_row": 307,
+            "payload_timestamp_not_any_input_pair": 388
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 357,
+            "wrong_timestamp_rows": 357,
+            "payload_not_any_input_row": 300,
+            "payload_timestamp_not_any_input_pair": 390
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 364,
+            "wrong_timestamp_rows": 357,
+            "payload_not_any_input_row": 310,
+            "payload_timestamp_not_any_input_pair": 400
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 362,
+            "wrong_timestamp_rows": 359,
+            "payload_not_any_input_row": 310,
+            "payload_timestamp_not_any_input_pair": 390
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 359,
+            "wrong_timestamp_rows": 358,
+            "payload_not_any_input_row": 311,
+            "payload_timestamp_not_any_input_pair": 393
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 351,
+            "wrong_timestamp_rows": 356,
+            "payload_not_any_input_row": 301,
+            "payload_timestamp_not_any_input_pair": 391
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 357,
+            "wrong_timestamp_rows": 355,
+            "payload_not_any_input_row": 304,
+            "payload_timestamp_not_any_input_pair": 393
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 354,
+            "wrong_timestamp_rows": 360,
+            "payload_not_any_input_row": 300,
+            "payload_timestamp_not_any_input_pair": 391
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 361,
+            "wrong_timestamp_rows": 355,
+            "payload_not_any_input_row": 304,
+            "payload_timestamp_not_any_input_pair": 394
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 359,
+            "wrong_timestamp_rows": 357,
+            "payload_not_any_input_row": 307,
+            "payload_timestamp_not_any_input_pair": 399
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 354,
+            "wrong_timestamp_rows": 361,
+            "payload_not_any_input_row": 300,
+            "payload_timestamp_not_any_input_pair": 390
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 356,
+            "wrong_timestamp_rows": 356,
+            "payload_not_any_input_row": 298,
+            "payload_timestamp_not_any_input_pair": 393
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 359,
+            "wrong_timestamp_rows": 362,
+            "payload_not_any_input_row": 303,
+            "payload_timestamp_not_any_input_pair": 398
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 358,
+            "wrong_timestamp_rows": 355,
+            "payload_not_any_input_row": 305,
+            "payload_timestamp_not_any_input_pair": 395
+          }
+        ],
+        "writer_deterministic": [
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          }
+        ],
+        "explicit_last": [
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          }
+        ]
+      }
+    },
+    {
+      "case": {
+        "bs": 2000,
+        "k": 50,
+        "layers": 1,
+        "label": "wiki_bs2000_k50_l1"
+      },
+      "checks": {
+        "original": [
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 351,
+            "wrong_timestamp_rows": 354,
+            "payload_not_any_input_row": 302,
+            "payload_timestamp_not_any_input_pair": 385
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 351,
+            "wrong_timestamp_rows": 352,
+            "payload_not_any_input_row": 299,
+            "payload_timestamp_not_any_input_pair": 393
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 352,
+            "wrong_timestamp_rows": 351,
+            "payload_not_any_input_row": 305,
+            "payload_timestamp_not_any_input_pair": 390
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 351,
+            "wrong_timestamp_rows": 352,
+            "payload_not_any_input_row": 304,
+            "payload_timestamp_not_any_input_pair": 393
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 355,
+            "wrong_timestamp_rows": 357,
+            "payload_not_any_input_row": 303,
+            "payload_timestamp_not_any_input_pair": 394
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 360,
+            "wrong_timestamp_rows": 355,
+            "payload_not_any_input_row": 309,
+            "payload_timestamp_not_any_input_pair": 393
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 354,
+            "wrong_timestamp_rows": 354,
+            "payload_not_any_input_row": 302,
+            "payload_timestamp_not_any_input_pair": 389
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 352,
+            "wrong_timestamp_rows": 356,
+            "payload_not_any_input_row": 302,
+            "payload_timestamp_not_any_input_pair": 393
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 356,
+            "wrong_timestamp_rows": 356,
+            "payload_not_any_input_row": 308,
+            "payload_timestamp_not_any_input_pair": 394
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 360,
+            "wrong_timestamp_rows": 354,
+            "payload_not_any_input_row": 310,
+            "payload_timestamp_not_any_input_pair": 392
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 352,
+            "wrong_timestamp_rows": 359,
+            "payload_not_any_input_row": 302,
+            "payload_timestamp_not_any_input_pair": 390
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 349,
+            "wrong_timestamp_rows": 358,
+            "payload_not_any_input_row": 302,
+            "payload_timestamp_not_any_input_pair": 395
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 352,
+            "wrong_timestamp_rows": 356,
+            "payload_not_any_input_row": 304,
+            "payload_timestamp_not_any_input_pair": 394
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 356,
+            "wrong_timestamp_rows": 359,
+            "payload_not_any_input_row": 310,
+            "payload_timestamp_not_any_input_pair": 396
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 360,
+            "wrong_timestamp_rows": 357,
+            "payload_not_any_input_row": 304,
+            "payload_timestamp_not_any_input_pair": 391
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 345,
+            "wrong_timestamp_rows": 359,
+            "payload_not_any_input_row": 294,
+            "payload_timestamp_not_any_input_pair": 392
+          }
+        ],
+        "writer_deterministic": [
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          }
+        ],
+        "explicit_last": [
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          }
+        ]
+      }
+    },
+    {
+      "case": {
+        "bs": 2000,
+        "k": 50,
+        "layers": 2,
+        "label": "wiki_bs2000_k50_l2"
+      },
+      "checks": {
+        "original": [
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 359,
+            "wrong_timestamp_rows": 359,
+            "payload_not_any_input_row": 310,
+            "payload_timestamp_not_any_input_pair": 397
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 355,
+            "wrong_timestamp_rows": 356,
+            "payload_not_any_input_row": 302,
+            "payload_timestamp_not_any_input_pair": 386
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 361,
+            "wrong_timestamp_rows": 353,
+            "payload_not_any_input_row": 314,
+            "payload_timestamp_not_any_input_pair": 397
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 358,
+            "wrong_timestamp_rows": 355,
+            "payload_not_any_input_row": 297,
+            "payload_timestamp_not_any_input_pair": 394
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 354,
+            "wrong_timestamp_rows": 355,
+            "payload_not_any_input_row": 299,
+            "payload_timestamp_not_any_input_pair": 388
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 347,
+            "wrong_timestamp_rows": 355,
+            "payload_not_any_input_row": 290,
+            "payload_timestamp_not_any_input_pair": 382
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 361,
+            "wrong_timestamp_rows": 355,
+            "payload_not_any_input_row": 314,
+            "payload_timestamp_not_any_input_pair": 390
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 353,
+            "wrong_timestamp_rows": 356,
+            "payload_not_any_input_row": 302,
+            "payload_timestamp_not_any_input_pair": 393
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 363,
+            "wrong_timestamp_rows": 356,
+            "payload_not_any_input_row": 307,
+            "payload_timestamp_not_any_input_pair": 394
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 360,
+            "wrong_timestamp_rows": 353,
+            "payload_not_any_input_row": 301,
+            "payload_timestamp_not_any_input_pair": 392
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 357,
+            "wrong_timestamp_rows": 356,
+            "payload_not_any_input_row": 306,
+            "payload_timestamp_not_any_input_pair": 396
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 353,
+            "wrong_timestamp_rows": 353,
+            "payload_not_any_input_row": 298,
+            "payload_timestamp_not_any_input_pair": 392
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 356,
+            "wrong_timestamp_rows": 359,
+            "payload_not_any_input_row": 299,
+            "payload_timestamp_not_any_input_pair": 385
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 359,
+            "wrong_timestamp_rows": 357,
+            "payload_not_any_input_row": 304,
+            "payload_timestamp_not_any_input_pair": 390
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 357,
+            "wrong_timestamp_rows": 356,
+            "payload_not_any_input_row": 314,
+            "payload_timestamp_not_any_input_pair": 398
+          },
+          {
+            "all_pass": false,
+            "wrong_payload_rows": 360,
+            "wrong_timestamp_rows": 354,
+            "payload_not_any_input_row": 312,
+            "payload_timestamp_not_any_input_pair": 386
+          }
+        ],
+        "writer_deterministic": [
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          }
+        ],
+        "explicit_last": [
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          },
+          {
+            "all_pass": true,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0
+          }
+        ]
+      }
+    }
+  ],
+  "totals": {
+    "original": {
+      "total": 128,
+      "passed": 0
+    },
+    "writer_deterministic": {
+      "total": 128,
+      "passed": 128
+    },
+    "explicit_last": {
+      "total": 128,
+      "passed": 128
+    }
+  },
+  "hashes": {
+    "wiki_bs200_k20_l1_probe.pt": {
+      "bytes": 17842525,
+      "sha256": "546ee76d7572d4732683b2a6154bab50f24e99eb9ef08ed77b7602dd1f69e596"
+    },
+    "wiki_bs200_k20_l2_probe.pt": {
+      "bytes": 17842525,
+      "sha256": "e87ac512bac47f05e82e383956bdb3d57818cab60d8ee93982667d1d2cb5626d"
+    },
+    "wiki_bs200_k50_l1_probe.pt": {
+      "bytes": 17842525,
+      "sha256": "c533ec7bb8f6617fff5d9486a6f9c96704a9fe95101ebc8438d5ff5976e72c81"
+    },
+    "wiki_bs200_k50_l2_probe.pt": {
+      "bytes": 17842525,
+      "sha256": "abf77ff0a34067b2ac5f0fa381dec4346d899dbdb7a786c8b0fb1803dda84425"
+    },
+    "wiki_bs2000_k20_l1_probe.pt": {
+      "bytes": 113575116,
+      "sha256": "c120c04a6c5e3a2e5b16b730f703072919a78ad1616a269b682595d6259e132c"
+    },
+    "wiki_bs2000_k20_l2_probe.pt": {
+      "bytes": 113575116,
+      "sha256": "5d66a44c4e76451b5d5803ba7e0fb236c5aa51d77098ca58a25d4b7a39e12166"
+    },
+    "wiki_bs2000_k50_l1_probe.pt": {
+      "bytes": 113575116,
+      "sha256": "fbff5e2ad86c318e767e28aacc7919ef5e5c2b7e9da1b63e8bad39222c09debc"
+    },
+    "wiki_bs2000_k50_l2_probe.pt": {
+      "bytes": 113575116,
+      "sha256": "dc018689c982ba0a3ac0f69a79b84676b37ea673b7ccbd4febce97aec8ce2d10"
+    }
+  },
+  "all_logged_results_match": true,
+  "cuda_initialized": false
+}

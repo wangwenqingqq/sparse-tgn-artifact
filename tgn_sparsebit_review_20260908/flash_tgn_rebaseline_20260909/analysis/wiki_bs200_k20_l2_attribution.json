@@ -1,0 +1,3623 @@
+{
+  "case_variant": "wiki_bs200_k20_l2",
+  "macros": {
+    "training_step": {
+      "cpu_us": 13821.110999999999,
+      "gpu_activity_union_us": 3231.042999999994,
+      "gpu_activity_gap_us": 10590.068000000005
+    },
+    "memory_update": {
+      "cpu_us": 897.1560000000001,
+      "gpu_activity_union_us": 100.76900000000006,
+      "gpu_activity_gap_us": 796.387
+    },
+    "node_features": {
+      "cpu_us": 42.24500000000012,
+      "gpu_activity_union_us": 3.4560000000000173,
+      "gpu_activity_gap_us": 38.7890000000001
+    },
+    "edge_features": {
+      "cpu_us": 8.646999999999935,
+      "gpu_activity_union_us": 0,
+      "gpu_activity_gap_us": 8.646999999999935
+    },
+    "embedding": {
+      "cpu_us": 2775.893,
+      "gpu_activity_union_us": 1159.565,
+      "gpu_activity_gap_us": 1616.3280000000004
+    },
+    "predictor": {
+      "cpu_us": 521.5889999999999,
+      "gpu_activity_union_us": 14.014000000001033,
+      "gpu_activity_gap_us": 507.5749999999989
+    },
+    "loss": {
+      "cpu_us": 99.02499999999964,
+      "gpu_activity_union_us": 7.425000000000182,
+      "gpu_activity_gap_us": 91.59999999999945
+    },
+    "zero_grad": {
+      "cpu_us": 80.4960000000001,
+      "gpu_activity_union_us": 0,
+      "gpu_activity_gap_us": 80.4960000000001
+    },
+    "backward": {
+      "cpu_us": 7040.487999999999,
+      "gpu_activity_union_us": 1784.0459999999985,
+      "gpu_activity_gap_us": 5256.442
+    },
+    "optimizer": {
+      "cpu_us": 1055.205,
+      "gpu_activity_union_us": 114.24199999999837,
+      "gpu_activity_gap_us": 940.9630000000016
+    },
+    "mailbox_write": {
+      "cpu_us": 280.2620000000006,
+      "gpu_activity_union_us": 20.482999999998356,
+      "gpu_activity_gap_us": 259.77900000000227
+    }
+  },
+  "roi_us": 13821.111328125,
+  "gpu_activity_union_us": 3231.042999999994,
+  "gpu_activity_sum_us": 3231.0429999999988,
+  "gpu_activities": 215,
+  "cuda_kernels": 198,
+  "activities_by_owner": {
+    "memory_update/cuda.fused_lse_gather": {
+      "kernel_count": 1,
+      "kernel_us": 9.761,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "memory_update": {
+      "kernel_count": 8,
+      "kernel_us": 24.608,
+      "memcpy_count": 1,
+      "memcpy_us": 5.184,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "memory_update/dense.lse.mem_time_encode.w": {
+      "kernel_count": 2,
+      "kernel_us": 4.48,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "memory_update/dense.lse.gru": {
+      "kernel_count": 3,
+      "kernel_us": 56.736,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "node_features": {
+      "kernel_count": 1,
+      "kernel_us": 3.456,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "embedding": {
+      "kernel_count": 28,
+      "kernel_us": 563.142,
+      "memcpy_count": 3,
+      "memcpy_us": 1.728,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "embedding/dense.tce.layer1.W_q": {
+      "kernel_count": 1,
+      "kernel_us": 20.801,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "embedding/dense.tce.layer1.W_kv": {
+      "kernel_count": 1,
+      "kernel_us": 449.285,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "embedding/dense.tce.layer1.W_out": {
+      "kernel_count": 1,
+      "kernel_us": 13.504,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "embedding/dense.tce.layer2.W_q": {
+      "kernel_count": 1,
+      "kernel_us": 7.68,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "embedding/dense.tce.layer2.W_kv": {
+      "kernel_count": 1,
+      "kernel_us": 96.033,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "embedding/dense.tce.layer2.W_out": {
+      "kernel_count": 1,
+      "kernel_us": 7.392,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "predictor/dense.edge_predictor.src_fc": {
+      "kernel_count": 2,
+      "kernel_us": 9.056000000000001,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "predictor/dense.edge_predictor.dst_fc": {
+      "kernel_count": 2,
+      "kernel_us": 8.833,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "predictor": {
+      "kernel_count": 4,
+      "kernel_us": 4.382,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "predictor/dense.edge_predictor.out_fc": {
+      "kernel_count": 4,
+      "kernel_us": 7.265000000000001,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "training_step": {
+      "kernel_count": 3,
+      "kernel_us": 3.136,
+      "memcpy_count": 1,
+      "memcpy_us": 0.64,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "loss": {
+      "kernel_count": 12,
+      "kernel_us": 15.17,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "backward": {
+      "kernel_count": 1,
+      "kernel_us": 0.896,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "backward/loss": {
+      "kernel_count": 8,
+      "kernel_us": 9.728000000000002,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "backward/predictor/dense.edge_predictor.out_fc": {
+      "kernel_count": 8,
+      "kernel_us": 14.207,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "backward/predictor": {
+      "kernel_count": 2,
+      "kernel_us": 2.2720000000000002,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "backward/predictor/dense.edge_predictor.dst_fc": {
+      "kernel_count": 8,
+      "kernel_us": 31.007,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "backward/predictor/dense.edge_predictor.src_fc": {
+      "kernel_count": 9,
+      "kernel_us": 29.503000000000004,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "backward/unassigned": {
+      "kernel_count": 5,
+      "kernel_us": 4.8309999999999995,
+      "memcpy_count": 3,
+      "memcpy_us": 2.9749999999999996,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "backward/embedding": {
+      "kernel_count": 28,
+      "kernel_us": 459.87699999999995,
+      "memcpy_count": 2,
+      "memcpy_us": 5.471,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "backward/embedding/dense.tce.layer2.W_out": {
+      "kernel_count": 3,
+      "kernel_us": 23.808,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "backward/embedding/dense.tce.layer2.W_kv": {
+      "kernel_count": 4,
+      "kernel_us": 156.83400000000003,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 1,
+      "memset_us": 0.352
+    },
+    "backward/embedding/dense.tce.layer2.W_q": {
+      "kernel_count": 3,
+      "kernel_us": 23.936999999999998,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "backward/embedding/dense.tce.layer1.W_out": {
+      "kernel_count": 4,
+      "kernel_us": 33.474,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 1,
+      "memset_us": 0.287
+    },
+    "backward/embedding/dense.tce.layer1.W_kv": {
+      "kernel_count": 4,
+      "kernel_us": 826.695,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 1,
+      "memset_us": 1.344
+    },
+    "backward/embedding/dense.tce.layer1.W_q": {
+      "kernel_count": 4,
+      "kernel_us": 33.728,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 1,
+      "memset_us": 0.32
+    },
+    "backward/memory_update": {
+      "kernel_count": 4,
+      "kernel_us": 11.714,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "backward/memory_update/dense.lse.gru": {
+      "kernel_count": 7,
+      "kernel_us": 98.05000000000001,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 2,
+      "memset_us": 0.64
+    },
+    "backward/memory_update/dense.lse.mem_time_encode.w": {
+      "kernel_count": 2,
+      "kernel_us": 11.808,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 1,
+      "memset_us": 0.288
+    },
+    "optimizer": {
+      "kernel_count": 7,
+      "kernel_us": 114.242,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    },
+    "mailbox_write": {
+      "kernel_count": 11,
+      "kernel_us": 20.482999999999997,
+      "memcpy_count": 0,
+      "memcpy_us": 0.0,
+      "memset_count": 0,
+      "memset_us": 0.0
+    }
+  },
+  "backward_engines": {
+    "unassigned": {
+      "engine_count": 4,
+      "engine_cpu_us": 248.53099999999995
+    },
+    "loss": {
+      "engine_count": 2,
+      "engine_cpu_us": 194.78999999999996
+    },
+    "predictor": {
+      "engine_count": 6,
+      "engine_cpu_us": 117.35699999999906
+    },
+    "predictor/dense.edge_predictor.out_fc": {
+      "engine_count": 4,
+      "engine_cpu_us": 501.96499999999924
+    },
+    "predictor/dense.edge_predictor.dst_fc": {
+      "engine_count": 4,
+      "engine_cpu_us": 473.8949999999995
+    },
+    "predictor/dense.edge_predictor.src_fc": {
+      "engine_count": 4,
+      "engine_cpu_us": 471.8720000000003
+    },
+    "leaf_or_unsequenced": {
+      "engine_count": 32,
+      "engine_cpu_us": 263.1849999999922
+    },
+    "embedding": {
+      "engine_count": 12,
+      "engine_cpu_us": 1484.643
+    },
+    "embedding/dense.tce.layer2.W_out": {
+      "engine_count": 2,
+      "engine_cpu_us": 225.4240000000009
+    },
+    "embedding/dense.tce.layer2.W_kv": {
+      "engine_count": 2,
+      "engine_cpu_us": 264.1790000000001
+    },
+    "embedding/dense.tce.layer2.W_q": {
+      "engine_count": 2,
+      "engine_cpu_us": 221.82699999999932
+    },
+    "embedding/dense.tce.layer1.W_out": {
+      "engine_count": 2,
+      "engine_cpu_us": 280.83100000000013
+    },
+    "embedding/dense.tce.layer1.W_kv": {
+      "engine_count": 2,
+      "engine_cpu_us": 258.6990000000005
+    },
+    "embedding/dense.tce.layer1.W_q": {
+      "engine_count": 2,
+      "engine_cpu_us": 233.382999999998
+    },
+    "memory_update": {
+      "engine_count": 3,
+      "engine_cpu_us": 151.3939999999984
+    },
+    "memory_update/dense.lse.gru": {
+      "engine_count": 5,
+      "engine_cpu_us": 503.23599999999897
+    },
+    "memory_update/dense.lse.mem_time_encode.w": {
+      "engine_count": 2,
+      "engine_cpu_us": 157.00900000000001
+    }
+  },
+  "backward_ambiguities": [],
+  "flow_resolved_ambiguities": [
+    {
+      "backward": "autograd::engine::evaluate_function: FusedGatherEncodeBackward",
+      "key": [
+        1,
+        41529
+      ],
+      "scopes": [
+        "embedding",
+        "node_features"
+      ],
+      "forward_ops": [
+        "aten::index",
+        "aten::to",
+        "aten::to",
+        "FusedGatherEncode"
+      ],
+      "resolved_by": "chrome_fwdbwd_flow",
+      "owner": "embedding"
+    }
+  ],
+  "flow_evidence": [
+    {
+      "key": [
+        1,
+        41576
+      ],
+      "forward": "aten::add",
+      "backward": "AddBackward0",
+      "owner": "training_step"
+    },
+    {
+      "key": [
+        1,
+        41575
+      ],
+      "forward": "aten::binary_cross_entropy_with_logits",
+      "backward": "BinaryCrossEntropyWithLogitsBackward0",
+      "owner": "loss"
+    },
+    {
+      "key": [
+        1,
+        41574
+      ],
+      "forward": "aten::binary_cross_entropy_with_logits",
+      "backward": "BinaryCrossEntropyWithLogitsBackward0",
+      "owner": "loss"
+    },
+    {
+      "key": [
+        1,
+        41573
+      ],
+      "forward": "aten::squeeze",
+      "backward": "SqueezeBackward1",
+      "owner": "predictor"
+    },
+    {
+      "key": [
+        1,
+        41572
+      ],
+      "forward": "aten::addmm",
+      "backward": "AddmmBackward0",
+      "owner": "predictor/dense.edge_predictor.out_fc"
+    },
+    {
+      "key": [
+        1,
+        41571
+      ],
+      "forward": "aten::t",
+      "backward": "TBackward0",
+      "owner": "predictor/dense.edge_predictor.out_fc"
+    },
+    {
+      "key": [
+        1,
+        41570
+      ],
+      "forward": "aten::relu",
+      "backward": "ReluBackward0",
+      "owner": "predictor"
+    },
+    {
+      "key": [
+        1,
+        41569
+      ],
+      "forward": "aten::add",
+      "backward": "AddBackward0",
+      "owner": "predictor"
+    },
+    {
+      "key": [
+        1,
+        41568
+      ],
+      "forward": "aten::addmm",
+      "backward": "AddmmBackward0",
+      "owner": "predictor/dense.edge_predictor.dst_fc"
+    },
+    {
+      "key": [
+        1,
+        41567
+      ],
+      "forward": "aten::t",
+      "backward": "TBackward0",
+      "owner": "predictor/dense.edge_predictor.dst_fc"
+    },
+    {
+      "key": [
+        1,
+        41566
+      ],
+      "forward": "aten::addmm",
+      "backward": "AddmmBackward0",
+      "owner": "predictor/dense.edge_predictor.src_fc"
+    },
+    {
+      "key": [
+        1,
+        41565
+      ],
+      "forward": "aten::t",
+      "backward": "TBackward0",
+      "owner": "predictor/dense.edge_predictor.src_fc"
+    },
+    {
+      "key": [
+        1,
+        41564
+      ],
+      "forward": "aten::squeeze",
+      "backward": "SqueezeBackward1",
+      "owner": "predictor"
+    },
+    {
+      "key": [
+        1,
+        41563
+      ],
+      "forward": "aten::addmm",
+      "backward": "AddmmBackward0",
+      "owner": "predictor/dense.edge_predictor.out_fc"
+    },
+    {
+      "key": [
+        1,
+        41562
+      ],
+      "forward": "aten::t",
+      "backward": "TBackward0",
+      "owner": "predictor/dense.edge_predictor.out_fc"
+    },
+    {
+      "key": [
+        1,
+        41561
+      ],
+      "forward": "aten::relu",
+      "backward": "ReluBackward0",
+      "owner": "predictor"
+    },
+    {
+      "key": [
+        1,
+        41560
+      ],
+      "forward": "aten::add",
+      "backward": "AddBackward0",
+      "owner": "predictor"
+    },
+    {
+      "key": [
+        1,
+        41559
+      ],
+      "forward": "aten::addmm",
+      "backward": "AddmmBackward0",
+      "owner": "predictor/dense.edge_predictor.dst_fc"
+    },
+    {
+      "key": [
+        1,
+        41558
+      ],
+      "forward": "aten::t",
+      "backward": "TBackward0",
+      "owner": "predictor/dense.edge_predictor.dst_fc"
+    },
+    {
+      "key": [
+        1,
+        41557
+      ],
+      "forward": "aten::addmm",
+      "backward": "AddmmBackward0",
+      "owner": "predictor/dense.edge_predictor.src_fc"
+    },
+    {
+      "key": [
+        1,
+        41556
+      ],
+      "forward": "aten::t",
+      "backward": "TBackward0",
+      "owner": "predictor/dense.edge_predictor.src_fc"
+    },
+    {
+      "key": [
+        1,
+        41555
+      ],
+      "forward": "aten::slice",
+      "backward": "SliceBackward0",
+      "owner": "training_step"
+    },
+    {
+      "key": [
+        1,
+        41554
+      ],
+      "forward": "aten::slice",
+      "backward": "SliceBackward0",
+      "owner": "training_step"
+    },
+    {
+      "key": [
+        1,
+        41553
+      ],
+      "forward": "aten::slice",
+      "backward": "SliceBackward0",
+      "owner": "training_step"
+    },
+    {
+      "key": [
+        1,
+        41552
+      ],
+      "forward": "aten::native_layer_norm",
+      "backward": "NativeLayerNormBackward0",
+      "owner": "embedding"
+    },
+    {
+      "key": [
+        1,
+        41551
+      ],
+      "forward": "aten::relu",
+      "backward": "ReluBackward0",
+      "owner": "embedding"
+    },
+    {
+      "key": [
+        1,
+        41550
+      ],
+      "forward": "aten::addmm",
+      "backward": "AddmmBackward0",
+      "owner": "embedding/dense.tce.layer2.W_out"
+    },
+    {
+      "key": [
+        1,
+        41549
+      ],
+      "forward": "aten::t",
+      "backward": "TBackward0",
+      "owner": "embedding/dense.tce.layer2.W_out"
+    },
+    {
+      "key": [
+        1,
+        41548
+      ],
+      "forward": "aten::cat",
+      "backward": "CatBackward0",
+      "owner": "embedding"
+    },
+    {
+      "key": [
+        1,
+        41547
+      ],
+      "forward": "FusedDenseAttention",
+      "backward": "FusedDenseAttentionBackward",
+      "owner": "embedding"
+    },
+    {
+      "key": [
+        1,
+        41546
+      ],
+      "forward": "aten::addmm",
+      "backward": "AddmmBackward0",
+      "owner": "embedding/dense.tce.layer2.W_kv"
+    },
+    {
+      "key": [
+        1,
+        41545
+      ],
+      "forward": "aten::t",
+      "backward": "TBackward0",
+      "owner": "embedding/dense.tce.layer2.W_kv"
+    },
+    {
+      "key": [
+        1,
+        41544
+      ],
+      "forward": "aten::addmm",
+      "backward": "AddmmBackward0",
+      "owner": "embedding/dense.tce.layer2.W_q"
+    },
+    {
+      "key": [
+        1,
+        41543
+      ],
+      "forward": "aten::t",
+      "backward": "TBackward0",
+      "owner": "embedding/dense.tce.layer2.W_q"
+    },
+    {
+      "key": [
+        1,
+        41542
+      ],
+      "forward": "FusedL0GatherEncode",
+      "backward": "FusedL0GatherEncodeBackward",
+      "owner": "embedding"
+    },
+    {
+      "key": [
+        1,
+        41541
+      ],
+      "forward": "DedupInverseGather",
+      "backward": "DedupInverseGatherBackward",
+      "owner": "embedding"
+    },
+    {
+      "key": [
+        1,
+        41540
+      ],
+      "forward": "aten::native_layer_norm",
+      "backward": "NativeLayerNormBackward0",
+      "owner": "embedding"
+    },
+    {
+      "key": [
+        1,
+        41539
+      ],
+      "forward": "aten::relu",
+      "backward": "ReluBackward0",
+      "owner": "embedding"
+    },
+    {
+      "key": [
+        1,
+        41538
+      ],
+      "forward": "aten::addmm",
+      "backward": "AddmmBackward0",
+      "owner": "embedding/dense.tce.layer1.W_out"
+    },
+    {
+      "key": [
+        1,
+        41537
+      ],
+      "forward": "aten::t",
+      "backward": "TBackward0",
+      "owner": "embedding/dense.tce.layer1.W_out"
+    },
+    {
+      "key": [
+        1,
+        41536
+      ],
+      "forward": "aten::cat",
+      "backward": "CatBackward0",
+      "owner": "embedding"
+    },
+    {
+      "key": [
+        1,
+        41535
+      ],
+      "forward": "FusedDenseAttention",
+      "backward": "FusedDenseAttentionBackward",
+      "owner": "embedding"
+    },
+    {
+      "key": [
+        1,
+        41534
+      ],
+      "forward": "aten::addmm",
+      "backward": "AddmmBackward0",
+      "owner": "embedding/dense.tce.layer1.W_kv"
+    },
+    {
+      "key": [
+        1,
+        41533
+      ],
+      "forward": "aten::t",
+      "backward": "TBackward0",
+      "owner": "embedding/dense.tce.layer1.W_kv"
+    },
+    {
+      "key": [
+        1,
+        41532
+      ],
+      "forward": "aten::addmm",
+      "backward": "AddmmBackward0",
+      "owner": "embedding/dense.tce.layer1.W_q"
+    },
+    {
+      "key": [
+        1,
+        41531
+      ],
+      "forward": "aten::t",
+      "backward": "TBackward0",
+      "owner": "embedding/dense.tce.layer1.W_q"
+    },
+    {
+      "key": [
+        1,
+        41530
+      ],
+      "forward": "aten::slice",
+      "backward": "SliceBackward0",
+      "owner": "embedding"
+    },
+    {
+      "key": [
+        1,
+        41529
+      ],
+      "forward": "FusedGatherEncode",
+      "backward": "FusedGatherEncodeBackward",
+      "owner": "embedding"
+    },
+    {
+      "key": [
+        1,
+        41528
+      ],
+      "forward": "aten::index_put_",
+      "backward": "IndexPutBackward0",
+      "owner": "memory_update"
+    },
+    {
+      "key": [
+        1,
+        41527
+      ],
+      "forward": "aten::_thnn_fused_gru_cell",
+      "backward": "ThnnFusedGruCellBackward0",
+      "owner": "memory_update/dense.lse.gru"
+    },
+    {
+      "key": [
+        1,
+        41526
+      ],
+      "forward": "aten::mm",
+      "backward": "MmBackward0",
+      "owner": "memory_update/dense.lse.gru"
+    },
+    {
+      "key": [
+        1,
+        41525
+      ],
+      "forward": "aten::t",
+      "backward": "TBackward0",
+      "owner": "memory_update/dense.lse.gru"
+    },
+    {
+      "key": [
+        1,
+        41524
+      ],
+      "forward": "aten::mm",
+      "backward": "MmBackward0",
+      "owner": "memory_update/dense.lse.gru"
+    },
+    {
+      "key": [
+        1,
+        41523
+      ],
+      "forward": "aten::t",
+      "backward": "TBackward0",
+      "owner": "memory_update/dense.lse.gru"
+    },
+    {
+      "key": [
+        1,
+        41522
+      ],
+      "forward": "aten::cat",
+      "backward": "CatBackward0",
+      "owner": "memory_update"
+    },
+    {
+      "key": [
+        1,
+        41521
+      ],
+      "forward": "aten::cos",
+      "backward": "CosBackward0",
+      "owner": "memory_update"
+    },
+    {
+      "key": [
+        1,
+        41520
+      ],
+      "forward": "aten::addmm",
+      "backward": "AddmmBackward0",
+      "owner": "memory_update/dense.lse.mem_time_encode.w"
+    },
+    {
+      "key": [
+        1,
+        41519
+      ],
+      "forward": "aten::t",
+      "backward": "TBackward0",
+      "owner": "memory_update/dense.lse.mem_time_encode.w"
+    }
+  ],
+  "link_coverage": {
+    "linked": 215,
+    "total": 215,
+    "unmatched": [],
+    "duplicate_cpu_external_ids": {},
+    "outside_roi": [],
+    "methods": {
+      "runtime_cpu_containment": 1,
+      "external_id": 208,
+      "chrome_cpu_tree": 6
+    },
+    "owner_crosscheck_disagreements": []
+  },
+  "cpu_ops": [
+    {
+      "owner": "memory_update",
+      "name": "aten::to",
+      "count": 3
+    },
+    {
+      "owner": "memory_update",
+      "name": "aten::squeeze",
+      "count": 2
+    },
+    {
+      "owner": "memory_update",
+      "name": "aten::as_strided",
+      "count": 7
+    },
+    {
+      "owner": "memory_update/cuda.fused_lse_gather",
+      "name": "aten::empty",
+      "count": 4
+    },
+    {
+      "owner": "memory_update",
+      "name": "aten::sub",
+      "count": 1
+    },
+    {
+      "owner": "memory_update",
+      "name": "aten::unsqueeze",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/dense.lse.mem_time_encode.w",
+      "name": "aten::linear",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/dense.lse.mem_time_encode.w",
+      "name": "aten::t",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/dense.lse.mem_time_encode.w",
+      "name": "aten::transpose",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/dense.lse.mem_time_encode.w",
+      "name": "aten::as_strided",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/dense.lse.mem_time_encode.w",
+      "name": "aten::addmm",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/dense.lse.mem_time_encode.w",
+      "name": "aten::expand",
+      "count": 1
+    },
+    {
+      "owner": "memory_update",
+      "name": "aten::cos",
+      "count": 1
+    },
+    {
+      "owner": "memory_update",
+      "name": "aten::cat",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/dense.lse.gru",
+      "name": "aten::gru_cell",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/dense.lse.gru",
+      "name": "aten::t",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/dense.lse.gru",
+      "name": "aten::transpose",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/dense.lse.gru",
+      "name": "aten::as_strided",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/dense.lse.gru",
+      "name": "aten::matmul",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/dense.lse.gru",
+      "name": "aten::mm",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/dense.lse.gru",
+      "name": "aten::_thnn_fused_gru_cell",
+      "count": 1
+    },
+    {
+      "owner": "memory_update/dense.lse.gru",
+      "name": "aten::empty",
+      "count": 2
+    },
+    {
+      "owner": "memory_update/dense.lse.gru",
+      "name": "aten::empty_like",
+      "count": 1
+    },
+    {
+      "owner": "memory_update",
+      "name": "aten::detach",
+      "count": 2
+    },
+    {
+      "owner": "memory_update",
+      "name": "detach",
+      "count": 2
+    },
+    {
+      "owner": "memory_update",
+      "name": "aten::index_put_",
+      "count": 3
+    },
+    {
+      "owner": "memory_update",
+      "name": "aten::_index_put_impl_",
+      "count": 3
+    },
+    {
+      "owner": "memory_update",
+      "name": "aten::reshape",
+      "count": 4
+    },
+    {
+      "owner": "memory_update",
+      "name": "aten::view",
+      "count": 4
+    },
+    {
+      "owner": "memory_update",
+      "name": "aten::index",
+      "count": 1
+    },
+    {
+      "owner": "memory_update",
+      "name": "aten::clone",
+      "count": 1
+    },
+    {
+      "owner": "memory_update",
+      "name": "aten::empty_strided",
+      "count": 2
+    },
+    {
+      "owner": "memory_update",
+      "name": "aten::copy_",
+      "count": 2
+    },
+    {
+      "owner": "memory_update",
+      "name": "aten::_to_copy",
+      "count": 1
+    },
+    {
+      "owner": "node_features",
+      "name": "aten::index",
+      "count": 1
+    },
+    {
+      "owner": "node_features",
+      "name": "aten::as_strided",
+      "count": 1
+    },
+    {
+      "owner": "node_features",
+      "name": "aten::reshape",
+      "count": 1
+    },
+    {
+      "owner": "node_features",
+      "name": "aten::view",
+      "count": 1
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::to",
+      "count": 4
+    },
+    {
+      "owner": "embedding",
+      "name": "FusedGatherEncode",
+      "count": 1
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::detach",
+      "count": 4
+    },
+    {
+      "owner": "embedding",
+      "name": "detach",
+      "count": 4
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::squeeze",
+      "count": 2
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::as_strided",
+      "count": 16
+    },
+    {
+      "owner": "embedding/cuda.fused_gather_encode_v2",
+      "name": "aten::empty",
+      "count": 2
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::slice",
+      "count": 7
+    },
+    {
+      "owner": "embedding/dense.tce.layer1.W_q",
+      "name": "aten::linear",
+      "count": 1
+    },
+    {
+      "owner": "embedding/dense.tce.layer1.W_q",
+      "name": "aten::t",
+      "count": 1
+    },
+    {
+      "owner": "embedding/dense.tce.layer1.W_q",
+      "name": "aten::transpose",
+      "count": 1
+    },
+    {
+      "owner": "embedding/dense.tce.layer1.W_q",
+      "name": "aten::as_strided",
+      "count": 1
+    },
+    {
+      "owner": "embedding/dense.tce.layer1.W_q",
+      "name": "aten::addmm",
+      "count": 1
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::ge",
+      "count": 2
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::reshape",
+      "count": 6
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::view",
+      "count": 11
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::_to_copy",
+      "count": 2
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::empty_strided",
+      "count": 2
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::copy_",
+      "count": 6
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::mean",
+      "count": 2
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::item",
+      "count": 2
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::_local_scalar_dense",
+      "count": 2
+    },
+    {
+      "owner": "embedding/dense.tce.layer1.W_kv",
+      "name": "aten::linear",
+      "count": 1
+    },
+    {
+      "owner": "embedding/dense.tce.layer1.W_kv",
+      "name": "aten::t",
+      "count": 1
+    },
+    {
+      "owner": "embedding/dense.tce.layer1.W_kv",
+      "name": "aten::transpose",
+      "count": 1
+    },
+    {
+      "owner": "embedding/dense.tce.layer1.W_kv",
+      "name": "aten::as_strided",
+      "count": 1
+    },
+    {
+      "owner": "embedding/dense.tce.layer1.W_kv",
+      "name": "aten::addmm",
+      "count": 1
+    },
+    {
+      "owner": "embedding",
+      "name": "FusedDenseAttention",
+      "count": 2
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::contiguous",
+      "count": 4
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::clone",
+      "count": 4
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::empty_like",
+      "count": 4
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::empty",
+      "count": 11
+    },
+    {
+      "owner": "embedding/cuda.fused_mh_attn_forward",
+      "name": "aten::empty",
+      "count": 4
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::cat",
+      "count": 2
+    },
+    {
+      "owner": "embedding/dense.tce.layer1.W_out",
+      "name": "aten::linear",
+      "count": 1
+    },
+    {
+      "owner": "embedding/dense.tce.layer1.W_out",
+      "name": "aten::t",
+      "count": 1
+    },
+    {
+      "owner": "embedding/dense.tce.layer1.W_out",
+      "name": "aten::transpose",
+      "count": 1
+    },
+    {
+      "owner": "embedding/dense.tce.layer1.W_out",
+      "name": "aten::as_strided",
+      "count": 1
+    },
+    {
+      "owner": "embedding/dense.tce.layer1.W_out",
+      "name": "aten::addmm",
+      "count": 1
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::relu",
+      "count": 2
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::clamp_min",
+      "count": 2
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::layer_norm",
+      "count": 2
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::native_layer_norm",
+      "count": 2
+    },
+    {
+      "owner": "embedding",
+      "name": "DedupInverseGather",
+      "count": 1
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::index",
+      "count": 2
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::zeros",
+      "count": 1
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::zero_",
+      "count": 1
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::fill_",
+      "count": 1
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::index_put_",
+      "count": 1
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::_index_put_impl_",
+      "count": 1
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::nonzero",
+      "count": 1
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::resize_",
+      "count": 1
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::t",
+      "count": 1
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::transpose",
+      "count": 1
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::set_",
+      "count": 1
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::select",
+      "count": 1
+    },
+    {
+      "owner": "embedding",
+      "name": "FusedL0GatherEncode",
+      "count": 1
+    },
+    {
+      "owner": "embedding/cuda.fused_l0_gather_encode",
+      "name": "aten::empty",
+      "count": 2
+    },
+    {
+      "owner": "embedding/dense.tce.layer2.W_q",
+      "name": "aten::linear",
+      "count": 1
+    },
+    {
+      "owner": "embedding/dense.tce.layer2.W_q",
+      "name": "aten::t",
+      "count": 1
+    },
+    {
+      "owner": "embedding/dense.tce.layer2.W_q",
+      "name": "aten::transpose",
+      "count": 1
+    },
+    {
+      "owner": "embedding/dense.tce.layer2.W_q",
+      "name": "aten::as_strided",
+      "count": 1
+    },
+    {
+      "owner": "embedding/dense.tce.layer2.W_q",
+      "name": "aten::addmm",
+      "count": 1
+    },
+    {
+      "owner": "embedding/dense.tce.layer2.W_kv",
+      "name": "aten::linear",
+      "count": 1
+    },
+    {
+      "owner": "embedding/dense.tce.layer2.W_kv",
+      "name": "aten::t",
+      "count": 1
+    },
+    {
+      "owner": "embedding/dense.tce.layer2.W_kv",
+      "name": "aten::transpose",
+      "count": 1
+    },
+    {
+      "owner": "embedding/dense.tce.layer2.W_kv",
+      "name": "aten::as_strided",
+      "count": 1
+    },
+    {
+      "owner": "embedding/dense.tce.layer2.W_kv",
+      "name": "aten::addmm",
+      "count": 1
+    },
+    {
+      "owner": "embedding/dense.tce.layer2.W_out",
+      "name": "aten::linear",
+      "count": 1
+    },
+    {
+      "owner": "embedding/dense.tce.layer2.W_out",
+      "name": "aten::t",
+      "count": 1
+    },
+    {
+      "owner": "embedding/dense.tce.layer2.W_out",
+      "name": "aten::transpose",
+      "count": 1
+    },
+    {
+      "owner": "embedding/dense.tce.layer2.W_out",
+      "name": "aten::as_strided",
+      "count": 1
+    },
+    {
+      "owner": "embedding/dense.tce.layer2.W_out",
+      "name": "aten::addmm",
+      "count": 1
+    },
+    {
+      "owner": "training_step",
+      "name": "aten::slice",
+      "count": 3
+    },
+    {
+      "owner": "training_step",
+      "name": "aten::as_strided",
+      "count": 3
+    },
+    {
+      "owner": "predictor/dense.edge_predictor.src_fc",
+      "name": "aten::linear",
+      "count": 2
+    },
+    {
+      "owner": "predictor/dense.edge_predictor.src_fc",
+      "name": "aten::t",
+      "count": 2
+    },
+    {
+      "owner": "predictor/dense.edge_predictor.src_fc",
+      "name": "aten::transpose",
+      "count": 2
+    },
+    {
+      "owner": "predictor/dense.edge_predictor.src_fc",
+      "name": "aten::as_strided",
+      "count": 2
+    },
+    {
+      "owner": "predictor/dense.edge_predictor.src_fc",
+      "name": "aten::addmm",
+      "count": 2
+    },
+    {
+      "owner": "predictor/dense.edge_predictor.dst_fc",
+      "name": "aten::linear",
+      "count": 2
+    },
+    {
+      "owner": "predictor/dense.edge_predictor.dst_fc",
+      "name": "aten::t",
+      "count": 2
+    },
+    {
+      "owner": "predictor/dense.edge_predictor.dst_fc",
+      "name": "aten::transpose",
+      "count": 2
+    },
+    {
+      "owner": "predictor/dense.edge_predictor.dst_fc",
+      "name": "aten::as_strided",
+      "count": 2
+    },
+    {
+      "owner": "predictor/dense.edge_predictor.dst_fc",
+      "name": "aten::addmm",
+      "count": 2
+    },
+    {
+      "owner": "predictor",
+      "name": "aten::add",
+      "count": 2
+    },
+    {
+      "owner": "predictor",
+      "name": "aten::relu",
+      "count": 2
+    },
+    {
+      "owner": "predictor",
+      "name": "aten::clamp_min",
+      "count": 2
+    },
+    {
+      "owner": "predictor/dense.edge_predictor.out_fc",
+      "name": "aten::linear",
+      "count": 2
+    },
+    {
+      "owner": "predictor/dense.edge_predictor.out_fc",
+      "name": "aten::t",
+      "count": 2
+    },
+    {
+      "owner": "predictor/dense.edge_predictor.out_fc",
+      "name": "aten::transpose",
+      "count": 2
+    },
+    {
+      "owner": "predictor/dense.edge_predictor.out_fc",
+      "name": "aten::as_strided",
+      "count": 4
+    },
+    {
+      "owner": "predictor/dense.edge_predictor.out_fc",
+      "name": "aten::addmm",
+      "count": 2
+    },
+    {
+      "owner": "predictor/dense.edge_predictor.out_fc",
+      "name": "aten::expand",
+      "count": 2
+    },
+    {
+      "owner": "predictor",
+      "name": "aten::squeeze",
+      "count": 2
+    },
+    {
+      "owner": "predictor",
+      "name": "aten::as_strided",
+      "count": 2
+    },
+    {
+      "owner": "training_step",
+      "name": "aten::ones_like",
+      "count": 1
+    },
+    {
+      "owner": "training_step",
+      "name": "aten::empty_like",
+      "count": 2
+    },
+    {
+      "owner": "training_step",
+      "name": "aten::empty_strided",
+      "count": 2
+    },
+    {
+      "owner": "training_step",
+      "name": "aten::fill_",
+      "count": 2
+    },
+    {
+      "owner": "loss",
+      "name": "aten::binary_cross_entropy_with_logits",
+      "count": 2
+    },
+    {
+      "owner": "loss",
+      "name": "aten::log_sigmoid",
+      "count": 2
+    },
+    {
+      "owner": "loss",
+      "name": "aten::log_sigmoid_forward",
+      "count": 2
+    },
+    {
+      "owner": "loss",
+      "name": "aten::empty_like",
+      "count": 4
+    },
+    {
+      "owner": "loss",
+      "name": "aten::empty_strided",
+      "count": 4
+    },
+    {
+      "owner": "loss",
+      "name": "aten::empty",
+      "count": 2
+    },
+    {
+      "owner": "loss",
+      "name": "aten::fill_",
+      "count": 2
+    },
+    {
+      "owner": "loss",
+      "name": "aten::sub_",
+      "count": 4
+    },
+    {
+      "owner": "loss",
+      "name": "aten::mul_",
+      "count": 2
+    },
+    {
+      "owner": "loss",
+      "name": "aten::mean",
+      "count": 2
+    },
+    {
+      "owner": "loss",
+      "name": "aten::as_strided",
+      "count": 2
+    },
+    {
+      "owner": "training_step",
+      "name": "aten::zeros_like",
+      "count": 1
+    },
+    {
+      "owner": "training_step",
+      "name": "aten::zero_",
+      "count": 1
+    },
+    {
+      "owner": "training_step",
+      "name": "aten::add",
+      "count": 1
+    },
+    {
+      "owner": "backward",
+      "name": "aten::ones_like",
+      "count": 1
+    },
+    {
+      "owner": "backward",
+      "name": "aten::empty_like",
+      "count": 1
+    },
+    {
+      "owner": "backward",
+      "name": "aten::empty_strided",
+      "count": 1
+    },
+    {
+      "owner": "backward",
+      "name": "aten::fill_",
+      "count": 1
+    },
+    {
+      "owner": "backward/unassigned",
+      "name": "autograd::engine::evaluate_function: AddBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/unassigned",
+      "name": "AddBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/loss",
+      "name": "autograd::engine::evaluate_function: BinaryCrossEntropyWithLogitsBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/loss",
+      "name": "BinaryCrossEntropyWithLogitsBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/loss",
+      "name": "aten::sigmoid",
+      "count": 2
+    },
+    {
+      "owner": "backward/loss",
+      "name": "aten::sub_",
+      "count": 2
+    },
+    {
+      "owner": "backward/loss",
+      "name": "aten::mul_",
+      "count": 2
+    },
+    {
+      "owner": "backward/loss",
+      "name": "aten::div_",
+      "count": 2
+    },
+    {
+      "owner": "backward/predictor",
+      "name": "autograd::engine::evaluate_function: SqueezeBackward1",
+      "count": 2
+    },
+    {
+      "owner": "backward/predictor",
+      "name": "SqueezeBackward1",
+      "count": 2
+    },
+    {
+      "owner": "backward/predictor",
+      "name": "aten::unsqueeze",
+      "count": 2
+    },
+    {
+      "owner": "backward/predictor",
+      "name": "aten::as_strided",
+      "count": 2
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.out_fc",
+      "name": "autograd::engine::evaluate_function: AddmmBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.out_fc",
+      "name": "AddmmBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.out_fc",
+      "name": "aten::t",
+      "count": 8
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.out_fc",
+      "name": "aten::transpose",
+      "count": 8
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.out_fc",
+      "name": "aten::as_strided",
+      "count": 8
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.out_fc",
+      "name": "aten::mm",
+      "count": 4
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.out_fc",
+      "name": "aten::sum",
+      "count": 2
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.out_fc",
+      "name": "aten::view",
+      "count": 2
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.out_fc",
+      "name": "autograd::engine::evaluate_function: TBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.out_fc",
+      "name": "TBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/predictor",
+      "name": "autograd::engine::evaluate_function: ReluBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/predictor",
+      "name": "ReluBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/predictor",
+      "name": "aten::threshold_backward",
+      "count": 2
+    },
+    {
+      "owner": "backward/predictor",
+      "name": "autograd::engine::evaluate_function: AddBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/predictor",
+      "name": "AddBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.dst_fc",
+      "name": "autograd::engine::evaluate_function: AddmmBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.dst_fc",
+      "name": "AddmmBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.dst_fc",
+      "name": "aten::t",
+      "count": 8
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.dst_fc",
+      "name": "aten::transpose",
+      "count": 8
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.dst_fc",
+      "name": "aten::as_strided",
+      "count": 8
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.dst_fc",
+      "name": "aten::mm",
+      "count": 4
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.dst_fc",
+      "name": "aten::sum",
+      "count": 2
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.dst_fc",
+      "name": "aten::view",
+      "count": 2
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.dst_fc",
+      "name": "autograd::engine::evaluate_function: TBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.dst_fc",
+      "name": "TBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.src_fc",
+      "name": "autograd::engine::evaluate_function: AddmmBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.src_fc",
+      "name": "AddmmBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.src_fc",
+      "name": "aten::t",
+      "count": 8
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.src_fc",
+      "name": "aten::transpose",
+      "count": 8
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.src_fc",
+      "name": "aten::as_strided",
+      "count": 8
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.src_fc",
+      "name": "aten::mm",
+      "count": 4
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.src_fc",
+      "name": "aten::sum",
+      "count": 2
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.src_fc",
+      "name": "aten::view",
+      "count": 2
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.src_fc",
+      "name": "autograd::engine::evaluate_function: TBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.src_fc",
+      "name": "TBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.out_fc",
+      "name": "aten::add",
+      "count": 2
+    },
+    {
+      "owner": "backward/leaf_or_unsequenced",
+      "name": "autograd::engine::evaluate_function: torch::autograd::AccumulateGrad",
+      "count": 32
+    },
+    {
+      "owner": "backward/leaf_or_unsequenced",
+      "name": "torch::autograd::AccumulateGrad",
+      "count": 32
+    },
+    {
+      "owner": "backward/leaf_or_unsequenced",
+      "name": "aten::detach",
+      "count": 32
+    },
+    {
+      "owner": "backward/leaf_or_unsequenced",
+      "name": "detach",
+      "count": 32
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.dst_fc",
+      "name": "aten::add",
+      "count": 2
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.src_fc",
+      "name": "aten::add",
+      "count": 2
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.src_fc",
+      "name": "aten::add_",
+      "count": 1
+    },
+    {
+      "owner": "backward/unassigned",
+      "name": "autograd::engine::evaluate_function: SliceBackward0",
+      "count": 3
+    },
+    {
+      "owner": "backward/unassigned",
+      "name": "SliceBackward0",
+      "count": 3
+    },
+    {
+      "owner": "backward/unassigned",
+      "name": "aten::slice_backward",
+      "count": 3
+    },
+    {
+      "owner": "backward/unassigned",
+      "name": "aten::zeros",
+      "count": 3
+    },
+    {
+      "owner": "backward/unassigned",
+      "name": "aten::empty",
+      "count": 3
+    },
+    {
+      "owner": "backward/unassigned",
+      "name": "aten::zero_",
+      "count": 3
+    },
+    {
+      "owner": "backward/unassigned",
+      "name": "aten::fill_",
+      "count": 3
+    },
+    {
+      "owner": "backward/unassigned",
+      "name": "aten::slice",
+      "count": 3
+    },
+    {
+      "owner": "backward/unassigned",
+      "name": "aten::as_strided",
+      "count": 3
+    },
+    {
+      "owner": "backward/unassigned",
+      "name": "aten::copy_",
+      "count": 3
+    },
+    {
+      "owner": "backward/unassigned",
+      "name": "aten::add_",
+      "count": 2
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "autograd::engine::evaluate_function: NativeLayerNormBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "NativeLayerNormBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "aten::native_layer_norm_backward",
+      "count": 2
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "aten::empty",
+      "count": 23
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "autograd::engine::evaluate_function: ReluBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "ReluBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "aten::threshold_backward",
+      "count": 2
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer2.W_out",
+      "name": "autograd::engine::evaluate_function: AddmmBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer2.W_out",
+      "name": "AddmmBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer2.W_out",
+      "name": "aten::t",
+      "count": 4
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer2.W_out",
+      "name": "aten::transpose",
+      "count": 4
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer2.W_out",
+      "name": "aten::as_strided",
+      "count": 4
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer2.W_out",
+      "name": "aten::mm",
+      "count": 2
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer2.W_out",
+      "name": "aten::sum",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer2.W_out",
+      "name": "aten::view",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer2.W_out",
+      "name": "autograd::engine::evaluate_function: TBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer2.W_out",
+      "name": "TBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "autograd::engine::evaluate_function: CatBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "CatBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "aten::narrow",
+      "count": 4
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "aten::slice",
+      "count": 7
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "aten::as_strided",
+      "count": 14
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "autograd::engine::evaluate_function: FusedDenseAttentionBackward",
+      "count": 2
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "FusedDenseAttentionBackward",
+      "count": 2
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "aten::contiguous",
+      "count": 2
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "aten::clone",
+      "count": 3
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "aten::empty_like",
+      "count": 2
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "aten::copy_",
+      "count": 4
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer2.W_kv",
+      "name": "autograd::engine::evaluate_function: AddmmBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer2.W_kv",
+      "name": "AddmmBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer2.W_kv",
+      "name": "aten::t",
+      "count": 4
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer2.W_kv",
+      "name": "aten::transpose",
+      "count": 4
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer2.W_kv",
+      "name": "aten::as_strided",
+      "count": 4
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer2.W_kv",
+      "name": "aten::mm",
+      "count": 2
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer2.W_kv",
+      "name": "aten::sum",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer2.W_kv",
+      "name": "aten::view",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer2.W_kv",
+      "name": "autograd::engine::evaluate_function: TBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer2.W_kv",
+      "name": "TBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer2.W_q",
+      "name": "autograd::engine::evaluate_function: AddmmBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer2.W_q",
+      "name": "AddmmBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer2.W_q",
+      "name": "aten::t",
+      "count": 4
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer2.W_q",
+      "name": "aten::transpose",
+      "count": 4
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer2.W_q",
+      "name": "aten::as_strided",
+      "count": 4
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer2.W_q",
+      "name": "aten::mm",
+      "count": 2
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer2.W_q",
+      "name": "aten::sum",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer2.W_q",
+      "name": "aten::view",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer2.W_q",
+      "name": "autograd::engine::evaluate_function: TBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer2.W_q",
+      "name": "TBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "autograd::engine::evaluate_function: FusedL0GatherEncodeBackward",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "FusedL0GatherEncodeBackward",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "aten::detach",
+      "count": 4
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "detach",
+      "count": 4
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "aten::squeeze",
+      "count": 2
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "aten::zeros",
+      "count": 7
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "aten::zero_",
+      "count": 7
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "aten::fill_",
+      "count": 7
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "aten::view",
+      "count": 3
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "aten::unsqueeze",
+      "count": 2
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "aten::add",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "autograd::engine::evaluate_function: DedupInverseGatherBackward",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "DedupInverseGatherBackward",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "aten::index",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "aten::nonzero",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "aten::resize_",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "aten::t",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "aten::transpose",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "aten::set_",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "aten::select",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "aten::reshape",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer1.W_out",
+      "name": "autograd::engine::evaluate_function: AddmmBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer1.W_out",
+      "name": "AddmmBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer1.W_out",
+      "name": "aten::t",
+      "count": 4
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer1.W_out",
+      "name": "aten::transpose",
+      "count": 4
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer1.W_out",
+      "name": "aten::as_strided",
+      "count": 4
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer1.W_out",
+      "name": "aten::mm",
+      "count": 2
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer1.W_out",
+      "name": "aten::sum",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer1.W_out",
+      "name": "aten::view",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer1.W_out",
+      "name": "autograd::engine::evaluate_function: TBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer1.W_out",
+      "name": "TBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer1.W_kv",
+      "name": "autograd::engine::evaluate_function: AddmmBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer1.W_kv",
+      "name": "AddmmBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer1.W_kv",
+      "name": "aten::t",
+      "count": 4
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer1.W_kv",
+      "name": "aten::transpose",
+      "count": 4
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer1.W_kv",
+      "name": "aten::as_strided",
+      "count": 4
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer1.W_kv",
+      "name": "aten::mm",
+      "count": 2
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer1.W_kv",
+      "name": "aten::sum",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer1.W_kv",
+      "name": "aten::view",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer1.W_kv",
+      "name": "autograd::engine::evaluate_function: TBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer1.W_kv",
+      "name": "TBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer1.W_q",
+      "name": "autograd::engine::evaluate_function: AddmmBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer1.W_q",
+      "name": "AddmmBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer1.W_q",
+      "name": "aten::t",
+      "count": 4
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer1.W_q",
+      "name": "aten::transpose",
+      "count": 4
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer1.W_q",
+      "name": "aten::as_strided",
+      "count": 4
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer1.W_q",
+      "name": "aten::mm",
+      "count": 2
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer1.W_q",
+      "name": "aten::sum",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer1.W_q",
+      "name": "aten::view",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer1.W_q",
+      "name": "autograd::engine::evaluate_function: TBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer1.W_q",
+      "name": "TBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "autograd::engine::evaluate_function: SliceBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "SliceBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "aten::slice_backward",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "aten::add_",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "autograd::engine::evaluate_function: FusedGatherEncodeBackward",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "FusedGatherEncodeBackward",
+      "count": 1
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "aten::empty_strided",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_update",
+      "name": "autograd::engine::evaluate_function: IndexPutBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_update",
+      "name": "IndexPutBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_update",
+      "name": "aten::index",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_update",
+      "name": "aten::as_strided",
+      "count": 3
+    },
+    {
+      "owner": "backward/memory_update",
+      "name": "aten::reshape",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_update",
+      "name": "aten::view",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_update/dense.lse.gru",
+      "name": "autograd::engine::evaluate_function: ThnnFusedGruCellBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_update/dense.lse.gru",
+      "name": "ThnnFusedGruCellBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_update/dense.lse.gru",
+      "name": "aten::_thnn_fused_gru_cell_backward",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_update/dense.lse.gru",
+      "name": "aten::empty",
+      "count": 3
+    },
+    {
+      "owner": "backward/memory_update/dense.lse.gru",
+      "name": "aten::empty_like",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_update/dense.lse.gru",
+      "name": "aten::sum",
+      "count": 2
+    },
+    {
+      "owner": "backward/memory_update/dense.lse.gru",
+      "name": "aten::as_strided",
+      "count": 9
+    },
+    {
+      "owner": "backward/memory_update/dense.lse.gru",
+      "name": "autograd::engine::evaluate_function: MmBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/memory_update/dense.lse.gru",
+      "name": "MmBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/memory_update/dense.lse.gru",
+      "name": "aten::t",
+      "count": 7
+    },
+    {
+      "owner": "backward/memory_update/dense.lse.gru",
+      "name": "aten::transpose",
+      "count": 7
+    },
+    {
+      "owner": "backward/memory_update/dense.lse.gru",
+      "name": "aten::mm",
+      "count": 3
+    },
+    {
+      "owner": "backward/memory_update/dense.lse.gru",
+      "name": "autograd::engine::evaluate_function: TBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/memory_update/dense.lse.gru",
+      "name": "TBackward0",
+      "count": 2
+    },
+    {
+      "owner": "backward/memory_update",
+      "name": "autograd::engine::evaluate_function: CatBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_update",
+      "name": "CatBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_update",
+      "name": "aten::narrow",
+      "count": 2
+    },
+    {
+      "owner": "backward/memory_update",
+      "name": "aten::slice",
+      "count": 2
+    },
+    {
+      "owner": "backward/memory_update",
+      "name": "autograd::engine::evaluate_function: CosBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_update",
+      "name": "CosBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_update",
+      "name": "aten::sin",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_update",
+      "name": "aten::neg",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_update",
+      "name": "aten::mul",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_update/dense.lse.mem_time_encode.w",
+      "name": "autograd::engine::evaluate_function: AddmmBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_update/dense.lse.mem_time_encode.w",
+      "name": "AddmmBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_update/dense.lse.mem_time_encode.w",
+      "name": "aten::t",
+      "count": 3
+    },
+    {
+      "owner": "backward/memory_update/dense.lse.mem_time_encode.w",
+      "name": "aten::transpose",
+      "count": 3
+    },
+    {
+      "owner": "backward/memory_update/dense.lse.mem_time_encode.w",
+      "name": "aten::as_strided",
+      "count": 3
+    },
+    {
+      "owner": "backward/memory_update/dense.lse.mem_time_encode.w",
+      "name": "aten::mm",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_update/dense.lse.mem_time_encode.w",
+      "name": "aten::sum",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_update/dense.lse.mem_time_encode.w",
+      "name": "aten::view",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_update/dense.lse.mem_time_encode.w",
+      "name": "autograd::engine::evaluate_function: TBackward0",
+      "count": 1
+    },
+    {
+      "owner": "backward/memory_update/dense.lse.mem_time_encode.w",
+      "name": "TBackward0",
+      "count": 1
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::empty",
+      "count": 1
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::to",
+      "count": 1
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::lift_fresh",
+      "count": 1
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::detach_",
+      "count": 1
+    },
+    {
+      "owner": "optimizer",
+      "name": "detach_",
+      "count": 1
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::_foreach_add_",
+      "count": 2
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::add_",
+      "count": 32
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::_foreach_lerp_",
+      "count": 1
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::_foreach_mul_",
+      "count": 1
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::_foreach_addcmul_",
+      "count": 1
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::item",
+      "count": 64
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::_local_scalar_dense",
+      "count": 64
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::_foreach_sqrt",
+      "count": 1
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::empty_strided",
+      "count": 32
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::_foreach_div_",
+      "count": 1
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::_foreach_addcdiv_",
+      "count": 1
+    },
+    {
+      "owner": "training_step",
+      "name": "aten::detach",
+      "count": 1
+    },
+    {
+      "owner": "training_step",
+      "name": "detach",
+      "count": 1
+    },
+    {
+      "owner": "training_step",
+      "name": "aten::item",
+      "count": 1
+    },
+    {
+      "owner": "training_step",
+      "name": "aten::_local_scalar_dense",
+      "count": 1
+    },
+    {
+      "owner": "mailbox_write",
+      "name": "aten::index",
+      "count": 3
+    },
+    {
+      "owner": "mailbox_write",
+      "name": "aten::as_strided",
+      "count": 5
+    },
+    {
+      "owner": "mailbox_write",
+      "name": "aten::reshape",
+      "count": 5
+    },
+    {
+      "owner": "mailbox_write",
+      "name": "aten::view",
+      "count": 5
+    },
+    {
+      "owner": "mailbox_write",
+      "name": "aten::arange",
+      "count": 2
+    },
+    {
+      "owner": "mailbox_write",
+      "name": "aten::empty",
+      "count": 1
+    },
+    {
+      "owner": "mailbox_write",
+      "name": "aten::resize_",
+      "count": 1
+    },
+    {
+      "owner": "mailbox_write",
+      "name": "aten::cat",
+      "count": 5
+    },
+    {
+      "owner": "mailbox_write",
+      "name": "aten::index_put_",
+      "count": 2
+    },
+    {
+      "owner": "mailbox_write",
+      "name": "aten::_index_put_impl_",
+      "count": 2
+    }
+  ],
+  "top_gpu_operations": [
+    {
+      "owner": "backward/embedding/dense.tce.layer1.W_kv",
+      "name": "aten::mm",
+      "count": 3,
+      "duration_us": 711.238
+    },
+    {
+      "owner": "embedding/dense.tce.layer1.W_kv",
+      "name": "aten::addmm",
+      "count": 1,
+      "duration_us": 449.285
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "FusedDenseAttentionBackward",
+      "count": 2,
+      "duration_us": 223.81099999999998
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::copy_",
+      "count": 6,
+      "duration_us": 191.65099999999998
+    },
+    {
+      "owner": "embedding",
+      "name": "FusedGatherEncode",
+      "count": 1,
+      "duration_us": 145.442
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer2.W_kv",
+      "name": "aten::mm",
+      "count": 3,
+      "duration_us": 139.04200000000003
+    },
+    {
+      "owner": "embedding",
+      "name": "FusedDenseAttention",
+      "count": 2,
+      "duration_us": 118.402
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "FusedGatherEncodeBackward",
+      "count": 1,
+      "duration_us": 118.369
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer1.W_kv",
+      "name": "aten::sum",
+      "count": 2,
+      "duration_us": 116.80099999999999
+    },
+    {
+      "owner": "embedding/dense.tce.layer2.W_kv",
+      "name": "aten::addmm",
+      "count": 1,
+      "duration_us": 96.033
+    },
+    {
+      "owner": "backward/memory_update/dense.lse.gru",
+      "name": "aten::mm",
+      "count": 4,
+      "duration_us": 75.554
+    },
+    {
+      "owner": "memory_update/dense.lse.gru",
+      "name": "aten::mm",
+      "count": 2,
+      "duration_us": 50.784
+    },
+    {
+      "owner": "embedding",
+      "name": "FusedL0GatherEncode",
+      "count": 1,
+      "duration_us": 41.952
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "aten::native_layer_norm_backward",
+      "count": 4,
+      "duration_us": 39.135000000000005
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "FusedL0GatherEncodeBackward",
+      "count": 1,
+      "duration_us": 29.728
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::_foreach_addcdiv_",
+      "count": 1,
+      "duration_us": 26.337
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer1.W_q",
+      "name": "aten::mm",
+      "count": 3,
+      "duration_us": 25.92
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer1.W_out",
+      "name": "aten::mm",
+      "count": 3,
+      "duration_us": 25.857
+    },
+    {
+      "owner": "embedding/dense.tce.layer1.W_q",
+      "name": "aten::addmm",
+      "count": 1,
+      "duration_us": 20.801
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::_foreach_lerp_",
+      "count": 1,
+      "duration_us": 20.192
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::_foreach_mul_",
+      "count": 1,
+      "duration_us": 18.305
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer2.W_kv",
+      "name": "aten::sum",
+      "count": 2,
+      "duration_us": 18.144000000000002
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.dst_fc",
+      "name": "aten::mm",
+      "count": 4,
+      "duration_us": 17.439
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.src_fc",
+      "name": "aten::mm",
+      "count": 4,
+      "duration_us": 17.024
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::_foreach_div_",
+      "count": 1,
+      "duration_us": 15.712
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer2.W_q",
+      "name": "aten::mm",
+      "count": 2,
+      "duration_us": 14.175999999999998
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "aten::copy_",
+      "count": 4,
+      "duration_us": 14.112
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::_foreach_sqrt",
+      "count": 1,
+      "duration_us": 13.792
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer2.W_out",
+      "name": "aten::mm",
+      "count": 2,
+      "duration_us": 13.791999999999998
+    },
+    {
+      "owner": "backward/memory_update/dense.lse.gru",
+      "name": "aten::sum",
+      "count": 4,
+      "duration_us": 13.600000000000001
+    },
+    {
+      "owner": "embedding/dense.tce.layer1.W_out",
+      "name": "aten::addmm",
+      "count": 1,
+      "duration_us": 13.504
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.dst_fc",
+      "name": "aten::sum",
+      "count": 2,
+      "duration_us": 11.328
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::mean",
+      "count": 2,
+      "duration_us": 10.975000000000001
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::_foreach_addcmul_",
+      "count": 1,
+      "duration_us": 10.656
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::nonzero",
+      "count": 5,
+      "duration_us": 10.496
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::_index_put_impl_",
+      "count": 1,
+      "duration_us": 10.145
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer2.W_out",
+      "name": "aten::sum",
+      "count": 1,
+      "duration_us": 10.016
+    },
+    {
+      "owner": "memory_update/cuda.fused_lse_gather",
+      "name": "scope:memory_update/cuda.fused_lse_gather",
+      "count": 1,
+      "duration_us": 9.761
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer2.W_q",
+      "name": "aten::sum",
+      "count": 1,
+      "duration_us": 9.761
+    },
+    {
+      "owner": "backward/memory_update/dense.lse.gru",
+      "name": "aten::_thnn_fused_gru_cell_backward",
+      "count": 1,
+      "duration_us": 9.536
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "aten::nonzero",
+      "count": 5,
+      "duration_us": 9.375
+    },
+    {
+      "owner": "memory_update",
+      "name": "aten::_index_put_impl_",
+      "count": 3,
+      "duration_us": 9.249
+    },
+    {
+      "owner": "optimizer",
+      "name": "aten::_foreach_add_",
+      "count": 1,
+      "duration_us": 9.248
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.src_fc",
+      "name": "aten::sum",
+      "count": 2,
+      "duration_us": 9.120000000000001
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::native_layer_norm",
+      "count": 2,
+      "duration_us": 9.056000000000001
+    },
+    {
+      "owner": "predictor/dense.edge_predictor.src_fc",
+      "name": "aten::addmm",
+      "count": 2,
+      "duration_us": 9.056000000000001
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "aten::fill_",
+      "count": 7,
+      "duration_us": 8.961
+    },
+    {
+      "owner": "predictor/dense.edge_predictor.dst_fc",
+      "name": "aten::addmm",
+      "count": 2,
+      "duration_us": 8.833
+    },
+    {
+      "owner": "mailbox_write",
+      "name": "aten::_index_put_impl_",
+      "count": 2,
+      "duration_us": 8.193
+    },
+    {
+      "owner": "memory_update",
+      "name": "aten::copy_",
+      "count": 2,
+      "duration_us": 8.192
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::cat",
+      "count": 2,
+      "duration_us": 8.128
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer1.W_q",
+      "name": "aten::sum",
+      "count": 2,
+      "duration_us": 8.128
+    },
+    {
+      "owner": "backward/embedding/dense.tce.layer1.W_out",
+      "name": "aten::sum",
+      "count": 2,
+      "duration_us": 7.904
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.out_fc",
+      "name": "aten::mm",
+      "count": 4,
+      "duration_us": 7.872
+    },
+    {
+      "owner": "embedding/dense.tce.layer2.W_q",
+      "name": "aten::addmm",
+      "count": 1,
+      "duration_us": 7.68
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::index",
+      "count": 2,
+      "duration_us": 7.4879999999999995
+    },
+    {
+      "owner": "embedding/dense.tce.layer2.W_out",
+      "name": "aten::addmm",
+      "count": 1,
+      "duration_us": 7.392
+    },
+    {
+      "owner": "predictor/dense.edge_predictor.out_fc",
+      "name": "aten::addmm",
+      "count": 4,
+      "duration_us": 7.265000000000001
+    },
+    {
+      "owner": "backward/memory_update/dense.lse.mem_time_encode.w",
+      "name": "aten::sum",
+      "count": 2,
+      "duration_us": 6.720000000000001
+    },
+    {
+      "owner": "memory_update/dense.lse.gru",
+      "name": "aten::_thnn_fused_gru_cell",
+      "count": 1,
+      "duration_us": 5.952
+    },
+    {
+      "owner": "mailbox_write",
+      "name": "aten::cat",
+      "count": 5,
+      "duration_us": 5.952
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "aten::index",
+      "count": 1,
+      "duration_us": 5.889
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "DedupInverseGatherBackward",
+      "count": 1,
+      "duration_us": 5.728
+    },
+    {
+      "owner": "backward/memory_update",
+      "name": "aten::sin",
+      "count": 1,
+      "duration_us": 5.537
+    },
+    {
+      "owner": "mailbox_write",
+      "name": "aten::index",
+      "count": 3,
+      "duration_us": 5.506
+    },
+    {
+      "owner": "backward/memory_update/dense.lse.mem_time_encode.w",
+      "name": "aten::mm",
+      "count": 1,
+      "duration_us": 5.376
+    },
+    {
+      "owner": "memory_update",
+      "name": "aten::cos",
+      "count": 1,
+      "duration_us": 4.576
+    },
+    {
+      "owner": "memory_update/dense.lse.mem_time_encode.w",
+      "name": "aten::addmm",
+      "count": 2,
+      "duration_us": 4.48
+    },
+    {
+      "owner": "loss",
+      "name": "aten::sub_",
+      "count": 4,
+      "duration_us": 4.32
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "aten::add_",
+      "count": 1,
+      "duration_us": 4.16
+    },
+    {
+      "owner": "memory_update",
+      "name": "aten::cat",
+      "count": 1,
+      "duration_us": 4.063
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::fill_",
+      "count": 1,
+      "duration_us": 3.968
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.out_fc",
+      "name": "aten::sum",
+      "count": 2,
+      "duration_us": 3.904
+    },
+    {
+      "owner": "loss",
+      "name": "aten::mean",
+      "count": 2,
+      "duration_us": 3.7119999999999997
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "aten::threshold_backward",
+      "count": 2,
+      "duration_us": 3.5839999999999996
+    },
+    {
+      "owner": "node_features",
+      "name": "aten::index",
+      "count": 1,
+      "duration_us": 3.456
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::clamp_min",
+      "count": 2,
+      "duration_us": 3.136
+    },
+    {
+      "owner": "backward/unassigned",
+      "name": "aten::copy_",
+      "count": 3,
+      "duration_us": 2.9749999999999996
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::ge",
+      "count": 2,
+      "duration_us": 2.9429999999999996
+    },
+    {
+      "owner": "loss",
+      "name": "aten::log_sigmoid_forward",
+      "count": 2,
+      "duration_us": 2.849
+    },
+    {
+      "owner": "backward/loss",
+      "name": "aten::sigmoid",
+      "count": 2,
+      "duration_us": 2.784
+    },
+    {
+      "owner": "backward/loss",
+      "name": "aten::mul_",
+      "count": 2,
+      "duration_us": 2.528
+    },
+    {
+      "owner": "backward/unassigned",
+      "name": "aten::fill_",
+      "count": 3,
+      "duration_us": 2.5269999999999997
+    },
+    {
+      "owner": "backward/embedding",
+      "name": "aten::add",
+      "count": 1,
+      "duration_us": 2.496
+    },
+    {
+      "owner": "loss",
+      "name": "aten::mul_",
+      "count": 2,
+      "duration_us": 2.465
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.out_fc",
+      "name": "aten::add",
+      "count": 2,
+      "duration_us": 2.431
+    },
+    {
+      "owner": "backward/memory_update",
+      "name": "aten::mul",
+      "count": 1,
+      "duration_us": 2.368
+    },
+    {
+      "owner": "backward/unassigned",
+      "name": "aten::add_",
+      "count": 2,
+      "duration_us": 2.3040000000000003
+    },
+    {
+      "owner": "backward/memory_update",
+      "name": "aten::index",
+      "count": 1,
+      "duration_us": 2.304
+    },
+    {
+      "owner": "backward/predictor",
+      "name": "aten::threshold_backward",
+      "count": 2,
+      "duration_us": 2.2720000000000002
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.src_fc",
+      "name": "aten::add",
+      "count": 2,
+      "duration_us": 2.2720000000000002
+    },
+    {
+      "owner": "memory_update",
+      "name": "aten::index",
+      "count": 1,
+      "duration_us": 2.24
+    },
+    {
+      "owner": "backward/loss",
+      "name": "aten::div_",
+      "count": 2,
+      "duration_us": 2.24
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.dst_fc",
+      "name": "aten::add",
+      "count": 2,
+      "duration_us": 2.24
+    },
+    {
+      "owner": "predictor",
+      "name": "aten::add",
+      "count": 2,
+      "duration_us": 2.239
+    },
+    {
+      "owner": "backward/loss",
+      "name": "aten::sub_",
+      "count": 2,
+      "duration_us": 2.176
+    },
+    {
+      "owner": "predictor",
+      "name": "aten::clamp_min",
+      "count": 2,
+      "duration_us": 2.143
+    },
+    {
+      "owner": "loss",
+      "name": "aten::fill_",
+      "count": 2,
+      "duration_us": 1.824
+    },
+    {
+      "owner": "training_step",
+      "name": "aten::fill_",
+      "count": 2,
+      "duration_us": 1.792
+    },
+    {
+      "owner": "backward/memory_update",
+      "name": "aten::neg",
+      "count": 1,
+      "duration_us": 1.505
+    },
+    {
+      "owner": "memory_update",
+      "name": "aten::sub",
+      "count": 1,
+      "duration_us": 1.472
+    },
+    {
+      "owner": "training_step",
+      "name": "aten::add",
+      "count": 1,
+      "duration_us": 1.344
+    },
+    {
+      "owner": "embedding",
+      "name": "aten::_local_scalar_dense",
+      "count": 2,
+      "duration_us": 1.088
+    },
+    {
+      "owner": "backward/predictor/dense.edge_predictor.src_fc",
+      "name": "aten::add_",
+      "count": 1,
+      "duration_us": 1.087
+    },
+    {
+      "owner": "backward",
+      "name": "aten::fill_",
+      "count": 1,
+      "duration_us": 0.896
+    },
+    {
+      "owner": "mailbox_write",
+      "name": "aten::arange",
+      "count": 1,
+      "duration_us": 0.832
+    },
+    {
+      "owner": "training_step",
+      "name": "aten::_local_scalar_dense",
+      "count": 1,
+      "duration_us": 0.64
+    }
+  ]
+}

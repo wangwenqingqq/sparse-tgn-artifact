@@ -1,0 +1,23 @@
+{
+  "start": "2026-09-08T12:23:19.423864+00:00",
+  "gpu": "GPU-16f27f5a-dfcd-48e0-bb39-bebbe4009245",
+  "args": {
+    "run": "smoke_v4",
+    "smoke": true,
+    "dataset": "both",
+    "batch": "both"
+  },
+  "command": [
+    "/home/data/wangxuran/isaacsim6/env/bin/python",
+    "/home/data/wangxuran/tncn_training_profile_20260908/src/profile_training.py",
+    "--output",
+    "/home/data/wangxuran/tncn_training_profile_20260908/output/smoke_v4/artifacts",
+    "--dataset",
+    "both",
+    "--batch",
+    "both",
+    "--smoke"
+  ],
+  "exit_code": 1,
+  "end": "2026-09-08T12:23:32.358739+00:00"
+}

@@ -1,0 +1,5 @@
+2026-09-10T18:47:15Z observed completion of CPU close_remote.py
+exit_code: 1
+Failure at line 25: assert GPU-865ae1f0-780e-d04c-5ec3-4deccea65f82 not in processes_final
+AssertionError
+The v1 manifest had not yet been written. Exact process snapshot was not retained by v1. Original timing after.txt records GPU6 idle and no compute process at timing completion; experiment subprocess and supervisor both exited. No raw numeric or timing artifact was changed.

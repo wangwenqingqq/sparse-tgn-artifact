@@ -1,0 +1,741 @@
+{
+  "cases": [
+    {
+      "case": "college_b200_s20",
+      "checks": [
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1712166
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1708862
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1710144
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1711220
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1716316
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1716345
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1710792
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1709851
+        }
+      ]
+    },
+    {
+      "case": "college_b200_s40",
+      "checks": [
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1724857
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1725147
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1726590
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1728028
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1725879
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1731544
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1728392
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1730862
+        }
+      ]
+    },
+    {
+      "case": "college_b200_s80",
+      "checks": [
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1748717
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1753405
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1756255
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1754686
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1752903
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1754140
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1752377
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1750596
+        }
+      ]
+    },
+    {
+      "case": "college_b32_s128",
+      "checks": [
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1670001
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1667011
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1668629
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1667239
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1670055
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1667275
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1665088
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1669502
+        }
+      ]
+    },
+    {
+      "case": "college_b32_s256",
+      "checks": [
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1680932
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1680140
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1684155
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1681983
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1681395
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1686406
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1680214
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1683221
+        }
+      ]
+    },
+    {
+      "case": "college_b32_s512",
+      "checks": [
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1701872
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1698878
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1706093
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1705301
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1711315
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1708918
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1700120
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 1708723
+        }
+      ]
+    },
+    {
+      "case": "wikipedia_b200_s20",
+      "checks": [
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2211739
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2219686
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2225439
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2227830
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2219189
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2229723
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2228878
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2231227
+        }
+      ]
+    },
+    {
+      "case": "wikipedia_b200_s40",
+      "checks": [
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2256075
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2256995
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2246495
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2271224
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2251728
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2255650
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2260136
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2265827
+        }
+      ]
+    },
+    {
+      "case": "wikipedia_b200_s80",
+      "checks": [
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2293931
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2307022
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2313934
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2310857
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2296974
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2311098
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2309382
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2317671
+        }
+      ]
+    },
+    {
+      "case": "wikipedia_b32_s128",
+      "checks": [
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2125126
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2134955
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2137993
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2130828
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2132249
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2131265
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2129282
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2124105
+        }
+      ]
+    },
+    {
+      "case": "wikipedia_b32_s256",
+      "checks": [
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2142550
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2141966
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2146179
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2143208
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2150629
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2138253
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2140869
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2144485
+        }
+      ]
+    },
+    {
+      "case": "wikipedia_b32_s512",
+      "checks": [
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2158489
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2156505
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2161326
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2157340
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2165762
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2170183
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2160004
+        },
+        {
+          "pass_all": true,
+          "bitwise_equal": true,
+          "failures": [],
+          "different_fields": [],
+          "elements": 2176629
+        }
+      ]
+    }
+  ],
+  "cuda_initialized": false,
+  "passed": 96,
+  "bitwise": 96,
+  "total": 96,
+  "elements": 187803430
+}

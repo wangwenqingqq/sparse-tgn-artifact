@@ -1,0 +1,86 @@
+{
+  "mode": "fm",
+  "seed": 1702,
+  "steps": 1500,
+  "selected_step": 400,
+  "validation_mse": 0.6893894830659536,
+  "parameters": 297828,
+  "seconds": 3.831099961011205,
+  "curve": [
+    {
+      "step": 100,
+      "training_loss": 0.3989489674568176,
+      "validation_mse": 0.7196510416666667
+    },
+    {
+      "step": 200,
+      "training_loss": 0.2884465456008911,
+      "validation_mse": 0.7031378676470589
+    },
+    {
+      "step": 300,
+      "training_loss": 0.24847327172756195,
+      "validation_mse": 0.6975294117647058
+    },
+    {
+      "step": 400,
+      "training_loss": 0.21937769651412964,
+      "validation_mse": 0.6893894830659536
+    },
+    {
+      "step": 500,
+      "training_loss": 0.20633837580680847,
+      "validation_mse": 0.6946141934046346
+    },
+    {
+      "step": 600,
+      "training_loss": 0.1847434639930725,
+      "validation_mse": 0.6989732898841354
+    },
+    {
+      "step": 700,
+      "training_loss": 0.16196107864379883,
+      "validation_mse": 0.7075615251782531
+    },
+    {
+      "step": 800,
+      "training_loss": 0.15970328450202942,
+      "validation_mse": 0.7154706717914439
+    },
+    {
+      "step": 900,
+      "training_loss": 0.14830835163593292,
+      "validation_mse": 0.7190977746212122
+    },
+    {
+      "step": 1000,
+      "training_loss": 0.1443805992603302,
+      "validation_mse": 0.7178221368092692
+    },
+    {
+      "step": 1100,
+      "training_loss": 0.13648949563503265,
+      "validation_mse": 0.7220068933823529
+    },
+    {
+      "step": 1200,
+      "training_loss": 0.12548960745334625,
+      "validation_mse": 0.7196784759358289
+    },
+    {
+      "step": 1300,
+      "training_loss": 0.13183927536010742,
+      "validation_mse": 0.7206614861853833
+    },
+    {
+      "step": 1400,
+      "training_loss": 0.12067781388759613,
+      "validation_mse": 0.7188692624777183
+    },
+    {
+      "step": 1500,
+      "training_loss": 0.11488097906112671,
+      "validation_mse": 0.7235150401069519
+    }
+  ]
+}

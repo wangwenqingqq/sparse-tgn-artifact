@@ -1,0 +1,25 @@
+Traceback (most recent call last):
+  File "/home/data/wangxuran/tncn_training_profile_20260908/src/profile_training.py", line 435, in <module>
+    main()
+  File "/home/data/wangxuran/tncn_training_profile_20260908/src/profile_training.py", line 421, in main
+    r = tr.step(i)
+        ^^^^^^^^^^
+  File "/home/data/wangxuran/tncn_training_profile_20260908/src/profile_training.py", line 223, in step
+    z, last = self.model['memory'](ids)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/data/wangxuran/isaacsim6/env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/data/wangxuran/isaacsim6/env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/data/wangxuran/factor_tgn_sptc_20260902/project/experiments/temporal_tc_20260905_cooccurrence_gate0/sources/TNCN/modules/memory_module.py", line 122, in forward
+    memory, last_update = self._get_updated_memory(n_id)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/data/wangxuran/factor_tgn_sptc_20260902/project/experiments/temporal_tc_20260905_cooccurrence_gate0/sources/TNCN/modules/memory_module.py", line 158, in _get_updated_memory
+    msg_s, t_s, src_s, dst_s = self._compute_msg(
+                               ^^^^^^^^^^^^^^^^^^
+  File "/home/data/wangxuran/factor_tgn_sptc_20260902/project/experiments/temporal_tc_20260905_cooccurrence_gate0/sources/TNCN/modules/memory_module.py", line 204, in _compute_msg
+    t_rel = t - self.last_update[src]
+            ~~^~~~~~~~~~~~~~~~~~~~~~~
+RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!

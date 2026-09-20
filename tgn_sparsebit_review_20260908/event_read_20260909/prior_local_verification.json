@@ -1,0 +1,11 @@
+{
+  "verified_files": {
+    "training_profile": 141,
+    "numeric_diagnosis": 45,
+    "compatible_csr": 34,
+    "memory_profile_20260909": 80,
+    "state_nograd_20260909": 39,
+    "cache_read_oracle_20260909": 47
+  },
+  "mismatches": []
+}

@@ -1,0 +1,37 @@
+{
+  "transferred_files_verified": 420,
+  "primary_source_hash": "e6bc07e5edbf25dc68425ad475cbaf5b72fe477f24e69a134987fc39cfd203b6",
+  "primary_binary_hash": "f57d95b9e8a29c9a5136d77ebf0648fc670f0b9c2f5822a72fa871d0ad92104f",
+  "correctness_files": 350,
+  "q_entries": 2590720,
+  "y_entries": 2510288,
+  "max_error": 0.0,
+  "sanitizers_pass": true,
+  "benchmark_cells": 72,
+  "timing_intervals": 2520,
+  "architecture_static_inventory": {
+    "sm80": {
+      "bmma": 496,
+      "imma": 0,
+      "hmma_sp": 8,
+      "local_loads": 0,
+      "local_stores": 0
+    },
+    "sm89": {
+      "bmma": 496,
+      "imma": 0,
+      "hmma_sp": 8,
+      "local_loads": 0,
+      "local_stores": 0
+    },
+    "sm120a": {
+      "bmma": 0,
+      "imma": 16,
+      "hmma_sp": 8,
+      "local_loads": 0,
+      "local_stores": 0
+    }
+  },
+  "scope": "Synthetic forward layout/consumer validation on RTX PRO 6000; no native BMMA runtime or TNCN training",
+  "gpu_released": true
+}

@@ -1,0 +1,22 @@
+{
+  "start": "2026-09-08T12:38:01.802994+00:00",
+  "gpu": "GPU-16f27f5a-dfcd-48e0-bb39-bebbe4009245",
+  "args": {
+    "run": "timing_recheck_v5",
+    "smoke": false,
+    "dataset": "both",
+    "batch": "both"
+  },
+  "command": [
+    "/home/data/wangxuran/isaacsim6/env/bin/python",
+    "/home/data/wangxuran/tncn_training_profile_20260908/src/timing_recheck.py",
+    "--output",
+    "/home/data/wangxuran/tncn_training_profile_20260908/output/timing_recheck_v5/artifacts",
+    "--dataset",
+    "both",
+    "--batch",
+    "both"
+  ],
+  "exit_code": 0,
+  "end": "2026-09-08T12:40:01.346270+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "start": "2026-09-08T13:31:43.617342+00:00",
+  "gpu": "GPU-16f27f5a-dfcd-48e0-bb39-bebbe4009245",
+  "args": {
+    "run": "qualify_v1",
+    "task": "qualify",
+    "selected": "compatible"
+  },
+  "command": [
+    "/home/data/wangxuran/isaacsim6/env/bin/python",
+    "/home/data/wangxuran/tncn_numeric_diagnosis_20260908/src/diagnose.py",
+    "--output",
+    "/home/data/wangxuran/tncn_numeric_diagnosis_20260908/output/qualify_v1/artifacts",
+    "--task",
+    "qualify",
+    "--selected",
+    "compatible"
+  ],
+  "exit_code": 0,
+  "end": "2026-09-08T13:32:07.210812+00:00"
+}

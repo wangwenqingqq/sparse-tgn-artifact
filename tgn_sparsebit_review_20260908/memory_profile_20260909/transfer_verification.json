@@ -1,0 +1,204 @@
+{
+  "checked": [
+    "CONTRACT.md",
+    "REPRODUCE.md",
+    "analysis/bottleneck.png",
+    "analysis/bottleneck.svg",
+    "analysis/college_b200_s40_batch_store_attribution.json",
+    "analysis/college_b200_s40_direct_attribution.json",
+    "analysis/college_b32_s256_batch_store_attribution.json",
+    "analysis/college_b32_s256_direct_attribution.json",
+    "analysis/findings.json",
+    "analysis/summary.json",
+    "analysis/table.md",
+    "analysis/trace_summary.json",
+    "analysis/wikipedia_b200_s40_batch_store_attribution.json",
+    "analysis/wikipedia_b200_s40_direct_attribution.json",
+    "analysis/wikipedia_b32_s256_batch_store_attribution.json",
+    "analysis/wikipedia_b32_s256_direct_attribution.json",
+    "output/pilot_v1/after.txt",
+    "output/pilot_v1/artifacts/batch_store_check.pt",
+    "output/pilot_v1/artifacts/batch_store_events.json",
+    "output/pilot_v1/artifacts/batch_store_trace.json",
+    "output/pilot_v1/artifacts/direct_check.pt",
+    "output/pilot_v1/artifacts/direct_events.json",
+    "output/pilot_v1/artifacts/direct_trace.json",
+    "output/pilot_v1/before.txt",
+    "output/pilot_v1/run.json",
+    "output/pilot_v1/stderr.log",
+    "output/pilot_v1/stdout.jsonl",
+    "output/profiles_v1/after.txt",
+    "output/profiles_v1/artifacts/college_b200_s40_batch_store_events.json",
+    "output/profiles_v1/artifacts/college_b200_s40_batch_store_trace.json",
+    "output/profiles_v1/artifacts/college_b200_s40_direct_events.json",
+    "output/profiles_v1/artifacts/college_b200_s40_direct_trace.json",
+    "output/profiles_v1/artifacts/college_b32_s256_batch_store_events.json",
+    "output/profiles_v1/artifacts/college_b32_s256_batch_store_trace.json",
+    "output/profiles_v1/artifacts/college_b32_s256_direct_events.json",
+    "output/profiles_v1/artifacts/college_b32_s256_direct_trace.json",
+    "output/profiles_v1/artifacts/wikipedia_b200_s40_batch_store_events.json",
+    "output/profiles_v1/artifacts/wikipedia_b200_s40_batch_store_trace.json",
+    "output/profiles_v1/artifacts/wikipedia_b200_s40_direct_events.json",
+    "output/profiles_v1/artifacts/wikipedia_b200_s40_direct_trace.json",
+    "output/profiles_v1/artifacts/wikipedia_b32_s256_batch_store_events.json",
+    "output/profiles_v1/artifacts/wikipedia_b32_s256_batch_store_trace.json",
+    "output/profiles_v1/artifacts/wikipedia_b32_s256_direct_events.json",
+    "output/profiles_v1/artifacts/wikipedia_b32_s256_direct_trace.json",
+    "output/profiles_v1/before.txt",
+    "output/profiles_v1/run.json",
+    "output/profiles_v1/stderr.log",
+    "output/profiles_v1/stdout.jsonl",
+    "output/qualify_v1/after.txt",
+    "output/qualify_v1/artifacts/qualification.json",
+    "output/qualify_v1/audit.json",
+    "output/qualify_v1/before.txt",
+    "output/qualify_v1/run.json",
+    "output/qualify_v1/stderr.log",
+    "output/qualify_v1/stdout.jsonl",
+    "output/timing_v1/after.txt",
+    "output/timing_v1/before.txt",
+    "output/timing_v1/run.json",
+    "output/timing_v1/stderr.log",
+    "output/timing_v1/stdout.jsonl",
+    "previous_csr.json",
+    "previous_diagnosis.json",
+    "previous_profile.json",
+    "src/CONTRACT.md",
+    "src/analyze.py",
+    "src/analyze_traces.py",
+    "src/analyze_traces_v1.py",
+    "src/close_remote.py",
+    "src/findings.py",
+    "src/fullrun.py",
+    "src/instrument.py",
+    "src/pilot.py",
+    "src/pilot_v1.py",
+    "src/plot.py",
+    "src/supervise.py",
+    "src/verify_raw.py",
+    "\u6027\u80fd\u74f6\u9888.md"
+  ],
+  "mismatches": [],
+  "remote_only": [
+    {
+      "path": "output/qualify_v1/artifacts/college_b200_s20_batch_store_checks.pt",
+      "bytes": 56073079,
+      "sha256": "6ccabab6b8f5546757c2ebc0ad89d95e35a157cf44ea43dca8251df4196949db"
+    },
+    {
+      "path": "output/qualify_v1/artifacts/college_b200_s20_direct_checks.pt",
+      "bytes": 56068369,
+      "sha256": "87118884a3c4964caffa5013362e2b66721329cf42a95fbf3eba75c174af74f9"
+    },
+    {
+      "path": "output/qualify_v1/artifacts/college_b200_s40_batch_store_checks.pt",
+      "bytes": 56705207,
+      "sha256": "175bd6c4e7f889c71d21a5702898f9ca0d4fcceda8bf5e3a78b18f98bbb085ee"
+    },
+    {
+      "path": "output/qualify_v1/artifacts/college_b200_s40_direct_checks.pt",
+      "bytes": 56700497,
+      "sha256": "f4371fcdd4b2b716e2e87ea16e3fbfb5d06af8eda052584fc056aed424581895"
+    },
+    {
+      "path": "output/qualify_v1/artifacts/college_b200_s80_batch_store_checks.pt",
+      "bytes": 57680247,
+      "sha256": "751624b17f6dc46a6eead712d2065d14173343ef492c161e2a6f007588f03f7a"
+    },
+    {
+      "path": "output/qualify_v1/artifacts/college_b200_s80_direct_checks.pt",
+      "bytes": 57675345,
+      "sha256": "80534610de122bae025b49cdd75bb22bd8f2e50d29e577b546f62cb04264fbb9"
+    },
+    {
+      "path": "output/qualify_v1/artifacts/college_b32_s128_batch_store_checks.pt",
+      "bytes": 54523063,
+      "sha256": "e2ecd6a0301f381ea8dfe156d9a82490cbb6ab5148775eb10a92e1b26a81919a"
+    },
+    {
+      "path": "output/qualify_v1/artifacts/college_b32_s128_direct_checks.pt",
+      "bytes": 54518289,
+      "sha256": "205e6c0af3170b658e1d8bf3d53b9e6cef2d25aec39838f62b0dacc8d098b0a3"
+    },
+    {
+      "path": "output/qualify_v1/artifacts/college_b32_s256_batch_store_checks.pt",
+      "bytes": 55096439,
+      "sha256": "c34cc243fed61a3b9d62f84cc5b79339a445cf7910b51df004554f6d5e63f5dd"
+    },
+    {
+      "path": "output/qualify_v1/artifacts/college_b32_s256_direct_checks.pt",
+      "bytes": 55091601,
+      "sha256": "05152fdc7c052a6a3559edac6f56d8bf4ad3fd732cbd74de666c4226c4abb0a7"
+    },
+    {
+      "path": "output/qualify_v1/artifacts/college_b32_s512_batch_store_checks.pt",
+      "bytes": 56024887,
+      "sha256": "7614c894d5bfc9a031f67b58e3f1fb0aea5efc91704971fb19a68188d3cb9849"
+    },
+    {
+      "path": "output/qualify_v1/artifacts/college_b32_s512_direct_checks.pt",
+      "bytes": 56020049,
+      "sha256": "53891de92458695fa4f5d2129eefb6792970b28caa9105ff546964980a50f330"
+    },
+    {
+      "path": "output/qualify_v1/artifacts/wikipedia_b200_s20_batch_store_checks.pt",
+      "bytes": 88039763,
+      "sha256": "f615086ca7c57618dabc83d620cff16361c9756e41cc7c174369830c721393c8"
+    },
+    {
+      "path": "output/qualify_v1/artifacts/wikipedia_b200_s20_direct_checks.pt",
+      "bytes": 88035053,
+      "sha256": "4914a4ed3e0b5e119bacd7c67b4f569a9a2f7b17f1ec43622ec9fe4ec77522d7"
+    },
+    {
+      "path": "output/qualify_v1/artifacts/wikipedia_b200_s40_batch_store_checks.pt",
+      "bytes": 95230483,
+      "sha256": "dc8120798aaaa064f47692e7a656a9f40bd24167a5fd2e603426eafedbb30d84"
+    },
+    {
+      "path": "output/qualify_v1/artifacts/wikipedia_b200_s40_direct_checks.pt",
+      "bytes": 95225773,
+      "sha256": "78809a958666abe01c9c9264ab2263f9b0ff7b1b30253475c4c389150f2ded55"
+    },
+    {
+      "path": "output/qualify_v1/artifacts/wikipedia_b200_s80_batch_store_checks.pt",
+      "bytes": 104288851,
+      "sha256": "ef794dbb3419de90ae7656b472a36c55d849e919b9c5e68d674fdafcdba6e21e"
+    },
+    {
+      "path": "output/qualify_v1/artifacts/wikipedia_b200_s80_direct_checks.pt",
+      "bytes": 104284141,
+      "sha256": "c53a944844107767306780ff22d2f50b926ff7280d77814c90c66182032482bd"
+    },
+    {
+      "path": "output/qualify_v1/artifacts/wikipedia_b32_s128_batch_store_checks.pt",
+      "bytes": 79086611,
+      "sha256": "1f9951da74d7cfdda0d677288cdaa372bb95b999f1b389e741f816b23721527d"
+    },
+    {
+      "path": "output/qualify_v1/artifacts/wikipedia_b32_s128_direct_checks.pt",
+      "bytes": 79081901,
+      "sha256": "937b91312df671f69662442409251093a14d6268cccd28a8c8ba6443fa10cf11"
+    },
+    {
+      "path": "output/qualify_v1/artifacts/wikipedia_b32_s256_batch_store_checks.pt",
+      "bytes": 83508883,
+      "sha256": "e7717b338534e836705b7778d8adf335cb678224649fbfde710351d07b7c3fb4"
+    },
+    {
+      "path": "output/qualify_v1/artifacts/wikipedia_b32_s256_direct_checks.pt",
+      "bytes": 83504173,
+      "sha256": "6ee394eea8ac1fa340479b6fc332ac2e45fb95b05c28e62d9eae4bfbb1559626"
+    },
+    {
+      "path": "output/qualify_v1/artifacts/wikipedia_b32_s512_batch_store_checks.pt",
+      "bytes": 90152403,
+      "sha256": "242182cf46e9eefe8e6da83a083cc303df0154763562eb18d7e2f7d7b15f2fa2"
+    },
+    {
+      "path": "output/qualify_v1/artifacts/wikipedia_b32_s512_direct_checks.pt",
+      "bytes": 90147693,
+      "sha256": "7f2638be470bd5c560616472e0f832a5f012755042e39be427ff62fdcaeda2c2"
+    }
+  ]
+}

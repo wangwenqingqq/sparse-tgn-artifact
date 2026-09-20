@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/data/wangxuran/flash_wkv_probe_20260911/src/probe_keep_empty.py", line 75, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/data/wangxuran/flash_wkv_probe_20260911/src/probe_keep_empty.py", line 68, in main
+    a.opening(args.stage,[Path(__file__),a.ROOT/'src/candidate_keep_empty.py',a.ROOT/'src/compare.py',a.ROOT/'AMENDMENT_1.md']);meta=json.loads((CAPTURE/'capture.json').read_text())
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/data/wangxuran/flash_wkv_probe_20260911/src/common.py", line 24, in opening
+    count=check_inputs();p.set_num_threads(1);p.set_float32_matmul_precision('high');c.guard();p.zeros(1,device='cuda');c.guard()
+                                                                                     ^^^^^^^^^
+  File "/home/data/wangxuran/flash_tgn_rebaseline_20260909/src/core.py", line 47, in guard
+    assert not foreign,foreign
+           ^^^^^^^^^^^
+AssertionError: ['GPU-9bd364a9-9d88-0b78-ef55-caac6f73d6b1, 2912245, .venv/bin/python, 31802']

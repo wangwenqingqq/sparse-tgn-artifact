@@ -1,0 +1,1 @@
+The first qualification run (`qualify_v1`) completed with all 96 steps byte-identical in both arms. The independent CPU audit passed 384 historical-store prefix reconstructions and 384 original-data event gathers before timing. No numerical failure, retry, tolerance change or candidate tuning preceded timing. GPU run status and any subsequent issues are preserved in `evidence/`.

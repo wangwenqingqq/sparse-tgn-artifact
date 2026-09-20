@@ -1,0 +1,74 @@
+{
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 0.7830642151832581,
+      "validation": {
+        "ap": 0.9625582480266157,
+        "auc": 0.94992975,
+        "bce": 0.2619266756831624,
+        "examples": 8000
+      }
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.5703786405920982,
+      "validation": {
+        "ap": 0.9655895599699663,
+        "auc": 0.9553845,
+        "bce": 0.24667961248349451,
+        "examples": 8000
+      }
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.5493718097607295,
+      "validation": {
+        "ap": 0.9670337558157879,
+        "auc": 0.95830259375,
+        "bce": 0.2382787303410984,
+        "examples": 8000
+      }
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.524790229956309,
+      "validation": {
+        "ap": 0.9674836130538146,
+        "auc": 0.9594352500000001,
+        "bce": 0.23630193326745227,
+        "examples": 8000
+      }
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.5171081917285919,
+      "validation": {
+        "ap": 0.969552227482937,
+        "auc": 0.9620187500000001,
+        "bce": 0.23245203765489936,
+        "examples": 8000
+      }
+    }
+  ],
+  "selected_ap": 0.969552227482937,
+  "frozen_replay_test": {
+    "ap": 0.9714466953420522,
+    "auc": 0.9636703125000001,
+    "bce": 0.22323512934169212,
+    "examples": 8000
+  },
+  "seconds": 54.4378873029782,
+  "info": {
+    "path": "/home/data/wangxuran/factor_tgn_sptc_20260902/project/experiments/temporal_tc_20260905_cooccurrence_gate0/data/wikipedia20k.npz",
+    "sha256": "770343fe7e96bfccb64a0821f15c4ffa997f9a0f824c7c1b64c88c12ce732895",
+    "message_features": "172 real features",
+    "id_mapping": "existing 20k archive; disjoint source/destination IDs",
+    "events": 20000,
+    "num_nodes": 2765,
+    "min_dst": 2117,
+    "max_dst": 2764,
+    "message_dim": 172,
+    "time_dtype": "int64, matching TGB TemporalData convention; fractional timestamps truncated"
+  }
+}

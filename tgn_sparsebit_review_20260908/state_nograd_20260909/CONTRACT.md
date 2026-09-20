@@ -1,0 +1,13 @@
+Test removing autograd construction only from TGNMemory._update_memory in the qualified source-compatible direct-CSR training harness.
+
+Use a new experiment directory, the existing idle GPU3 lock and process guards, unchanged original projects/dependencies, FP32/deterministic settings, and the same twelve frozen checkpoints with eight consecutive training steps each. This is a bounded training-window experiment, not a full-epoch or original-TGN validation.
+
+Four fixed variants: direct, direct_nograd, batch_store, batch_nograd. The no-grad variants call the otherwise unchanged bound _update_memory method inside torch.no_grad. Memory reads for current predictions, GNN, decoder, loss.backward, optimizer, message stores and detach order stay the same. The batch variants use the previous byte-qualified batched store unchanged; its view-retention limitation remains. No inference_mode, parameter detaches, high precision, new kernels, or skipped state recomputation.
+
+Gate each variant against the previous direct archive for all 119 fields (107 original checked fields + logical source/destination message caches + CPU/CUDA RNG), all 96 steps byte for byte including dtype. Also compare the original 107 fields against archived source. Independently audit saved tensor files on CPU with CUDA hidden before timing. Preserve any failures and do not relax the gate; only eligible pairs enter timing.
+
+Primary timing: nine randomized paired rounds per window, all four eligible variants, eight complete steps per interval. Restore/checkpoint/RNG, GC and warmup occur outside timing. Compare direct/direct_nograd and batch_store/batch_nograd as the isolated no-grad effects; direct/batch_nograd is measured jointly in this session, not inferred by multiplying prior results. Report all windows including confidence intervals containing one. Bootstrap intervals are descriptive within one session.
+
+Separate CUDA-event replays split state recomputation and writeback from other phases, verifying 115 persistent-state fields at the end. Outside performance measurement, inspect memory.requires_grad and grad_fn immediately after _update_memory and count reachable autograd nodes, on each middle-window first step. This inspection uses no hooks and changes no computation. It demonstrates graph removal rather than inferring speed from a smaller graph. No claim that no-grad removes the state recomputation arithmetic or its entire phase time.
+
+Keep prior manifests intact. Record code hashes, raw checks, inventories, independent audit, timings, mechanism checks, and local/remote transfer hashes. If the isolated no-grad effect is not reliable, say so instead of promoting it based on the combined batch-store speedup.

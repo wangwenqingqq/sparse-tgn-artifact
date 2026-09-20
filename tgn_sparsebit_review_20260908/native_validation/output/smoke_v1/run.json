@@ -1,0 +1,26 @@
+{
+  "start_utc": "2026-09-08T10:54:17.121668+00:00",
+  "gpu": "GPU-16f27f5a-dfcd-48e0-bb39-bebbe4009245",
+  "lock": "/home/data/wangxuran/.locks/tgn_sptc_gpu2.lock",
+  "stage": "small",
+  "files": {
+    "src/layout_probe.cu": "95a64f7dca0aa23da2ce70ae1b0722812f70478c5ab387c3e89ab397292b7f0a",
+    "src/CONTRACT.md": "4881fbe90bb1efdf86c91e67768457f9921851f7280ce3da6b59c6a023442f5f",
+    "compile/probe_sm120a": "d8f2c0b0dcfb39102895da816fe3610fce72f1bd3ba78e9d03463dbbd966f402"
+  },
+  "steps": [
+    {
+      "label": "small",
+      "command": [
+        "/home/data/wangxuran/tgn_consumer_layout_20260908/compile/probe_sm120a",
+        "small"
+      ],
+      "timeout": 90,
+      "start_utc": "2026-09-08T10:54:17.307814+00:00",
+      "exit_code": 0,
+      "end_utc": "2026-09-08T10:54:17.722863+00:00"
+    }
+  ],
+  "status": "complete",
+  "end_utc": "2026-09-08T10:54:17.899350+00:00"
+}

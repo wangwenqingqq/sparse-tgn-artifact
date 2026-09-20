@@ -1,0 +1,26 @@
+{
+  "direct": {
+    "steps": 96,
+    "bitwise": 96,
+    "elements": 214887202,
+    "source_bitwise": 96
+  },
+  "direct_nograd": {
+    "steps": 96,
+    "bitwise": 96,
+    "elements": 214887202,
+    "source_bitwise": 96
+  },
+  "batch_store": {
+    "steps": 96,
+    "bitwise": 96,
+    "elements": 214887202,
+    "source_bitwise": 96
+  },
+  "batch_nograd": {
+    "steps": 96,
+    "bitwise": 96,
+    "elements": 214887202,
+    "source_bitwise": 96
+  }
+}

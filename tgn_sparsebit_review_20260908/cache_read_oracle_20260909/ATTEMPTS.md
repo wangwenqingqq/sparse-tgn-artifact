@@ -1,0 +1,3 @@
+`qualify_v1` exited during Python import, before the opening record or any training step. The new file name `oracle.py` collided with the existing gate-0 dependency imported by `check_small.py`, creating a circular import. The exact initial files are preserved as `src/oracle_v1.py` and `src/fullrun_v1.py`, with the failed run stdout/stderr and GPU inventory.
+
+Renamed the new module to `read_oracle.py` and changed only the import and provenance path in the runner. The source prefix boundary, cached fields, numeric gate and timing contract are unchanged. Qualification resumes in a fresh `qualify_v2` output directory; no failed numeric sample was discarded or rerun.

@@ -1,0 +1,63 @@
+{
+  "status": "complete_direct_csr_optimization",
+  "time": "2026-09-08T14:30:40.833323+00:00",
+  "recommended_variant": "direct",
+  "qualification": {
+    "windows": 12,
+    "steps_per_variant": 96,
+    "direct_bitwise": 96,
+    "fused_bounds_bitwise": 96,
+    "compatible_bitwise": 96,
+    "keeper_tolerance_pass": 86,
+    "fields_per_step": 107,
+    "elements_per_variant": 187803430,
+    "csr_calls": 384,
+    "csr_positions": 192307584
+  },
+  "performance": {
+    "compatible/direct": {
+      "geomean": 1.0690520613714658,
+      "min": 1.0189367267867906,
+      "max": 1.1016028010246879
+    },
+    "compatible/fused_bounds": {
+      "geomean": 1.062018488821543,
+      "min": 1.0250819072133013,
+      "max": 1.0949120667842185
+    },
+    "keeper/fused_bounds": {
+      "geomean": 0.8978010170127159,
+      "min": 0.820633576326909,
+      "max": 0.9880334588672175
+    },
+    "keeper/direct": {
+      "geomean": 0.8993111526360277,
+      "min": 0.8223599455455789,
+      "max": 0.9853519748754099
+    },
+    "direct/fused_bounds": {
+      "geomean": 0.9959787591907544,
+      "min": 0.9866365642794461,
+      "max": 1.004088897705919
+    }
+  },
+  "timed_intervals": 432,
+  "timed_steps": 3456,
+  "gpu": 3,
+  "gpu_released": true,
+  "native_kernels_unchanged": true,
+  "precision_unchanged": true,
+  "previous_files_unchanged": 1276,
+  "raw_files": 72,
+  "raw_bytes": 3078168200,
+  "local_evidence_files_verified": 23,
+  "limitations": [
+    "96 steps from frozen checkpoints, not full-epoch/task-quality or original TGN acceptance",
+    "Keeper remains source-unqualified in two windows",
+    "Direct bridge remains approximately 11.2 percent slower than old keeper in this session",
+    "Phase timings are separately instrumented and include CPU submission gaps",
+    "No Tensor Core kernel or contribution",
+    "No separate per-step byte comparison of message dictionaries or RNG state"
+  ],
+  "default_only_change": "Both branches qualified explicitly; bridge_v1.py preserves logged source before recommended default switched to direct."
+}

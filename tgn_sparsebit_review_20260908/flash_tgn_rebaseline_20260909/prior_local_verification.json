@@ -1,0 +1,47 @@
+{
+  "baseline_alignment_20260909": {
+    "files": 11,
+    "mismatches": [],
+    "manifest_sha256": "1b164bb5e6896382a9bac4fa60b25ce423837445632d8743df31dcd56f288266"
+  },
+  "cache_read_oracle_20260909": {
+    "files": 47,
+    "mismatches": [],
+    "manifest_sha256": "88ae3b50597ab5a84ff163d1a2a54d675b34c6eac5868468b24fcd84d4cd4aaa"
+  },
+  "compatible_csr": {
+    "files": 34,
+    "mismatches": [],
+    "manifest_sha256": "1d6dd453b9eed095bab649f0debbc6bd68fd8a8c1cbfbb127014e082b01699a0"
+  },
+  "event_read_20260909": {
+    "files": 42,
+    "mismatches": [],
+    "manifest_sha256": "0b89be1b2fcbd8ca981f65b0aa0626c381ebee198749157ec290fc554360e2be"
+  },
+  "memory_profile_20260909": {
+    "files": 80,
+    "mismatches": [],
+    "manifest_sha256": "a4a9880ebb628aa798aeb7fff4ef2fb9480223df18218b05228116f1f796e8cf"
+  },
+  "numeric_diagnosis": {
+    "files": 45,
+    "mismatches": [],
+    "manifest_sha256": "a5a8746f85d445c8b6f1838befc91da6e8e4a8c43a2e08123c20cc98b8c0f40c"
+  },
+  "state_nograd_20260909": {
+    "files": 39,
+    "mismatches": [],
+    "manifest_sha256": "6adac790a67afb25b1c02120334a18d24cbd17012f73a402b9f182a420383be7"
+  },
+  "training_profile": {
+    "files": 141,
+    "mismatches": [],
+    "manifest_sha256": "84794de1c4a5fbf14db5fc41682ae84cc6163a50ad4357151e2e57b7634ccb84"
+  },
+  "native_validation": {
+    "files": 438,
+    "mismatches": [],
+    "manifest_sha256": "566f178c4d70323bf39c2297e524cc205c1a83e3d0a66bbd13f25010e949f14b"
+  }
+}

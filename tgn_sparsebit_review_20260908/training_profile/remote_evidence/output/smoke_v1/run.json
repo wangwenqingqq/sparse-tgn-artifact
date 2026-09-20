@@ -1,0 +1,13 @@
+{
+  "start": "2026-09-08T12:14:19.122082+00:00",
+  "gpu": "GPU-16f27f5a-dfcd-48e0-bb39-bebbe4009245",
+  "args": {
+    "run": "smoke_v1",
+    "smoke": true,
+    "dataset": "both",
+    "batch": "both"
+  },
+  "error": "AssertionError('GPU not idle')",
+  "exit_code": -1,
+  "end": "2026-09-08T12:14:19.492194+00:00"
+}

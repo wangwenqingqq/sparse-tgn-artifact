@@ -1,0 +1,522 @@
+{
+  "all_finite": true,
+  "archives": 32,
+  "rows": [
+    {
+      "run": "diagnostic_timing_v1",
+      "case": {
+        "bs": 2000,
+        "k": 50,
+        "layers": 1,
+        "label": "wiki_bs2000_k50_l1"
+      },
+      "fields": 119,
+      "elements": 15364820,
+      "finite": true
+    },
+    {
+      "run": "diagnostic_timing_v1",
+      "case": {
+        "bs": 200,
+        "k": 20,
+        "layers": 1,
+        "label": "wiki_bs200_k20_l1"
+      },
+      "fields": 119,
+      "elements": 15364820,
+      "finite": true
+    },
+    {
+      "run": "diagnostic_timing_v1",
+      "case": {
+        "bs": 200,
+        "k": 50,
+        "layers": 2,
+        "label": "wiki_bs200_k50_l2"
+      },
+      "fields": 169,
+      "elements": 17822430,
+      "finite": true
+    },
+    {
+      "run": "diagnostic_timing_v1",
+      "case": {
+        "bs": 200,
+        "k": 20,
+        "layers": 2,
+        "label": "wiki_bs200_k20_l2"
+      },
+      "fields": 169,
+      "elements": 17822430,
+      "finite": true
+    },
+    {
+      "run": "diagnostic_timing_v1",
+      "case": {
+        "bs": 200,
+        "k": 50,
+        "layers": 1,
+        "label": "wiki_bs200_k50_l1"
+      },
+      "fields": 119,
+      "elements": 15364820,
+      "finite": true
+    },
+    {
+      "run": "diagnostic_timing_v1",
+      "case": {
+        "bs": 2000,
+        "k": 20,
+        "layers": 1,
+        "label": "wiki_bs2000_k20_l1"
+      },
+      "fields": 119,
+      "elements": 15364820,
+      "finite": true
+    },
+    {
+      "run": "diagnostic_timing_v1",
+      "case": {
+        "bs": 2000,
+        "k": 50,
+        "layers": 2,
+        "label": "wiki_bs2000_k50_l2"
+      },
+      "fields": 169,
+      "elements": 17822430,
+      "finite": true
+    },
+    {
+      "run": "diagnostic_timing_v1",
+      "case": {
+        "bs": 2000,
+        "k": 20,
+        "layers": 2,
+        "label": "wiki_bs2000_k20_l2"
+      },
+      "fields": 169,
+      "elements": 17822430,
+      "finite": true
+    },
+    {
+      "run": "diagnostic_timing_v2",
+      "case": {
+        "bs": 200,
+        "k": 50,
+        "layers": 2,
+        "label": "wiki_bs200_k50_l2"
+      },
+      "fields": 169,
+      "elements": 17822430,
+      "finite": true
+    },
+    {
+      "run": "diagnostic_timing_v2",
+      "case": {
+        "bs": 200,
+        "k": 20,
+        "layers": 2,
+        "label": "wiki_bs200_k20_l2"
+      },
+      "fields": 169,
+      "elements": 17822430,
+      "finite": true
+    },
+    {
+      "run": "diagnostic_timing_v2",
+      "case": {
+        "bs": 2000,
+        "k": 20,
+        "layers": 1,
+        "label": "wiki_bs2000_k20_l1"
+      },
+      "fields": 119,
+      "elements": 15364820,
+      "finite": true
+    },
+    {
+      "run": "diagnostic_timing_v2",
+      "case": {
+        "bs": 2000,
+        "k": 50,
+        "layers": 2,
+        "label": "wiki_bs2000_k50_l2"
+      },
+      "fields": 169,
+      "elements": 17822430,
+      "finite": true
+    },
+    {
+      "run": "diagnostic_timing_v2",
+      "case": {
+        "bs": 2000,
+        "k": 50,
+        "layers": 1,
+        "label": "wiki_bs2000_k50_l1"
+      },
+      "fields": 119,
+      "elements": 15364820,
+      "finite": true
+    },
+    {
+      "run": "diagnostic_timing_v2",
+      "case": {
+        "bs": 200,
+        "k": 20,
+        "layers": 1,
+        "label": "wiki_bs200_k20_l1"
+      },
+      "fields": 119,
+      "elements": 15364820,
+      "finite": true
+    },
+    {
+      "run": "diagnostic_timing_v2",
+      "case": {
+        "bs": 2000,
+        "k": 20,
+        "layers": 2,
+        "label": "wiki_bs2000_k20_l2"
+      },
+      "fields": 169,
+      "elements": 17822430,
+      "finite": true
+    },
+    {
+      "run": "diagnostic_timing_v2",
+      "case": {
+        "bs": 200,
+        "k": 50,
+        "layers": 1,
+        "label": "wiki_bs200_k50_l1"
+      },
+      "fields": 119,
+      "elements": 15364820,
+      "finite": true
+    },
+    {
+      "run": "diagnostic_timing_v3",
+      "case": {
+        "bs": 2000,
+        "k": 20,
+        "layers": 2,
+        "label": "wiki_bs2000_k20_l2"
+      },
+      "fields": 169,
+      "elements": 17822430,
+      "finite": true
+    },
+    {
+      "run": "diagnostic_timing_v3",
+      "case": {
+        "bs": 2000,
+        "k": 50,
+        "layers": 1,
+        "label": "wiki_bs2000_k50_l1"
+      },
+      "fields": 119,
+      "elements": 15364820,
+      "finite": true
+    },
+    {
+      "run": "diagnostic_timing_v3",
+      "case": {
+        "bs": 2000,
+        "k": 20,
+        "layers": 1,
+        "label": "wiki_bs2000_k20_l1"
+      },
+      "fields": 119,
+      "elements": 15364820,
+      "finite": true
+    },
+    {
+      "run": "diagnostic_timing_v3",
+      "case": {
+        "bs": 200,
+        "k": 50,
+        "layers": 1,
+        "label": "wiki_bs200_k50_l1"
+      },
+      "fields": 119,
+      "elements": 15364820,
+      "finite": true
+    },
+    {
+      "run": "diagnostic_timing_v3",
+      "case": {
+        "bs": 200,
+        "k": 20,
+        "layers": 1,
+        "label": "wiki_bs200_k20_l1"
+      },
+      "fields": 119,
+      "elements": 15364820,
+      "finite": true
+    },
+    {
+      "run": "diagnostic_timing_v3",
+      "case": {
+        "bs": 200,
+        "k": 20,
+        "layers": 2,
+        "label": "wiki_bs200_k20_l2"
+      },
+      "fields": 169,
+      "elements": 17822430,
+      "finite": true
+    },
+    {
+      "run": "diagnostic_timing_v3",
+      "case": {
+        "bs": 200,
+        "k": 50,
+        "layers": 2,
+        "label": "wiki_bs200_k50_l2"
+      },
+      "fields": 169,
+      "elements": 17822430,
+      "finite": true
+    },
+    {
+      "run": "diagnostic_timing_v3",
+      "case": {
+        "bs": 2000,
+        "k": 50,
+        "layers": 2,
+        "label": "wiki_bs2000_k50_l2"
+      },
+      "fields": 169,
+      "elements": 17822430,
+      "finite": true
+    },
+    {
+      "run": "diagnostic_profiles_v1",
+      "case": {
+        "bs": 2000,
+        "k": 50,
+        "layers": 1,
+        "label": "wiki_bs2000_k50_l1"
+      },
+      "fields": 119,
+      "elements": 15364820,
+      "finite": true
+    },
+    {
+      "run": "diagnostic_profiles_v1",
+      "case": {
+        "bs": 200,
+        "k": 20,
+        "layers": 2,
+        "label": "wiki_bs200_k20_l2"
+      },
+      "fields": 169,
+      "elements": 17822430,
+      "finite": true
+    },
+    {
+      "run": "diagnostic_profiles_v1",
+      "case": {
+        "bs": 200,
+        "k": 20,
+        "layers": 1,
+        "label": "wiki_bs200_k20_l1"
+      },
+      "fields": 119,
+      "elements": 15364820,
+      "finite": true
+    },
+    {
+      "run": "diagnostic_profiles_v1",
+      "case": {
+        "bs": 2000,
+        "k": 50,
+        "layers": 2,
+        "label": "wiki_bs2000_k50_l2"
+      },
+      "fields": 169,
+      "elements": 17822430,
+      "finite": true
+    },
+    {
+      "run": "diagnostic_profiles_v1",
+      "case": {
+        "bs": 2000,
+        "k": 20,
+        "layers": 2,
+        "label": "wiki_bs2000_k20_l2"
+      },
+      "fields": 169,
+      "elements": 17822430,
+      "finite": true
+    },
+    {
+      "run": "diagnostic_profiles_v1",
+      "case": {
+        "bs": 200,
+        "k": 50,
+        "layers": 1,
+        "label": "wiki_bs200_k50_l1"
+      },
+      "fields": 119,
+      "elements": 15364820,
+      "finite": true
+    },
+    {
+      "run": "diagnostic_profiles_v1",
+      "case": {
+        "bs": 200,
+        "k": 50,
+        "layers": 2,
+        "label": "wiki_bs200_k50_l2"
+      },
+      "fields": 169,
+      "elements": 17822430,
+      "finite": true
+    },
+    {
+      "run": "diagnostic_profiles_v1",
+      "case": {
+        "bs": 2000,
+        "k": 20,
+        "layers": 1,
+        "label": "wiki_bs2000_k20_l1"
+      },
+      "fields": 119,
+      "elements": 15364820,
+      "finite": true
+    }
+  ],
+  "hashes": {
+    "output/diagnostic_timing_v1/artifacts/wiki_bs2000_k50_l1_final.pt": {
+      "bytes": 61488384,
+      "sha256": "1b7457beadf632e91550c1ca76b81fd79f65317b7c5c5d2810e192437c5e2235"
+    },
+    "output/diagnostic_timing_v1/artifacts/wiki_bs200_k20_l1_final.pt": {
+      "bytes": 61488261,
+      "sha256": "6dd455862e51bb0bfdba763d30d42f375675598cd6aff50da2fb5b50a0a9fc03"
+    },
+    "output/diagnostic_timing_v1/artifacts/wiki_bs200_k50_l2_final.pt": {
+      "bytes": 71335233,
+      "sha256": "187a99f6d5f5ae68797bbcb946e856f02089af3104bb8adb6c7f800d964073bf"
+    },
+    "output/diagnostic_timing_v1/artifacts/wiki_bs200_k20_l2_final.pt": {
+      "bytes": 71335233,
+      "sha256": "04deb8968f0119ae612e667918599694d4e3ae76c682d65a4c377a10d828621d"
+    },
+    "output/diagnostic_timing_v1/artifacts/wiki_bs200_k50_l1_final.pt": {
+      "bytes": 61488261,
+      "sha256": "6e1a91ef8b798a611900307ac7e43d0a5c5c1eb7609a8d4808cf1ebb38395033"
+    },
+    "output/diagnostic_timing_v1/artifacts/wiki_bs2000_k20_l1_final.pt": {
+      "bytes": 61488384,
+      "sha256": "4544201d45a2800b0e5c5bb55292857131b55502ff9285b20fcceb810552b04b"
+    },
+    "output/diagnostic_timing_v1/artifacts/wiki_bs2000_k50_l2_final.pt": {
+      "bytes": 71335406,
+      "sha256": "0381d8ea7befafceec700b0fee2e54617106fd171c35b32a3463d319052ca89d"
+    },
+    "output/diagnostic_timing_v1/artifacts/wiki_bs2000_k20_l2_final.pt": {
+      "bytes": 71335406,
+      "sha256": "ed58aa20078c4534348c9569c25f633536beb655429516f827c3f4af82d56d51"
+    },
+    "output/diagnostic_timing_v2/artifacts/wiki_bs200_k50_l2_final.pt": {
+      "bytes": 71335233,
+      "sha256": "72f5e782886388311e475bef80277d7b9bdc237003d28daf8ee45bc7466eb1ad"
+    },
+    "output/diagnostic_timing_v2/artifacts/wiki_bs200_k20_l2_final.pt": {
+      "bytes": 71335233,
+      "sha256": "28e16bd87c485f8a2e9c6d1e6117a304738b81cb2ea6dbee69cd3c270b16e672"
+    },
+    "output/diagnostic_timing_v2/artifacts/wiki_bs2000_k20_l1_final.pt": {
+      "bytes": 61488384,
+      "sha256": "5928dc786a32b9f44a8d4ee87bd3975c9d5bc6f1dc4aaecb0921a59cf4d8e798"
+    },
+    "output/diagnostic_timing_v2/artifacts/wiki_bs2000_k50_l2_final.pt": {
+      "bytes": 71335406,
+      "sha256": "673dc991f78829a1fa3949615c7f99390966fc08cb4136c7135d19035abd7312"
+    },
+    "output/diagnostic_timing_v2/artifacts/wiki_bs2000_k50_l1_final.pt": {
+      "bytes": 61488384,
+      "sha256": "9c9905bb34cabac31f5d67ad0faf25f1e21417e9258282f3687c53cf11d13a81"
+    },
+    "output/diagnostic_timing_v2/artifacts/wiki_bs200_k20_l1_final.pt": {
+      "bytes": 61488261,
+      "sha256": "cb186a76c492b99442ee2e07dda226410419d89c9bbd7fb5bc9e7ede9d48a116"
+    },
+    "output/diagnostic_timing_v2/artifacts/wiki_bs2000_k20_l2_final.pt": {
+      "bytes": 71335406,
+      "sha256": "34448c9baa940820284068dc809314e96b2817b6549e0cf046af8e89b8147e90"
+    },
+    "output/diagnostic_timing_v2/artifacts/wiki_bs200_k50_l1_final.pt": {
+      "bytes": 61488261,
+      "sha256": "517338359248a526acfef5f7f3f07e71f9602d9e064c3055174217bdb21cead2"
+    },
+    "output/diagnostic_timing_v3/artifacts/wiki_bs2000_k20_l2_final.pt": {
+      "bytes": 71335406,
+      "sha256": "3d4471380c253e3f1990b5abe21cb6af63ad9abf407e4df1090ddf9561d20abf"
+    },
+    "output/diagnostic_timing_v3/artifacts/wiki_bs2000_k50_l1_final.pt": {
+      "bytes": 61488384,
+      "sha256": "4a7a339c2f3ceae60f1905569bc2d38866ac2d8c1bd62e7b583bb68e207efc6a"
+    },
+    "output/diagnostic_timing_v3/artifacts/wiki_bs2000_k20_l1_final.pt": {
+      "bytes": 61488384,
+      "sha256": "5e36687dec5c5b641d129a710e8887fe15ffd8a00925dd10b9b5112c04377328"
+    },
+    "output/diagnostic_timing_v3/artifacts/wiki_bs200_k50_l1_final.pt": {
+      "bytes": 61488261,
+      "sha256": "ef35bd4b00cea43397a22d21cbf9e6d7028c52203a47454c6a17da34d22a04ef"
+    },
+    "output/diagnostic_timing_v3/artifacts/wiki_bs200_k20_l1_final.pt": {
+      "bytes": 61488261,
+      "sha256": "f7e9f0cb0a0c7b6faa044359db66c7a162b47d1657a4dace350651abb3b23a7b"
+    },
+    "output/diagnostic_timing_v3/artifacts/wiki_bs200_k20_l2_final.pt": {
+      "bytes": 71335233,
+      "sha256": "1c9bbdd28335aec13d8d54e2225a4e895d9ff5c3bfbfdf4bd1cca6360c981692"
+    },
+    "output/diagnostic_timing_v3/artifacts/wiki_bs200_k50_l2_final.pt": {
+      "bytes": 71335233,
+      "sha256": "4e3439000aa8be9f726229447e0aae4ef032a3752f47b916c8d8dc2ffd8e592a"
+    },
+    "output/diagnostic_timing_v3/artifacts/wiki_bs2000_k50_l2_final.pt": {
+      "bytes": 71335406,
+      "sha256": "3037a04886a722eaba578c4e5b9d402e2d221d60c29c98d03d753ee0390792bf"
+    },
+    "output/diagnostic_profiles_v1/artifacts/wiki_bs2000_k50_l1_final.pt": {
+      "bytes": 61488384,
+      "sha256": "20d4ceed624c757839633d968c5068e741bcf779acdd411a9779430d48055766"
+    },
+    "output/diagnostic_profiles_v1/artifacts/wiki_bs200_k20_l2_final.pt": {
+      "bytes": 71335233,
+      "sha256": "f8de7d494099d188a03b7e80770edd95c9616c695dbef11a5180c7807a97b74d"
+    },
+    "output/diagnostic_profiles_v1/artifacts/wiki_bs200_k20_l1_final.pt": {
+      "bytes": 61488261,
+      "sha256": "814030d3ab9880b72d76b14dcc65eac4206ae754e0676f72608dae44869d9536"
+    },
+    "output/diagnostic_profiles_v1/artifacts/wiki_bs2000_k50_l2_final.pt": {
+      "bytes": 71335406,
+      "sha256": "245c2430616fd2b90bc457a9cb72a3a1d87b83229d1b483f4562b597f4ab0bdb"
+    },
+    "output/diagnostic_profiles_v1/artifacts/wiki_bs2000_k20_l2_final.pt": {
+      "bytes": 71335406,
+      "sha256": "713fc443349ffc2a925c740d4d0b79286656adad8666747d4bdfa8c812330ade"
+    },
+    "output/diagnostic_profiles_v1/artifacts/wiki_bs200_k50_l1_final.pt": {
+      "bytes": 61488261,
+      "sha256": "1d7e9720071ac3b6b07224657ce6572904988de12cd0c398ef569833f87adb8e"
+    },
+    "output/diagnostic_profiles_v1/artifacts/wiki_bs200_k50_l2_final.pt": {
+      "bytes": 71335233,
+      "sha256": "3d69beb2027cd51c14a4e707c2587698dacc038751c634e5c1a62da9facc4ff2"
+    },
+    "output/diagnostic_profiles_v1/artifacts/wiki_bs2000_k20_l1_final.pt": {
+      "bytes": 61488384,
+      "sha256": "c09cbdf64cd9426d1a6d33266e2271c1c543687ceac79f4473cb8d72a1910e92"
+    }
+  },
+  "cuda_initialized": false,
+  "accuracy_or_quality_parity": false
+}

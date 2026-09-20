@@ -1,0 +1,26 @@
+{
+  "splits": {
+    "train": {
+      "rows": 8713,
+      "blocks": 93,
+      "omitted_tail": 96,
+      "condition_dim": 1559,
+      "max_event": 12000
+    },
+    "val": {
+      "rows": 3245,
+      "blocks": 31,
+      "omitted_tail": 32,
+      "condition_dim": 1559,
+      "max_event": 16000
+    },
+    "test": {
+      "rows": 3384,
+      "blocks": 31,
+      "omitted_tail": 32,
+      "condition_dim": 1559,
+      "max_event": 20000
+    }
+  },
+  "seconds": 3.9545133610081393
+}

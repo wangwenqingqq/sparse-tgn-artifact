@@ -1,0 +1,102 @@
+{
+  "cases": [
+    {
+      "label": "wiki_bs2000_k20_l1",
+      "backward_gpu_us": 2407.645000000001,
+      "wkv_mm_us": 1186.5420000000001,
+      "wkv_bias_reduce_us": 192.19400000000002,
+      "wkv_mm_percent": 49.28226545026362,
+      "wkv_mm_bias_percent": 57.26492070051854,
+      "linked": 173,
+      "total": 173,
+      "ambiguous": 0,
+      "crosscheck_disagreements": 0
+    },
+    {
+      "label": "wiki_bs2000_k20_l2",
+      "backward_gpu_us": 9839.212000000003,
+      "wkv_mm_us": 5191.934,
+      "wkv_bias_reduce_us": 839.8820000000001,
+      "wkv_mm_percent": 52.76778262324258,
+      "wkv_mm_bias_percent": 61.30385238167446,
+      "linked": 229,
+      "total": 229,
+      "ambiguous": 0,
+      "crosscheck_disagreements": 0
+    },
+    {
+      "label": "wiki_bs2000_k50_l1",
+      "backward_gpu_us": 4954.169000000001,
+      "wkv_mm_us": 2777.6009999999997,
+      "wkv_bias_reduce_us": 457.67,
+      "wkv_mm_percent": 56.065931541697495,
+      "wkv_mm_bias_percent": 65.30400961291387,
+      "linked": 174,
+      "total": 174,
+      "ambiguous": 0,
+      "crosscheck_disagreements": 0
+    },
+    {
+      "label": "wiki_bs2000_k50_l2",
+      "backward_gpu_us": 32332.540000000015,
+      "wkv_mm_us": 18582.732,
+      "wkv_bias_reduce_us": 3045.19,
+      "wkv_mm_percent": 57.473777191646526,
+      "wkv_mm_bias_percent": 66.89212168298559,
+      "linked": 235,
+      "total": 235,
+      "ambiguous": 0,
+      "crosscheck_disagreements": 0
+    },
+    {
+      "label": "wiki_bs200_k20_l1",
+      "backward_gpu_us": 483.78700000000015,
+      "wkv_mm_us": 139.745,
+      "wkv_bias_reduce_us": 17.985,
+      "wkv_mm_percent": 28.885645955761515,
+      "wkv_mm_bias_percent": 32.60319107375766,
+      "linked": 157,
+      "total": 157,
+      "ambiguous": 0,
+      "crosscheck_disagreements": 0
+    },
+    {
+      "label": "wiki_bs200_k20_l2",
+      "backward_gpu_us": 1783.15,
+      "wkv_mm_us": 850.2800000000001,
+      "wkv_bias_reduce_us": 134.945,
+      "wkv_mm_percent": 47.68415444578415,
+      "wkv_mm_bias_percent": 55.25194178840816,
+      "linked": 215,
+      "total": 215,
+      "ambiguous": 0,
+      "crosscheck_disagreements": 0
+    },
+    {
+      "label": "wiki_bs200_k50_l1",
+      "backward_gpu_us": 757.9899999999999,
+      "wkv_mm_us": 319.012,
+      "wkv_bias_reduce_us": 40.864000000000004,
+      "wkv_mm_percent": 42.08657106294279,
+      "wkv_mm_bias_percent": 47.47767120938271,
+      "linked": 157,
+      "total": 157,
+      "ambiguous": 0,
+      "crosscheck_disagreements": 0
+    },
+    {
+      "label": "wiki_bs200_k50_l2",
+      "backward_gpu_us": 5894.150999999998,
+      "wkv_mm_us": 3354.5640000000003,
+      "wkv_bias_reduce_us": 512.582,
+      "wkv_mm_percent": 56.913438423956244,
+      "wkv_mm_bias_percent": 65.60989021149953,
+      "linked": 216,
+      "total": 216,
+      "ambiguous": 0,
+      "crosscheck_disagreements": 0
+    }
+  ],
+  "total_activities": 1556,
+  "linked_activities": 1556
+}

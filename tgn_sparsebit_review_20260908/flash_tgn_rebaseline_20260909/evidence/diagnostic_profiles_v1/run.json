@@ -1,0 +1,24 @@
+{
+  "start": "2026-09-09T11:04:08.354644+00:00",
+  "gpu": "GPU-9bd364a9-9d88-0b78-ef55-caac6f73d6b1",
+  "args": {
+    "run": "diagnostic_profiles_v1",
+    "stage": "diagnostic_profiles",
+    "qualification": "/home/data/wangxuran/flash_tgn_rebaseline_20260909/output/qualify_v1/artifacts/qualification.json",
+    "rep": 0
+  },
+  "command": [
+    "/home/data/wangxuran/isaacsim6/env/bin/python",
+    "/home/data/wangxuran/flash_tgn_rebaseline_20260909/src/followup.py",
+    "--output",
+    "/home/data/wangxuran/flash_tgn_rebaseline_20260909/output/diagnostic_profiles_v1/artifacts",
+    "--stage",
+    "diagnostic_profiles",
+    "--rep",
+    "0",
+    "--qualification",
+    "/home/data/wangxuran/flash_tgn_rebaseline_20260909/output/qualify_v1/artifacts/qualification.json"
+  ],
+  "exit_code": 0,
+  "end": "2026-09-09T11:05:34.255968+00:00"
+}

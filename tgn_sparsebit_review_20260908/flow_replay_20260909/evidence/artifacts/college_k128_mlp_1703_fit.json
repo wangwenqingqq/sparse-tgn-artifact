@@ -1,0 +1,86 @@
+{
+  "mode": "mlp",
+  "seed": 1703,
+  "steps": 1500,
+  "selected_step": 100,
+  "validation_mse": 0.7091998523841355,
+  "parameters": 297828,
+  "seconds": 3.8198122209869325,
+  "curve": [
+    {
+      "step": 100,
+      "training_loss": 0.6115938425064087,
+      "validation_mse": 0.7091998523841355
+    },
+    {
+      "step": 200,
+      "training_loss": 0.5184959769248962,
+      "validation_mse": 0.717712817513369
+    },
+    {
+      "step": 300,
+      "training_loss": 0.4600183665752411,
+      "validation_mse": 0.7463531082887701
+    },
+    {
+      "step": 400,
+      "training_loss": 0.41147077083587646,
+      "validation_mse": 0.7817016766934046
+    },
+    {
+      "step": 500,
+      "training_loss": 0.3900468647480011,
+      "validation_mse": 0.8179045510249554
+    },
+    {
+      "step": 600,
+      "training_loss": 0.3653589189052582,
+      "validation_mse": 0.8486576426024955
+    },
+    {
+      "step": 700,
+      "training_loss": 0.34696829319000244,
+      "validation_mse": 0.884326231060606
+    },
+    {
+      "step": 800,
+      "training_loss": 0.3221707046031952,
+      "validation_mse": 0.9127908868092691
+    },
+    {
+      "step": 900,
+      "training_loss": 0.310644268989563,
+      "validation_mse": 0.9432705269607843
+    },
+    {
+      "step": 1000,
+      "training_loss": 0.30358222126960754,
+      "validation_mse": 0.9712396390374332
+    },
+    {
+      "step": 1100,
+      "training_loss": 0.2947482764720917,
+      "validation_mse": 0.9962379122103386
+    },
+    {
+      "step": 1200,
+      "training_loss": 0.2847422659397125,
+      "validation_mse": 1.0250387143493762
+    },
+    {
+      "step": 1300,
+      "training_loss": 0.27566996216773987,
+      "validation_mse": 1.047990920231729
+    },
+    {
+      "step": 1400,
+      "training_loss": 0.26092052459716797,
+      "validation_mse": 1.072251921791444
+    },
+    {
+      "step": 1500,
+      "training_loss": 0.2520621716976166,
+      "validation_mse": 1.0981235795454545
+    }
+  ]
+}

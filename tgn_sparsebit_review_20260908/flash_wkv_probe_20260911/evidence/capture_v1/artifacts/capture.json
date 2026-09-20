@@ -1,0 +1,510 @@
+{
+  "ports": [
+    {
+      "label": "wiki_bs200_k50_l1_s8_tce",
+      "case": {
+        "bs": 200,
+        "k": 50,
+        "layers": 1,
+        "label": "wiki_bs200_k50_l1"
+      },
+      "step": 8,
+      "position": "early",
+      "module": "tce",
+      "rows": 30000,
+      "valid": 5254,
+      "valid_ratio": 0.17513333333333334,
+      "source_packed": true,
+      "input_file": "wiki_bs200_k50_l1_s8_tce_input.pt",
+      "bytes": 85449980,
+      "sha256": "a428305939911d3b3f03b1b88999b8988d53a42e196de7961446419cad3a23a7",
+      "q_shape": [
+        600,
+        256
+      ],
+      "z_shape": [
+        30000,
+        684
+      ]
+    },
+    {
+      "label": "wiki_bs200_k50_l1_s276_tce",
+      "case": {
+        "bs": 200,
+        "k": 50,
+        "layers": 1,
+        "label": "wiki_bs200_k50_l1"
+      },
+      "step": 276,
+      "position": "middle",
+      "module": "tce",
+      "rows": 30000,
+      "valid": 17843,
+      "valid_ratio": 0.5947666666666667,
+      "source_packed": false,
+      "input_file": "wiki_bs200_k50_l1_s276_tce_input.pt",
+      "bytes": 85450006,
+      "sha256": "d3aff40afefb47c9000400c4aa275f46a5cfdd2d3220dffe2a0cad3414b5a7bc",
+      "q_shape": [
+        600,
+        256
+      ],
+      "z_shape": [
+        30000,
+        684
+      ]
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s8_tce_layer1",
+      "case": {
+        "bs": 200,
+        "k": 50,
+        "layers": 2,
+        "label": "wiki_bs200_k50_l2"
+      },
+      "step": 8,
+      "position": "early",
+      "module": "tce.layer1",
+      "rows": 68500,
+      "valid": 12614,
+      "valid_ratio": 0.18414598540145985,
+      "source_packed": true,
+      "input_file": "wiki_bs200_k50_l2_s8_tce_layer1_input.pt",
+      "bytes": 193305495,
+      "sha256": "774970456a7263b02b059ca94376e3dc5a36cc1a3f8497c02f6185c4cb46c421",
+      "q_shape": [
+        1370,
+        256
+      ],
+      "z_shape": [
+        68500,
+        684
+      ]
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s8_tce_layer2",
+      "case": {
+        "bs": 200,
+        "k": 50,
+        "layers": 2,
+        "label": "wiki_bs200_k50_l2"
+      },
+      "step": 8,
+      "position": "early",
+      "module": "tce.layer2",
+      "rows": 30000,
+      "valid": 5218,
+      "valid_ratio": 0.17393333333333333,
+      "source_packed": true,
+      "input_file": "wiki_bs200_k50_l2_s8_tce_layer2_input.pt",
+      "bytes": 85450071,
+      "sha256": "b613172fb0f56b551e74ca2187d9048c2a574d6f7f92fc68f94ad0e9dbdbe0a3",
+      "q_shape": [
+        600,
+        256
+      ],
+      "z_shape": [
+        30000,
+        684
+      ]
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s276_tce_layer1",
+      "case": {
+        "bs": 200,
+        "k": 50,
+        "layers": 2,
+        "label": "wiki_bs200_k50_l2"
+      },
+      "step": 276,
+      "position": "middle",
+      "module": "tce.layer1",
+      "rows": 320450,
+      "valid": 213760,
+      "valid_ratio": 0.6670619441410517,
+      "source_packed": false,
+      "input_file": "wiki_bs200_k50_l2_s276_tce_layer1_input.pt",
+      "bytes": 899128305,
+      "sha256": "e0e0464350f057b46eac270fd02dc230f91f0182afd9df49c84e91dfff823af8",
+      "q_shape": [
+        6409,
+        256
+      ],
+      "z_shape": [
+        320450,
+        684
+      ]
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s276_tce_layer2",
+      "case": {
+        "bs": 200,
+        "k": 50,
+        "layers": 2,
+        "label": "wiki_bs200_k50_l2"
+      },
+      "step": 276,
+      "position": "middle",
+      "module": "tce.layer2",
+      "rows": 30000,
+      "valid": 17544,
+      "valid_ratio": 0.5848,
+      "source_packed": false,
+      "input_file": "wiki_bs200_k50_l2_s276_tce_layer2_input.pt",
+      "bytes": 85450097,
+      "sha256": "4c39b4b157b8a3ed1768eab0eb9d1404715213eb3ec488877d06a714def910e5",
+      "q_shape": [
+        600,
+        256
+      ],
+      "z_shape": [
+        30000,
+        684
+      ]
+    },
+    {
+      "label": "wiki_bs2000_k50_l1_s8_tce",
+      "case": {
+        "bs": 2000,
+        "k": 50,
+        "layers": 1,
+        "label": "wiki_bs2000_k50_l1"
+      },
+      "step": 8,
+      "position": "early",
+      "module": "tce",
+      "rows": 300000,
+      "valid": 115508,
+      "valid_ratio": 0.3850266666666667,
+      "source_packed": true,
+      "input_file": "wiki_bs2000_k50_l1_s8_tce_input.pt",
+      "bytes": 841838793,
+      "sha256": "d0fe8dbdb924235e3753a86eab41a80f7f385ccbb9b0fd8ff97e0692fdaf79ba",
+      "q_shape": [
+        6000,
+        256
+      ],
+      "z_shape": [
+        300000,
+        684
+      ]
+    },
+    {
+      "label": "wiki_bs2000_k50_l1_s28_tce",
+      "case": {
+        "bs": 2000,
+        "k": 50,
+        "layers": 1,
+        "label": "wiki_bs2000_k50_l1"
+      },
+      "step": 28,
+      "position": "middle",
+      "module": "tce",
+      "rows": 300000,
+      "valid": 165939,
+      "valid_ratio": 0.55313,
+      "source_packed": false,
+      "input_file": "wiki_bs2000_k50_l1_s28_tce_input.pt",
+      "bytes": 841838806,
+      "sha256": "ff89cb659bcdc1aa37e65d151c1473ef24e3b8ba5df6926e13d9b423466c5632",
+      "q_shape": [
+        6000,
+        256
+      ],
+      "z_shape": [
+        300000,
+        684
+      ]
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s8_tce_layer1",
+      "case": {
+        "bs": 2000,
+        "k": 50,
+        "layers": 2,
+        "label": "wiki_bs2000_k50_l2"
+      },
+      "step": 8,
+      "position": "early",
+      "module": "tce.layer1",
+      "rows": 1026000,
+      "valid": 431868,
+      "valid_ratio": 0.42092397660818714,
+      "source_packed": true,
+      "input_file": "wiki_bs2000_k50_l2_s8_tce_layer1_input.pt",
+      "bytes": 2875684324,
+      "sha256": "403d0cdff5955dba3edc973ad40ad1dcae4ecaa608c36b0a21fa167bd05549ce",
+      "q_shape": [
+        20520,
+        256
+      ],
+      "z_shape": [
+        1026000,
+        684
+      ]
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s8_tce_layer2",
+      "case": {
+        "bs": 2000,
+        "k": 50,
+        "layers": 2,
+        "label": "wiki_bs2000_k50_l2"
+      },
+      "step": 8,
+      "position": "early",
+      "module": "tce.layer2",
+      "rows": 300000,
+      "valid": 115513,
+      "valid_ratio": 0.38504333333333335,
+      "source_packed": true,
+      "input_file": "wiki_bs2000_k50_l2_s8_tce_layer2_input.pt",
+      "bytes": 841838884,
+      "sha256": "534c7cc5e0241ad1fc8ae03f11f63d01409d8327451c550c0045c096e2d52d79",
+      "q_shape": [
+        6000,
+        256
+      ],
+      "z_shape": [
+        300000,
+        684
+      ]
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s28_tce_layer1",
+      "case": {
+        "bs": 2000,
+        "k": 50,
+        "layers": 2,
+        "label": "wiki_bs2000_k50_l2"
+      },
+      "step": 28,
+      "position": "middle",
+      "module": "tce.layer1",
+      "rows": 1813700,
+      "valid": 1116260,
+      "valid_ratio": 0.6154601091691019,
+      "source_packed": false,
+      "input_file": "wiki_bs2000_k50_l2_s28_tce_layer1_input.pt",
+      "bytes": 5082378849,
+      "sha256": "8d36aa5bf4ecacd295946adf1dbe8c5225736de0bccb19bc57988d1421872303",
+      "q_shape": [
+        36274,
+        256
+      ],
+      "z_shape": [
+        1813700,
+        684
+      ]
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s28_tce_layer2",
+      "case": {
+        "bs": 2000,
+        "k": 50,
+        "layers": 2,
+        "label": "wiki_bs2000_k50_l2"
+      },
+      "step": 28,
+      "position": "middle",
+      "module": "tce.layer2",
+      "rows": 300000,
+      "valid": 167892,
+      "valid_ratio": 0.55964,
+      "source_packed": false,
+      "input_file": "wiki_bs2000_k50_l2_s28_tce_layer2_input.pt",
+      "bytes": 841838897,
+      "sha256": "8118abf0d783b3143f32e8b544338a47e16e62a27c07a3487b43fe544f2c8eee",
+      "q_shape": [
+        6000,
+        256
+      ],
+      "z_shape": [
+        300000,
+        684
+      ]
+    }
+  ],
+  "noise": [
+    {
+      "label": "wiki_bs200_k50_l1_s8_fused_gather_encode_backward_v2",
+      "case": {
+        "bs": 200,
+        "k": 50,
+        "layers": 1,
+        "label": "wiki_bs200_k50_l1"
+      },
+      "step": 8,
+      "position": "early",
+      "name": "fused_gather_encode_backward_v2",
+      "input_file": "wiki_bs200_k50_l1_s8_fused_gather_encode_backward_v2_noise_input.pt",
+      "sha256": "faf1a53a05b81011a11c4c0c3142f5157d7c40be31634afa149b9c4ad714b7dd",
+      "bytes": 84531885
+    },
+    {
+      "label": "wiki_bs200_k50_l1_s276_fused_gather_encode_backward_v2",
+      "case": {
+        "bs": 200,
+        "k": 50,
+        "layers": 1,
+        "label": "wiki_bs200_k50_l1"
+      },
+      "step": 276,
+      "position": "middle",
+      "name": "fused_gather_encode_backward_v2",
+      "input_file": "wiki_bs200_k50_l1_s276_fused_gather_encode_backward_v2_noise_input.pt",
+      "sha256": "393a19d5b6944ee57acb3b7ff2f5d92ff68e04bb1bf60bff9d6283ad6da324db",
+      "bytes": 85547797
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s8_fused_l0_gather_encode_backward_v2",
+      "case": {
+        "bs": 200,
+        "k": 50,
+        "layers": 2,
+        "label": "wiki_bs200_k50_l2"
+      },
+      "step": 8,
+      "position": "early",
+      "name": "fused_l0_gather_encode_backward_v2",
+      "input_file": "wiki_bs200_k50_l2_s8_fused_l0_gather_encode_backward_v2_noise_input.pt",
+      "sha256": "9356470699a0782bda441cb378b7f88ee6569d27478b0b40a494b4801085ca18",
+      "bytes": 115015856
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s8_fused_gather_encode_backward_v2",
+      "case": {
+        "bs": 200,
+        "k": 50,
+        "layers": 2,
+        "label": "wiki_bs200_k50_l2"
+      },
+      "step": 8,
+      "position": "early",
+      "name": "fused_gather_encode_backward_v2",
+      "input_file": "wiki_bs200_k50_l2_s8_fused_gather_encode_backward_v2_noise_input.pt",
+      "sha256": "0d9b96f8fcc5ec9dcf402b4d36aa61453365d93821353d00aff9b2392d51aa0c",
+      "bytes": 191993005
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s276_fused_l0_gather_encode_backward_v2",
+      "case": {
+        "bs": 200,
+        "k": 50,
+        "layers": 2,
+        "label": "wiki_bs200_k50_l2"
+      },
+      "step": 276,
+      "position": "middle",
+      "name": "fused_l0_gather_encode_backward_v2",
+      "input_file": "wiki_bs200_k50_l2_s276_fused_l0_gather_encode_backward_v2_noise_input.pt",
+      "sha256": "50d82fb405a9138579c1cb8f5947f64e6b3c1eaa4ba4c14740eb5fcf02d7ae3e",
+      "bytes": 115015894
+    },
+    {
+      "label": "wiki_bs200_k50_l2_s276_fused_gather_encode_backward_v2",
+      "case": {
+        "bs": 200,
+        "k": 50,
+        "layers": 2,
+        "label": "wiki_bs200_k50_l2"
+      },
+      "step": 276,
+      "position": "middle",
+      "name": "fused_gather_encode_backward_v2",
+      "input_file": "wiki_bs200_k50_l2_s276_fused_gather_encode_backward_v2_noise_input.pt",
+      "sha256": "2bae3ad078c95a5503f5c0b5bad3732ef5340a4606520d69d271f293079cac4d",
+      "bytes": 898525333
+    },
+    {
+      "label": "wiki_bs2000_k50_l1_s8_fused_gather_encode_backward_v2",
+      "case": {
+        "bs": 2000,
+        "k": 50,
+        "layers": 1,
+        "label": "wiki_bs2000_k50_l1"
+      },
+      "step": 8,
+      "position": "early",
+      "name": "fused_gather_encode_backward_v2",
+      "input_file": "wiki_bs2000_k50_l1_s8_fused_gather_encode_backward_v2_noise_input.pt",
+      "sha256": "60124893d62503828664ec128e3540288302b408795bc4d395b59d689663edfd",
+      "bytes": 843695233
+    },
+    {
+      "label": "wiki_bs2000_k50_l1_s28_fused_gather_encode_backward_v2",
+      "case": {
+        "bs": 2000,
+        "k": 50,
+        "layers": 1,
+        "label": "wiki_bs2000_k50_l1"
+      },
+      "step": 28,
+      "position": "middle",
+      "name": "fused_gather_encode_backward_v2",
+      "input_file": "wiki_bs2000_k50_l1_s28_fused_gather_encode_backward_v2_noise_input.pt",
+      "sha256": "6e8495b5f028526ee575141e8185f650661f6742cc75ede22d17a2a8ca31fb33",
+      "bytes": 845348053
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s8_fused_l0_gather_encode_backward_v2",
+      "case": {
+        "bs": 2000,
+        "k": 50,
+        "layers": 2,
+        "label": "wiki_bs2000_k50_l2"
+      },
+      "step": 8,
+      "position": "early",
+      "name": "fused_l0_gather_encode_backward_v2",
+      "input_file": "wiki_bs2000_k50_l2_s8_fused_l0_gather_encode_backward_v2_noise_input.pt",
+      "sha256": "881279b995a02265635284f272f479fcd1cbc469f8b6642b5e2a11866f8d0242",
+      "bytes": 1150066243
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s8_fused_gather_encode_backward_v2",
+      "case": {
+        "bs": 2000,
+        "k": 50,
+        "layers": 2,
+        "label": "wiki_bs2000_k50_l2"
+      },
+      "step": 8,
+      "position": "early",
+      "name": "fused_gather_encode_backward_v2",
+      "input_file": "wiki_bs2000_k50_l2_s8_fused_gather_encode_backward_v2_noise_input.pt",
+      "sha256": "7521533366f7901ababc3d4627d35d75dec0c3fa7f9598ab9bc640871bc4e802",
+      "bytes": 2869130945
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s28_fused_l0_gather_encode_backward_v2",
+      "case": {
+        "bs": 2000,
+        "k": 50,
+        "layers": 2,
+        "label": "wiki_bs2000_k50_l2"
+      },
+      "step": 28,
+      "position": "middle",
+      "name": "fused_l0_gather_encode_backward_v2",
+      "input_file": "wiki_bs2000_k50_l2_s28_fused_l0_gather_encode_backward_v2_noise_input.pt",
+      "sha256": "516e3bd4bcd8ea35f1134fbe6d5945f8a308a15938531e1a75bd63585f67c857",
+      "bytes": 1150066262
+    },
+    {
+      "label": "wiki_bs2000_k50_l2_s28_fused_gather_encode_backward_v2",
+      "case": {
+        "bs": 2000,
+        "k": 50,
+        "layers": 2,
+        "label": "wiki_bs2000_k50_l2"
+      },
+      "step": 28,
+      "position": "middle",
+      "name": "fused_gather_encode_backward_v2",
+      "input_file": "wiki_bs2000_k50_l2_s28_fused_gather_encode_backward_v2_noise_input.pt",
+      "sha256": "4363f642ceece2af23ff3df193544a723572999e4d39286ee57d63a6bf2956ec",
+      "bytes": 5070182949
+    }
+  ]
+}

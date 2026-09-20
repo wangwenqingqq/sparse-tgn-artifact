@@ -1,0 +1,12 @@
+{
+  "direct": {
+    "steps": 96,
+    "bitwise": 96,
+    "elements": 187803430
+  },
+  "batch_store": {
+    "steps": 96,
+    "bitwise": 96,
+    "elements": 214887202
+  }
+}

@@ -1,0 +1,4034 @@
+[
+  {
+    "kind": "epoch",
+    "epoch": 1,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k50_l1",
+    "source_result": {
+      "loss": 0.47159324125810104,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 1.1780924797058105
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 56.090271,
+        "timeline_ms": 56.08659362792969
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 1178.375317,
+        "timeline_ms": 1178.38134765625
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 1238.907278,
+        "timeline_ms": 1238.9171142578125
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 1,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 19,
+      "fused_seg_attn_backward": 19,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 36,
+      "fused_mh_attn_backward": 36
+    },
+    "operator_counts": {},
+    "peak_allocated": 3145852928,
+    "peak_reserved": 3504340992,
+    "rep": 1
+  },
+  {
+    "kind": "epoch",
+    "epoch": 2,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k50_l1",
+    "source_result": {
+      "loss": 0.2866800289262425,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 0.6112444400787354
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 58.996554,
+        "timeline_ms": 58.99484634399414
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 611.572193,
+        "timeline_ms": 611.5725708007812
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 681.808527,
+        "timeline_ms": 681.8128051757812
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 1,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 19,
+      "fused_seg_attn_backward": 19,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 36,
+      "fused_mh_attn_backward": 36
+    },
+    "operator_counts": {},
+    "peak_allocated": 3145852928,
+    "peak_reserved": 3569352704,
+    "rep": 1
+  },
+  {
+    "kind": "epoch",
+    "epoch": 3,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k50_l1",
+    "source_result": {
+      "loss": 0.2541103268211538,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 0.5994930267333984
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 54.377509,
+        "timeline_ms": 54.37615966796875
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 599.818246,
+        "timeline_ms": 599.8203125
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 665.513141,
+        "timeline_ms": 665.5174560546875
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 1,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 19,
+      "fused_seg_attn_backward": 19,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 36,
+      "fused_mh_attn_backward": 36
+    },
+    "operator_counts": {},
+    "peak_allocated": 3145852928,
+    "peak_reserved": 4496293888,
+    "rep": 1
+  },
+  {
+    "kind": "epoch",
+    "epoch": 4,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k50_l1",
+    "source_result": {
+      "loss": 0.23586758429353888,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 0.6012680530548096
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 54.081142,
+        "timeline_ms": 54.07939147949219
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 601.53124,
+        "timeline_ms": 601.5337524414062
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 669.509951,
+        "timeline_ms": 669.5148315429688
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 1,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 19,
+      "fused_seg_attn_backward": 19,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 36,
+      "fused_mh_attn_backward": 36
+    },
+    "operator_counts": {},
+    "peak_allocated": 3145852928,
+    "peak_reserved": 4496293888,
+    "rep": 1
+  },
+  {
+    "kind": "epoch",
+    "epoch": 1,
+    "mode": "coarse",
+    "case": "wiki_bs200_k20_l1",
+    "source_result": {
+      "loss": 0.23604323977296884,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 4.007353782653809
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 446.299223,
+        "timeline_ms": 446.29888916015625
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 4007.717755,
+        "timeline_ms": 4007.743408203125
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 4472.567355,
+        "timeline_ms": 4472.59814453125
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 2,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 56,
+      "fused_seg_attn_backward": 56,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 495,
+      "fused_mh_attn_backward": 495
+    },
+    "operator_counts": {},
+    "peak_allocated": 578246656,
+    "peak_reserved": 654311424,
+    "rep": 1
+  },
+  {
+    "kind": "epoch",
+    "epoch": 2,
+    "mode": "coarse",
+    "case": "wiki_bs200_k20_l1",
+    "source_result": {
+      "loss": 0.17360117373660125,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 3.976804256439209
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 428.620766,
+        "timeline_ms": 428.6227722167969
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 3977.198643,
+        "timeline_ms": 3977.22412109375
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 4423.893146,
+        "timeline_ms": 4423.92431640625
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 2,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 57,
+      "fused_seg_attn_backward": 57,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 494,
+      "fused_mh_attn_backward": 494
+    },
+    "operator_counts": {},
+    "peak_allocated": 578246656,
+    "peak_reserved": 654311424,
+    "rep": 1
+  },
+  {
+    "kind": "epoch",
+    "epoch": 3,
+    "mode": "coarse",
+    "case": "wiki_bs200_k20_l1",
+    "source_result": {
+      "loss": 0.15413726776324468,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 3.950251340866089
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 422.86939,
+        "timeline_ms": 422.87213134765625
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 3950.574711,
+        "timeline_ms": 3950.597412109375
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 4390.4989,
+        "timeline_ms": 4390.5283203125
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 2,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 58,
+      "fused_seg_attn_backward": 58,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 493,
+      "fused_mh_attn_backward": 493
+    },
+    "operator_counts": {},
+    "peak_allocated": 578246656,
+    "peak_reserved": 654311424,
+    "rep": 1
+  },
+  {
+    "kind": "epoch",
+    "epoch": 4,
+    "mode": "coarse",
+    "case": "wiki_bs200_k20_l1",
+    "source_result": {
+      "loss": 0.14370753035327916,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 3.956368923187256
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 424.904325,
+        "timeline_ms": 424.9069519042969
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 3956.639616,
+        "timeline_ms": 3956.66357421875
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 4411.252991,
+        "timeline_ms": 4411.28173828125
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 2,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 56,
+      "fused_seg_attn_backward": 56,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 495,
+      "fused_mh_attn_backward": 495
+    },
+    "operator_counts": {},
+    "peak_allocated": 578246656,
+    "peak_reserved": 654311424,
+    "rep": 1
+  },
+  {
+    "kind": "epoch",
+    "epoch": 1,
+    "mode": "coarse",
+    "case": "wiki_bs200_k50_l2",
+    "source_result": {
+      "loss": 0.22772086454984714,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 10.873422384262085
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 10873.724414,
+        "timeline_ms": 10873.787109375
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 10873.863464,
+        "timeline_ms": 10873.931640625
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 569,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 327,
+      "fused_l0_gather_encode": 551,
+      "fused_seg_attn_backward": 327,
+      "fused_l0_gather_encode_backward_v2": 551,
+      "fused_index_scatter": 551,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 775,
+      "fused_mh_attn_backward": 775
+    },
+    "operator_counts": {},
+    "peak_allocated": 4677982208,
+    "peak_reserved": 18027118592,
+    "rep": 1
+  },
+  {
+    "kind": "epoch",
+    "epoch": 2,
+    "mode": "coarse",
+    "case": "wiki_bs200_k50_l2",
+    "source_result": {
+      "loss": 0.1609682818763161,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 10.873233556747437
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 10873.614628,
+        "timeline_ms": 10873.6630859375
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 10873.779444,
+        "timeline_ms": 10873.83203125
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 569,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 328,
+      "fused_l0_gather_encode": 551,
+      "fused_seg_attn_backward": 328,
+      "fused_l0_gather_encode_backward_v2": 551,
+      "fused_index_scatter": 551,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 774,
+      "fused_mh_attn_backward": 774
+    },
+    "operator_counts": {},
+    "peak_allocated": 4677982208,
+    "peak_reserved": 18027118592,
+    "rep": 1
+  },
+  {
+    "kind": "epoch",
+    "epoch": 3,
+    "mode": "coarse",
+    "case": "wiki_bs200_k50_l2",
+    "source_result": {
+      "loss": 0.14469071147378582,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 10.838919639587402
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 10839.252997,
+        "timeline_ms": 10839.2939453125
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 10839.385497,
+        "timeline_ms": 10839.4267578125
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 569,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 330,
+      "fused_l0_gather_encode": 551,
+      "fused_seg_attn_backward": 330,
+      "fused_l0_gather_encode_backward_v2": 551,
+      "fused_index_scatter": 551,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 772,
+      "fused_mh_attn_backward": 772
+    },
+    "operator_counts": {},
+    "peak_allocated": 4677982208,
+    "peak_reserved": 18027118592,
+    "rep": 1
+  },
+  {
+    "kind": "epoch",
+    "epoch": 4,
+    "mode": "coarse",
+    "case": "wiki_bs200_k50_l2",
+    "source_result": {
+      "loss": 0.14092060372557916,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 11.04636025428772
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 11046.694003,
+        "timeline_ms": 11046.7236328125
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 11046.843441,
+        "timeline_ms": 11046.8779296875
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 569,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 329,
+      "fused_l0_gather_encode": 551,
+      "fused_seg_attn_backward": 329,
+      "fused_l0_gather_encode_backward_v2": 551,
+      "fused_index_scatter": 551,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 773,
+      "fused_mh_attn_backward": 773
+    },
+    "operator_counts": {},
+    "peak_allocated": 4724931072,
+    "peak_reserved": 18027118592,
+    "rep": 1
+  },
+  {
+    "kind": "epoch",
+    "epoch": 1,
+    "mode": "coarse",
+    "case": "wiki_bs200_k20_l2",
+    "source_result": {
+      "loss": 0.22867075767631756,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 7.128174543380737
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 7128.44739,
+        "timeline_ms": 7128.4638671875
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 7128.580218,
+        "timeline_ms": 7128.60009765625
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 569,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 87,
+      "fused_l0_gather_encode": 551,
+      "fused_seg_attn_backward": 87,
+      "fused_l0_gather_encode_backward_v2": 551,
+      "fused_index_scatter": 551,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 1015,
+      "fused_mh_attn_backward": 1015
+    },
+    "operator_counts": {},
+    "peak_allocated": 1309235712,
+    "peak_reserved": 3227516928,
+    "rep": 1
+  },
+  {
+    "kind": "epoch",
+    "epoch": 2,
+    "mode": "coarse",
+    "case": "wiki_bs200_k20_l2",
+    "source_result": {
+      "loss": 0.1640435948886802,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 6.935358047485352
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 6935.716011,
+        "timeline_ms": 6935.7314453125
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 6935.993448,
+        "timeline_ms": 6936.01220703125
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 569,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 89,
+      "fused_l0_gather_encode": 551,
+      "fused_seg_attn_backward": 89,
+      "fused_l0_gather_encode_backward_v2": 551,
+      "fused_index_scatter": 551,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 1013,
+      "fused_mh_attn_backward": 1013
+    },
+    "operator_counts": {},
+    "peak_allocated": 1311803904,
+    "peak_reserved": 3315597312,
+    "rep": 1
+  },
+  {
+    "kind": "epoch",
+    "epoch": 3,
+    "mode": "coarse",
+    "case": "wiki_bs200_k20_l2",
+    "source_result": {
+      "loss": 0.14680775319870068,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 6.901577711105347
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 6901.910152,
+        "timeline_ms": 6901.92626953125
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 6902.053259,
+        "timeline_ms": 6902.07177734375
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 569,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 88,
+      "fused_l0_gather_encode": 551,
+      "fused_seg_attn_backward": 88,
+      "fused_l0_gather_encode_backward_v2": 551,
+      "fused_index_scatter": 551,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 1014,
+      "fused_mh_attn_backward": 1014
+    },
+    "operator_counts": {},
+    "peak_allocated": 1311803904,
+    "peak_reserved": 3407872000,
+    "rep": 1
+  },
+  {
+    "kind": "epoch",
+    "epoch": 4,
+    "mode": "coarse",
+    "case": "wiki_bs200_k20_l2",
+    "source_result": {
+      "loss": 0.14051867070896873,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 6.878619909286499
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 6878.896927,
+        "timeline_ms": 6878.9111328125
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 6879.029533,
+        "timeline_ms": 6879.0458984375
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 569,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 90,
+      "fused_l0_gather_encode": 551,
+      "fused_seg_attn_backward": 90,
+      "fused_l0_gather_encode_backward_v2": 551,
+      "fused_index_scatter": 551,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 1012,
+      "fused_mh_attn_backward": 1012
+    },
+    "operator_counts": {},
+    "peak_allocated": 1319307776,
+    "peak_reserved": 3881828352,
+    "rep": 1
+  },
+  {
+    "kind": "epoch",
+    "epoch": 1,
+    "mode": "coarse",
+    "case": "wiki_bs200_k50_l1",
+    "source_result": {
+      "loss": 0.23523746758104452,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 3.951955556869507
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 439.610176,
+        "timeline_ms": 439.60943603515625
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 3952.135139,
+        "timeline_ms": 3952.143310546875
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 4416.661222,
+        "timeline_ms": 4416.671875
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 2,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 194,
+      "fused_seg_attn_backward": 194,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 357,
+      "fused_mh_attn_backward": 357
+    },
+    "operator_counts": {},
+    "peak_allocated": 982361088,
+    "peak_reserved": 1138753536,
+    "rep": 1
+  },
+  {
+    "kind": "epoch",
+    "epoch": 2,
+    "mode": "coarse",
+    "case": "wiki_bs200_k50_l1",
+    "source_result": {
+      "loss": 0.17381718744626928,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 3.2898457050323486
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 425.488237,
+        "timeline_ms": 425.4900817871094
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 3290.002663,
+        "timeline_ms": 3290.010009765625
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 3740.895265,
+        "timeline_ms": 3740.90478515625
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 2,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 194,
+      "fused_seg_attn_backward": 194,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 357,
+      "fused_mh_attn_backward": 357
+    },
+    "operator_counts": {},
+    "peak_allocated": 982680576,
+    "peak_reserved": 1161822208,
+    "rep": 1
+  },
+  {
+    "kind": "epoch",
+    "epoch": 3,
+    "mode": "coarse",
+    "case": "wiki_bs200_k50_l1",
+    "source_result": {
+      "loss": 0.15261924750223999,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 3.2857277393341064
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 373.314224,
+        "timeline_ms": 373.3141174316406
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 3285.880455,
+        "timeline_ms": 3285.888671875
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 3681.155784,
+        "timeline_ms": 3681.165771484375
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 2,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 197,
+      "fused_seg_attn_backward": 197,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 354,
+      "fused_mh_attn_backward": 354
+    },
+    "operator_counts": {},
+    "peak_allocated": 982752768,
+    "peak_reserved": 1161822208,
+    "rep": 1
+  },
+  {
+    "kind": "epoch",
+    "epoch": 4,
+    "mode": "coarse",
+    "case": "wiki_bs200_k50_l1",
+    "source_result": {
+      "loss": 0.14364643931767468,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 3.2797253131866455
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 373.80993,
+        "timeline_ms": 373.8108825683594
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 3279.869855,
+        "timeline_ms": 3279.877197265625
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 3675.715158,
+        "timeline_ms": 3675.725341796875
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 2,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 199,
+      "fused_seg_attn_backward": 199,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 352,
+      "fused_mh_attn_backward": 352
+    },
+    "operator_counts": {},
+    "peak_allocated": 982752768,
+    "peak_reserved": 1161822208,
+    "rep": 1
+  },
+  {
+    "kind": "epoch",
+    "epoch": 1,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k20_l1",
+    "source_result": {
+      "loss": 0.4700467516075481,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 0.3813025951385498
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 52.387664,
+        "timeline_ms": 52.38550567626953
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 381.444359,
+        "timeline_ms": 381.4438171386719
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 442.41014,
+        "timeline_ms": 442.4109802246094
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 1,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 5,
+      "fused_seg_attn_backward": 5,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 50,
+      "fused_mh_attn_backward": 50
+    },
+    "operator_counts": {},
+    "peak_allocated": 1559066112,
+    "peak_reserved": 2030043136,
+    "rep": 1
+  },
+  {
+    "kind": "epoch",
+    "epoch": 2,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k20_l1",
+    "source_result": {
+      "loss": 0.29245253774252805,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 0.3797154426574707
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 48.249294,
+        "timeline_ms": 48.24748611450195
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 379.861528,
+        "timeline_ms": 379.8617248535156
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 437.825514,
+        "timeline_ms": 437.8266906738281
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 1,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 5,
+      "fused_seg_attn_backward": 5,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 50,
+      "fused_mh_attn_backward": 50
+    },
+    "operator_counts": {},
+    "peak_allocated": 1559066112,
+    "peak_reserved": 2067791872,
+    "rep": 1
+  },
+  {
+    "kind": "epoch",
+    "epoch": 3,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k20_l1",
+    "source_result": {
+      "loss": 0.25741100582209503,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 0.38210153579711914
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 48.275261,
+        "timeline_ms": 48.27356719970703
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 382.239987,
+        "timeline_ms": 382.2396240234375
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 440.92103,
+        "timeline_ms": 440.9223327636719
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 1,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 5,
+      "fused_seg_attn_backward": 5,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 50,
+      "fused_mh_attn_backward": 50
+    },
+    "operator_counts": {},
+    "peak_allocated": 1559066112,
+    "peak_reserved": 2069889024,
+    "rep": 1
+  },
+  {
+    "kind": "epoch",
+    "epoch": 4,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k20_l1",
+    "source_result": {
+      "loss": 0.23984004421667618,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 0.3785061836242676
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 48.754885,
+        "timeline_ms": 48.75302505493164
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 378.642509,
+        "timeline_ms": 378.6424865722656
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 438.310494,
+        "timeline_ms": 438.311767578125
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 1,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 5,
+      "fused_seg_attn_backward": 5,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 50,
+      "fused_mh_attn_backward": 50
+    },
+    "operator_counts": {},
+    "peak_allocated": 1559802368,
+    "peak_reserved": 2069889024,
+    "rep": 1
+  },
+  {
+    "kind": "epoch",
+    "epoch": 1,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k50_l2",
+    "source_result": {
+      "loss": 0.42861723791469225,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 3.521292209625244
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 3521.493859,
+        "timeline_ms": 3521.500732421875
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 3521.583516,
+        "timeline_ms": 3521.59326171875
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 57,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 36,
+      "fused_l0_gather_encode": 55,
+      "fused_seg_attn_backward": 36,
+      "fused_l0_gather_encode_backward_v2": 55,
+      "fused_index_scatter": 55,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 74,
+      "fused_mh_attn_backward": 74
+    },
+    "operator_counts": {},
+    "peak_allocated": 21164165632,
+    "peak_reserved": 98146713600,
+    "rep": 1
+  },
+  {
+    "kind": "epoch",
+    "epoch": 2,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k50_l2",
+    "source_result": {
+      "loss": 0.2558396030556072,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 3.539625406265259
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 3539.850631,
+        "timeline_ms": 3539.848876953125
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 3539.961199,
+        "timeline_ms": 3539.96875
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 57,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 35,
+      "fused_l0_gather_encode": 55,
+      "fused_seg_attn_backward": 35,
+      "fused_l0_gather_encode_backward_v2": 55,
+      "fused_index_scatter": 55,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 75,
+      "fused_mh_attn_backward": 75
+    },
+    "operator_counts": {},
+    "peak_allocated": 21164165632,
+    "peak_reserved": 100889788416,
+    "rep": 1
+  },
+  {
+    "kind": "epoch",
+    "epoch": 3,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k50_l2",
+    "source_result": {
+      "loss": 0.22722437408837406,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 3.614577054977417
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 3614.79235,
+        "timeline_ms": 3614.7958984375
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 3614.893654,
+        "timeline_ms": 3614.899169921875
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 57,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 36,
+      "fused_l0_gather_encode": 55,
+      "fused_seg_attn_backward": 36,
+      "fused_l0_gather_encode_backward_v2": 55,
+      "fused_index_scatter": 55,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 74,
+      "fused_mh_attn_backward": 74
+    },
+    "operator_counts": {},
+    "peak_allocated": 21164165632,
+    "peak_reserved": 100889788416,
+    "rep": 1
+  },
+  {
+    "kind": "epoch",
+    "epoch": 4,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k50_l2",
+    "source_result": {
+      "loss": 0.20659212497147647,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 3.537689208984375
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 3537.917138,
+        "timeline_ms": 3537.9189453125
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 3538.028638,
+        "timeline_ms": 3538.033203125
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 57,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 35,
+      "fused_l0_gather_encode": 55,
+      "fused_seg_attn_backward": 35,
+      "fused_l0_gather_encode_backward_v2": 55,
+      "fused_index_scatter": 55,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 75,
+      "fused_mh_attn_backward": 75
+    },
+    "operator_counts": {},
+    "peak_allocated": 21164165632,
+    "peak_reserved": 101042880512,
+    "rep": 1
+  },
+  {
+    "kind": "epoch",
+    "epoch": 1,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k20_l2",
+    "source_result": {
+      "loss": 0.43373171307823877,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 1.4444780349731445
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 1444.689885,
+        "timeline_ms": 1444.6898193359375
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 1444.78676,
+        "timeline_ms": 1444.7894287109375
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 57,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 9,
+      "fused_l0_gather_encode": 55,
+      "fused_seg_attn_backward": 9,
+      "fused_l0_gather_encode_backward_v2": 55,
+      "fused_index_scatter": 55,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 101,
+      "fused_mh_attn_backward": 101
+    },
+    "operator_counts": {},
+    "peak_allocated": 5276846080,
+    "peak_reserved": 28846325760,
+    "rep": 1
+  },
+  {
+    "kind": "epoch",
+    "epoch": 2,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k20_l2",
+    "source_result": {
+      "loss": 0.25907182612202384,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 1.4176194667816162
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 1417.827435,
+        "timeline_ms": 1417.8271484375
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 1417.929722,
+        "timeline_ms": 1417.9310302734375
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 57,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 9,
+      "fused_l0_gather_encode": 55,
+      "fused_seg_attn_backward": 9,
+      "fused_l0_gather_encode_backward_v2": 55,
+      "fused_index_scatter": 55,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 101,
+      "fused_mh_attn_backward": 101
+    },
+    "operator_counts": {},
+    "peak_allocated": 5283369472,
+    "peak_reserved": 31350325248,
+    "rep": 1
+  },
+  {
+    "kind": "epoch",
+    "epoch": 3,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k20_l2",
+    "source_result": {
+      "loss": 0.22848893214355814,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 1.4037768840789795
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 1403.987935,
+        "timeline_ms": 1403.98681640625
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 1404.093894,
+        "timeline_ms": 1404.0953369140625
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 57,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 10,
+      "fused_l0_gather_encode": 55,
+      "fused_seg_attn_backward": 10,
+      "fused_l0_gather_encode_backward_v2": 55,
+      "fused_index_scatter": 55,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 100,
+      "fused_mh_attn_backward": 100
+    },
+    "operator_counts": {},
+    "peak_allocated": 5283369472,
+    "peak_reserved": 31350325248,
+    "rep": 1
+  },
+  {
+    "kind": "epoch",
+    "epoch": 4,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k20_l2",
+    "source_result": {
+      "loss": 0.2058051418174397,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 1.4980347156524658
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 1498.291459,
+        "timeline_ms": 1498.2906494140625
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 1498.416673,
+        "timeline_ms": 1498.4173583984375
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 57,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 9,
+      "fused_l0_gather_encode": 55,
+      "fused_seg_attn_backward": 9,
+      "fused_l0_gather_encode_backward_v2": 55,
+      "fused_index_scatter": 55,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 101,
+      "fused_mh_attn_backward": 101
+    },
+    "operator_counts": {},
+    "peak_allocated": 5283369472,
+    "peak_reserved": 31350325248,
+    "rep": 1
+  },
+  {
+    "kind": "epoch",
+    "epoch": 1,
+    "mode": "coarse",
+    "case": "wiki_bs200_k50_l2",
+    "source_result": {
+      "loss": 0.22777026510390094,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 10.698566436767578
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 10698.974398,
+        "timeline_ms": 10698.9794921875
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 10699.105196,
+        "timeline_ms": 10699.12890625
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 569,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 327,
+      "fused_l0_gather_encode": 551,
+      "fused_seg_attn_backward": 327,
+      "fused_l0_gather_encode_backward_v2": 551,
+      "fused_index_scatter": 551,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 775,
+      "fused_mh_attn_backward": 775
+    },
+    "operator_counts": {},
+    "peak_allocated": 4680540672,
+    "peak_reserved": 18014535680,
+    "rep": 2
+  },
+  {
+    "kind": "epoch",
+    "epoch": 2,
+    "mode": "coarse",
+    "case": "wiki_bs200_k50_l2",
+    "source_result": {
+      "loss": 0.1582491983424622,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 10.100209951400757
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 10100.500877,
+        "timeline_ms": 10100.5146484375
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 10100.61966,
+        "timeline_ms": 10100.634765625
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 569,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 328,
+      "fused_l0_gather_encode": 551,
+      "fused_seg_attn_backward": 328,
+      "fused_l0_gather_encode_backward_v2": 551,
+      "fused_index_scatter": 551,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 774,
+      "fused_mh_attn_backward": 774
+    },
+    "operator_counts": {},
+    "peak_allocated": 4680540672,
+    "peak_reserved": 18014535680,
+    "rep": 2
+  },
+  {
+    "kind": "epoch",
+    "epoch": 3,
+    "mode": "coarse",
+    "case": "wiki_bs200_k50_l2",
+    "source_result": {
+      "loss": 0.14593015029052858,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 10.944442987442017
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 10944.73397,
+        "timeline_ms": 10944.7421875
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 10944.864612,
+        "timeline_ms": 10944.875
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 569,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 330,
+      "fused_l0_gather_encode": 551,
+      "fused_seg_attn_backward": 330,
+      "fused_l0_gather_encode_backward_v2": 551,
+      "fused_index_scatter": 551,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 772,
+      "fused_mh_attn_backward": 772
+    },
+    "operator_counts": {},
+    "peak_allocated": 4680540672,
+    "peak_reserved": 18014535680,
+    "rep": 2
+  },
+  {
+    "kind": "epoch",
+    "epoch": 4,
+    "mode": "coarse",
+    "case": "wiki_bs200_k50_l2",
+    "source_result": {
+      "loss": 0.13980751901107777,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 10.075928688049316
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 10076.185173,
+        "timeline_ms": 10076.189453125
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 10076.290203,
+        "timeline_ms": 10076.2958984375
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 569,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 329,
+      "fused_l0_gather_encode": 551,
+      "fused_seg_attn_backward": 329,
+      "fused_l0_gather_encode_backward_v2": 551,
+      "fused_index_scatter": 551,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 773,
+      "fused_mh_attn_backward": 773
+    },
+    "operator_counts": {},
+    "peak_allocated": 4734874112,
+    "peak_reserved": 18014535680,
+    "rep": 2
+  },
+  {
+    "kind": "epoch",
+    "epoch": 1,
+    "mode": "coarse",
+    "case": "wiki_bs200_k20_l2",
+    "source_result": {
+      "loss": 0.22467571657874408,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 5.860538482666016
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 5860.733776,
+        "timeline_ms": 5860.736328125
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 5860.822563,
+        "timeline_ms": 5860.82666015625
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 569,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 87,
+      "fused_l0_gather_encode": 551,
+      "fused_seg_attn_backward": 87,
+      "fused_l0_gather_encode_backward_v2": 551,
+      "fused_index_scatter": 551,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 1015,
+      "fused_mh_attn_backward": 1015
+    },
+    "operator_counts": {},
+    "peak_allocated": 1308054528,
+    "peak_reserved": 3238002688,
+    "rep": 2
+  },
+  {
+    "kind": "epoch",
+    "epoch": 2,
+    "mode": "coarse",
+    "case": "wiki_bs200_k20_l2",
+    "source_result": {
+      "loss": 0.1588514912434044,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 5.858160734176636
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 5858.388218,
+        "timeline_ms": 5858.38818359375
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 5858.502181,
+        "timeline_ms": 5858.50341796875
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 569,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 89,
+      "fused_l0_gather_encode": 551,
+      "fused_seg_attn_backward": 89,
+      "fused_l0_gather_encode_backward_v2": 551,
+      "fused_index_scatter": 551,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 1013,
+      "fused_mh_attn_backward": 1013
+    },
+    "operator_counts": {},
+    "peak_allocated": 1312771072,
+    "peak_reserved": 3317694464,
+    "rep": 2
+  },
+  {
+    "kind": "epoch",
+    "epoch": 3,
+    "mode": "coarse",
+    "case": "wiki_bs200_k20_l2",
+    "source_result": {
+      "loss": 0.14518102759431148,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 5.853808164596558
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 5854.034326,
+        "timeline_ms": 5854.03662109375
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 5854.132168,
+        "timeline_ms": 5854.13623046875
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 569,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 88,
+      "fused_l0_gather_encode": 551,
+      "fused_seg_attn_backward": 88,
+      "fused_l0_gather_encode_backward_v2": 551,
+      "fused_index_scatter": 551,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 1014,
+      "fused_mh_attn_backward": 1014
+    },
+    "operator_counts": {},
+    "peak_allocated": 1312771072,
+    "peak_reserved": 3454009344,
+    "rep": 2
+  },
+  {
+    "kind": "epoch",
+    "epoch": 4,
+    "mode": "coarse",
+    "case": "wiki_bs200_k20_l2",
+    "source_result": {
+      "loss": 0.1389029959314748,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 5.865911960601807
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 5866.112939,
+        "timeline_ms": 5866.11474609375
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 5866.203533,
+        "timeline_ms": 5866.20654296875
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 569,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 90,
+      "fused_l0_gather_encode": 551,
+      "fused_seg_attn_backward": 90,
+      "fused_l0_gather_encode_backward_v2": 551,
+      "fused_index_scatter": 551,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 1012,
+      "fused_mh_attn_backward": 1012
+    },
+    "operator_counts": {},
+    "peak_allocated": 1317574656,
+    "peak_reserved": 3607101440,
+    "rep": 2
+  },
+  {
+    "kind": "epoch",
+    "epoch": 1,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k20_l1",
+    "source_result": {
+      "loss": 0.46970979462970386,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 0.38602352142333984
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 52.410401,
+        "timeline_ms": 52.409793853759766
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 386.176255,
+        "timeline_ms": 386.17388916015625
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 447.527291,
+        "timeline_ms": 447.5263671875
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 1,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 5,
+      "fused_seg_attn_backward": 5,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 50,
+      "fused_mh_attn_backward": 50
+    },
+    "operator_counts": {},
+    "peak_allocated": 1558655488,
+    "peak_reserved": 2025848832,
+    "rep": 2
+  },
+  {
+    "kind": "epoch",
+    "epoch": 2,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k20_l1",
+    "source_result": {
+      "loss": 0.29150317013263705,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 0.38193678855895996
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 48.77389,
+        "timeline_ms": 48.77376174926758
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 382.080803,
+        "timeline_ms": 382.079833984375
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 440.786359,
+        "timeline_ms": 440.78692626953125
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 1,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 5,
+      "fused_seg_attn_backward": 5,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 50,
+      "fused_mh_attn_backward": 50
+    },
+    "operator_counts": {},
+    "peak_allocated": 1558655488,
+    "peak_reserved": 2061500416,
+    "rep": 2
+  },
+  {
+    "kind": "epoch",
+    "epoch": 3,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k20_l1",
+    "source_result": {
+      "loss": 0.2558010835539211,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 0.3775169849395752
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 48.172237,
+        "timeline_ms": 48.16940689086914
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 377.654888,
+        "timeline_ms": 377.6546630859375
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 436.227481,
+        "timeline_ms": 436.22802734375
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 1,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 5,
+      "fused_seg_attn_backward": 5,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 50,
+      "fused_mh_attn_backward": 50
+    },
+    "operator_counts": {},
+    "peak_allocated": 1558655488,
+    "peak_reserved": 2063597568,
+    "rep": 2
+  },
+  {
+    "kind": "epoch",
+    "epoch": 4,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k20_l1",
+    "source_result": {
+      "loss": 0.23899878751147877,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 0.37946200370788574
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 48.656948,
+        "timeline_ms": 48.65468978881836
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 379.599846,
+        "timeline_ms": 379.59844970703125
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 438.54896,
+        "timeline_ms": 438.5495910644531
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 1,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 5,
+      "fused_seg_attn_backward": 5,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 50,
+      "fused_mh_attn_backward": 50
+    },
+    "operator_counts": {},
+    "peak_allocated": 1558664704,
+    "peak_reserved": 2065694720,
+    "rep": 2
+  },
+  {
+    "kind": "epoch",
+    "epoch": 1,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k50_l2",
+    "source_result": {
+      "loss": 0.4261780551888726,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 3.4312713146209717
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 3431.471237,
+        "timeline_ms": 3431.470947265625
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 3431.561835,
+        "timeline_ms": 3431.564208984375
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 57,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 36,
+      "fused_l0_gather_encode": 55,
+      "fused_seg_attn_backward": 36,
+      "fused_l0_gather_encode_backward_v2": 55,
+      "fused_index_scatter": 55,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 74,
+      "fused_mh_attn_backward": 74
+    },
+    "operator_counts": {},
+    "peak_allocated": 21163396096,
+    "peak_reserved": 98157199360,
+    "rep": 2
+  },
+  {
+    "kind": "epoch",
+    "epoch": 2,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k50_l2",
+    "source_result": {
+      "loss": 0.25426788302985104,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 3.532635450363159
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 3532.865238,
+        "timeline_ms": 3532.864013671875
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 3532.974128,
+        "timeline_ms": 3532.974609375
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 57,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 35,
+      "fused_l0_gather_encode": 55,
+      "fused_seg_attn_backward": 35,
+      "fused_l0_gather_encode_backward_v2": 55,
+      "fused_index_scatter": 55,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 75,
+      "fused_mh_attn_backward": 75
+    },
+    "operator_counts": {},
+    "peak_allocated": 21163396096,
+    "peak_reserved": 100896079872,
+    "rep": 2
+  },
+  {
+    "kind": "epoch",
+    "epoch": 3,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k50_l2",
+    "source_result": {
+      "loss": 0.23071801201863723,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 3.5195417404174805
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 3519.732955,
+        "timeline_ms": 3519.7314453125
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 3519.846554,
+        "timeline_ms": 3519.845947265625
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 57,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 36,
+      "fused_l0_gather_encode": 55,
+      "fused_seg_attn_backward": 36,
+      "fused_l0_gather_encode_backward_v2": 55,
+      "fused_index_scatter": 55,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 74,
+      "fused_mh_attn_backward": 74
+    },
+    "operator_counts": {},
+    "peak_allocated": 21163396096,
+    "peak_reserved": 100896079872,
+    "rep": 2
+  },
+  {
+    "kind": "epoch",
+    "epoch": 4,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k50_l2",
+    "source_result": {
+      "loss": 0.20950625891035254,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 3.550581932067871
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 3550.774251,
+        "timeline_ms": 3550.77099609375
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 3550.870298,
+        "timeline_ms": 3550.8681640625
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 57,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 35,
+      "fused_l0_gather_encode": 55,
+      "fused_seg_attn_backward": 35,
+      "fused_l0_gather_encode_backward_v2": 55,
+      "fused_index_scatter": 55,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 75,
+      "fused_mh_attn_backward": 75
+    },
+    "operator_counts": {},
+    "peak_allocated": 21163396096,
+    "peak_reserved": 101042880512,
+    "rep": 2
+  },
+  {
+    "kind": "epoch",
+    "epoch": 1,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k50_l1",
+    "source_result": {
+      "loss": 0.46780408295718107,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 0.5386531352996826
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 46.722777,
+        "timeline_ms": 46.72195053100586
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 538.793659,
+        "timeline_ms": 538.7920532226562
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 589.452716,
+        "timeline_ms": 589.4522705078125
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 1,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 19,
+      "fused_seg_attn_backward": 19,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 36,
+      "fused_mh_attn_backward": 36
+    },
+    "operator_counts": {},
+    "peak_allocated": 3141158912,
+    "peak_reserved": 3527409664,
+    "rep": 2
+  },
+  {
+    "kind": "epoch",
+    "epoch": 2,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k50_l1",
+    "source_result": {
+      "loss": 0.288617928461595,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 0.537968635559082
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 44.746803,
+        "timeline_ms": 44.74380874633789
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 538.107753,
+        "timeline_ms": 538.1063842773438
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 592.393985,
+        "timeline_ms": 592.393798828125
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 1,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 19,
+      "fused_seg_attn_backward": 19,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 36,
+      "fused_mh_attn_backward": 36
+    },
+    "operator_counts": {},
+    "peak_allocated": 3144189440,
+    "peak_reserved": 3563061248,
+    "rep": 2
+  },
+  {
+    "kind": "epoch",
+    "epoch": 3,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k50_l1",
+    "source_result": {
+      "loss": 0.2521450649608265,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 0.5373740196228027
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 45.277823,
+        "timeline_ms": 45.2751350402832
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 537.519542,
+        "timeline_ms": 537.517822265625
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 592.885075,
+        "timeline_ms": 592.8850708007812
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 1,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 19,
+      "fused_seg_attn_backward": 19,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 36,
+      "fused_mh_attn_backward": 36
+    },
+    "operator_counts": {},
+    "peak_allocated": 3144189440,
+    "peak_reserved": 3577741312,
+    "rep": 2
+  },
+  {
+    "kind": "epoch",
+    "epoch": 4,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k50_l1",
+    "source_result": {
+      "loss": 0.2355966023423455,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 0.5371866226196289
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 44.931153,
+        "timeline_ms": 44.92854309082031
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 537.323502,
+        "timeline_ms": 537.3219604492188
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 592.228586,
+        "timeline_ms": 592.229248046875
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 1,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 19,
+      "fused_seg_attn_backward": 19,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 36,
+      "fused_mh_attn_backward": 36
+    },
+    "operator_counts": {},
+    "peak_allocated": 3144189440,
+    "peak_reserved": 3577741312,
+    "rep": 2
+  },
+  {
+    "kind": "epoch",
+    "epoch": 1,
+    "mode": "coarse",
+    "case": "wiki_bs200_k20_l1",
+    "source_result": {
+      "loss": 0.23446047879390405,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 3.2215042114257812
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 353.514493,
+        "timeline_ms": 353.5140686035156
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 3221.662207,
+        "timeline_ms": 3221.6591796875
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 3588.510038,
+        "timeline_ms": 3588.50830078125
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 2,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 56,
+      "fused_seg_attn_backward": 56,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 495,
+      "fused_mh_attn_backward": 495
+    },
+    "operator_counts": {},
+    "peak_allocated": 577149952,
+    "peak_reserved": 654311424,
+    "rep": 2
+  },
+  {
+    "kind": "epoch",
+    "epoch": 2,
+    "mode": "coarse",
+    "case": "wiki_bs200_k20_l1",
+    "source_result": {
+      "loss": 0.17211585299208246,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 3.185821294784546
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 352.673593,
+        "timeline_ms": 352.6008605957031
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 3185.990492,
+        "timeline_ms": 3185.987060546875
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 3553.385447,
+        "timeline_ms": 3553.385498046875
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 2,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 57,
+      "fused_seg_attn_backward": 57,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 494,
+      "fused_mh_attn_backward": 494
+    },
+    "operator_counts": {},
+    "peak_allocated": 577183744,
+    "peak_reserved": 654311424,
+    "rep": 2
+  },
+  {
+    "kind": "epoch",
+    "epoch": 3,
+    "mode": "coarse",
+    "case": "wiki_bs200_k20_l1",
+    "source_result": {
+      "loss": 0.15431687755074128,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 3.187412738800049
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 350.570538,
+        "timeline_ms": 350.5705871582031
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 3187.568488,
+        "timeline_ms": 3187.566650390625
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 3551.91854,
+        "timeline_ms": 3551.917724609375
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 2,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 58,
+      "fused_seg_attn_backward": 58,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 493,
+      "fused_mh_attn_backward": 493
+    },
+    "operator_counts": {},
+    "peak_allocated": 577328640,
+    "peak_reserved": 675282944,
+    "rep": 2
+  },
+  {
+    "kind": "epoch",
+    "epoch": 4,
+    "mode": "coarse",
+    "case": "wiki_bs200_k20_l1",
+    "source_result": {
+      "loss": 0.14505287324722363,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 3.1873373985290527
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 348.799039,
+        "timeline_ms": 348.7991638183594
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 3187.505562,
+        "timeline_ms": 3187.50390625
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 3548.615922,
+        "timeline_ms": 3548.61572265625
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 2,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 56,
+      "fused_seg_attn_backward": 56,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 495,
+      "fused_mh_attn_backward": 495
+    },
+    "operator_counts": {},
+    "peak_allocated": 577594368,
+    "peak_reserved": 675282944,
+    "rep": 2
+  },
+  {
+    "kind": "epoch",
+    "epoch": 1,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k20_l2",
+    "source_result": {
+      "loss": 0.4324083924293518,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 1.3920974731445312
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 1392.293945,
+        "timeline_ms": 1392.2926025390625
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 1392.385276,
+        "timeline_ms": 1392.3861083984375
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 57,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 9,
+      "fused_l0_gather_encode": 55,
+      "fused_seg_attn_backward": 9,
+      "fused_l0_gather_encode_backward_v2": 55,
+      "fused_index_scatter": 55,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 101,
+      "fused_mh_attn_backward": 101
+    },
+    "operator_counts": {},
+    "peak_allocated": 5277642240,
+    "peak_reserved": 28829548544,
+    "rep": 2
+  },
+  {
+    "kind": "epoch",
+    "epoch": 2,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k20_l2",
+    "source_result": {
+      "loss": 0.25653355609286915,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 1.4177656173706055
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 1417.966563,
+        "timeline_ms": 1417.965576171875
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 1418.067684,
+        "timeline_ms": 1418.068115234375
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 57,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 9,
+      "fused_l0_gather_encode": 55,
+      "fused_seg_attn_backward": 9,
+      "fused_l0_gather_encode_backward_v2": 55,
+      "fused_index_scatter": 55,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 101,
+      "fused_mh_attn_backward": 101
+    },
+    "operator_counts": {},
+    "peak_allocated": 5286437888,
+    "peak_reserved": 31350325248,
+    "rep": 2
+  },
+  {
+    "kind": "epoch",
+    "epoch": 3,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k20_l2",
+    "source_result": {
+      "loss": 0.2255898356437683,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 1.4106392860412598
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 1410.836009,
+        "timeline_ms": 1410.834716796875
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 1410.935428,
+        "timeline_ms": 1410.935546875
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 57,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 10,
+      "fused_l0_gather_encode": 55,
+      "fused_seg_attn_backward": 10,
+      "fused_l0_gather_encode_backward_v2": 55,
+      "fused_index_scatter": 55,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 100,
+      "fused_mh_attn_backward": 100
+    },
+    "operator_counts": {},
+    "peak_allocated": 5286437888,
+    "peak_reserved": 31350325248,
+    "rep": 2
+  },
+  {
+    "kind": "epoch",
+    "epoch": 4,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k20_l2",
+    "source_result": {
+      "loss": 0.20461587309837342,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 1.4330942630767822
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 1433.30298,
+        "timeline_ms": 1433.3017578125
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 1433.398345,
+        "timeline_ms": 1433.398193359375
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 57,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 9,
+      "fused_l0_gather_encode": 55,
+      "fused_seg_attn_backward": 9,
+      "fused_l0_gather_encode_backward_v2": 55,
+      "fused_index_scatter": 55,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 101,
+      "fused_mh_attn_backward": 101
+    },
+    "operator_counts": {},
+    "peak_allocated": 5286437888,
+    "peak_reserved": 31350325248,
+    "rep": 2
+  },
+  {
+    "kind": "epoch",
+    "epoch": 1,
+    "mode": "coarse",
+    "case": "wiki_bs200_k50_l1",
+    "source_result": {
+      "loss": 0.23734987091726054,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 3.2797398567199707
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 438.136619,
+        "timeline_ms": 438.1346435546875
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 3279.908127,
+        "timeline_ms": 3279.90625
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 3740.130418,
+        "timeline_ms": 3740.129638671875
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 2,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 194,
+      "fused_seg_attn_backward": 194,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 357,
+      "fused_mh_attn_backward": 357
+    },
+    "operator_counts": {},
+    "peak_allocated": 981978112,
+    "peak_reserved": 1210056704,
+    "rep": 2
+  },
+  {
+    "kind": "epoch",
+    "epoch": 2,
+    "mode": "coarse",
+    "case": "wiki_bs200_k50_l1",
+    "source_result": {
+      "loss": 0.17260670329286917,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 3.27549147605896
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 373.673105,
+        "timeline_ms": 373.67303466796875
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 3275.670716,
+        "timeline_ms": 3275.66845703125
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 3674.946769,
+        "timeline_ms": 3674.946533203125
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 2,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 194,
+      "fused_seg_attn_backward": 194,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 357,
+      "fused_mh_attn_backward": 357
+    },
+    "operator_counts": {},
+    "peak_allocated": 983732224,
+    "peak_reserved": 1210056704,
+    "rep": 2
+  },
+  {
+    "kind": "epoch",
+    "epoch": 3,
+    "mode": "coarse",
+    "case": "wiki_bs200_k50_l1",
+    "source_result": {
+      "loss": 0.15241927458159288,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 3.2819724082946777
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 372.78328,
+        "timeline_ms": 372.7832336425781
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 3282.156407,
+        "timeline_ms": 3282.155029296875
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 3679.380969,
+        "timeline_ms": 3679.3798828125
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 2,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 197,
+      "fused_seg_attn_backward": 197,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 354,
+      "fused_mh_attn_backward": 354
+    },
+    "operator_counts": {},
+    "peak_allocated": 983732224,
+    "peak_reserved": 1210056704,
+    "rep": 2
+  },
+  {
+    "kind": "epoch",
+    "epoch": 4,
+    "mode": "coarse",
+    "case": "wiki_bs200_k50_l1",
+    "source_result": {
+      "loss": 0.14630656094440747,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 3.275538206100464
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 372.880587,
+        "timeline_ms": 372.88037109375
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 3275.70736,
+        "timeline_ms": 3275.7060546875
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 3671.547269,
+        "timeline_ms": 3671.548095703125
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 2,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 199,
+      "fused_seg_attn_backward": 199,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 352,
+      "fused_mh_attn_backward": 352
+    },
+    "operator_counts": {},
+    "peak_allocated": 983732224,
+    "peak_reserved": 1210056704,
+    "rep": 2
+  },
+  {
+    "kind": "epoch",
+    "epoch": 1,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k20_l2",
+    "source_result": {
+      "loss": 0.4322711993347515,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 2.008460283279419
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 2008.73411,
+        "timeline_ms": 2008.738037109375
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 2008.868898,
+        "timeline_ms": 2008.8828125
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 57,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 9,
+      "fused_l0_gather_encode": 55,
+      "fused_seg_attn_backward": 9,
+      "fused_l0_gather_encode_backward_v2": 55,
+      "fused_index_scatter": 55,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 101,
+      "fused_mh_attn_backward": 101
+    },
+    "operator_counts": {},
+    "peak_allocated": 5278844416,
+    "peak_reserved": 29047652352,
+    "rep": 3
+  },
+  {
+    "kind": "epoch",
+    "epoch": 2,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k20_l2",
+    "source_result": {
+      "loss": 0.2595459385351701,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 1.4639983177185059
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 1464.369764,
+        "timeline_ms": 1464.37060546875
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 1464.533143,
+        "timeline_ms": 1464.537841796875
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 57,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 9,
+      "fused_l0_gather_encode": 55,
+      "fused_seg_attn_backward": 9,
+      "fused_l0_gather_encode_backward_v2": 55,
+      "fused_index_scatter": 55,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 101,
+      "fused_mh_attn_backward": 101
+    },
+    "operator_counts": {},
+    "peak_allocated": 5285436928,
+    "peak_reserved": 31536971776,
+    "rep": 3
+  },
+  {
+    "kind": "epoch",
+    "epoch": 3,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k20_l2",
+    "source_result": {
+      "loss": 0.2268794430927797,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 1.5251576900482178
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 1525.540899,
+        "timeline_ms": 1525.5438232421875
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 1525.680182,
+        "timeline_ms": 1525.6851806640625
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 57,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 10,
+      "fused_l0_gather_encode": 55,
+      "fused_seg_attn_backward": 10,
+      "fused_l0_gather_encode_backward_v2": 55,
+      "fused_index_scatter": 55,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 100,
+      "fused_mh_attn_backward": 100
+    },
+    "operator_counts": {},
+    "peak_allocated": 5285436928,
+    "peak_reserved": 31536971776,
+    "rep": 3
+  },
+  {
+    "kind": "epoch",
+    "epoch": 4,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k20_l2",
+    "source_result": {
+      "loss": 0.20432719371535563,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 1.437239408493042
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 1437.59378,
+        "timeline_ms": 1437.58642578125
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 1437.722119,
+        "timeline_ms": 1437.72607421875
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 57,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 9,
+      "fused_l0_gather_encode": 55,
+      "fused_seg_attn_backward": 9,
+      "fused_l0_gather_encode_backward_v2": 55,
+      "fused_index_scatter": 55,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 101,
+      "fused_mh_attn_backward": 101
+    },
+    "operator_counts": {},
+    "peak_allocated": 5285436928,
+    "peak_reserved": 31536971776,
+    "rep": 3
+  },
+  {
+    "kind": "epoch",
+    "epoch": 1,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k50_l1",
+    "source_result": {
+      "loss": 0.46951707384803076,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 0.5497257709503174
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 55.91318,
+        "timeline_ms": 55.915550231933594
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 549.917498,
+        "timeline_ms": 549.9174194335938
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 609.738272,
+        "timeline_ms": 609.739990234375
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 1,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 19,
+      "fused_seg_attn_backward": 19,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 36,
+      "fused_mh_attn_backward": 36
+    },
+    "operator_counts": {},
+    "peak_allocated": 3144443904,
+    "peak_reserved": 3533701120,
+    "rep": 3
+  },
+  {
+    "kind": "epoch",
+    "epoch": 2,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k50_l1",
+    "source_result": {
+      "loss": 0.29266227429563346,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 0.5470764636993408
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 53.108334,
+        "timeline_ms": 53.107391357421875
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 547.270254,
+        "timeline_ms": 547.270263671875
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 610.500473,
+        "timeline_ms": 610.5025024414062
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 1,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 19,
+      "fused_seg_attn_backward": 19,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 36,
+      "fused_mh_attn_backward": 36
+    },
+    "operator_counts": {},
+    "peak_allocated": 3144750080,
+    "peak_reserved": 3556769792,
+    "rep": 3
+  },
+  {
+    "kind": "epoch",
+    "epoch": 3,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k50_l1",
+    "source_result": {
+      "loss": 0.25552346706390383,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 0.5497701168060303
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 52.405494,
+        "timeline_ms": 52.40371322631836
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 549.971815,
+        "timeline_ms": 549.9706420898438
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 612.653649,
+        "timeline_ms": 612.6553955078125
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 1,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 19,
+      "fused_seg_attn_backward": 19,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 36,
+      "fused_mh_attn_backward": 36
+    },
+    "operator_counts": {},
+    "peak_allocated": 3144750080,
+    "peak_reserved": 4490002432,
+    "rep": 3
+  },
+  {
+    "kind": "epoch",
+    "epoch": 4,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k50_l1",
+    "source_result": {
+      "loss": 0.23752938942475751,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 0.5426797866821289
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 52.000008,
+        "timeline_ms": 51.99919891357422
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 542.867196,
+        "timeline_ms": 542.8668212890625
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 608.292731,
+        "timeline_ms": 608.2945556640625
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 1,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 19,
+      "fused_seg_attn_backward": 19,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 36,
+      "fused_mh_attn_backward": 36
+    },
+    "operator_counts": {},
+    "peak_allocated": 3144750080,
+    "peak_reserved": 4490002432,
+    "rep": 3
+  },
+  {
+    "kind": "epoch",
+    "epoch": 1,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k20_l1",
+    "source_result": {
+      "loss": 0.4689452848651192,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 0.3905215263366699
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 61.873348,
+        "timeline_ms": 61.87305450439453
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 390.798727,
+        "timeline_ms": 390.7965087890625
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 462.219107,
+        "timeline_ms": 462.22119140625
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 1,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 5,
+      "fused_seg_attn_backward": 5,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 50,
+      "fused_mh_attn_backward": 50
+    },
+    "operator_counts": {},
+    "peak_allocated": 1557015552,
+    "peak_reserved": 2149580800,
+    "rep": 3
+  },
+  {
+    "kind": "epoch",
+    "epoch": 2,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k20_l1",
+    "source_result": {
+      "loss": 0.289280244437131,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 0.3889122009277344
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 57.406939,
+        "timeline_ms": 57.40572738647461
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 389.088684,
+        "timeline_ms": 389.0881042480469
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 722.710911,
+        "timeline_ms": 722.7142944335938
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 1,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 5,
+      "fused_seg_attn_backward": 5,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 50,
+      "fused_mh_attn_backward": 50
+    },
+    "operator_counts": {},
+    "peak_allocated": 1557270528,
+    "peak_reserved": 2153775104,
+    "rep": 3
+  },
+  {
+    "kind": "epoch",
+    "epoch": 3,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k20_l1",
+    "source_result": {
+      "loss": 0.2549681785431775,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 0.38980650901794434
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 61.483843,
+        "timeline_ms": 61.485504150390625
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 390.112356,
+        "timeline_ms": 390.11175537109375
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 512.075168,
+        "timeline_ms": 512.0770263671875
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 1,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 5,
+      "fused_seg_attn_backward": 5,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 50,
+      "fused_mh_attn_backward": 50
+    },
+    "operator_counts": {},
+    "peak_allocated": 1557270528,
+    "peak_reserved": 2155872256,
+    "rep": 3
+  },
+  {
+    "kind": "epoch",
+    "epoch": 4,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k20_l1",
+    "source_result": {
+      "loss": 0.23668177073652094,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 0.3887622356414795
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 56.287054,
+        "timeline_ms": 56.285152435302734
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 388.93281,
+        "timeline_ms": 388.93212890625
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 455.950754,
+        "timeline_ms": 455.9525146484375
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 1,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 5,
+      "fused_seg_attn_backward": 5,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 50,
+      "fused_mh_attn_backward": 50
+    },
+    "operator_counts": {},
+    "peak_allocated": 1557369856,
+    "peak_reserved": 2155872256,
+    "rep": 3
+  },
+  {
+    "kind": "epoch",
+    "epoch": 1,
+    "mode": "coarse",
+    "case": "wiki_bs200_k50_l1",
+    "source_result": {
+      "loss": 0.23732376796364135,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 3.906188488006592
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 451.465893,
+        "timeline_ms": 451.466796875
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 3906.386205,
+        "timeline_ms": 3906.396240234375
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 4381.500457,
+        "timeline_ms": 4381.51318359375
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 2,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 194,
+      "fused_seg_attn_backward": 194,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 357,
+      "fused_mh_attn_backward": 357
+    },
+    "operator_counts": {},
+    "peak_allocated": 979609600,
+    "peak_reserved": 1172307968,
+    "rep": 3
+  },
+  {
+    "kind": "epoch",
+    "epoch": 2,
+    "mode": "coarse",
+    "case": "wiki_bs200_k50_l1",
+    "source_result": {
+      "loss": 0.17321360321502505,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 4.05135703086853
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 454.46024,
+        "timeline_ms": 454.45941162109375
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 4051.55078,
+        "timeline_ms": 4051.5615234375
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 4530.770729,
+        "timeline_ms": 4530.78466796875
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 2,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 194,
+      "fused_seg_attn_backward": 194,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 357,
+      "fused_mh_attn_backward": 357
+    },
+    "operator_counts": {},
+    "peak_allocated": 980156928,
+    "peak_reserved": 1293942784,
+    "rep": 3
+  },
+  {
+    "kind": "epoch",
+    "epoch": 3,
+    "mode": "coarse",
+    "case": "wiki_bs200_k50_l1",
+    "source_result": {
+      "loss": 0.15380357314043167,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 4.030441522598267
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 452.563102,
+        "timeline_ms": 452.5621643066406
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 4030.637476,
+        "timeline_ms": 4030.64794921875
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 4507.316874,
+        "timeline_ms": 4507.330078125
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 2,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 197,
+      "fused_seg_attn_backward": 197,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 354,
+      "fused_mh_attn_backward": 354
+    },
+    "operator_counts": {},
+    "peak_allocated": 980156928,
+    "peak_reserved": 1293942784,
+    "rep": 3
+  },
+  {
+    "kind": "epoch",
+    "epoch": 4,
+    "mode": "coarse",
+    "case": "wiki_bs200_k50_l1",
+    "source_result": {
+      "loss": 0.14483901229560267,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 4.081716060638428
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 450.530098,
+        "timeline_ms": 450.52911376953125
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 4081.906824,
+        "timeline_ms": 4081.917724609375
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 4555.305693,
+        "timeline_ms": 4555.31982421875
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 2,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 199,
+      "fused_seg_attn_backward": 199,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 352,
+      "fused_mh_attn_backward": 352
+    },
+    "operator_counts": {},
+    "peak_allocated": 980156928,
+    "peak_reserved": 1293942784,
+    "rep": 3
+  },
+  {
+    "kind": "epoch",
+    "epoch": 1,
+    "mode": "coarse",
+    "case": "wiki_bs200_k20_l1",
+    "source_result": {
+      "loss": 0.2358810716391475,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 3.9753646850585938
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 430.706821,
+        "timeline_ms": 430.7079162597656
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 3975.541443,
+        "timeline_ms": 3975.55859375
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 4420.796443,
+        "timeline_ms": 4420.81005859375
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 2,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 56,
+      "fused_seg_attn_backward": 56,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 495,
+      "fused_mh_attn_backward": 495
+    },
+    "operator_counts": {},
+    "peak_allocated": 573879296,
+    "peak_reserved": 614465536,
+    "rep": 3
+  },
+  {
+    "kind": "epoch",
+    "epoch": 2,
+    "mode": "coarse",
+    "case": "wiki_bs200_k20_l1",
+    "source_result": {
+      "loss": 0.17509223603915605,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 3.992051362991333
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 424.656824,
+        "timeline_ms": 424.65771484375
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 3992.225978,
+        "timeline_ms": 3992.237060546875
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 4434.294793,
+        "timeline_ms": 4434.3095703125
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 2,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 57,
+      "fused_seg_attn_backward": 57,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 494,
+      "fused_mh_attn_backward": 494
+    },
+    "operator_counts": {},
+    "peak_allocated": 573879296,
+    "peak_reserved": 614465536,
+    "rep": 3
+  },
+  {
+    "kind": "epoch",
+    "epoch": 3,
+    "mode": "coarse",
+    "case": "wiki_bs200_k20_l1",
+    "source_result": {
+      "loss": 0.15466053011791675,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 3.9875426292419434
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 424.106478,
+        "timeline_ms": 424.1072082519531
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 3987.730131,
+        "timeline_ms": 3987.74072265625
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 4424.63554,
+        "timeline_ms": 4424.6494140625
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 2,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 58,
+      "fused_seg_attn_backward": 58,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 493,
+      "fused_mh_attn_backward": 493
+    },
+    "operator_counts": {},
+    "peak_allocated": 573894144,
+    "peak_reserved": 614465536,
+    "rep": 3
+  },
+  {
+    "kind": "epoch",
+    "epoch": 4,
+    "mode": "coarse",
+    "case": "wiki_bs200_k20_l1",
+    "source_result": {
+      "loss": 0.14424883719608053,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 3.971270799636841
+    },
+    "phases": {
+      "epoch/schedule_full": {
+        "calls": 1,
+        "host_ms": 427.720458,
+        "timeline_ms": 427.721435546875
+      },
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 3971.446532,
+        "timeline_ms": 3971.458251953125
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 4412.940614,
+        "timeline_ms": 4412.95654296875
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 2,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 56,
+      "fused_seg_attn_backward": 56,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 495,
+      "fused_mh_attn_backward": 495
+    },
+    "operator_counts": {},
+    "peak_allocated": 573894144,
+    "peak_reserved": 614465536,
+    "rep": 3
+  },
+  {
+    "kind": "epoch",
+    "epoch": 1,
+    "mode": "coarse",
+    "case": "wiki_bs200_k20_l2",
+    "source_result": {
+      "loss": 0.2246047608594929,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 6.299332857131958
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 6299.569733,
+        "timeline_ms": 6299.58837890625
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 6299.671495,
+        "timeline_ms": 6299.69482421875
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 569,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 87,
+      "fused_l0_gather_encode": 551,
+      "fused_seg_attn_backward": 87,
+      "fused_l0_gather_encode_backward_v2": 551,
+      "fused_index_scatter": 551,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 1015,
+      "fused_mh_attn_backward": 1015
+    },
+    "operator_counts": {},
+    "peak_allocated": 1307970560,
+    "peak_reserved": 3248488448,
+    "rep": 3
+  },
+  {
+    "kind": "epoch",
+    "epoch": 2,
+    "mode": "coarse",
+    "case": "wiki_bs200_k20_l2",
+    "source_result": {
+      "loss": 0.16024948734986155,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 5.881240367889404
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 5881.433144,
+        "timeline_ms": 5881.451171875
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 5881.531412,
+        "timeline_ms": 5881.55078125
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 569,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 89,
+      "fused_l0_gather_encode": 551,
+      "fused_seg_attn_backward": 89,
+      "fused_l0_gather_encode_backward_v2": 551,
+      "fused_index_scatter": 551,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 1013,
+      "fused_mh_attn_backward": 1013
+    },
+    "operator_counts": {},
+    "peak_allocated": 1312889856,
+    "peak_reserved": 3355443200,
+    "rep": 3
+  },
+  {
+    "kind": "epoch",
+    "epoch": 3,
+    "mode": "coarse",
+    "case": "wiki_bs200_k20_l2",
+    "source_result": {
+      "loss": 0.14579490076635582,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 6.911369800567627
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 6911.580309,
+        "timeline_ms": 6911.59912109375
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 6911.683759,
+        "timeline_ms": 6911.70458984375
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 569,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 88,
+      "fused_l0_gather_encode": 551,
+      "fused_seg_attn_backward": 88,
+      "fused_l0_gather_encode_backward_v2": 551,
+      "fused_index_scatter": 551,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 1014,
+      "fused_mh_attn_backward": 1014
+    },
+    "operator_counts": {},
+    "peak_allocated": 1312889856,
+    "peak_reserved": 3380609024,
+    "rep": 3
+  },
+  {
+    "kind": "epoch",
+    "epoch": 4,
+    "mode": "coarse",
+    "case": "wiki_bs200_k20_l2",
+    "source_result": {
+      "loss": 0.14105944397999565,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 6.382726192474365
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 6382.990347,
+        "timeline_ms": 6383.00634765625
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 6383.121421,
+        "timeline_ms": 6383.1396484375
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 569,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 90,
+      "fused_l0_gather_encode": 551,
+      "fused_seg_attn_backward": 90,
+      "fused_l0_gather_encode_backward_v2": 551,
+      "fused_index_scatter": 551,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 1012,
+      "fused_mh_attn_backward": 1012
+    },
+    "operator_counts": {},
+    "peak_allocated": 1317250560,
+    "peak_reserved": 3844079616,
+    "rep": 3
+  },
+  {
+    "kind": "epoch",
+    "epoch": 1,
+    "mode": "coarse",
+    "case": "wiki_bs200_k50_l2",
+    "source_result": {
+      "loss": 0.22671852036364065,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 10.949076652526855
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 10949.337254,
+        "timeline_ms": 10949.36328125
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 10949.445643,
+        "timeline_ms": 10949.4755859375
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 569,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 327,
+      "fused_l0_gather_encode": 551,
+      "fused_seg_attn_backward": 327,
+      "fused_l0_gather_encode_backward_v2": 551,
+      "fused_index_scatter": 551,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 775,
+      "fused_mh_attn_backward": 775
+    },
+    "operator_counts": {},
+    "peak_allocated": 4672396800,
+    "peak_reserved": 18010341376,
+    "rep": 3
+  },
+  {
+    "kind": "epoch",
+    "epoch": 2,
+    "mode": "coarse",
+    "case": "wiki_bs200_k50_l2",
+    "source_result": {
+      "loss": 0.16032065822998107,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 10.856324195861816
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 10856.570648,
+        "timeline_ms": 10856.5908203125
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 10856.692375,
+        "timeline_ms": 10856.7138671875
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 569,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 328,
+      "fused_l0_gather_encode": 551,
+      "fused_seg_attn_backward": 328,
+      "fused_l0_gather_encode_backward_v2": 551,
+      "fused_index_scatter": 551,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 774,
+      "fused_mh_attn_backward": 774
+    },
+    "operator_counts": {},
+    "peak_allocated": 4672396800,
+    "peak_reserved": 18010341376,
+    "rep": 3
+  },
+  {
+    "kind": "epoch",
+    "epoch": 3,
+    "mode": "coarse",
+    "case": "wiki_bs200_k50_l2",
+    "source_result": {
+      "loss": 0.14382517915185264,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 10.683645963668823
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 10683.904258,
+        "timeline_ms": 10683.9169921875
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 10684.021536,
+        "timeline_ms": 10684.0361328125
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 569,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 330,
+      "fused_l0_gather_encode": 551,
+      "fused_seg_attn_backward": 330,
+      "fused_l0_gather_encode_backward_v2": 551,
+      "fused_index_scatter": 551,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 772,
+      "fused_mh_attn_backward": 772
+    },
+    "operator_counts": {},
+    "peak_allocated": 4672396800,
+    "peak_reserved": 18010341376,
+    "rep": 3
+  },
+  {
+    "kind": "epoch",
+    "epoch": 4,
+    "mode": "coarse",
+    "case": "wiki_bs200_k50_l2",
+    "source_result": {
+      "loss": 0.13842379380889683,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 10.85006070137024
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 10850.3111,
+        "timeline_ms": 10850.3203125
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 10850.425362,
+        "timeline_ms": 10850.435546875
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 569,
+      "fused_lse_gather": 551,
+      "fused_gather_encode_v2": 551,
+      "fused_seg_attn_forward": 329,
+      "fused_l0_gather_encode": 551,
+      "fused_seg_attn_backward": 329,
+      "fused_l0_gather_encode_backward_v2": 551,
+      "fused_index_scatter": 551,
+      "fused_gather_encode_backward_v2": 551,
+      "fused_mh_attn_forward": 773,
+      "fused_mh_attn_backward": 773
+    },
+    "operator_counts": {},
+    "peak_allocated": 4726820352,
+    "peak_reserved": 18010341376,
+    "rep": 3
+  },
+  {
+    "kind": "epoch",
+    "epoch": 1,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k50_l2",
+    "source_result": {
+      "loss": 0.42892436249689625,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 3.517183303833008
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 3517.451993,
+        "timeline_ms": 3517.4521484375
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 3517.589768,
+        "timeline_ms": 3517.593505859375
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 57,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 36,
+      "fused_l0_gather_encode": 55,
+      "fused_seg_attn_backward": 36,
+      "fused_l0_gather_encode_backward_v2": 55,
+      "fused_index_scatter": 55,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 74,
+      "fused_mh_attn_backward": 74
+    },
+    "operator_counts": {},
+    "peak_allocated": 21165939200,
+    "peak_reserved": 98140422144,
+    "rep": 3
+  },
+  {
+    "kind": "epoch",
+    "epoch": 2,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k50_l2",
+    "source_result": {
+      "loss": 0.25517342009327626,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 3.619978904724121
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 3620.220284,
+        "timeline_ms": 3620.2197265625
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 3620.359717,
+        "timeline_ms": 3620.36083984375
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 57,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 35,
+      "fused_l0_gather_encode": 55,
+      "fused_seg_attn_backward": 35,
+      "fused_l0_gather_encode_backward_v2": 55,
+      "fused_index_scatter": 55,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 75,
+      "fused_mh_attn_backward": 75
+    },
+    "operator_counts": {},
+    "peak_allocated": 21165939200,
+    "peak_reserved": 100889788416,
+    "rep": 3
+  },
+  {
+    "kind": "epoch",
+    "epoch": 3,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k50_l2",
+    "source_result": {
+      "loss": 0.2295488704334606,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 3.6197640895843506
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 3620.0048,
+        "timeline_ms": 3620.003173828125
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 3620.124568,
+        "timeline_ms": 3620.125244140625
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 57,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 36,
+      "fused_l0_gather_encode": 55,
+      "fused_seg_attn_backward": 36,
+      "fused_l0_gather_encode_backward_v2": 55,
+      "fused_index_scatter": 55,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 74,
+      "fused_mh_attn_backward": 74
+    },
+    "operator_counts": {},
+    "peak_allocated": 21165939200,
+    "peak_reserved": 100889788416,
+    "rep": 3
+  },
+  {
+    "kind": "epoch",
+    "epoch": 4,
+    "mode": "coarse",
+    "case": "wiki_bs2000_k50_l2",
+    "source_result": {
+      "loss": 0.20798032392155041,
+      "ap": 0.0,
+      "auc": 0.0,
+      "loop_time": 3.6384799480438232
+    },
+    "phases": {
+      "epoch/online_loop": {
+        "calls": 1,
+        "host_ms": 3638.799842,
+        "timeline_ms": 3638.796875
+      },
+      "epoch": {
+        "calls": 1,
+        "host_ms": 3638.954053,
+        "timeline_ms": 3638.9521484375
+      }
+    },
+    "cuda_calls": {
+      "tcsr_temporal_sample": 57,
+      "fused_lse_gather": 55,
+      "fused_gather_encode_v2": 55,
+      "fused_seg_attn_forward": 35,
+      "fused_l0_gather_encode": 55,
+      "fused_seg_attn_backward": 35,
+      "fused_l0_gather_encode_backward_v2": 55,
+      "fused_index_scatter": 55,
+      "fused_gather_encode_backward_v2": 55,
+      "fused_mh_attn_forward": 75,
+      "fused_mh_attn_backward": 75
+    },
+    "operator_counts": {},
+    "peak_allocated": 21165939200,
+    "peak_reserved": 101076434944,
+    "rep": 3
+  }
+]

@@ -1,0 +1,5 @@
+Collecting xxhash==3.5.0
+  Downloading xxhash-3.5.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (12 kB)
+Downloading xxhash-3.5.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (194 kB)
+Installing collected packages: xxhash
+Successfully installed xxhash-3.5.0

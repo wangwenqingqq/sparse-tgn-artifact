@@ -1,0 +1,22 @@
+{
+  "start": "2026-09-09T10:54:11.810400+00:00",
+  "gpu": "GPU-9bd364a9-9d88-0b78-ef55-caac6f73d6b1",
+  "args": {
+    "run": "mailbox_probe_v1",
+    "stage": "probe",
+    "qualification": null,
+    "rep": 0
+  },
+  "command": [
+    "/home/data/wangxuran/isaacsim6/env/bin/python",
+    "/home/data/wangxuran/flash_tgn_rebaseline_20260909/src/followup.py",
+    "--output",
+    "/home/data/wangxuran/flash_tgn_rebaseline_20260909/output/mailbox_probe_v1/artifacts",
+    "--stage",
+    "probe",
+    "--rep",
+    "0"
+  ],
+  "exit_code": 0,
+  "end": "2026-09-09T10:54:26.578854+00:00"
+}

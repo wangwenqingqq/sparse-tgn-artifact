@@ -1,0 +1,4396 @@
+{
+  "cases": [
+    {
+      "case": {
+        "bs": 200,
+        "k": 20,
+        "layers": 1,
+        "label": "wiki_bs200_k20_l1"
+      },
+      "checks": {
+        "original": [
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 44,
+            "payload_not_any_input_row": 47,
+            "payload_timestamp_not_any_input_pair": 56,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 2957.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 51,
+            "payload_not_any_input_row": 46,
+            "payload_timestamp_not_any_input_pair": 56,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 50,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 56,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 50,
+            "payload_not_any_input_row": 43,
+            "payload_timestamp_not_any_input_pair": 56,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 51,
+            "payload_not_any_input_row": 43,
+            "payload_timestamp_not_any_input_pair": 55,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 51,
+            "payload_not_any_input_row": 45,
+            "payload_timestamp_not_any_input_pair": 56,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 51,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 56,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 51,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 56,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 51,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 56,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 51,
+            "payload_not_any_input_row": 43,
+            "payload_timestamp_not_any_input_pair": 55,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 51,
+            "payload_not_any_input_row": 45,
+            "payload_timestamp_not_any_input_pair": 56,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 51,
+            "payload_not_any_input_row": 45,
+            "payload_timestamp_not_any_input_pair": 56,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 51,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 56,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 51,
+            "payload_not_any_input_row": 43,
+            "payload_timestamp_not_any_input_pair": 55,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 51,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 55,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 43,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 55,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 2610.0,
+            "all_pass": false
+          }
+        ],
+        "writer_deterministic": [
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          }
+        ],
+        "explicit_last": [
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          }
+        ]
+      },
+      "distinct_outputs": {
+        "original": 16,
+        "writer_deterministic": 1,
+        "explicit_last": 1
+      }
+    },
+    {
+      "case": {
+        "bs": 200,
+        "k": 20,
+        "layers": 2,
+        "label": "wiki_bs200_k20_l2"
+      },
+      "checks": {
+        "original": [
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 38,
+            "payload_not_any_input_row": 45,
+            "payload_timestamp_not_any_input_pair": 58,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 46,
+            "payload_timestamp_not_any_input_pair": 58,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 57,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 40,
+            "payload_not_any_input_row": 45,
+            "payload_timestamp_not_any_input_pair": 58,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 36,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 57,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 38,
+            "payload_not_any_input_row": 43,
+            "payload_timestamp_not_any_input_pair": 56,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 58,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 38,
+            "payload_not_any_input_row": 45,
+            "payload_timestamp_not_any_input_pair": 57,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 43,
+            "payload_timestamp_not_any_input_pair": 56,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 38,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 56,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 57,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 38,
+            "payload_not_any_input_row": 45,
+            "payload_timestamp_not_any_input_pair": 57,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 45,
+            "payload_timestamp_not_any_input_pair": 57,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 45,
+            "payload_timestamp_not_any_input_pair": 57,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 40,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 56,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 38,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 57,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          }
+        ],
+        "writer_deterministic": [
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          }
+        ],
+        "explicit_last": [
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          }
+        ]
+      },
+      "distinct_outputs": {
+        "original": 16,
+        "writer_deterministic": 1,
+        "explicit_last": 1
+      }
+    },
+    {
+      "case": {
+        "bs": 200,
+        "k": 50,
+        "layers": 1,
+        "label": "wiki_bs200_k50_l1"
+      },
+      "checks": {
+        "original": [
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 57,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 40,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 57,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 56,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 43,
+            "payload_timestamp_not_any_input_pair": 56,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 56,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 41,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 58,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 57,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 43,
+            "payload_timestamp_not_any_input_pair": 56,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 56,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 58,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 40,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 56,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 35,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 56,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 45,
+            "payload_timestamp_not_any_input_pair": 57,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 40,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 55,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 36,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 55,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 40,
+            "payload_not_any_input_row": 43,
+            "payload_timestamp_not_any_input_pair": 55,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          }
+        ],
+        "writer_deterministic": [
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          }
+        ],
+        "explicit_last": [
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          }
+        ]
+      },
+      "distinct_outputs": {
+        "original": 16,
+        "writer_deterministic": 1,
+        "explicit_last": 1
+      }
+    },
+    {
+      "case": {
+        "bs": 200,
+        "k": 50,
+        "layers": 2,
+        "label": "wiki_bs200_k50_l2"
+      },
+      "checks": {
+        "original": [
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 40,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 55,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 40,
+            "payload_not_any_input_row": 46,
+            "payload_timestamp_not_any_input_pair": 58,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 45,
+            "payload_timestamp_not_any_input_pair": 57,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 38,
+            "payload_not_any_input_row": 45,
+            "payload_timestamp_not_any_input_pair": 58,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 56,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 45,
+            "payload_timestamp_not_any_input_pair": 57,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 45,
+            "payload_timestamp_not_any_input_pair": 57,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 38,
+            "payload_not_any_input_row": 45,
+            "payload_timestamp_not_any_input_pair": 57,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 46,
+            "payload_timestamp_not_any_input_pair": 58,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 56,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 45,
+            "payload_timestamp_not_any_input_pair": 57,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 38,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 57,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 45,
+            "payload_timestamp_not_any_input_pair": 57,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 41,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 57,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 38,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 56,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 57,
+            "wrong_timestamp_rows": 39,
+            "payload_not_any_input_row": 44,
+            "payload_timestamp_not_any_input_pair": 57,
+            "max_payload_abs": 43.3504753112793,
+            "max_timestamp_abs": 3228.0,
+            "all_pass": false
+          }
+        ],
+        "writer_deterministic": [
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          }
+        ],
+        "explicit_last": [
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 126,
+            "duplicate_nodes": 68,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          }
+        ]
+      },
+      "distinct_outputs": {
+        "original": 16,
+        "writer_deterministic": 1,
+        "explicit_last": 1
+      }
+    },
+    {
+      "case": {
+        "bs": 2000,
+        "k": 20,
+        "layers": 1,
+        "label": "wiki_bs2000_k20_l1"
+      },
+      "checks": {
+        "original": [
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 355,
+            "wrong_timestamp_rows": 358,
+            "payload_not_any_input_row": 310,
+            "payload_timestamp_not_any_input_pair": 390,
+            "max_payload_abs": 83.73148345947266,
+            "max_timestamp_abs": 34699.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 357,
+            "wrong_timestamp_rows": 354,
+            "payload_not_any_input_row": 306,
+            "payload_timestamp_not_any_input_pair": 391,
+            "max_payload_abs": 83.73148345947266,
+            "max_timestamp_abs": 34699.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 358,
+            "wrong_timestamp_rows": 358,
+            "payload_not_any_input_row": 313,
+            "payload_timestamp_not_any_input_pair": 395,
+            "max_payload_abs": 83.73148345947266,
+            "max_timestamp_abs": 34699.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 356,
+            "wrong_timestamp_rows": 349,
+            "payload_not_any_input_row": 309,
+            "payload_timestamp_not_any_input_pair": 397,
+            "max_payload_abs": 59.21846008300781,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 353,
+            "wrong_timestamp_rows": 355,
+            "payload_not_any_input_row": 301,
+            "payload_timestamp_not_any_input_pair": 395,
+            "max_payload_abs": 83.73148345947266,
+            "max_timestamp_abs": 34699.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 360,
+            "wrong_timestamp_rows": 360,
+            "payload_not_any_input_row": 310,
+            "payload_timestamp_not_any_input_pair": 398,
+            "max_payload_abs": 83.73148345947266,
+            "max_timestamp_abs": 34699.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 357,
+            "wrong_timestamp_rows": 357,
+            "payload_not_any_input_row": 309,
+            "payload_timestamp_not_any_input_pair": 400,
+            "max_payload_abs": 83.73148345947266,
+            "max_timestamp_abs": 34699.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 362,
+            "wrong_timestamp_rows": 356,
+            "payload_not_any_input_row": 311,
+            "payload_timestamp_not_any_input_pair": 400,
+            "max_payload_abs": 59.21846008300781,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 354,
+            "wrong_timestamp_rows": 359,
+            "payload_not_any_input_row": 309,
+            "payload_timestamp_not_any_input_pair": 397,
+            "max_payload_abs": 59.21846008300781,
+            "max_timestamp_abs": 34699.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 356,
+            "wrong_timestamp_rows": 346,
+            "payload_not_any_input_row": 303,
+            "payload_timestamp_not_any_input_pair": 388,
+            "max_payload_abs": 59.21846008300781,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 355,
+            "wrong_timestamp_rows": 354,
+            "payload_not_any_input_row": 300,
+            "payload_timestamp_not_any_input_pair": 392,
+            "max_payload_abs": 83.73148345947266,
+            "max_timestamp_abs": 34699.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 350,
+            "wrong_timestamp_rows": 353,
+            "payload_not_any_input_row": 299,
+            "payload_timestamp_not_any_input_pair": 394,
+            "max_payload_abs": 83.73148345947266,
+            "max_timestamp_abs": 34699.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 356,
+            "wrong_timestamp_rows": 360,
+            "payload_not_any_input_row": 308,
+            "payload_timestamp_not_any_input_pair": 396,
+            "max_payload_abs": 59.21846008300781,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 358,
+            "wrong_timestamp_rows": 359,
+            "payload_not_any_input_row": 309,
+            "payload_timestamp_not_any_input_pair": 395,
+            "max_payload_abs": 83.73148345947266,
+            "max_timestamp_abs": 34699.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 352,
+            "wrong_timestamp_rows": 363,
+            "payload_not_any_input_row": 306,
+            "payload_timestamp_not_any_input_pair": 392,
+            "max_payload_abs": 59.21846008300781,
+            "max_timestamp_abs": 34699.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 359,
+            "wrong_timestamp_rows": 354,
+            "payload_not_any_input_row": 309,
+            "payload_timestamp_not_any_input_pair": 391,
+            "max_payload_abs": 83.73148345947266,
+            "max_timestamp_abs": 34699.0,
+            "all_pass": false
+          }
+        ],
+        "writer_deterministic": [
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          }
+        ],
+        "explicit_last": [
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          }
+        ]
+      },
+      "distinct_outputs": {
+        "original": 16,
+        "writer_deterministic": 1,
+        "explicit_last": 1
+      }
+    },
+    {
+      "case": {
+        "bs": 2000,
+        "k": 20,
+        "layers": 2,
+        "label": "wiki_bs2000_k20_l2"
+      },
+      "checks": {
+        "original": [
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 356,
+            "wrong_timestamp_rows": 364,
+            "payload_not_any_input_row": 300,
+            "payload_timestamp_not_any_input_pair": 395,
+            "max_payload_abs": 83.73148345947266,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 354,
+            "wrong_timestamp_rows": 360,
+            "payload_not_any_input_row": 304,
+            "payload_timestamp_not_any_input_pair": 390,
+            "max_payload_abs": 59.21846008300781,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 359,
+            "wrong_timestamp_rows": 357,
+            "payload_not_any_input_row": 307,
+            "payload_timestamp_not_any_input_pair": 388,
+            "max_payload_abs": 83.73148345947266,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 357,
+            "wrong_timestamp_rows": 357,
+            "payload_not_any_input_row": 300,
+            "payload_timestamp_not_any_input_pair": 390,
+            "max_payload_abs": 83.73148345947266,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 364,
+            "wrong_timestamp_rows": 357,
+            "payload_not_any_input_row": 310,
+            "payload_timestamp_not_any_input_pair": 400,
+            "max_payload_abs": 83.73148345947266,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 362,
+            "wrong_timestamp_rows": 359,
+            "payload_not_any_input_row": 310,
+            "payload_timestamp_not_any_input_pair": 390,
+            "max_payload_abs": 59.21846008300781,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 359,
+            "wrong_timestamp_rows": 358,
+            "payload_not_any_input_row": 311,
+            "payload_timestamp_not_any_input_pair": 393,
+            "max_payload_abs": 59.21846008300781,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 351,
+            "wrong_timestamp_rows": 356,
+            "payload_not_any_input_row": 301,
+            "payload_timestamp_not_any_input_pair": 391,
+            "max_payload_abs": 83.73148345947266,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 357,
+            "wrong_timestamp_rows": 355,
+            "payload_not_any_input_row": 304,
+            "payload_timestamp_not_any_input_pair": 393,
+            "max_payload_abs": 83.73148345947266,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 354,
+            "wrong_timestamp_rows": 360,
+            "payload_not_any_input_row": 300,
+            "payload_timestamp_not_any_input_pair": 391,
+            "max_payload_abs": 59.21846008300781,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 361,
+            "wrong_timestamp_rows": 355,
+            "payload_not_any_input_row": 304,
+            "payload_timestamp_not_any_input_pair": 394,
+            "max_payload_abs": 59.21846008300781,
+            "max_timestamp_abs": 34762.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 359,
+            "wrong_timestamp_rows": 357,
+            "payload_not_any_input_row": 307,
+            "payload_timestamp_not_any_input_pair": 399,
+            "max_payload_abs": 83.73148345947266,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 354,
+            "wrong_timestamp_rows": 361,
+            "payload_not_any_input_row": 300,
+            "payload_timestamp_not_any_input_pair": 390,
+            "max_payload_abs": 59.21846008300781,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 356,
+            "wrong_timestamp_rows": 356,
+            "payload_not_any_input_row": 298,
+            "payload_timestamp_not_any_input_pair": 393,
+            "max_payload_abs": 83.73148345947266,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 359,
+            "wrong_timestamp_rows": 362,
+            "payload_not_any_input_row": 303,
+            "payload_timestamp_not_any_input_pair": 398,
+            "max_payload_abs": 83.73148345947266,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 358,
+            "wrong_timestamp_rows": 355,
+            "payload_not_any_input_row": 305,
+            "payload_timestamp_not_any_input_pair": 395,
+            "max_payload_abs": 83.73148345947266,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          }
+        ],
+        "writer_deterministic": [
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          }
+        ],
+        "explicit_last": [
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          }
+        ]
+      },
+      "distinct_outputs": {
+        "original": 16,
+        "writer_deterministic": 1,
+        "explicit_last": 1
+      }
+    },
+    {
+      "case": {
+        "bs": 2000,
+        "k": 50,
+        "layers": 1,
+        "label": "wiki_bs2000_k50_l1"
+      },
+      "checks": {
+        "original": [
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 351,
+            "wrong_timestamp_rows": 354,
+            "payload_not_any_input_row": 302,
+            "payload_timestamp_not_any_input_pair": 385,
+            "max_payload_abs": 83.73148345947266,
+            "max_timestamp_abs": 34699.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 351,
+            "wrong_timestamp_rows": 352,
+            "payload_not_any_input_row": 299,
+            "payload_timestamp_not_any_input_pair": 393,
+            "max_payload_abs": 59.21846008300781,
+            "max_timestamp_abs": 34699.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 352,
+            "wrong_timestamp_rows": 351,
+            "payload_not_any_input_row": 305,
+            "payload_timestamp_not_any_input_pair": 390,
+            "max_payload_abs": 83.73148345947266,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 351,
+            "wrong_timestamp_rows": 352,
+            "payload_not_any_input_row": 304,
+            "payload_timestamp_not_any_input_pair": 393,
+            "max_payload_abs": 83.73148345947266,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 355,
+            "wrong_timestamp_rows": 357,
+            "payload_not_any_input_row": 303,
+            "payload_timestamp_not_any_input_pair": 394,
+            "max_payload_abs": 83.73148345947266,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 360,
+            "wrong_timestamp_rows": 355,
+            "payload_not_any_input_row": 309,
+            "payload_timestamp_not_any_input_pair": 393,
+            "max_payload_abs": 83.73148345947266,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 354,
+            "wrong_timestamp_rows": 354,
+            "payload_not_any_input_row": 302,
+            "payload_timestamp_not_any_input_pair": 389,
+            "max_payload_abs": 83.73148345947266,
+            "max_timestamp_abs": 34699.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 352,
+            "wrong_timestamp_rows": 356,
+            "payload_not_any_input_row": 302,
+            "payload_timestamp_not_any_input_pair": 393,
+            "max_payload_abs": 83.73148345947266,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 356,
+            "wrong_timestamp_rows": 356,
+            "payload_not_any_input_row": 308,
+            "payload_timestamp_not_any_input_pair": 394,
+            "max_payload_abs": 83.73148345947266,
+            "max_timestamp_abs": 34699.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 360,
+            "wrong_timestamp_rows": 354,
+            "payload_not_any_input_row": 310,
+            "payload_timestamp_not_any_input_pair": 392,
+            "max_payload_abs": 83.73148345947266,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 352,
+            "wrong_timestamp_rows": 359,
+            "payload_not_any_input_row": 302,
+            "payload_timestamp_not_any_input_pair": 390,
+            "max_payload_abs": 83.73148345947266,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 349,
+            "wrong_timestamp_rows": 358,
+            "payload_not_any_input_row": 302,
+            "payload_timestamp_not_any_input_pair": 395,
+            "max_payload_abs": 83.73148345947266,
+            "max_timestamp_abs": 34699.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 352,
+            "wrong_timestamp_rows": 356,
+            "payload_not_any_input_row": 304,
+            "payload_timestamp_not_any_input_pair": 394,
+            "max_payload_abs": 59.21846008300781,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 356,
+            "wrong_timestamp_rows": 359,
+            "payload_not_any_input_row": 310,
+            "payload_timestamp_not_any_input_pair": 396,
+            "max_payload_abs": 83.73148345947266,
+            "max_timestamp_abs": 34699.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 360,
+            "wrong_timestamp_rows": 357,
+            "payload_not_any_input_row": 304,
+            "payload_timestamp_not_any_input_pair": 391,
+            "max_payload_abs": 83.73148345947266,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 345,
+            "wrong_timestamp_rows": 359,
+            "payload_not_any_input_row": 294,
+            "payload_timestamp_not_any_input_pair": 392,
+            "max_payload_abs": 83.73148345947266,
+            "max_timestamp_abs": 37730.0,
+            "all_pass": false
+          }
+        ],
+        "writer_deterministic": [
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          }
+        ],
+        "explicit_last": [
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          }
+        ]
+      },
+      "distinct_outputs": {
+        "original": 16,
+        "writer_deterministic": 1,
+        "explicit_last": 1
+      }
+    },
+    {
+      "case": {
+        "bs": 2000,
+        "k": 50,
+        "layers": 2,
+        "label": "wiki_bs2000_k50_l2"
+      },
+      "checks": {
+        "original": [
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 359,
+            "wrong_timestamp_rows": 359,
+            "payload_not_any_input_row": 310,
+            "payload_timestamp_not_any_input_pair": 397,
+            "max_payload_abs": 83.73148345947266,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 355,
+            "wrong_timestamp_rows": 356,
+            "payload_not_any_input_row": 302,
+            "payload_timestamp_not_any_input_pair": 386,
+            "max_payload_abs": 83.73148345947266,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 361,
+            "wrong_timestamp_rows": 353,
+            "payload_not_any_input_row": 314,
+            "payload_timestamp_not_any_input_pair": 397,
+            "max_payload_abs": 72.4424819946289,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 358,
+            "wrong_timestamp_rows": 355,
+            "payload_not_any_input_row": 297,
+            "payload_timestamp_not_any_input_pair": 394,
+            "max_payload_abs": 83.73148345947266,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 354,
+            "wrong_timestamp_rows": 355,
+            "payload_not_any_input_row": 299,
+            "payload_timestamp_not_any_input_pair": 388,
+            "max_payload_abs": 83.73148345947266,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 347,
+            "wrong_timestamp_rows": 355,
+            "payload_not_any_input_row": 290,
+            "payload_timestamp_not_any_input_pair": 382,
+            "max_payload_abs": 83.73148345947266,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 361,
+            "wrong_timestamp_rows": 355,
+            "payload_not_any_input_row": 314,
+            "payload_timestamp_not_any_input_pair": 390,
+            "max_payload_abs": 59.21846008300781,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 353,
+            "wrong_timestamp_rows": 356,
+            "payload_not_any_input_row": 302,
+            "payload_timestamp_not_any_input_pair": 393,
+            "max_payload_abs": 72.4424819946289,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 363,
+            "wrong_timestamp_rows": 356,
+            "payload_not_any_input_row": 307,
+            "payload_timestamp_not_any_input_pair": 394,
+            "max_payload_abs": 72.4424819946289,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 360,
+            "wrong_timestamp_rows": 353,
+            "payload_not_any_input_row": 301,
+            "payload_timestamp_not_any_input_pair": 392,
+            "max_payload_abs": 59.21846008300781,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 357,
+            "wrong_timestamp_rows": 356,
+            "payload_not_any_input_row": 306,
+            "payload_timestamp_not_any_input_pair": 396,
+            "max_payload_abs": 59.21846008300781,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 353,
+            "wrong_timestamp_rows": 353,
+            "payload_not_any_input_row": 298,
+            "payload_timestamp_not_any_input_pair": 392,
+            "max_payload_abs": 59.21846008300781,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 356,
+            "wrong_timestamp_rows": 359,
+            "payload_not_any_input_row": 299,
+            "payload_timestamp_not_any_input_pair": 385,
+            "max_payload_abs": 59.21846008300781,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 359,
+            "wrong_timestamp_rows": 357,
+            "payload_not_any_input_row": 304,
+            "payload_timestamp_not_any_input_pair": 390,
+            "max_payload_abs": 59.21846008300781,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 357,
+            "wrong_timestamp_rows": 356,
+            "payload_not_any_input_row": 314,
+            "payload_timestamp_not_any_input_pair": 398,
+            "max_payload_abs": 83.73148345947266,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 360,
+            "wrong_timestamp_rows": 354,
+            "payload_not_any_input_row": 312,
+            "payload_timestamp_not_any_input_pair": 386,
+            "max_payload_abs": 83.73148345947266,
+            "max_timestamp_abs": 34491.0,
+            "all_pass": false
+          }
+        ],
+        "writer_deterministic": [
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          }
+        ],
+        "explicit_last": [
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          },
+          {
+            "touched_nodes": 769,
+            "duplicate_nodes": 483,
+            "wrong_payload_rows": 0,
+            "wrong_timestamp_rows": 0,
+            "payload_not_any_input_row": 0,
+            "payload_timestamp_not_any_input_pair": 0,
+            "max_payload_abs": 0.0,
+            "max_timestamp_abs": 0.0,
+            "all_pass": true
+          }
+        ]
+      },
+      "distinct_outputs": {
+        "original": 16,
+        "writer_deterministic": 1,
+        "explicit_last": 1
+      }
+    }
+  ]
+}

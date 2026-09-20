@@ -1,0 +1,22 @@
+{
+  "compatible": {
+    "steps": 96,
+    "bitwise": 96,
+    "tolerance_pass": 96
+  },
+  "direct": {
+    "steps": 96,
+    "bitwise": 96,
+    "tolerance_pass": 96
+  },
+  "fused_bounds": {
+    "steps": 96,
+    "bitwise": 96,
+    "tolerance_pass": 96
+  },
+  "keeper": {
+    "steps": 96,
+    "bitwise": 0,
+    "tolerance_pass": 86
+  }
+}

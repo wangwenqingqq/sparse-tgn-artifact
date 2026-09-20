@@ -1,0 +1,308 @@
+{
+  "time": "2026-09-08T13:46:18.988008+00:00",
+  "files": {
+    "output/audit.json": {
+      "bytes": 370749,
+      "sha256": "793a118ef9b543dde2012f9be35121f0153c9edb3872d15f6534b82b5e9dd95a"
+    },
+    "output/audit.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "output/audit.stdout": {
+      "bytes": 117,
+      "sha256": "8b32ad05726494aeacf12349e2dc854396c20ebe0f1204a2f2943e6ad6f74b60"
+    },
+    "output/audit_v1.json": {
+      "bytes": 368517,
+      "sha256": "c29cf823645cdf19a43c8de3a19db4f0e71e469636ca2c77ee9fb76f01f477a2"
+    },
+    "output/qualify_v1/after.txt": {
+      "bytes": 1718,
+      "sha256": "69e1fc87bcaf63f699db50832717086efec8530f550f03ab391253f8b746f6bb"
+    },
+    "output/qualify_v1/artifacts/college_b200_s20_qualification.pt": {
+      "bytes": 55509361,
+      "sha256": "4ea0b9a78ae62c27c781a59254d13b4817b85d43e561f833c8fcd32f9630a263"
+    },
+    "output/qualify_v1/artifacts/college_b200_s40_qualification.pt": {
+      "bytes": 56050609,
+      "sha256": "bcd5952fbece61a51399ae1ef4af45dfa60a1c40e1c81e933ef16994d853b5e5"
+    },
+    "output/qualify_v1/artifacts/college_b200_s80_qualification.pt": {
+      "bytes": 56922865,
+      "sha256": "2addc50ad278887abaafc8b6ae2417e1f81b3f1a06e1cc726dcfa5a6f5060316"
+    },
+    "output/qualify_v1/artifacts/college_b32_s128_qualification.pt": {
+      "bytes": 54097585,
+      "sha256": "bc17ef479f2f10cfdc4936874b417d6d91d208c86e4a03fef30317c57afd7c07"
+    },
+    "output/qualify_v1/artifacts/college_b32_s256_qualification.pt": {
+      "bytes": 54594993,
+      "sha256": "e0950d6a00346d8f509c7d12daf4790ef80020968a86dbac77600497030760fb"
+    },
+    "output/qualify_v1/artifacts/college_b32_s512_qualification.pt": {
+      "bytes": 55393905,
+      "sha256": "e17ac64b367fb6b537e01ab879d89bae388346ae0fce605423fe4531fab4d030"
+    },
+    "output/qualify_v1/artifacts/wikipedia_b200_s20_qualification.pt": {
+      "bytes": 72586701,
+      "sha256": "5dfb2aaa9f93cd3ac12830089ee69d715788a3469ac858690c5bfb5da460db10"
+    },
+    "output/qualify_v1/artifacts/wikipedia_b200_s40_qualification.pt": {
+      "bytes": 73757197,
+      "sha256": "638e3fd777a0d2324c463edcb79b9dacc07bb136179fd9c90dc40a407755079d"
+    },
+    "output/qualify_v1/artifacts/wikipedia_b200_s80_qualification.pt": {
+      "bytes": 75480013,
+      "sha256": "038520ad6009cebabb4c8ea544fd86db707af24124241f18ddd82fd2cf83d9a3"
+    },
+    "output/qualify_v1/artifacts/wikipedia_b32_s128_qualification.pt": {
+      "bytes": 69578061,
+      "sha256": "5d7adb4c0a6aee08ad2c920ffd4ab29cb3e56917ad64ed5a6a98131f79882b0d"
+    },
+    "output/qualify_v1/artifacts/wikipedia_b32_s256_qualification.pt": {
+      "bytes": 70083085,
+      "sha256": "d944712027ce7b53c7a3c56c58d59b39b6761d5fb777a869a2acfedb7d6e70f0"
+    },
+    "output/qualify_v1/artifacts/wikipedia_b32_s512_qualification.pt": {
+      "bytes": 70854221,
+      "sha256": "a326e49ea0537031a1ee14df151124d7273a6d034eb7ba6fd5ae6403cb803e81"
+    },
+    "output/qualify_v1/before.txt": {
+      "bytes": 1718,
+      "sha256": "9b75b0204faf3fec3376d5fb8c1326096ccfc1564108900c2120270ed5055f6b"
+    },
+    "output/qualify_v1/run.json": {
+      "bytes": 577,
+      "sha256": "a7407538abb458d7a7e93a081d43282e3cb750d18c3c3b90de0673d8ca6fd9f5"
+    },
+    "output/qualify_v1/stderr.log": {
+      "bytes": 1281,
+      "sha256": "2c8f4e647cf29ee562625ab54e6d9d584f17443b272af01e4b14e2aafc054421"
+    },
+    "output/qualify_v1/stdout.jsonl": {
+      "bytes": 102635,
+      "sha256": "96ce541e105d7df58614d090205ae881add819a858ec8e850a4b4d4f983a354a"
+    },
+    "output/timing_v1/after.txt": {
+      "bytes": 1719,
+      "sha256": "bec0a7ecfd7661adf00a0b3c629600917f61e81962eb9d2da63f7bef0edafb3f"
+    },
+    "output/timing_v1/artifacts/college_b200_s20_oracle_checks.pt": {
+      "bytes": 55509361,
+      "sha256": "d74029086c76d92daabdfd2e5b8ac43f6e6bf2b658917c436a586d003626d1ee"
+    },
+    "output/timing_v1/artifacts/college_b200_s40_oracle_checks.pt": {
+      "bytes": 56050609,
+      "sha256": "b6ce5752a5ede3229d3b9883fdb57545a89405749face0a1908dc890b3a2df79"
+    },
+    "output/timing_v1/artifacts/college_b200_s80_oracle_checks.pt": {
+      "bytes": 56922865,
+      "sha256": "d4e9d337038ac6d22732e5fda81f2b9325bde29cadacdd77f202ddaee35f6516"
+    },
+    "output/timing_v1/artifacts/college_b32_s128_oracle_checks.pt": {
+      "bytes": 54097521,
+      "sha256": "3d6377731c68bfe08db051f1eaf972b27e46b26ce00ed87b79c7356c98526e4e"
+    },
+    "output/timing_v1/artifacts/college_b32_s256_oracle_checks.pt": {
+      "bytes": 54594929,
+      "sha256": "e3604ca19dd74db951ae404797d3667c222b07fb20109564e851d2a5a5d972bb"
+    },
+    "output/timing_v1/artifacts/college_b32_s512_oracle_checks.pt": {
+      "bytes": 55393841,
+      "sha256": "859ce876c440349c90d102a2663d4baffabc1f657912c3f76052b9591a7e7561"
+    },
+    "output/timing_v1/artifacts/wikipedia_b200_s20_oracle_checks.pt": {
+      "bytes": 72586637,
+      "sha256": "878f10302b4a99556ee5b9fa3cc3679187a19923b6ac867ee046553764c7681b"
+    },
+    "output/timing_v1/artifacts/wikipedia_b200_s40_oracle_checks.pt": {
+      "bytes": 73757133,
+      "sha256": "c7b6dd1bda44fa676d60ee0896b7c7056751b66563aed1a8f5dead43715284b4"
+    },
+    "output/timing_v1/artifacts/wikipedia_b200_s80_oracle_checks.pt": {
+      "bytes": 75479949,
+      "sha256": "0b0cb6cf940090017ac79ffef9454a0748c38692ebe51024dba47ffb291e4f39"
+    },
+    "output/timing_v1/artifacts/wikipedia_b32_s128_oracle_checks.pt": {
+      "bytes": 69577997,
+      "sha256": "aeffaeb058b337df04a4c3c4fdd716971cae881510dbb89276be492ce1c5468b"
+    },
+    "output/timing_v1/artifacts/wikipedia_b32_s256_oracle_checks.pt": {
+      "bytes": 70083021,
+      "sha256": "e953c615639d35395da0e16f5612cc6c918d6e355083bb0901b7fa70ba4875c1"
+    },
+    "output/timing_v1/artifacts/wikipedia_b32_s512_oracle_checks.pt": {
+      "bytes": 70854157,
+      "sha256": "4353671836b4245fe1d17e9f4161f67b358826087b70a05feee08df76b02f2f2"
+    },
+    "output/timing_v1/audit.json": {
+      "bytes": 17510,
+      "sha256": "2b92af83c9777c382774f6418e3904f049a32befd94cb3b413961d50454f4cc1"
+    },
+    "output/timing_v1/audit.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "output/timing_v1/audit.stdout": {
+      "bytes": 93,
+      "sha256": "4f3b2d0ce37f6d24f28a10332c9b2a32301c1d1eda97884c16d4f17f875dfd53"
+    },
+    "output/timing_v1/audit_v1.json": {
+      "bytes": 17510,
+      "sha256": "2b92af83c9777c382774f6418e3904f049a32befd94cb3b413961d50454f4cc1"
+    },
+    "output/timing_v1/before.txt": {
+      "bytes": 1720,
+      "sha256": "15753c8b3760b211c0c3aafd26815ed1ee55be532b15ff6b250130e19d47bce7"
+    },
+    "output/timing_v1/run.json": {
+      "bytes": 591,
+      "sha256": "8ece451fe43ec443d99598507bc557e89fd372ca2a824dafca59e9d1ec70b72e"
+    },
+    "output/timing_v1/stderr.log": {
+      "bytes": 1281,
+      "sha256": "2c8f4e647cf29ee562625ab54e6d9d584f17443b272af01e4b14e2aafc054421"
+    },
+    "output/timing_v1/stdout.jsonl": {
+      "bytes": 137387,
+      "sha256": "1ac6f65651332fba6c58b64f96c02ef7f9de94eff66f4e01146c6b0eeac5fdb6"
+    },
+    "output/witnesses_v1/after.txt": {
+      "bytes": 1720,
+      "sha256": "9a7b1ac0f6b5b2c0ffcff5531cab9aee23279e26bccfa770e408ebe201367010"
+    },
+    "output/witnesses_v1/artifacts/college_b200_s20_compatible_checks.pt": {
+      "bytes": 55512745,
+      "sha256": "77b2856bb8b30372386eff565655e599b8e4a138b701a41092acc99545300a19"
+    },
+    "output/witnesses_v1/artifacts/college_b200_s20_i20_isolated.pt": {
+      "bytes": 25473183,
+      "sha256": "50c34720b6157ac3cff3448e34a3641365d87eca86788c79876f7cd27d4ac0c4"
+    },
+    "output/witnesses_v1/artifacts/college_b200_s20_i27_isolated.pt": {
+      "bytes": 25109343,
+      "sha256": "5c34699313e4c426be14071bb1ec0cdad4cccbfa477c8dba32062e095fed6527"
+    },
+    "output/witnesses_v1/artifacts/college_b200_s20_source_anchor_frequency_checks.pt": {
+      "bytes": 55524575,
+      "sha256": "049a7370f8ad5cd58b5e2c9bed773299502cb36d6a959c4cedbb32900525f320"
+    },
+    "output/witnesses_v1/artifacts/college_b200_s20_source_anchor_mlp_checks.pt": {
+      "bytes": 55519371,
+      "sha256": "ca5316802eab53ed8176419292942757b97352664cf27122670d6fca92c40594"
+    },
+    "output/witnesses_v1/artifacts/college_b200_s20_source_checks.pt": {
+      "bytes": 55509361,
+      "sha256": "bdec6fd23f630489a70ecd66e536d0144efa77b90165a0997dc9b450f687f9cd"
+    },
+    "output/witnesses_v1/artifacts/college_b200_s20_time64.pt": {
+      "bytes": 111056743,
+      "sha256": "bc69e334c6fd5d9afa7890c60d00d1f4b740754b6cfa5822746a3a165c17cebb"
+    },
+    "output/witnesses_v1/artifacts/college_b200_s20_transplant.pt": {
+      "bytes": 16724171,
+      "sha256": "ed18271f285fac830446522380088366de156984d22ef3c22074c56e2a46420f"
+    },
+    "output/witnesses_v1/artifacts/wikipedia_b200_s20_compatible_checks.pt": {
+      "bytes": 72590021,
+      "sha256": "03815ab07cc7a560da5937cb0cb71bb3bb2e9b5b4d66052ff17675b6e960056e"
+    },
+    "output/witnesses_v1/artifacts/wikipedia_b200_s20_i20_isolated.pt": {
+      "bytes": 29529275,
+      "sha256": "7dcc7d5b3341a95c05ad0eb14be62ab6ec85c1f6486eebb96150f76ca6eaced8"
+    },
+    "output/witnesses_v1/artifacts/wikipedia_b200_s20_i27_isolated.pt": {
+      "bytes": 31921275,
+      "sha256": "03ab184062e1f9bf38aefac9cee1961a8b46dbfcbf012fddba77849374a93831"
+    },
+    "output/witnesses_v1/artifacts/wikipedia_b200_s20_source_anchor_frequency_checks.pt": {
+      "bytes": 72601211,
+      "sha256": "bf505f880e13da8df4528a0160c97d2ffc32a59a3004cdfb4b37c266f70a1d34"
+    },
+    "output/witnesses_v1/artifacts/wikipedia_b200_s20_source_anchor_mlp_checks.pt": {
+      "bytes": 72596071,
+      "sha256": "b2a1684ee8ca08498b9a0271ef385a8909ec31aaa8e74c7d6162977aeaba0880"
+    },
+    "output/witnesses_v1/artifacts/wikipedia_b200_s20_source_checks.pt": {
+      "bytes": 72586637,
+      "sha256": "29fe3dfa158c1ec35cde0ce1574b982f988f535a6d813643d2217a5680fc66cd"
+    },
+    "output/witnesses_v1/artifacts/wikipedia_b200_s20_time64.pt": {
+      "bytes": 145210259,
+      "sha256": "32f05d10911b78942acf84034abfb013bf99844e4f7456b67486f367afb6e1f8"
+    },
+    "output/witnesses_v1/artifacts/wikipedia_b200_s20_transplant.pt": {
+      "bytes": 20928331,
+      "sha256": "7bc314cba10060b87907b8c4b52bb5593119f71bcc3f5b850661fdf0ea228e65"
+    },
+    "output/witnesses_v1/before.txt": {
+      "bytes": 1719,
+      "sha256": "d565dc746078b8c1e5c22281ae16c7c2adf43a2d027c63aec6262bdb90303e07"
+    },
+    "output/witnesses_v1/run.json": {
+      "bytes": 599,
+      "sha256": "0d2eb8e68f464fce68a0d8a5b61649ead76020684d126ac19fd008692434931e"
+    },
+    "output/witnesses_v1/stderr.log": {
+      "bytes": 1385,
+      "sha256": "8ceb2719751ef7e47d85f6584f544694e616f7e2a9c03db9daa2f92f52028328"
+    },
+    "output/witnesses_v1/stdout.jsonl": {
+      "bytes": 168571,
+      "sha256": "7cc2721e5af0297eb0766f5867f3b046e57e811e2dc00615c56a69588678c07a"
+    },
+    "prior_manifest.json": {
+      "bytes": 195520,
+      "sha256": "7451725f74f1fa52543444f371e452d4de56d2d380b626f4940ac813cae96bfc"
+    },
+    "src/AMENDMENT_01.md": {
+      "bytes": 1336,
+      "sha256": "0c5de02ecf9b827354b4c07ae6b44b95045f9ca0e2371c9054049b549903f0ab"
+    },
+    "src/CONTRACT.md": {
+      "bytes": 2608,
+      "sha256": "46a198de46c3d157656b2e28c444289a66e202277d011cb910a63c64e8182762"
+    },
+    "src/audit.py": {
+      "bytes": 6638,
+      "sha256": "2f98e8b1f3ffa3c5e4f45ef02254738369f376fde805d7cfdafc38858913bc99"
+    },
+    "src/audit_timing.py": {
+      "bytes": 1208,
+      "sha256": "40300d00b3d37a835f36ff3c418284fcdf31732131d09fadd74002dc258f0222"
+    },
+    "src/audit_v1.py": {
+      "bytes": 6614,
+      "sha256": "0d8edd2bc13325ed4b20099994c023864198f92d2c841a224d823f97430a263e"
+    },
+    "src/close_remote.py": {
+      "bytes": 2033,
+      "sha256": "184d5d7abb3e1e80e5a0da4cf3024566e3a54035bfb35b3fb1a771251ed61ccc"
+    },
+    "src/diagnose.py": {
+      "bytes": 13604,
+      "sha256": "e2c9db69d4857b6f8c1041d585be1278f63e80b46df2e14359fdff90594549f7"
+    },
+    "src/supervise.py": {
+      "bytes": 2460,
+      "sha256": "741bc8d8b9dc530c970209890b24d0e4e08636ce6edd1fdabd0c4e676253e13d"
+    },
+    "src/timing.py": {
+      "bytes": 4707,
+      "sha256": "c0e46cd2435d1ced6acc2810318305d963f43a96037a98c5a4d998c012115fcd"
+    },
+    "src/timing_supervise.py": {
+      "bytes": 2458,
+      "sha256": "eebfc76574d7fadcb8dce96cf750be46c53d2766509d0ad045f51f2c0d77f188"
+    }
+  },
+  "previous_evidence_check": {
+    "files": 1202,
+    "mismatches": []
+  },
+  "prior_manifest_sha256": "7451725f74f1fa52543444f371e452d4de56d2d380b626f4940ac813cae96bfc",
+  "gpu_final": "0, GPU-9bd364a9-9d88-0b78-ef55-caac6f73d6b1, 14 MiB, 0 %\n1, GPU-daa88abc-ce4a-aa1c-c896-ae528bf9bce3, 14 MiB, 0 %\n2, GPU-16f27f5a-dfcd-48e0-bb39-bebbe4009245, 14 MiB, 0 %\n3, GPU-a149f5af-55ab-ce33-8d3d-371a7ae61dd2, 14 MiB, 0 %\n4, GPU-863c06a5-9f33-0265-b098-013fa840d5db, 14 MiB, 0 %\n5, GPU-a1e0baba-3982-4538-6540-2b013a1adf49, 14 MiB, 0 %\n6, GPU-865ae1f0-780e-d04c-5ec3-4deccea65f82, 14 MiB, 0 %\n7, GPU-e5a0e7f5-9917-c2a1-ee8e-7282cbba2603, 30492 MiB, 0 %\n",
+  "processes_final": "GPU-e5a0e7f5-9917-c2a1-ee8e-7282cbba2603, 1050457, VLLM::EngineCore, 15224 MiB\nGPU-e5a0e7f5-9917-c2a1-ee8e-7282cbba2603, 1050568, VLLM::EngineCore, 15240 MiB\n"
+}
